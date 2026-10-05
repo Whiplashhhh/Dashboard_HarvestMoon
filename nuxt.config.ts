@@ -36,6 +36,9 @@ export default defineNuxtConfig({
     databaseUrl: '',
     sessionSecret: '',
     trustProxy: false,
+    cookieSecure: true,
+    authIpFreeAttempts: 20,
+    authRegistrationsPerHour: 5,
     public: {
       siteUrl: 'http://localhost:3000',
     },
