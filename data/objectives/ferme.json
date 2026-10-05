@@ -1,0 +1,3552 @@
+[
+  {
+    "id": "batiments-house-upgrade-1",
+    "category": "batiments",
+    "title": "Agrandir la maison (1er agrandissement)",
+    "summary": "Le premier agrandissement de la maison débloque la cuisine et les meubles de la chaîne de télé-achat. Il faut d’abord posséder la petite table ronde (Round Table).",
+    "prerequisites": [
+      {
+        "type": "sprite",
+        "id": "venus"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Acheter la table puis appeler Gotz",
+        "steps": [
+          "Débloque la chaîne 2 (télé-achat) de la Sprite Station en achetant un objet au Supermarché de Karen par téléphone pendant 10 jours.",
+          "Regarde la chaîne 2 chaque jour jusqu’à voir la Round Table (500 G), puis appelle le télé-achat au téléphone pour la commander.",
+          "Ramasse 200 pierres au marteau (ou laisse Gotz les fournir).",
+          "Appelle Gotz (11 h – 16 h, pas le samedi) et commande le premier agrandissement de la maison."
+        ],
+        "tips": [
+          "Gotz met 3 jours ; pas de travail le samedi ni les jours de festival.",
+          "Avant d’avoir des réserves de matériaux, tes pierres restent dans ton sac (piles de 99)."
+        ],
+        "constraints": ["Téléphone : Gotz, 11 h – 16 h", "Fermé le samedi"],
+        "cost": "3 000 G + 200 pierres (ou 43 000 G tout compris) + Round Table 500 G"
+      }
+    ],
+    "rewards": [
+      "Accès à la cuisine (Kitchen), au réfrigérateur, aux étagères et aux ustensiles en télé-achat",
+      "Débloque la Maker Barn (avec un poulailler et une étable)"
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "relatedSpriteIds": ["venus"],
+    "onboarding": true,
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan2/buildings.php",
+      "https://fogu.com/hm6/chan2/tvshopping.php",
+      "https://harvestmoon.fandom.com/wiki/Farm_(DS)"
+    ]
+  },
+  {
+    "id": "batiments-house-upgrade-2",
+    "category": "batiments",
+    "title": "Agrandir la maison (2e agrandissement)",
+    "summary": "Le deuxième agrandissement permet d’acheter le grand lit (Big Bed), indispensable pour te marier.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "batiments-house-upgrade-1"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Commander à Gotz par téléphone",
+        "steps": [
+          "Rentre chez toi et utilise le téléphone (entre 11 h et 16 h, pas le samedi) pour appeler Gotz, le charpentier.",
+          "Choisis le bâtiment ; il se construit obligatoirement en pierre. Paie avec tes propres pierres ou laisse Gotz les fournir (plus cher).",
+          "Il faut 700 pierres.",
+          "Le lendemain, Gotz passe chez toi : indique l’emplacement du bâtiment sur ton terrain."
+        ],
+        "tips": [
+          "Gotz met 3 jours pour construire ; il ne travaille ni le samedi ni les jours de festival.",
+          "Les magasins de Mineral Town joints par téléphone ferment aussi les jours de festival de Mineral Town."
+        ],
+        "constraints": ["Téléphone : Gotz, 11 h – 16 h", "Fermé le samedi"],
+        "cost": "10 000 G + 700 pierres (ou 150 000 G tout compris)"
+      }
+    ],
+    "rewards": ["Le Big Bed devient disponible en télé-achat (requis pour le mariage)"],
+    "difficulty": 2,
+    "estimatedDuration": "quelques jours de jeu",
+    "onboarding": true,
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan2/buildings.php",
+      "https://harvestmoon.fandom.com/wiki/Farm_(DS)",
+      "https://harvestmoon.fandom.com/wiki/Gotz_(DS)"
+    ],
+    "notes": "Dans la version japonaise il faut aussi posséder la cuisine ; pas dans la version anglaise (Fogu). Situation de la version EU non vérifiée."
+  },
+  {
+    "id": "batiments-bathroom",
+    "category": "batiments",
+    "title": "Ajouter une salle de bain",
+    "summary": "Gotz peut ajouter une salle de bain à la maison. L’utiliser rapporte un petit point de Farm Degree.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "batiments-house-upgrade-1"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Commander à Gotz par téléphone",
+        "steps": [
+          "Rentre chez toi et utilise le téléphone (entre 11 h et 16 h, pas le samedi) pour appeler Gotz, le charpentier.",
+          "Choisis le bâtiment puis le matériau (herbe, bois, pierre ou Gold Lumber). Paie avec tes propres matériaux ou laisse Gotz les fournir.",
+          "Il faut 580 unités du matériau choisi.",
+          "Le lendemain, Gotz passe chez toi : indique l’emplacement du bâtiment sur ton terrain."
+        ],
+        "tips": [
+          "Gotz met 3 jours pour construire ; il ne travaille ni le samedi ni les jours de festival.",
+          "Les magasins de Mineral Town joints par téléphone ferment aussi les jours de festival de Mineral Town.",
+          "Matériaux : l’herbe (20 G/unité chez Rick) s’effondre même par beau temps, le bois (50 G chez Gotz) cède aux tempêtes, la pierre (200 G, ou gratuite au marteau) résiste presque toujours, le Gold Lumber (100 000 G) est indestructible. La pierre est le meilleur compromis."
+        ],
+        "constraints": ["Téléphone : Gotz, 11 h – 16 h", "Fermé le samedi"],
+        "cost": "60 000 G + 580 pierres (pierre) ; 3 000 G en herbe, 30 000 G en bois"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/buildings.php",
+      "https://harvestmoon.fandom.com/wiki/Farm_(DS)",
+      "https://fogu.com/hm6/chan1/farmdegree.php"
+    ],
+    "notes": "Le prérequis « 1er agrandissement » est déduit (non documenté explicitement)."
+  },
+  {
+    "id": "batiments-toilet",
+    "category": "batiments",
+    "title": "Ajouter des toilettes",
+    "summary": "Une pièce de toilettes optionnelle pour la maison.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "batiments-house-upgrade-1"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Commander à Gotz par téléphone",
+        "steps": [
+          "Rentre chez toi et utilise le téléphone (entre 11 h et 16 h, pas le samedi) pour appeler Gotz, le charpentier.",
+          "Choisis le bâtiment puis le matériau (herbe, bois, pierre ou Gold Lumber). Paie avec tes propres matériaux ou laisse Gotz les fournir.",
+          "Il faut 400 unités du matériau choisi.",
+          "Le lendemain, Gotz passe chez toi : indique l’emplacement du bâtiment sur ton terrain."
+        ],
+        "tips": [
+          "Gotz met 3 jours pour construire ; il ne travaille ni le samedi ni les jours de festival.",
+          "Les magasins de Mineral Town joints par téléphone ferment aussi les jours de festival de Mineral Town.",
+          "Matériaux : l’herbe (20 G/unité chez Rick) s’effondre même par beau temps, le bois (50 G chez Gotz) cède aux tempêtes, la pierre (200 G, ou gratuite au marteau) résiste presque toujours, le Gold Lumber (100 000 G) est indestructible. La pierre est le meilleur compromis."
+        ],
+        "constraints": ["Téléphone : Gotz, 11 h – 16 h", "Fermé le samedi"],
+        "cost": "40 000 G + 400 pierres (pierre) ; 2 000 G en herbe, 20 000 G en bois"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "medium",
+    "sources": ["https://fogu.com/hm6/chan2/buildings.php"],
+    "notes": "Présente seulement dans le tableau de Fogu ; prérequis « 1er agrandissement » déduit."
+  },
+  {
+    "id": "batiments-basement-1",
+    "category": "batiments",
+    "title": "Creuser le sous-sol n° 1 (serre souterraine)",
+    "summary": "Le sous-sol n° 1 est une serre souterraine où tu peux cultiver toute l’année, à condition d’y placer un Seasonal Sun trouvé dans la 3e mine.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "batiments-house-upgrade-1"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Commander à Gotz par téléphone",
+        "steps": [
+          "Rentre chez toi et utilise le téléphone (entre 11 h et 16 h, pas le samedi) pour appeler Gotz, le charpentier.",
+          "Choisis le bâtiment puis le matériau (herbe, bois, pierre ou Gold Lumber). Paie avec tes propres matériaux ou laisse Gotz les fournir.",
+          "Il faut 999 unités du matériau choisi.",
+          "Le lendemain, Gotz passe chez toi : indique l’emplacement du bâtiment sur ton terrain.",
+          "Descends l’escalier à droite de la cuisine pour accéder au sous-sol."
+        ],
+        "tips": [
+          "Gotz met 3 jours pour construire ; il ne travaille ni le samedi ni les jours de festival.",
+          "Les magasins de Mineral Town joints par téléphone ferment aussi les jours de festival de Mineral Town.",
+          "Matériaux : l’herbe (20 G/unité chez Rick) s’effondre même par beau temps, le bois (50 G chez Gotz) cède aux tempêtes, la pierre (200 G, ou gratuite au marteau) résiste presque toujours, le Gold Lumber (100 000 G) est indestructible. La pierre est le meilleur compromis.",
+          "Un sous-sol en matériau fragile peut être détruit par une tempête, et ceux qui sont en dessous deviennent alors inaccessibles : construis en pierre."
+        ],
+        "constraints": ["Téléphone : Gotz, 11 h – 16 h", "Fermé le samedi"],
+        "cost": "200 000 G + 999 pierres (pierre), ou 400 000 G tout compris"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan8/basements.php",
+      "https://fogu.com/hm6/chan2/buildings.php",
+      "https://harvestmoon.fandom.com/wiki/Crops_(DS)"
+    ],
+    "notes": "L’ordre (sous-sol 1 puis 2 puis 3) est logique ; le prérequis « 1er agrandissement » pour le premier est déduit."
+  },
+  {
+    "id": "batiments-basement-2",
+    "category": "batiments",
+    "title": "Creuser le sous-sol n° 2 (serre souterraine)",
+    "summary": "Le sous-sol n° 2 est une serre souterraine où tu peux cultiver toute l’année, à condition d’y placer un Seasonal Sun trouvé dans la 3e mine.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "batiments-basement-1"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Commander à Gotz par téléphone",
+        "steps": [
+          "Rentre chez toi et utilise le téléphone (entre 11 h et 16 h, pas le samedi) pour appeler Gotz, le charpentier.",
+          "Choisis le bâtiment puis le matériau (herbe, bois, pierre ou Gold Lumber). Paie avec tes propres matériaux ou laisse Gotz les fournir.",
+          "Il faut 999 unités du matériau choisi.",
+          "Le lendemain, Gotz passe chez toi : indique l’emplacement du bâtiment sur ton terrain.",
+          "Descends l’escalier à droite de la cuisine pour accéder au sous-sol."
+        ],
+        "tips": [
+          "Gotz met 3 jours pour construire ; il ne travaille ni le samedi ni les jours de festival.",
+          "Les magasins de Mineral Town joints par téléphone ferment aussi les jours de festival de Mineral Town.",
+          "Matériaux : l’herbe (20 G/unité chez Rick) s’effondre même par beau temps, le bois (50 G chez Gotz) cède aux tempêtes, la pierre (200 G, ou gratuite au marteau) résiste presque toujours, le Gold Lumber (100 000 G) est indestructible. La pierre est le meilleur compromis.",
+          "Un sous-sol en matériau fragile peut être détruit par une tempête, et ceux qui sont en dessous deviennent alors inaccessibles : construis en pierre."
+        ],
+        "constraints": ["Téléphone : Gotz, 11 h – 16 h", "Fermé le samedi"],
+        "cost": "750 000 G + 999 pierres (pierre), ou 950 000 G tout compris"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan8/basements.php",
+      "https://fogu.com/hm6/chan2/buildings.php",
+      "https://harvestmoon.fandom.com/wiki/Crops_(DS)"
+    ],
+    "notes": "L’ordre (sous-sol 1 puis 2 puis 3) est logique ; le prérequis « 1er agrandissement » pour le premier est déduit."
+  },
+  {
+    "id": "batiments-basement-3",
+    "category": "batiments",
+    "title": "Creuser le sous-sol n° 3 (serre souterraine)",
+    "summary": "Le sous-sol n° 3 est une serre souterraine où tu peux cultiver toute l’année, à condition d’y placer un Seasonal Sun trouvé dans la 3e mine.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "batiments-basement-2"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Commander à Gotz par téléphone",
+        "steps": [
+          "Rentre chez toi et utilise le téléphone (entre 11 h et 16 h, pas le samedi) pour appeler Gotz, le charpentier.",
+          "Choisis le bâtiment puis le matériau (herbe, bois, pierre ou Gold Lumber). Paie avec tes propres matériaux ou laisse Gotz les fournir.",
+          "Il faut 999 unités du matériau choisi.",
+          "Le lendemain, Gotz passe chez toi : indique l’emplacement du bâtiment sur ton terrain.",
+          "Descends l’escalier à droite de la cuisine pour accéder au sous-sol."
+        ],
+        "tips": [
+          "Gotz met 3 jours pour construire ; il ne travaille ni le samedi ni les jours de festival.",
+          "Les magasins de Mineral Town joints par téléphone ferment aussi les jours de festival de Mineral Town.",
+          "Matériaux : l’herbe (20 G/unité chez Rick) s’effondre même par beau temps, le bois (50 G chez Gotz) cède aux tempêtes, la pierre (200 G, ou gratuite au marteau) résiste presque toujours, le Gold Lumber (100 000 G) est indestructible. La pierre est le meilleur compromis.",
+          "Un sous-sol en matériau fragile peut être détruit par une tempête, et ceux qui sont en dessous deviennent alors inaccessibles : construis en pierre."
+        ],
+        "constraints": ["Téléphone : Gotz, 11 h – 16 h", "Fermé le samedi"],
+        "cost": "3 000 000 G + 999 pierres (pierre), ou 3 200 000 G tout compris"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan8/basements.php",
+      "https://fogu.com/hm6/chan2/buildings.php",
+      "https://harvestmoon.fandom.com/wiki/Crops_(DS)"
+    ],
+    "notes": "L’ordre (sous-sol 1 puis 2 puis 3) est logique ; le prérequis « 1er agrandissement » pour le premier est déduit."
+  },
+  {
+    "id": "batiments-poultry-barn",
+    "category": "batiments",
+    "title": "Construire un poulailler (Poultry Barn)",
+    "summary": "Le poulailler loge 4 volailles (poules et/ou canards). Indispensable avant d’acheter des poules.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Commander à Gotz par téléphone",
+        "steps": [
+          "Rentre chez toi et utilise le téléphone (entre 11 h et 16 h, pas le samedi) pour appeler Gotz, le charpentier.",
+          "Choisis le bâtiment puis le matériau (herbe, bois, pierre ou Gold Lumber). Paie avec tes propres matériaux ou laisse Gotz les fournir.",
+          "Il faut 420 unités du matériau choisi.",
+          "Le lendemain, Gotz passe chez toi : indique l’emplacement du bâtiment sur ton terrain."
+        ],
+        "tips": [
+          "Gotz met 3 jours pour construire ; il ne travaille ni le samedi ni les jours de festival.",
+          "Les magasins de Mineral Town joints par téléphone ferment aussi les jours de festival de Mineral Town.",
+          "Matériaux : l’herbe (20 G/unité chez Rick) s’effondre même par beau temps, le bois (50 G chez Gotz) cède aux tempêtes, la pierre (200 G, ou gratuite au marteau) résiste presque toujours, le Gold Lumber (100 000 G) est indestructible. La pierre est le meilleur compromis.",
+          "Tu peux avoir 7 bâtiments d’animaux au total (poulaillers + étables)."
+        ],
+        "constraints": ["Téléphone : Gotz, 11 h – 16 h", "Fermé le samedi"],
+        "cost": "10 000 G + 420 pierres (pierre) ; 500 G en herbe, 5 000 G en bois"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "onboarding": true,
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan2/buildings.php",
+      "https://harvestmoon.fandom.com/wiki/Farm_(DS)",
+      "https://harvestmoon.fandom.com/wiki/Gotz_(DS)"
+    ]
+  },
+  {
+    "id": "batiments-livestock-barn",
+    "category": "batiments",
+    "title": "Construire une étable (Livestock Barn)",
+    "summary": "L’étable loge 4 vaches et/ou moutons. Prévois de la place et une clôture autour pour que les bêtes ne s’échappent pas.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Commander à Gotz par téléphone",
+        "steps": [
+          "Rentre chez toi et utilise le téléphone (entre 11 h et 16 h, pas le samedi) pour appeler Gotz, le charpentier.",
+          "Choisis le bâtiment puis le matériau (herbe, bois, pierre ou Gold Lumber). Paie avec tes propres matériaux ou laisse Gotz les fournir.",
+          "Il faut 500 unités du matériau choisi.",
+          "Le lendemain, Gotz passe chez toi : indique l’emplacement du bâtiment sur ton terrain."
+        ],
+        "tips": [
+          "Gotz met 3 jours pour construire ; il ne travaille ni le samedi ni les jours de festival.",
+          "Les magasins de Mineral Town joints par téléphone ferment aussi les jours de festival de Mineral Town.",
+          "Matériaux : l’herbe (20 G/unité chez Rick) s’effondre même par beau temps, le bois (50 G chez Gotz) cède aux tempêtes, la pierre (200 G, ou gratuite au marteau) résiste presque toujours, le Gold Lumber (100 000 G) est indestructible. La pierre est le meilleur compromis.",
+          "Tu peux avoir 7 bâtiments d’animaux au total (poulaillers + étables)."
+        ],
+        "constraints": ["Téléphone : Gotz, 11 h – 16 h", "Fermé le samedi"],
+        "cost": "13 000 G + 500 pierres (pierre) ; 680 G en herbe, 6 800 G en bois"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "onboarding": true,
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan2/buildings.php",
+      "https://fogu.com/hm6/chan4/livestock.php",
+      "https://harvestmoon.fandom.com/wiki/Farm_(DS)"
+    ]
+  },
+  {
+    "id": "batiments-fodder-silo",
+    "category": "batiments",
+    "title": "Construire le silo à fourrage",
+    "summary": "Le silo stocke l’herbe coupée (fourrage) pour nourrir tes vaches et moutons en hiver ou les jours de pluie.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Commander à Gotz par téléphone",
+        "steps": [
+          "Rentre chez toi et utilise le téléphone (entre 11 h et 16 h, pas le samedi) pour appeler Gotz, le charpentier.",
+          "Choisis le bâtiment puis le matériau (herbe, bois, pierre ou Gold Lumber). Paie avec tes propres matériaux ou laisse Gotz les fournir.",
+          "Il faut 100 unités du matériau choisi.",
+          "Le lendemain, Gotz passe chez toi : indique l’emplacement du bâtiment sur ton terrain."
+        ],
+        "tips": [
+          "Gotz met 3 jours pour construire ; il ne travaille ni le samedi ni les jours de festival.",
+          "Les magasins de Mineral Town joints par téléphone ferment aussi les jours de festival de Mineral Town.",
+          "Matériaux : l’herbe (20 G/unité chez Rick) s’effondre même par beau temps, le bois (50 G chez Gotz) cède aux tempêtes, la pierre (200 G, ou gratuite au marteau) résiste presque toujours, le Gold Lumber (100 000 G) est indestructible. La pierre est le meilleur compromis."
+        ],
+        "constraints": ["Téléphone : Gotz, 11 h – 16 h", "Fermé le samedi"],
+        "cost": "4 000 G + 100 pierres (pierre) ; 200 G en herbe, 2 000 G en bois"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "onboarding": true,
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan2/buildings.php",
+      "https://harvestmoon.fandom.com/wiki/Farm_(DS)",
+      "https://harvestmoon.fandom.com/wiki/Gotz_(DS)"
+    ]
+  },
+  {
+    "id": "batiments-wood-bin",
+    "category": "batiments",
+    "title": "Construire la réserve à bois",
+    "summary": "La réserve stocke ton bois (lumber) au lieu de l’entasser dans ton sac.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Commander à Gotz par téléphone",
+        "steps": [
+          "Rentre chez toi et utilise le téléphone (entre 11 h et 16 h, pas le samedi) pour appeler Gotz, le charpentier.",
+          "Choisis le bâtiment puis le matériau (herbe, bois, pierre ou Gold Lumber). Paie avec tes propres matériaux ou laisse Gotz les fournir.",
+          "Il faut 100 unités du matériau choisi.",
+          "Le lendemain, Gotz passe chez toi : indique l’emplacement du bâtiment sur ton terrain."
+        ],
+        "tips": [
+          "Gotz met 3 jours pour construire ; il ne travaille ni le samedi ni les jours de festival.",
+          "Les magasins de Mineral Town joints par téléphone ferment aussi les jours de festival de Mineral Town.",
+          "Matériaux : l’herbe (20 G/unité chez Rick) s’effondre même par beau temps, le bois (50 G chez Gotz) cède aux tempêtes, la pierre (200 G, ou gratuite au marteau) résiste presque toujours, le Gold Lumber (100 000 G) est indestructible. La pierre est le meilleur compromis."
+        ],
+        "constraints": ["Téléphone : Gotz, 11 h – 16 h", "Fermé le samedi"],
+        "cost": "4 000 G + 100 pierres (pierre) ; 200 G en herbe, 2 000 G en bois"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan2/buildings.php",
+      "https://harvestmoon.fandom.com/wiki/Farm_(DS)",
+      "https://harvestmoon.fandom.com/wiki/Gotz_(DS)"
+    ]
+  },
+  {
+    "id": "batiments-stone-bin",
+    "category": "batiments",
+    "title": "Construire la réserve à pierres",
+    "summary": "La réserve stocke tes pierres, indispensables pour les gros chantiers (maison, sous-sols, étang à canards).",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Commander à Gotz par téléphone",
+        "steps": [
+          "Rentre chez toi et utilise le téléphone (entre 11 h et 16 h, pas le samedi) pour appeler Gotz, le charpentier.",
+          "Choisis le bâtiment puis le matériau (herbe, bois, pierre ou Gold Lumber). Paie avec tes propres matériaux ou laisse Gotz les fournir.",
+          "Il faut 100 unités du matériau choisi.",
+          "Le lendemain, Gotz passe chez toi : indique l’emplacement du bâtiment sur ton terrain."
+        ],
+        "tips": [
+          "Gotz met 3 jours pour construire ; il ne travaille ni le samedi ni les jours de festival.",
+          "Les magasins de Mineral Town joints par téléphone ferment aussi les jours de festival de Mineral Town.",
+          "Matériaux : l’herbe (20 G/unité chez Rick) s’effondre même par beau temps, le bois (50 G chez Gotz) cède aux tempêtes, la pierre (200 G, ou gratuite au marteau) résiste presque toujours, le Gold Lumber (100 000 G) est indestructible. La pierre est le meilleur compromis."
+        ],
+        "constraints": ["Téléphone : Gotz, 11 h – 16 h", "Fermé le samedi"],
+        "cost": "4 000 G + 100 pierres (pierre) ; 200 G en herbe, 2 000 G en bois"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan2/buildings.php",
+      "https://harvestmoon.fandom.com/wiki/Farm_(DS)",
+      "https://harvestmoon.fandom.com/wiki/Gotz_(DS)"
+    ]
+  },
+  {
+    "id": "batiments-gold-bin",
+    "category": "batiments",
+    "title": "Construire la réserve à Gold Lumber",
+    "summary": "Une réserve pour le Gold Lumber, le matériau le plus solide (et le plus cher) du jeu.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Commander à Gotz par téléphone",
+        "steps": [
+          "Rentre chez toi et utilise le téléphone (entre 11 h et 16 h, pas le samedi) pour appeler Gotz, le charpentier.",
+          "Choisis le bâtiment puis le matériau (herbe, bois, pierre ou Gold Lumber). Paie avec tes propres matériaux ou laisse Gotz les fournir.",
+          "Il faut 100 unités du matériau choisi.",
+          "Le lendemain, Gotz passe chez toi : indique l’emplacement du bâtiment sur ton terrain."
+        ],
+        "tips": [
+          "Gotz met 3 jours pour construire ; il ne travaille ni le samedi ni les jours de festival.",
+          "Les magasins de Mineral Town joints par téléphone ferment aussi les jours de festival de Mineral Town.",
+          "Matériaux : l’herbe (20 G/unité chez Rick) s’effondre même par beau temps, le bois (50 G chez Gotz) cède aux tempêtes, la pierre (200 G, ou gratuite au marteau) résiste presque toujours, le Gold Lumber (100 000 G) est indestructible. La pierre est le meilleur compromis.",
+          "Le Gold Lumber s’obtient par la requête d’hiver de Thomas ou en l’achetant 100 000 G pièce à Gotz."
+        ],
+        "constraints": ["Téléphone : Gotz, 11 h – 16 h", "Fermé le samedi"],
+        "cost": "40 000 G + 100 pierres (pierre) ; 2 000 G en herbe, 20 000 G en bois"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan2/buildings.php",
+      "https://harvestmoon.fandom.com/wiki/Farm_(DS)",
+      "https://harvestmoon.fandom.com/wiki/Gotz_(DS)"
+    ]
+  },
+  {
+    "id": "batiments-mushroom-house",
+    "category": "batiments",
+    "title": "Construire la champignonnière (Mushroom House)",
+    "summary": "La champignonnière permet de cultiver des champignons toute l’année sur 6 palettes de bois.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Commander à Gotz par téléphone",
+        "steps": [
+          "Rentre chez toi et utilise le téléphone (entre 11 h et 16 h, pas le samedi) pour appeler Gotz, le charpentier.",
+          "Choisis le bâtiment puis le matériau (herbe, bois, pierre ou Gold Lumber). Paie avec tes propres matériaux ou laisse Gotz les fournir.",
+          "Il faut 300 unités du matériau choisi.",
+          "Le lendemain, Gotz passe chez toi : indique l’emplacement du bâtiment sur ton terrain."
+        ],
+        "tips": [
+          "Gotz met 3 jours pour construire ; il ne travaille ni le samedi ni les jours de festival.",
+          "Les magasins de Mineral Town joints par téléphone ferment aussi les jours de festival de Mineral Town.",
+          "Matériaux : l’herbe (20 G/unité chez Rick) s’effondre même par beau temps, le bois (50 G chez Gotz) cède aux tempêtes, la pierre (200 G, ou gratuite au marteau) résiste presque toujours, le Gold Lumber (100 000 G) est indestructible. La pierre est le meilleur compromis.",
+          "Une seule champignonnière par ferme."
+        ],
+        "constraints": ["Téléphone : Gotz, 11 h – 16 h", "Fermé le samedi"],
+        "cost": "20 000 G + 300 pierres (pierre) ; 1 000 G en herbe, 10 000 G en bois"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "onboarding": true,
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan8/fungushouse.php",
+      "https://fogu.com/hm6/chan2/buildings.php",
+      "https://harvestmoon.fandom.com/wiki/Farm_(DS)"
+    ]
+  },
+  {
+    "id": "batiments-maker-barn",
+    "category": "batiments",
+    "title": "Construire l’atelier des machines (Maker Barn)",
+    "summary": "La Maker Barn accueille jusqu’à 6 machines (mayonnaise, fromage, graines, conserverie…). Gotz ne la propose qu’après le 1er agrandissement de la maison, un poulailler et une étable.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "batiments-house-upgrade-1"
+      },
+      {
+        "type": "objective",
+        "id": "batiments-poultry-barn"
+      },
+      {
+        "type": "objective",
+        "id": "batiments-livestock-barn"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Commander à Gotz par téléphone",
+        "steps": [
+          "Rentre chez toi et utilise le téléphone (entre 11 h et 16 h, pas le samedi) pour appeler Gotz, le charpentier.",
+          "Choisis le bâtiment puis le matériau (herbe, bois, pierre ou Gold Lumber). Paie avec tes propres matériaux ou laisse Gotz les fournir.",
+          "Il faut 360 unités du matériau choisi.",
+          "Le lendemain, Gotz passe chez toi : indique l’emplacement du bâtiment sur ton terrain."
+        ],
+        "tips": [
+          "Gotz met 3 jours pour construire ; il ne travaille ni le samedi ni les jours de festival.",
+          "Les magasins de Mineral Town joints par téléphone ferment aussi les jours de festival de Mineral Town.",
+          "Matériaux : l’herbe (20 G/unité chez Rick) s’effondre même par beau temps, le bois (50 G chez Gotz) cède aux tempêtes, la pierre (200 G, ou gratuite au marteau) résiste presque toujours, le Gold Lumber (100 000 G) est indestructible. La pierre est le meilleur compromis."
+        ],
+        "constraints": ["Téléphone : Gotz, 11 h – 16 h", "Fermé le samedi"],
+        "cost": "60 000 G + 360 pierres (pierre) ; 3 000 G en herbe, 30 000 G en bois"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "quelques jours de jeu",
+    "onboarding": true,
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan2/makers.php",
+      "https://fogu.com/hm6/chan2/buildings.php",
+      "https://harvestmoon.fandom.com/wiki/Farm_(DS)"
+    ]
+  },
+  {
+    "id": "batiments-duck-pond",
+    "category": "batiments",
+    "title": "Creuser l’étang à canards (Duck Pond)",
+    "summary": "L’étang à canards est obligatoire pour acheter des canards et sert aussi de vivier à poissons.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Commander à Gotz par téléphone",
+        "steps": [
+          "Rentre chez toi et utilise le téléphone (entre 11 h et 16 h, pas le samedi) pour appeler Gotz, le charpentier.",
+          "Choisis le bâtiment ; il se construit obligatoirement en pierre. Paie avec tes propres pierres ou laisse Gotz les fournir (plus cher).",
+          "Il faut 600 pierres.",
+          "Le lendemain, Gotz passe chez toi : indique l’emplacement du bâtiment sur ton terrain."
+        ],
+        "tips": [
+          "Gotz met 3 jours pour construire ; il ne travaille ni le samedi ni les jours de festival.",
+          "Les magasins de Mineral Town joints par téléphone ferment aussi les jours de festival de Mineral Town.",
+          "Lancer ta canne à pêche dans l’étang à canards fait apparaître le lutin Yacht."
+        ],
+        "constraints": ["Téléphone : Gotz, 11 h – 16 h", "Fermé le samedi"],
+        "cost": "100 000 G + 600 pierres (ou 220 000 G tout compris)"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "relatedSpriteIds": ["yacht"],
+    "onboarding": true,
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan2/buildings.php",
+      "https://fogu.com/hm6/chan4/poultry.php",
+      "https://harvestmoon.fandom.com/wiki/Farm_(DS)",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)"
+    ]
+  },
+  {
+    "id": "batiments-vacation-villa",
+    "category": "batiments",
+    "title": "Construire la villa de vacances",
+    "summary": "Une seconde maison de luxe sur ton terrain : le chantier le plus cher du jeu.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Commander à Gotz par téléphone",
+        "steps": [
+          "Rentre chez toi et utilise le téléphone (entre 11 h et 16 h, pas le samedi) pour appeler Gotz, le charpentier.",
+          "Choisis le bâtiment puis le matériau (herbe, bois, pierre ou Gold Lumber). Paie avec tes propres matériaux ou laisse Gotz les fournir.",
+          "Il faut 999 unités du matériau choisi.",
+          "Le lendemain, Gotz passe chez toi : indique l’emplacement du bâtiment sur ton terrain."
+        ],
+        "tips": [
+          "Gotz met 3 jours pour construire ; il ne travaille ni le samedi ni les jours de festival.",
+          "Les magasins de Mineral Town joints par téléphone ferment aussi les jours de festival de Mineral Town.",
+          "Matériaux : l’herbe (20 G/unité chez Rick) s’effondre même par beau temps, le bois (50 G chez Gotz) cède aux tempêtes, la pierre (200 G, ou gratuite au marteau) résiste presque toujours, le Gold Lumber (100 000 G) est indestructible. La pierre est le meilleur compromis."
+        ],
+        "constraints": ["Téléphone : Gotz, 11 h – 16 h", "Fermé le samedi"],
+        "cost": "20 000 000 G + 999 pierres (pierre) ; 1 000 000 G en herbe, 10 000 000 G en bois"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "medium",
+    "sources": ["https://fogu.com/hm6/chan2/buildings.php"],
+    "notes": "Seul Fogu mentionne ce bâtiment ; son utilité exacte n’est pas décrite."
+  },
+  {
+    "id": "ferme-buy-kitchen",
+    "category": "ferme",
+    "title": "Acheter la cuisine (Kitchen)",
+    "summary": "Sans cuisine (Kitchen), impossible de cuisiner. Elle se commande à la télé, sur la chaîne 2 (TV Shopping) de la Sprite Station, une fois ta maison agrandie une première fois.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "batiments-house-upgrade-1"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Commander la Kitchen par la TV Shopping",
+        "steps": [
+          "Allume ta télé (Sprite Station) et mets la chaîne 2 (TV Shopping) chaque jour jusqu’à voir la Kitchen.",
+          "Appelle le télé-achat avec le téléphone de ta maison et commande-la (4 000 G).",
+          "Une fois installée, place-toi devant la Kitchen et appuie sur A pour ouvrir le menu de cuisine."
+        ],
+        "tips": [
+          "Pas encore de chaîne 2 ? Achète quelque chose au Supermarché de Karen par téléphone pendant 10 jours pour la débloquer (lutin Venus).",
+          "Prends aussi le Refrigerator (2 500 G) sur la même chaîne : les ingrédients rangés dedans sont utilisables en cuisinant (descends dans la liste du sac pour les voir).",
+          "Complète ensuite avec les 5 ustensiles, sur la même chaîne : Pot 1 000 G, Frying Pan 1 200 G, Mixer 1 200 G, Steamer 2 000 G, Oven 2 500 G."
+        ],
+        "constraints": [
+          "Après le 1er agrandissement de la maison",
+          "Objets proposés en rotation sur la chaîne 2"
+        ],
+        "cost": "4 000 G"
+      }
+    ],
+    "rewards": ["Accès à la cuisine : 134 recettes possibles"],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "onboarding": true,
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan2/tvshopping.php",
+      "https://harvestmoon.fandom.com/wiki/Farm_(DS)",
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cooking.php",
+      "https://harvestmoon.fandom.com/wiki/The_Sprite_Station_(DS)"
+    ],
+    "notes": "Fusion de deux entrées (ferme et recettes). Fogu (page Tv Shopping) précise que la version japonaise exige la Kitchen avant la 2e extension de maison, mais pas la version anglaise."
+  },
+  {
+    "id": "ferme-buy-big-bed",
+    "category": "ferme",
+    "title": "Acheter le grand lit (Big Bed)",
+    "summary": "Le Big Bed, vendu en télé-achat après le 2e agrandissement de la maison, est indispensable pour pouvoir te marier.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "batiments-house-upgrade-2"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Commander en télé-achat",
+        "steps": [
+          "Regarde la chaîne 2 (TV Shopping) de la Sprite Station jusqu’à voir le Big Bed.",
+          "Appelle le télé-achat avec le téléphone de ta maison et commande-le (10 000 G)."
+        ],
+        "cost": "10 000 G"
+      }
+    ],
+    "rewards": ["Condition de mariage remplie côté maison"],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "onboarding": true,
+    "confidence": "high",
+    "sources": ["https://fogu.com/hm6/chan2/tvshopping.php", "https://harvestmoon.fandom.com/wiki/Farm_(DS)"]
+  },
+  {
+    "id": "ferme-buy-seed-maker",
+    "category": "ferme",
+    "title": "Faire fabriquer la machine à graines (Seed Maker)",
+    "summary": "La Seed Maker transforme une récolte en sachet de graines : c’est la clé pour faire monter le niveau de tes cultures et obtenir des graines de fleurs.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "batiments-maker-barn"
+      },
+      {
+        "type": "objective",
+        "id": "mine-access-3"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Commander à Gray",
+        "steps": [
+          "Trouve un morceau d’Adamantite dans les rochers de la 3e mine (casse-les au marteau).",
+          "Appelle la forge Saibara (10 h – 16 h, pas le jeudi) : Gray fabrique la machine contre l’Adamantite et 20 000 G.",
+          "La machine s’installe dans ta Maker Barn (6 emplacements). Tiens l’objet en main devant la machine et appuie sur A pour l’y jeter (tu peux jeter une pile entière)."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "20 000 G + 1 Adamantite"
+      }
+    ],
+    "rewards": [
+      "Graines de fleurs (Toy Flower, Moondrop, Pinkcat, Magicgrass)",
+      "Graines de champignons à partir de Matsutake et Toadstool",
+      "Montée de niveau des cultures"
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/makers.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php",
+      "https://fogu.com/hm6/chan5/mine3items.php",
+      "https://harvestmoon.fandom.com/wiki/Crops_(DS)"
+    ],
+    "notes": "Fogu indique qu’il faut une Adamantite (3e mine) par machine ; une seule source."
+  },
+  {
+    "id": "ferme-buy-product-maker",
+    "category": "ferme",
+    "title": "Faire fabriquer une machine à produits (mayonnaise, fromage, fil…)",
+    "summary": "Les machines Mayo Maker, Cheese Maker, Yarn Maker et Yogurt Maker transforment œufs, lait et laine en produits qui se vendent plus cher.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "batiments-maker-barn"
+      },
+      {
+        "type": "objective",
+        "id": "mine-access-3"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Commander à Gray",
+        "steps": [
+          "Trouve un morceau d’Adamantite dans les rochers de la 3e mine (casse-les au marteau).",
+          "Appelle la forge Saibara (10 h – 16 h, pas le jeudi) : Gray fabrique la machine contre l’Adamantite et 20 000 G.",
+          "La machine s’installe dans ta Maker Barn (6 emplacements). Tiens l’objet en main devant la machine et appuie sur A pour l’y jeter (tu peux jeter une pile entière)."
+        ],
+        "tips": [
+          "Le fromage est le plus rentable : un petit fromage se vend 300 G contre 100 G pour un petit lait.",
+          "Le yaourt rapporte moins que le fromage.",
+          "Il te faudra un fil (yarn) pour faire tricoter une chaussette pour le festival du 25 hiver."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "20 000 G + 1 Adamantite par machine"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "medium",
+    "sources": ["https://fogu.com/hm6/chan2/makers.php", "https://fogu.com/hm6/chan7/telephoneshops.php"]
+  },
+  {
+    "id": "outils-get-fishing-rod",
+    "category": "outils",
+    "title": "Obtenir la canne à pêche",
+    "summary": "Galen, le vieil homme de la maison sur la colline (Hilltop House), te donne sa vieille canne à pêche un samedi.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Rendre visite à Galen un samedi",
+        "steps": [
+          "Range tous tes outils : n’aie rien d’équipé dans les cases de couleur de ton sac.",
+          "Un samedi, va chez Galen et Nina (Hilltop House, près de la ferme de Vesta) quand Galen est à l’intérieur.",
+          "Galen te donne sa canne à pêche."
+        ],
+        "constraints": ["Le samedi", "Entre 12 h et 14 h (Fogu)"]
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "onboarding": true,
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://harvestmoon.fandom.com/wiki/Fishing_(DS)",
+      "https://harvestmoon.fandom.com/wiki/Forget-Me-Not_Valley_(DS)"
+    ],
+    "notes": "Horaires en désaccord : Fogu indique 12 h – 14 h, le wiki 11 h – 18 h. Vise 12 h – 14 h pour être sûre."
+  },
+  {
+    "id": "outils-hoe-copper",
+    "category": "outils",
+    "title": "Améliorer la houe en cuivre",
+    "summary": "Fais passer la houe au niveau Copper : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Copper à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup la houe : quand sa jauge atteint 100 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Copper en cassant les rochers au marteau (tout étage de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de la houe et le minerai Copper, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "1 000 G et 1 jour depuis un outil de base, + minerai Copper"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "onboarding": true,
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-hoe-silver",
+    "category": "outils",
+    "title": "Améliorer la houe en argent",
+    "summary": "Fais passer la houe au niveau Silver : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Silver à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      },
+      {
+        "type": "objective",
+        "id": "outils-hoe-copper"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup la houe : quand sa jauge atteint 200 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Silver en cassant les rochers au marteau (tout étage de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de la houe et le minerai Silver, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "2 000 G et 2 jours depuis un outil de base, + minerai Silver"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-hoe-gold",
+    "category": "outils",
+    "title": "Améliorer la houe en or",
+    "summary": "Fais passer la houe au niveau Gold : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Gold à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      },
+      {
+        "type": "objective",
+        "id": "outils-hoe-silver"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup la houe : quand sa jauge atteint 300 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Gold en cassant les rochers au marteau (à partir de l’étage 3 de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de la houe et le minerai Gold, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "3 000 G et 3 jours depuis un outil de base, + minerai Gold"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-hoe-mystrile",
+    "category": "outils",
+    "title": "Améliorer la houe en Mystrile",
+    "summary": "Fais passer la houe au niveau Mystrile : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Mystrile à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      },
+      {
+        "type": "objective",
+        "id": "outils-hoe-gold"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup la houe : quand sa jauge atteint 400 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Mystrile en cassant les rochers au marteau (à partir de l’étage 6 de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de la houe et le minerai Mystrile, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires.",
+          "Garde tes 6 outils Mystrile : ils servent plus tard à fabriquer les outils Mythic."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "5 000 G et 4 jours depuis un outil de base, + minerai Mystrile"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-sickle-copper",
+    "category": "outils",
+    "title": "Améliorer la faucille en cuivre",
+    "summary": "Fais passer la faucille au niveau Copper : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Copper à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup la faucille : quand sa jauge atteint 100 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Copper en cassant les rochers au marteau (tout étage de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de la faucille et le minerai Copper, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "1 000 G et 1 jour depuis un outil de base, + minerai Copper"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "onboarding": true,
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-sickle-silver",
+    "category": "outils",
+    "title": "Améliorer la faucille en argent",
+    "summary": "Fais passer la faucille au niveau Silver : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Silver à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      },
+      {
+        "type": "objective",
+        "id": "outils-sickle-copper"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup la faucille : quand sa jauge atteint 200 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Silver en cassant les rochers au marteau (tout étage de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de la faucille et le minerai Silver, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "2 000 G et 2 jours depuis un outil de base, + minerai Silver"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-sickle-gold",
+    "category": "outils",
+    "title": "Améliorer la faucille en or",
+    "summary": "Fais passer la faucille au niveau Gold : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Gold à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      },
+      {
+        "type": "objective",
+        "id": "outils-sickle-silver"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup la faucille : quand sa jauge atteint 300 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Gold en cassant les rochers au marteau (à partir de l’étage 3 de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de la faucille et le minerai Gold, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "3 000 G et 3 jours depuis un outil de base, + minerai Gold"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-sickle-mystrile",
+    "category": "outils",
+    "title": "Améliorer la faucille en Mystrile",
+    "summary": "Fais passer la faucille au niveau Mystrile : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Mystrile à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      },
+      {
+        "type": "objective",
+        "id": "outils-sickle-gold"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup la faucille : quand sa jauge atteint 400 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Mystrile en cassant les rochers au marteau (à partir de l’étage 6 de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de la faucille et le minerai Mystrile, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires.",
+          "Garde tes 6 outils Mystrile : ils servent plus tard à fabriquer les outils Mythic.",
+          "Utiliser la faucille Mystrile fait apparaître un lutin."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "5 000 G et 4 jours depuis un outil de base, + minerai Mystrile"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "relatedSpriteIds": ["forest"],
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-hammer-copper",
+    "category": "outils",
+    "title": "Améliorer le marteau en cuivre",
+    "summary": "Fais passer le marteau au niveau Copper : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Copper à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup le marteau : quand sa jauge atteint 100 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Copper en cassant les rochers au marteau (tout étage de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de le marteau et le minerai Copper, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "1 000 G et 1 jour depuis un outil de base, + minerai Copper"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "onboarding": true,
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-hammer-silver",
+    "category": "outils",
+    "title": "Améliorer le marteau en argent",
+    "summary": "Fais passer le marteau au niveau Silver : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Silver à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      },
+      {
+        "type": "objective",
+        "id": "outils-hammer-copper"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup le marteau : quand sa jauge atteint 200 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Silver en cassant les rochers au marteau (tout étage de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de le marteau et le minerai Silver, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "2 000 G et 2 jours depuis un outil de base, + minerai Silver"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-hammer-gold",
+    "category": "outils",
+    "title": "Améliorer le marteau en or",
+    "summary": "Fais passer le marteau au niveau Gold : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Gold à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      },
+      {
+        "type": "objective",
+        "id": "outils-hammer-silver"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup le marteau : quand sa jauge atteint 300 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Gold en cassant les rochers au marteau (à partir de l’étage 3 de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de le marteau et le minerai Gold, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "3 000 G et 3 jours depuis un outil de base, + minerai Gold"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-hammer-mystrile",
+    "category": "outils",
+    "title": "Améliorer le marteau en Mystrile",
+    "summary": "Fais passer le marteau au niveau Mystrile : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Mystrile à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      },
+      {
+        "type": "objective",
+        "id": "outils-hammer-gold"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup le marteau : quand sa jauge atteint 400 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Mystrile en cassant les rochers au marteau (à partir de l’étage 6 de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de le marteau et le minerai Mystrile, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires.",
+          "Garde tes 6 outils Mystrile : ils servent plus tard à fabriquer les outils Mythic."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "5 000 G et 4 jours depuis un outil de base, + minerai Mystrile"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-axe-copper",
+    "category": "outils",
+    "title": "Améliorer la hache en cuivre",
+    "summary": "Fais passer la hache au niveau Copper : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Copper à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup la hache : quand sa jauge atteint 100 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Copper en cassant les rochers au marteau (tout étage de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de la hache et le minerai Copper, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "1 000 G et 1 jour depuis un outil de base, + minerai Copper"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "onboarding": true,
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-axe-silver",
+    "category": "outils",
+    "title": "Améliorer la hache en argent",
+    "summary": "Fais passer la hache au niveau Silver : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Silver à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      },
+      {
+        "type": "objective",
+        "id": "outils-axe-copper"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup la hache : quand sa jauge atteint 200 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Silver en cassant les rochers au marteau (tout étage de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de la hache et le minerai Silver, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "2 000 G et 2 jours depuis un outil de base, + minerai Silver"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-axe-gold",
+    "category": "outils",
+    "title": "Améliorer la hache en or",
+    "summary": "Fais passer la hache au niveau Gold : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Gold à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      },
+      {
+        "type": "objective",
+        "id": "outils-axe-silver"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup la hache : quand sa jauge atteint 300 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Gold en cassant les rochers au marteau (à partir de l’étage 3 de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de la hache et le minerai Gold, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "3 000 G et 3 jours depuis un outil de base, + minerai Gold"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-axe-mystrile",
+    "category": "outils",
+    "title": "Améliorer la hache en Mystrile",
+    "summary": "Fais passer la hache au niveau Mystrile : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Mystrile à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      },
+      {
+        "type": "objective",
+        "id": "outils-axe-gold"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup la hache : quand sa jauge atteint 400 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Mystrile en cassant les rochers au marteau (à partir de l’étage 6 de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de la hache et le minerai Mystrile, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires.",
+          "Garde tes 6 outils Mystrile : ils servent plus tard à fabriquer les outils Mythic.",
+          "Utiliser la hache Mystrile fait apparaître un lutin."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "5 000 G et 4 jours depuis un outil de base, + minerai Mystrile"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "relatedSpriteIds": ["valie"],
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-watering-can-copper",
+    "category": "outils",
+    "title": "Améliorer l’arrosoir en cuivre",
+    "summary": "Fais passer l’arrosoir au niveau Copper : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Copper à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup l’arrosoir : quand sa jauge atteint 100 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Copper en cassant les rochers au marteau (tout étage de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de l’arrosoir et le minerai Copper, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "1 000 G et 1 jour depuis un outil de base, + minerai Copper"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "onboarding": true,
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-watering-can-silver",
+    "category": "outils",
+    "title": "Améliorer l’arrosoir en argent",
+    "summary": "Fais passer l’arrosoir au niveau Silver : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Silver à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      },
+      {
+        "type": "objective",
+        "id": "outils-watering-can-copper"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup l’arrosoir : quand sa jauge atteint 200 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Silver en cassant les rochers au marteau (tout étage de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de l’arrosoir et le minerai Silver, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "2 000 G et 2 jours depuis un outil de base, + minerai Silver"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-watering-can-gold",
+    "category": "outils",
+    "title": "Améliorer l’arrosoir en or",
+    "summary": "Fais passer l’arrosoir au niveau Gold : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Gold à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      },
+      {
+        "type": "objective",
+        "id": "outils-watering-can-silver"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup l’arrosoir : quand sa jauge atteint 300 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Gold en cassant les rochers au marteau (à partir de l’étage 3 de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de l’arrosoir et le minerai Gold, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "3 000 G et 3 jours depuis un outil de base, + minerai Gold"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-watering-can-mystrile",
+    "category": "outils",
+    "title": "Améliorer l’arrosoir en Mystrile",
+    "summary": "Fais passer l’arrosoir au niveau Mystrile : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Mystrile à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      },
+      {
+        "type": "objective",
+        "id": "outils-watering-can-gold"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup l’arrosoir : quand sa jauge atteint 400 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Mystrile en cassant les rochers au marteau (à partir de l’étage 6 de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de l’arrosoir et le minerai Mystrile, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires.",
+          "Garde tes 6 outils Mystrile : ils servent plus tard à fabriquer les outils Mythic.",
+          "Utiliser l’arrosoir Mystrile fait apparaître un lutin."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "5 000 G et 4 jours depuis un outil de base, + minerai Mystrile"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "relatedSpriteIds": ["roli"],
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-fishing-rod-copper",
+    "category": "outils",
+    "title": "Améliorer la canne à pêche en cuivre",
+    "summary": "Fais passer la canne à pêche au niveau Copper : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Copper à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      },
+      {
+        "type": "objective",
+        "id": "outils-get-fishing-rod"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup la canne à pêche : quand sa jauge atteint 100 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Copper en cassant les rochers au marteau (tout étage de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de la canne à pêche et le minerai Copper, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "1 000 G et 1 jour depuis un outil de base, + minerai Copper"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-fishing-rod-silver",
+    "category": "outils",
+    "title": "Améliorer la canne à pêche en argent",
+    "summary": "Fais passer la canne à pêche au niveau Silver : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Silver à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      },
+      {
+        "type": "objective",
+        "id": "outils-get-fishing-rod"
+      },
+      {
+        "type": "objective",
+        "id": "outils-fishing-rod-copper"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup la canne à pêche : quand sa jauge atteint 200 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Silver en cassant les rochers au marteau (tout étage de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de la canne à pêche et le minerai Silver, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "2 000 G et 2 jours depuis un outil de base, + minerai Silver"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-fishing-rod-gold",
+    "category": "outils",
+    "title": "Améliorer la canne à pêche en or",
+    "summary": "Fais passer la canne à pêche au niveau Gold : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Gold à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      },
+      {
+        "type": "objective",
+        "id": "outils-get-fishing-rod"
+      },
+      {
+        "type": "objective",
+        "id": "outils-fishing-rod-silver"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup la canne à pêche : quand sa jauge atteint 300 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Gold en cassant les rochers au marteau (à partir de l’étage 3 de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de la canne à pêche et le minerai Gold, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "3 000 G et 3 jours depuis un outil de base, + minerai Gold"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-fishing-rod-mystrile",
+    "category": "outils",
+    "title": "Améliorer la canne à pêche en Mystrile",
+    "summary": "Fais passer la canne à pêche au niveau Mystrile : l’outil devient plus efficace à chaque coup. Il faut d’abord avoir assez utilisé l’outil, puis fournir du minerai Mystrile à Gray, de la forge Saibara.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      },
+      {
+        "type": "objective",
+        "id": "outils-get-fishing-rod"
+      },
+      {
+        "type": "objective",
+        "id": "outils-fishing-rod-gold"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire améliorer par Gray (forge Saibara)",
+        "steps": [
+          "Utilise beaucoup la canne à pêche : quand sa jauge atteint 400 % (Farm Summary, touche ton portrait), une icône de minerai apparaît sous la barre.",
+          "Récupère du minerai Mystrile en cassant les rochers au marteau (à partir de l’étage 6 de la 1re mine ; on en trouve aussi dans la 3e mine).",
+          "Rentre chez toi et appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) : Gray prend la commande.",
+          "Choisis l’amélioration de la canne à pêche et le minerai Mystrile, puis accepte le prix et le délai : l’outil quitte aussitôt ton sac.",
+          "Gray te rapporte l’outil un matin quand tu sors de chez toi (jamais le jeudi ni un jour de festival)."
+        ],
+        "tips": [
+          "Tu peux sauter des niveaux : un outil à 400 % peut passer directement de base à Mystrile en une seule commande (moins cher au total, 4 jours d’attente). Coche alors aussi les niveaux intermédiaires.",
+          "Garde tes 6 outils Mystrile : ils servent plus tard à fabriquer les outils Mythic.",
+          "Utiliser la canne à pêche Mystrile fait apparaître un lutin."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "5 000 G et 4 jours depuis un outil de base, + minerai Mystrile"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "relatedSpriteIds": ["fisher"],
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)"
+    ],
+    "notes": "Fogu ne donne que le coût depuis un outil de base (1 000 / 2 000 / 3 000 / 5 000 G pour 1 / 2 / 3 / 4 jours). Le coût exact d’une amélioration d’un seul niveau à partir d’un outil déjà amélioré n’est pas documenté. Fogu donne aussi 10 h – 17 h, du vendredi au mercredi, pour la forge sur une autre page."
+  },
+  {
+    "id": "outils-hoe-blessed",
+    "category": "outils",
+    "title": "Obtenir la houe bénie (Blessed Hoe)",
+    "summary": "Une fois tes 6 outils en Mystrile, des outils maudits apparaissent dans la 3e mine. Déterre le Cursed Hoe, puis fais lever la malédiction pour obtenir le Blessed Hoe, beaucoup plus puissant.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-hoe-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-sickle-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-hammer-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-axe-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-watering-can-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-fishing-rod-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "mine-access-3"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Déterrer l’outil maudit puis le faire bénir",
+        "steps": [
+          "Descends dans la 3e mine et creuse le sol à la houe sur les étages 24, 35, 48, 52, 68, 71, 87, 99, 106, 118, 124, 135, 142, 153, 162, 178, 185 et 197.",
+          "Quand tu trouves le Cursed Hoe, ne l’équipe pas : un outil maudit équipé ne peut plus être retiré et vide vite ton endurance.",
+          "Appelle l’église au téléphone (12 h – 16 h, en semaine) et demande la bénédiction de l’outil (100 000 G)."
+        ],
+        "tips": [
+          "Sauvegarde sur l’étage juste au-dessus, puis sur l’étage cible : si l’outil déterré n’est pas le bon, recharge.",
+          "Autre option : le vœu « lever une malédiction » de la Déesse (9 Wonderful Stones, 4e mine)."
+        ],
+        "constraints": ["Téléphone : église, 12 h – 16 h", "Fermée le week-end"],
+        "cost": "100 000 G (bénédiction à l’église)"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan2/alltools.php",
+      "https://fogu.com/hm6/chan5/mine3items.php",
+      "https://fogu.com/hm6/chan2/cursedtrick.php"
+    ],
+    "notes": "Les pages wiki des outils DS reprennent le texte de Friends of Mineral Town (« Call the Church ») ; les étages et prix viennent de Fogu."
+  },
+  {
+    "id": "outils-sickle-blessed",
+    "category": "outils",
+    "title": "Obtenir la faucille bénie (Blessed Sickle)",
+    "summary": "Une fois tes 6 outils en Mystrile, des outils maudits apparaissent dans la 3e mine. Déterre le Cursed Sickle, puis fais lever la malédiction pour obtenir le Blessed Sickle, beaucoup plus puissant.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-hoe-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-sickle-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-hammer-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-axe-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-watering-can-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-fishing-rod-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "mine-access-3"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Déterrer l’outil maudit puis le faire bénir",
+        "steps": [
+          "Descends dans la 3e mine et creuse le sol à la houe sur les étages 24, 35, 48, 52, 68, 71, 87, 99, 106, 118, 124, 135, 142, 153, 162, 178, 185 et 197.",
+          "Quand tu trouves le Cursed Sickle, ne l’équipe pas : un outil maudit équipé ne peut plus être retiré et vide vite ton endurance.",
+          "Appelle l’église au téléphone (12 h – 16 h, en semaine) et demande la bénédiction de l’outil (100 000 G)."
+        ],
+        "tips": [
+          "Sauvegarde sur l’étage juste au-dessus, puis sur l’étage cible : si l’outil déterré n’est pas le bon, recharge.",
+          "Autre option : le vœu « lever une malédiction » de la Déesse (9 Wonderful Stones, 4e mine)."
+        ],
+        "constraints": ["Téléphone : église, 12 h – 16 h", "Fermée le week-end"],
+        "cost": "100 000 G (bénédiction à l’église)"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "relatedSpriteIds": ["matthew"],
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan2/alltools.php",
+      "https://fogu.com/hm6/chan5/mine3items.php",
+      "https://fogu.com/hm6/chan2/cursedtrick.php",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)"
+    ],
+    "notes": "Les pages wiki des outils DS reprennent le texte de Friends of Mineral Town (« Call the Church ») ; les étages et prix viennent de Fogu."
+  },
+  {
+    "id": "outils-hammer-blessed",
+    "category": "outils",
+    "title": "Obtenir le marteau béni (Blessed Hammer)",
+    "summary": "Une fois tes 6 outils en Mystrile, des outils maudits apparaissent dans la 3e mine. Déterre le Cursed Hammer, puis fais lever la malédiction pour obtenir le Blessed Hammer, beaucoup plus puissant.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-hoe-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-sickle-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-hammer-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-axe-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-watering-can-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-fishing-rod-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "mine-access-3"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Déterrer l’outil maudit puis le faire bénir",
+        "steps": [
+          "Descends dans la 3e mine et creuse le sol à la houe sur les étages 24, 35, 48, 52, 68, 71, 87, 99, 106, 118, 124, 135, 142, 153, 162, 178, 185 et 197.",
+          "Quand tu trouves le Cursed Hammer, ne l’équipe pas : un outil maudit équipé ne peut plus être retiré et vide vite ton endurance.",
+          "Appelle l’église au téléphone (12 h – 16 h, en semaine) et demande la bénédiction de l’outil (100 000 G)."
+        ],
+        "tips": [
+          "Sauvegarde sur l’étage juste au-dessus, puis sur l’étage cible : si l’outil déterré n’est pas le bon, recharge.",
+          "Autre option : le vœu « lever une malédiction » de la Déesse (9 Wonderful Stones, 4e mine)."
+        ],
+        "constraints": ["Téléphone : église, 12 h – 16 h", "Fermée le week-end"],
+        "cost": "100 000 G (bénédiction à l’église)"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "relatedSpriteIds": ["fen"],
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan2/alltools.php",
+      "https://fogu.com/hm6/chan5/mine3items.php",
+      "https://fogu.com/hm6/chan2/cursedtrick.php",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)"
+    ],
+    "notes": "Les pages wiki des outils DS reprennent le texte de Friends of Mineral Town (« Call the Church ») ; les étages et prix viennent de Fogu."
+  },
+  {
+    "id": "outils-axe-blessed",
+    "category": "outils",
+    "title": "Obtenir la hache bénie (Blessed Axe)",
+    "summary": "Une fois tes 6 outils en Mystrile, des outils maudits apparaissent dans la 3e mine. Déterre le Cursed Axe, puis fais lever la malédiction pour obtenir le Blessed Axe, beaucoup plus puissant.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-hoe-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-sickle-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-hammer-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-axe-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-watering-can-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-fishing-rod-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "mine-access-3"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Déterrer l’outil maudit puis le faire bénir",
+        "steps": [
+          "Descends dans la 3e mine et creuse le sol à la houe sur les étages 24, 35, 48, 52, 68, 71, 87, 99, 106, 118, 124, 135, 142, 153, 162, 178, 185 et 197.",
+          "Quand tu trouves le Cursed Axe, ne l’équipe pas : un outil maudit équipé ne peut plus être retiré et vide vite ton endurance.",
+          "Appelle l’église au téléphone (12 h – 16 h, en semaine) et demande la bénédiction de l’outil (100 000 G)."
+        ],
+        "tips": [
+          "Sauvegarde sur l’étage juste au-dessus, puis sur l’étage cible : si l’outil déterré n’est pas le bon, recharge.",
+          "Autre option : le vœu « lever une malédiction » de la Déesse (9 Wonderful Stones, 4e mine)."
+        ],
+        "constraints": ["Téléphone : église, 12 h – 16 h", "Fermée le week-end"],
+        "cost": "100 000 G (bénédiction à l’église)"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan2/alltools.php",
+      "https://fogu.com/hm6/chan5/mine3items.php",
+      "https://fogu.com/hm6/chan2/cursedtrick.php"
+    ],
+    "notes": "Les pages wiki des outils DS reprennent le texte de Friends of Mineral Town (« Call the Church ») ; les étages et prix viennent de Fogu."
+  },
+  {
+    "id": "outils-watering-can-blessed",
+    "category": "outils",
+    "title": "Obtenir l’arrosoir béni (Blessed Watering Can)",
+    "summary": "Une fois tes 6 outils en Mystrile, des outils maudits apparaissent dans la 3e mine. Déterre le Cursed Watering Can, puis fais lever la malédiction pour obtenir le Blessed Watering Can, beaucoup plus puissant.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-hoe-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-sickle-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-hammer-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-axe-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-watering-can-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-fishing-rod-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "mine-access-3"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Déterrer l’outil maudit puis le faire bénir",
+        "steps": [
+          "Descends dans la 3e mine et creuse le sol à la houe sur les étages 24, 35, 48, 52, 68, 71, 87, 99, 106, 118, 124, 135, 142, 153, 162, 178, 185 et 197.",
+          "Quand tu trouves le Cursed Watering Can, ne l’équipe pas : un outil maudit équipé ne peut plus être retiré et vide vite ton endurance.",
+          "Appelle l’église au téléphone (12 h – 16 h, en semaine) et demande la bénédiction de l’outil (100 000 G)."
+        ],
+        "tips": [
+          "Sauvegarde sur l’étage juste au-dessus, puis sur l’étage cible : si l’outil déterré n’est pas le bon, recharge.",
+          "Autre option : le vœu « lever une malédiction » de la Déesse (9 Wonderful Stones, 4e mine)."
+        ],
+        "constraints": ["Téléphone : église, 12 h – 16 h", "Fermée le week-end"],
+        "cost": "100 000 G (bénédiction à l’église)"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "relatedSpriteIds": ["maddie"],
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan2/alltools.php",
+      "https://fogu.com/hm6/chan5/mine3items.php",
+      "https://fogu.com/hm6/chan2/cursedtrick.php",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)"
+    ],
+    "notes": "Les pages wiki des outils DS reprennent le texte de Friends of Mineral Town (« Call the Church ») ; les étages et prix viennent de Fogu."
+  },
+  {
+    "id": "outils-fishing-rod-blessed",
+    "category": "outils",
+    "title": "Obtenir la canne à pêche bénie (Blessed Fishing Rod)",
+    "summary": "Une fois tes 6 outils en Mystrile, des outils maudits apparaissent dans la 3e mine. Déterre le Cursed Fishing Rod, puis fais lever la malédiction pour obtenir le Blessed Fishing Rod, beaucoup plus puissant.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-hoe-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-sickle-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-hammer-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-axe-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-watering-can-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "outils-fishing-rod-mystrile"
+      },
+      {
+        "type": "objective",
+        "id": "mine-access-3"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Déterrer l’outil maudit puis le faire bénir",
+        "steps": [
+          "Descends dans la 3e mine et creuse le sol à la houe sur les étages 24, 35, 48, 52, 68, 71, 87, 99, 106, 118, 124, 135, 142, 153, 162, 178, 185 et 197.",
+          "Quand tu trouves le Cursed Fishing Rod, ne l’équipe pas : un outil maudit équipé ne peut plus être retiré et vide vite ton endurance.",
+          "Appelle l’église au téléphone (12 h – 16 h, en semaine) et demande la bénédiction de l’outil (100 000 G)."
+        ],
+        "tips": [
+          "Sauvegarde sur l’étage juste au-dessus, puis sur l’étage cible : si l’outil déterré n’est pas le bon, recharge.",
+          "Autre option : le vœu « lever une malédiction » de la Déesse (9 Wonderful Stones, 4e mine)."
+        ],
+        "constraints": ["Téléphone : église, 12 h – 16 h", "Fermée le week-end"],
+        "cost": "100 000 G (bénédiction à l’église)"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "relatedSpriteIds": ["sammy"],
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan2/alltools.php",
+      "https://fogu.com/hm6/chan5/mine3items.php",
+      "https://fogu.com/hm6/chan2/cursedtrick.php",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)"
+    ],
+    "notes": "Les pages wiki des outils DS reprennent le texte de Friends of Mineral Town (« Call the Church ») ; les étages et prix viennent de Fogu."
+  },
+  {
+    "id": "outils-hoe-mythic",
+    "category": "outils",
+    "title": "Forger la houe mythique (Mythic Hoe)",
+    "summary": "Le niveau ultime : avec une Mythic Stone, Gray transforme ton Hoe Mystrile en Mythic Hoe, qui couvre une zone énorme pour moins d’effort.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-hoe-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-sickle-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-hammer-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-axe-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-watering-can-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-fishing-rod-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-hoe-mystrile"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Trouver une Mythic Stone puis appeler Gray",
+        "steps": [
+          "Les Mythic Stones n’apparaissent dans la 3e mine qu’une fois tes 6 outils bénis obtenus.",
+          "Casse les rochers au marteau sur les étages finissant par 0 (étages 0 à 255) ou par 5 (étages 256 à 999), ainsi qu’aux étages 255 et 999.",
+          "Appelle la forge Saibara (10 h – 16 h, pas le jeudi) et demande à Gray de convertir ton outil Mystrile (pas l’outil béni)."
+        ],
+        "tips": [
+          "Tu ne peux porter qu’une Mythic Stone à la fois : rentre la faire utiliser avant d’en chercher une autre."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "50 000 G + 1 Mythic Stone"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": ["https://fogu.com/hm6/chan2/alltools.php", "https://fogu.com/hm6/chan5/mine3items.php"]
+  },
+  {
+    "id": "outils-sickle-mythic",
+    "category": "outils",
+    "title": "Forger la faucille mythique (Mythic Sickle)",
+    "summary": "Le niveau ultime : avec une Mythic Stone, Gray transforme ton Sickle Mystrile en Mythic Sickle, qui couvre une zone énorme pour moins d’effort.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-hoe-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-sickle-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-hammer-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-axe-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-watering-can-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-fishing-rod-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-sickle-mystrile"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Trouver une Mythic Stone puis appeler Gray",
+        "steps": [
+          "Les Mythic Stones n’apparaissent dans la 3e mine qu’une fois tes 6 outils bénis obtenus.",
+          "Casse les rochers au marteau sur les étages finissant par 0 (étages 0 à 255) ou par 5 (étages 256 à 999), ainsi qu’aux étages 255 et 999.",
+          "Appelle la forge Saibara (10 h – 16 h, pas le jeudi) et demande à Gray de convertir ton outil Mystrile (pas l’outil béni)."
+        ],
+        "tips": [
+          "Tu ne peux porter qu’une Mythic Stone à la fois : rentre la faire utiliser avant d’en chercher une autre."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "50 000 G + 1 Mythic Stone"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": ["https://fogu.com/hm6/chan2/alltools.php", "https://fogu.com/hm6/chan5/mine3items.php"]
+  },
+  {
+    "id": "outils-hammer-mythic",
+    "category": "outils",
+    "title": "Forger le marteau mythique (Mythic Hammer)",
+    "summary": "Le niveau ultime : avec une Mythic Stone, Gray transforme ton Hammer Mystrile en Mythic Hammer, qui couvre une zone énorme pour moins d’effort.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-hoe-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-sickle-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-hammer-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-axe-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-watering-can-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-fishing-rod-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-hammer-mystrile"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Trouver une Mythic Stone puis appeler Gray",
+        "steps": [
+          "Les Mythic Stones n’apparaissent dans la 3e mine qu’une fois tes 6 outils bénis obtenus.",
+          "Casse les rochers au marteau sur les étages finissant par 0 (étages 0 à 255) ou par 5 (étages 256 à 999), ainsi qu’aux étages 255 et 999.",
+          "Appelle la forge Saibara (10 h – 16 h, pas le jeudi) et demande à Gray de convertir ton outil Mystrile (pas l’outil béni)."
+        ],
+        "tips": [
+          "Tu ne peux porter qu’une Mythic Stone à la fois : rentre la faire utiliser avant d’en chercher une autre."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "50 000 G + 1 Mythic Stone"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": ["https://fogu.com/hm6/chan2/alltools.php", "https://fogu.com/hm6/chan5/mine3items.php"]
+  },
+  {
+    "id": "outils-axe-mythic",
+    "category": "outils",
+    "title": "Forger la hache mythique (Mythic Axe)",
+    "summary": "Le niveau ultime : avec une Mythic Stone, Gray transforme ton Axe Mystrile en Mythic Axe, qui couvre une zone énorme pour moins d’effort.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-hoe-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-sickle-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-hammer-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-axe-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-watering-can-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-fishing-rod-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-axe-mystrile"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Trouver une Mythic Stone puis appeler Gray",
+        "steps": [
+          "Les Mythic Stones n’apparaissent dans la 3e mine qu’une fois tes 6 outils bénis obtenus.",
+          "Casse les rochers au marteau sur les étages finissant par 0 (étages 0 à 255) ou par 5 (étages 256 à 999), ainsi qu’aux étages 255 et 999.",
+          "Appelle la forge Saibara (10 h – 16 h, pas le jeudi) et demande à Gray de convertir ton outil Mystrile (pas l’outil béni)."
+        ],
+        "tips": [
+          "Tu ne peux porter qu’une Mythic Stone à la fois : rentre la faire utiliser avant d’en chercher une autre."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "50 000 G + 1 Mythic Stone"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": ["https://fogu.com/hm6/chan2/alltools.php", "https://fogu.com/hm6/chan5/mine3items.php"]
+  },
+  {
+    "id": "outils-watering-can-mythic",
+    "category": "outils",
+    "title": "Forger l’arrosoir mythique (Mythic Watering Can)",
+    "summary": "Le niveau ultime : avec une Mythic Stone, Gray transforme ton Watering Can Mystrile en Mythic Watering Can, qui couvre une zone énorme pour moins d’effort.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-hoe-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-sickle-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-hammer-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-axe-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-watering-can-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-fishing-rod-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-watering-can-mystrile"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Trouver une Mythic Stone puis appeler Gray",
+        "steps": [
+          "Les Mythic Stones n’apparaissent dans la 3e mine qu’une fois tes 6 outils bénis obtenus.",
+          "Casse les rochers au marteau sur les étages finissant par 0 (étages 0 à 255) ou par 5 (étages 256 à 999), ainsi qu’aux étages 255 et 999.",
+          "Appelle la forge Saibara (10 h – 16 h, pas le jeudi) et demande à Gray de convertir ton outil Mystrile (pas l’outil béni)."
+        ],
+        "tips": [
+          "Tu ne peux porter qu’une Mythic Stone à la fois : rentre la faire utiliser avant d’en chercher une autre."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "50 000 G + 1 Mythic Stone"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": ["https://fogu.com/hm6/chan2/alltools.php", "https://fogu.com/hm6/chan5/mine3items.php"]
+  },
+  {
+    "id": "outils-fishing-rod-mythic",
+    "category": "outils",
+    "title": "Forger la canne à pêche mythique (Mythic Fishing Rod)",
+    "summary": "Le niveau ultime : avec une Mythic Stone, Gray transforme ton Fishing Rod Mystrile en Mythic Fishing Rod, qui couvre une zone énorme pour moins d’effort.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-hoe-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-sickle-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-hammer-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-axe-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-watering-can-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-fishing-rod-blessed"
+      },
+      {
+        "type": "objective",
+        "id": "outils-fishing-rod-mystrile"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Trouver une Mythic Stone puis appeler Gray",
+        "steps": [
+          "Les Mythic Stones n’apparaissent dans la 3e mine qu’une fois tes 6 outils bénis obtenus.",
+          "Casse les rochers au marteau sur les étages finissant par 0 (étages 0 à 255) ou par 5 (étages 256 à 999), ainsi qu’aux étages 255 et 999.",
+          "Appelle la forge Saibara (10 h – 16 h, pas le jeudi) et demande à Gray de convertir ton outil Mystrile (pas l’outil béni)."
+        ],
+        "tips": [
+          "Tu ne peux porter qu’une Mythic Stone à la fois : rentre la faire utiliser avant d’en chercher une autre."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "50 000 G + 1 Mythic Stone"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": ["https://fogu.com/hm6/chan2/alltools.php", "https://fogu.com/hm6/chan5/mine3items.php"]
+  },
+  {
+    "id": "outils-buy-rucksack-2",
+    "category": "outils",
+    "title": "Agrandir le sac à dos (2e sac)",
+    "summary": "Le Supermarché de Karen vend des agrandissements de sac à dos pour transporter plus d’objets.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Commander au Supermarché par téléphone",
+        "steps": [
+          "Appelle le Supermarché de Karen avec le téléphone de ta maison (9 h – 17 h, pas le mardi ni le dimanche).",
+          "Achète le 2nd Rucksack."
+        ],
+        "constraints": ["Téléphone : Supermarché, 9 h – 17 h", "Fermé le mardi et le dimanche"],
+        "cost": "2 000 G"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "onboarding": true,
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan7/telephoneshops.php",
+      "https://harvestmoon.fandom.com/wiki/Supermarket_(DS)"
+    ],
+    "notes": "Jours de fermeture du Supermarché alignés sur calendar.json : Fogu et GameRevolution indiquent mardi et dimanche, le wiki seulement le mardi."
+  },
+  {
+    "id": "outils-buy-rucksack-3",
+    "category": "outils",
+    "title": "Agrandir le sac à dos (3e sac)",
+    "summary": "Deuxième agrandissement du sac à dos, vendu par le Supermarché de Karen.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-buy-rucksack-2"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Commander au Supermarché par téléphone",
+        "steps": [
+          "Appelle le Supermarché de Karen (9 h – 17 h, pas le mardi ni le dimanche).",
+          "Achète le 3rd Rucksack."
+        ],
+        "constraints": ["Téléphone : Supermarché, 9 h – 17 h", "Fermé le mardi et le dimanche"],
+        "cost": "3 000 G"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "medium",
+    "sources": ["https://fogu.com/hm6/chan7/telephoneshops.php"],
+    "notes": "Jours de fermeture du Supermarché alignés sur calendar.json : Fogu et GameRevolution indiquent mardi et dimanche, le wiki seulement le mardi."
+  },
+  {
+    "id": "outils-buy-basket",
+    "category": "outils",
+    "title": "Acheter le panier (Basket)",
+    "summary": "Le panier permet de transporter beaucoup de récoltes ; y déposer un objet fait apparaître le lutin Veggie.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Commander au Supermarché par téléphone",
+        "steps": [
+          "Appelle le Supermarché de Karen (9 h – 17 h, pas le mardi ni le dimanche) et achète le Basket.",
+          "Place un objet dedans."
+        ],
+        "constraints": ["Téléphone : Supermarché, 9 h – 17 h", "Fermé le mardi et le dimanche"],
+        "cost": "5 000 G"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "relatedSpriteIds": ["veggie"],
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan7/telephoneshops.php",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)"
+    ],
+    "notes": "Jours de fermeture du Supermarché alignés sur calendar.json : Fogu et GameRevolution indiquent mardi et dimanche, le wiki seulement le mardi."
+  },
+  {
+    "id": "outils-buy-milker",
+    "category": "outils",
+    "title": "Acheter la trayeuse (Milker)",
+    "summary": "La trayeuse sert à traire tes vaches adultes chaque jour.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Commander à la forge Saibara",
+        "steps": [
+          "Appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) et achète le Milker.",
+          "Équipe-le et utilise-le sur une vache adulte pour obtenir du lait."
+        ],
+        "tips": [
+          "Pour du lait moyen ou gros, frotte la vache au Touch Panel Glove (mini-jeu) au lieu d’utiliser la trayeuse."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "2 000 G"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "onboarding": true,
+    "confidence": "high",
+    "sources": ["https://fogu.com/hm6/chan4/livestock.php", "https://fogu.com/hm6/chan7/telephoneshops.php"]
+  },
+  {
+    "id": "outils-buy-clippers",
+    "category": "outils",
+    "title": "Acheter la tondeuse (Wool Clippers)",
+    "summary": "La tondeuse sert à récolter la laine des moutons, qui repousse 8 jours après la tonte.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Commander à la forge Saibara",
+        "steps": [
+          "Appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) et achète les Wool Clippers.",
+          "Utilise-les sur un mouton dont la laine a repoussé."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "1 800 G"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "onboarding": true,
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan4/livestock.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php",
+      "https://harvestmoon.fandom.com/wiki/Sheep_(DS)"
+    ]
+  },
+  {
+    "id": "outils-buy-brush",
+    "category": "outils",
+    "title": "Acheter la brosse (Brush)",
+    "summary": "La brosse augmente l’affection des vaches, moutons et du cheval ; avec le Touch Panel Glove, elle permet aussi de laver tes animaux.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Commander à la forge Saibara",
+        "steps": [
+          "Appelle la forge Saibara au téléphone (10 h – 16 h, pas le jeudi) et achète la Brush.",
+          "Brosse tes animaux chaque jour."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "800 G"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "relatedSpriteIds": ["beta"],
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan7/telephoneshops.php",
+      "https://fogu.com/hm6/chan4/pets.php",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)"
+    ]
+  },
+  {
+    "id": "outils-buy-touch-glove",
+    "category": "outils",
+    "title": "Acheter le Touch Panel Glove",
+    "summary": "Cet accessoire permet de caresser, traire et tondre tes animaux au stylet : meilleure affection, lait et laine plus gros, et beaucoup de lutins à la clé.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Commander à Popuri ou Rick",
+        "steps": [
+          "Appelle la Poultry Farm de Popuri (11 h – 16 h, pas le dimanche) ou le Yodel Ranch de Rick (10 h – 15 h, pas le dimanche).",
+          "Achète le Touch Panel Glove et place-le dans l’emplacement d’accessoire de ton sac."
+        ],
+        "constraints": ["Fermé le dimanche"],
+        "cost": "1 000 G"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "relatedSpriteIds": ["mouton", "betty", "sue"],
+    "onboarding": true,
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan7/telephoneshops.php",
+      "https://fogu.com/hm6/chan4/livestock.php",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)"
+    ]
+  },
+  {
+    "id": "mine-access-1",
+    "category": "mine",
+    "title": "Ouvrir la 1re mine",
+    "summary": "Le site de fouilles de Carter cache 4 mines. Pour ouvrir la première, aide Carter à abattre un mur avec ton marteau.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Aider Carter avec ton marteau",
+        "steps": [
+          "Va au site de fouilles (Excavation Site, au nord-est de la vallée) très tôt le matin ou après 21 h, quand Carter y est seul.",
+          "Parle à Carter : il a besoin de ton marteau. Frappe le mur qu’il t’indique.",
+          "Une ouverture apparaît vers la mine suivante."
+        ],
+        "tips": ["Garde ton marteau dans ton sac."],
+        "constraints": ["Très tôt le matin ou après 21 h"]
+      }
+    ],
+    "rewards": ["Accès aux minerais de cuivre, argent, or et Mystrile pour améliorer tes outils"],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "onboarding": true,
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan5/mining.php",
+      "https://harvestmoon.fandom.com/wiki/Forget-Me-Not_Valley_(DS)"
+    ]
+  },
+  {
+    "id": "mine-1-bottom",
+    "category": "mine",
+    "title": "Atteindre le fond de la 1re mine (étage 10)",
+    "summary": "La 1re mine ne fait que 10 étages. Au 10e, un oiseau noir agressif (Dark Chick) t’attend : bats-le pour pouvoir ouvrir la 2e mine.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-1"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Descendre et vaincre la créature",
+        "steps": [
+          "Descends étage par étage : creuse à la houe pour trouver l’escalier ou tombe dans les trous invisibles (1 étage à la fois ici).",
+          "Au 10e étage, frappe la créature avec tes outils : la faucille et la hache font plus de dégâts que la houe ou le marteau (l’arrosoir ne sert pas)."
+        ],
+        "tips": ["Sauvegarde dans la mine : tu peux recharger si ça tourne mal."]
+      }
+    ],
+    "rewards": ["Condition pour ouvrir la 2e mine", "Condition de l’événement « cœur violet » de la Déesse"],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan5/mining.php",
+      "https://fogu.com/hm6/chan5/mine_descent.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Goddess_(DS)"
+    ]
+  },
+  {
+    "id": "mine-access-2",
+    "category": "mine",
+    "title": "Ouvrir la 2e mine",
+    "summary": "Après avoir vaincu la créature du fond de la 1re mine, aide à nouveau Carter pour ouvrir la 2e mine (255 étages, pierres précieuses).",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-1-bottom"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Aider Carter avec ton marteau",
+        "steps": [
+          "Va au site de fouilles (Excavation Site, au nord-est de la vallée) très tôt le matin ou après 21 h, quand Carter y est seul.",
+          "Parle à Carter : il a besoin de ton marteau. Frappe le mur qu’il t’indique.",
+          "Une ouverture apparaît vers la mine suivante."
+        ],
+        "constraints": ["Très tôt le matin ou après 21 h"]
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": ["https://fogu.com/hm6/chan5/mining.php"]
+  },
+  {
+    "id": "mine-2-legendary-sword",
+    "category": "mine",
+    "title": "Obtenir l’épée légendaire (fond de la 2e mine)",
+    "summary": "Au 255e et dernier étage de la 2e mine, élimine les créatures : un passage s’ouvre et Keira te remet l’épée légendaire (Legendary Sword).",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-2"
+      },
+      {
+        "type": "manual",
+        "label": "Avoir au moins un outil au niveau Mystrile (400 %)"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Descendre les 255 étages",
+        "steps": [
+          "Emporte de quoi manger (nouilles, jus de tomate, Bodigizer/Turbojolt) : chaque chute dans un trou coûte de l’endurance (jusqu’à 10 étages par chute ici).",
+          "Au 255e étage, élimine toutes les créatures : le rocher qui bloque la salle disparaît.",
+          "Entre : Keira te donne l’épée légendaire."
+        ],
+        "tips": [
+          "Sauvegarder et recharger ne fait pas disparaître le rocher : il faut vraiment vaincre les créatures.",
+          "Rencontrer Keira ici permet ensuite de la retrouver au 255e étage de la 3e mine."
+        ]
+      }
+    ],
+    "rewards": [
+      "Legendary Sword (casse les rochers devant le champ derrière la cascade)",
+      "Accès à la 3e mine",
+      "+50 Farm Degree"
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "une saison",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan5/mining.php",
+      "https://fogu.com/hm6/chan5/mine_descent.php",
+      "https://fogu.com/hm6/chan8/fieldtypes.php",
+      "https://harvestmoon.fandom.com/wiki/Keira_(DS)"
+    ],
+    "notes": "La condition « un outil en Mystrile » est donnée par Fogu comme probable (« you might try ») ; dans la version japonaise l’épée est simplement posée au sol."
+  },
+  {
+    "id": "mine-access-3",
+    "category": "mine",
+    "title": "Ouvrir la 3e mine",
+    "summary": "Une fois le fond de la 2e mine nettoyé, l’événement de Carter ouvre la 3e mine (999 étages) : outils maudits, accessoires, Seasonal Suns, Adamantite.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-2-legendary-sword"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Aider Carter avec ton marteau",
+        "steps": [
+          "Va au site de fouilles (Excavation Site, au nord-est de la vallée) très tôt le matin ou après 21 h, quand Carter y est seul.",
+          "Parle à Carter : il a besoin de ton marteau. Frappe le mur qu’il t’indique.",
+          "Une ouverture apparaît vers la mine suivante."
+        ],
+        "constraints": ["Très tôt le matin ou après 21 h"]
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": ["https://fogu.com/hm6/chan5/mining.php", "https://fogu.com/hm6/chan5/mine3items.php"]
+  },
+  {
+    "id": "mine-3-keira-floor-255",
+    "category": "mine",
+    "title": "Rencontrer Keira au 255e étage de la 3e mine",
+    "summary": "Keira, la princesse endormie, vit au 255e étage de la 3e mine. Déclencher son premier événement est obligatoire pour ouvrir la 4e mine.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-3"
+      },
+      {
+        "type": "manual",
+        "label": "Ne pas encore être mariée"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Descendre jusqu’au 255e étage",
+        "steps": [
+          "Mets tes 6 outils dans ton sac (aucun ne doit être chez Gray) : sinon le rocher devant sa chambre ne disparaît pas.",
+          "Laisse-toi tomber le plus près possible du 255e étage (chutes jusqu’à 100 étages), puis finis à la houe.",
+          "Élimine les créatures du 255e étage, entre et lis le panneau près du lit : il réclame un curry (Ultimate ou Finest Curry)."
+        ],
+        "tips": [
+          "Il suffit de déclencher l’événement pour la 4e mine ; apporter le curry fait avancer la relation avec Keira."
+        ]
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": ["https://fogu.com/hm6/chan5/mining.php", "https://harvestmoon.fandom.com/wiki/Keira_(DS)"]
+  },
+  {
+    "id": "mine-3-bottom",
+    "category": "mine",
+    "title": "Atteindre le fond de la 3e mine (étage 999)",
+    "summary": "Le 999e étage de la 3e mine est la deuxième condition pour ouvrir la 4e mine. Compte une vingtaine de minutes de descente.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-3"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Descendre les 999 étages",
+        "steps": [
+          "Emporte beaucoup de nourriture : les chutes vont jusqu’à 100 étages et coûtent de l’endurance.",
+          "Équipe si possible un chapeau de la Déesse (Goddess Hat), qui limite la perte d’endurance.",
+          "Au 999e étage, élimine les créatures."
+        ]
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan5/mining.php",
+      "https://fogu.com/hm6/chan5/mine_descent.php",
+      "https://fogu.com/hm6/chan5/mine3items.php"
+    ]
+  },
+  {
+    "id": "mine-access-4",
+    "category": "mine",
+    "title": "Ouvrir la 4e mine",
+    "summary": "La dernière mine (65 535 étages) s’ouvre avec l’événement de Carter, à condition d’avoir rencontré Keira et atteint le fond de la 3e mine avant ton mariage.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-3-keira-floor-255"
+      },
+      {
+        "type": "objective",
+        "id": "mine-3-bottom"
+      },
+      {
+        "type": "manual",
+        "label": "Avoir rempli ces conditions avant de te marier"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Aider Carter une dernière fois",
+        "steps": [
+          "Va au site de fouilles (Excavation Site, au nord-est de la vallée) très tôt le matin ou après 21 h, quand Carter y est seul.",
+          "Parle à Carter : il a besoin de ton marteau. Frappe le mur qu’il t’indique.",
+          "Une ouverture apparaît vers la mine suivante."
+        ],
+        "constraints": ["Très tôt le matin ou après 21 h"]
+      }
+    ],
+    "rewards": ["Accès aux Wonderful Stones (vœux de la Déesse)"],
+    "difficulty": 2,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": ["https://fogu.com/hm6/chan5/mining.php"]
+  },
+  {
+    "id": "mine-4-bottom",
+    "category": "mine",
+    "title": "Atteindre le fond de la 4e mine (étage 65 535)",
+    "summary": "Un défi d’endurance de plusieurs heures. La seule récompense est un événement aléatoire, et seulement si tu es mariée à Keira.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-4"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Descendre en grandes chutes",
+        "steps": [
+          "Fais le plein de Bodigizer XL et Turbojolt XL (Van) et équipe un Goddess Hat.",
+          "Cherche les trous invisibles : tu peux tomber de centaines d’étages d’un coup (300 au maximum).",
+          "Aux étages finissant par 00, une boutique de Thomas (très chère) se cache derrière un rocher.",
+          "Au 65 535e étage, bats les Dark Heroes : la Déesse (ou Guts si elle n’est pas libérée) te félicite."
+        ]
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan5/mining.php",
+      "https://fogu.com/hm6/chan5/mine_descent.php",
+      "https://fogu.com/hm6/chan5/mine4items.php"
+    ]
+  },
+  {
+    "id": "animaux-buy-first-chicken",
+    "category": "animaux",
+    "title": "Acheter ta première poule",
+    "summary": "Les poules pondent un œuf par jour si elles sont heureuses. On les achète par téléphone à Popuri.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "batiments-poultry-barn"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Commander à la Poultry Farm",
+        "steps": [
+          "Appelle Popuri (Poultry Farm) avec le téléphone de ta maison (11 h – 16 h, pas le dimanche).",
+          "Achète une poule (1 500 G) et de la nourriture pour volailles (Bird Feed, 10 G) : tu ne peux pas la produire toi-même.",
+          "Chaque jour, prends la poule dans tes bras et sors-la par beau temps pour monter son affection."
+        ],
+        "constraints": ["Téléphone : Poultry Farm, 11 h – 16 h", "Fermé le dimanche"],
+        "cost": "1 500 G"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "onboarding": true,
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan4/poultry.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php",
+      "https://harvestmoon.fandom.com/wiki/Chicken_(DS)"
+    ]
+  },
+  {
+    "id": "animaux-buy-first-duck",
+    "category": "animaux",
+    "title": "Acheter ton premier canard",
+    "summary": "Les canards vivent dans le poulailler mais demandent l’étang à canards. Ils pondent un œuf tous les 2 jours.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "batiments-poultry-barn"
+      },
+      {
+        "type": "objective",
+        "id": "batiments-duck-pond"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Commander à la Poultry Farm",
+        "steps": [
+          "Appelle Popuri (11 h – 16 h, pas le dimanche) et achète un canard.",
+          "Installe-le dans un poulailler (4 volailles max, poules et canards mélangés)."
+        ],
+        "constraints": ["Téléphone : Poultry Farm, 11 h – 16 h", "Fermé le dimanche"],
+        "cost": "2 000 G"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": ["https://fogu.com/hm6/chan4/poultry.php", "https://harvestmoon.fandom.com/wiki/Duck_(DS)"]
+  },
+  {
+    "id": "animaux-hatch-egg",
+    "category": "animaux",
+    "title": "Faire éclore un œuf",
+    "summary": "Place un œuf dans la couveuse du poulailler : un poussin naît 3 jours plus tard, et devient adulte en environ une semaine.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "animaux-buy-first-chicken"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Utiliser la couveuse",
+        "steps": [
+          "Prends un œuf (de n’importe quelle taille) de ta poule ou de ton canard.",
+          "Dans le poulailler, pose-le dans le bac à paille (couveuse). Il faut une place libre dans le poulailler.",
+          "Le poussin naît 3 jours plus tard."
+        ],
+        "tips": [
+          "Les bébés nés à la ferme ont plus de cœurs dès le départ et comptent pour le lutin Canary (15 naissances)."
+        ]
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan4/poultry.php",
+      "https://harvestmoon.fandom.com/wiki/Chicken_(DS)",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)"
+    ]
+  },
+  {
+    "id": "animaux-buy-first-cow",
+    "category": "animaux",
+    "title": "Acheter ta première vache",
+    "summary": "Rick vend des vaches (jeunes) qui deviennent adultes en 7 jours, puis donnent du lait chaque jour.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "batiments-livestock-barn"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Commander au Yodel Ranch",
+        "steps": [
+          "Plante de l’herbe (Fodder/Grass Seeds) pour le pâturage, ou achète du fourrage à Rick (20 G).",
+          "Appelle Rick (Yodel Ranch) au téléphone (10 h – 15 h, pas le dimanche) et achète une vache.",
+          "Elle arrive à l’entrée de ta ferme : pousse-la jusqu’à l’étable ou ton pâturage clôturé.",
+          "Les jours de pluie ou de neige, garde-la à l’intérieur et mets 1 fourrage par animal dans la mangeoire."
+        ],
+        "tips": [
+          "La couleur de la vache est aléatoire : sauvegarde avant d’appeler si tu en veux une précise."
+        ],
+        "constraints": ["Téléphone : Yodel Ranch, 10 h – 15 h", "Fermé le dimanche"],
+        "cost": "5 000 G"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "onboarding": true,
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan4/livestock.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php",
+      "https://harvestmoon.fandom.com/wiki/Cow_(DS)"
+    ]
+  },
+  {
+    "id": "animaux-buy-first-sheep",
+    "category": "animaux",
+    "title": "Acheter ton premier mouton",
+    "summary": "Rick vend des moutons adultes ; leur laine se tond tous les 8 jours.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "batiments-livestock-barn"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Commander au Yodel Ranch",
+        "steps": [
+          "Appelle Rick au téléphone (10 h – 15 h, pas le dimanche) et achète un mouton.",
+          "Pousse-le jusqu’à l’étable ; il partage l’étable avec les vaches (4 bêtes max).",
+          "Tonds-le avec les Wool Clippers quand sa laine a repoussé."
+        ],
+        "constraints": ["Téléphone : Yodel Ranch, 10 h – 15 h", "Fermé le dimanche"],
+        "cost": "4 000 G"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "onboarding": true,
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan4/livestock.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php",
+      "https://harvestmoon.fandom.com/wiki/Sheep_(DS)"
+    ]
+  },
+  {
+    "id": "animaux-first-calf-or-lamb",
+    "category": "animaux",
+    "title": "Faire naître un veau ou un agneau",
+    "summary": "Avec une Miracle Potion de Rick, une vache ou une brebis adulte attend un petit, qui naît au bout d’environ 21 jours.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "batiments-livestock-barn"
+      },
+      {
+        "type": "manual",
+        "label": "Avoir une vache adulte ou un mouton à pleine toison"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Utiliser une Miracle Potion",
+        "steps": [
+          "Appelle Rick (10 h – 15 h, pas le dimanche) et achète une Cow Miracle Potion (3 500 G) ou une Sheep Miracle Potion (3 000 G).",
+          "Verse-la sur l’animal adulte (le mouton doit avoir toute sa laine). Il passe dans le box de mise bas le lendemain.",
+          "Nourris-le à l’intérieur chaque jour pendant la gestation (environ 21 jours)."
+        ],
+        "constraints": ["Téléphone : Yodel Ranch, 10 h – 15 h", "Fermé le dimanche"],
+        "cost": "3 500 G (vache) ou 3 000 G (mouton)"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan4/livestock.php",
+      "https://harvestmoon.fandom.com/wiki/Cow_(DS)",
+      "https://harvestmoon.fandom.com/wiki/Sheep_(DS)"
+    ],
+    "notes": "Fogu indique 21 jours de gestation, le wiki 20 jours pour la vache."
+  },
+  {
+    "id": "animaux-get-horse",
+    "category": "animaux",
+    "title": "Recevoir le cheval",
+    "summary": "Après 1 000 objets expédiés, Takakura t’apporte un cheval adulte : tu peux le monter et ses sacoches servent de caisse d’expédition portable.",
+    "prerequisites": [
+      {
+        "type": "manual",
+        "label": "Avoir expédié 1 000 objets au total"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Expédier 1 000 objets",
+        "steps": [
+          "Mets tes récoltes, produits, poissons et objets ramassés dans la caisse d’expédition chaque jour.",
+          "Le matin qui suit le 1 000e objet, Takakura passe te livrer le cheval.",
+          "Place un objet dans ses sacoches pour faire apparaître le lutin Kevin."
+        ]
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une saison",
+    "relatedSpriteIds": ["fraw", "kevin"],
+    "onboarding": true,
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan4/pets.php",
+      "https://harvestmoon.fandom.com/wiki/Forget-Me-Not_Valley_(DS)",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)"
+    ]
+  },
+  {
+    "id": "cultures-plant-pasture-grass",
+    "category": "cultures",
+    "title": "Semer un pâturage (Grass)",
+    "summary": "L’herbe nourrit tes vaches et moutons dehors, et se coupe à la faucille pour faire du fourrage. Elle repousse chaque printemps.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Acheter des graines d’herbe",
+        "steps": [
+          "Appelle le Supermarché de Karen (9 h – 17 h, pas le mardi ni le dimanche) et achète des Fodder/Grass Seeds (500 G).",
+          "Laboure un carré de 3×3 à la houe et sème le sachet au centre. Pas besoin d’arroser l’herbe.",
+          "Coupe l’herbe mûre à la faucille pour obtenir du fourrage (stocké dans le silo)."
+        ],
+        "constraints": ["Printemps, été ou automne", "Fermé le mardi et le dimanche"],
+        "cost": "500 G le sachet"
+      }
+    ],
+    "availableSeasons": ["spring", "summer", "autumn"],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan4/livestock.php",
+      "https://fogu.com/hm6/chan8/index.php",
+      "https://fogu.com/hm6/chan7/telephoneshops.php"
+    ],
+    "notes": "Jours de fermeture du Supermarché alignés sur calendar.json : Fogu et GameRevolution indiquent mardi et dimanche, le wiki seulement le mardi."
+  },
+  {
+    "id": "cultures-level-up-crops",
+    "category": "cultures",
+    "title": "Faire monter le niveau d’une culture",
+    "summary": "En semant plusieurs fois les mêmes graines au même endroit, une culture peut gagner un niveau ; la Seed Maker transforme ensuite cette récolte en graines de niveau supérieur, vendues plus cher (jusqu’au niveau 100).",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "ferme-buy-seed-maker"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Superposer les graines et recycler la récolte",
+        "steps": [
+          "Sème plusieurs sachets de la même graine sur le même carré de 3×3.",
+          "Récolte : certaines plantes peuvent avoir gagné un niveau.",
+          "Mets la récolte de meilleur niveau dans la Seed Maker pour obtenir des graines de ce niveau, et recommence."
+        ],
+        "tips": [
+          "Les cultures de haut niveau rapportent plus à l’expédition, mais pas en cuisine ni en cadeau."
+        ]
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "medium",
+    "sources": ["https://harvestmoon.fandom.com/wiki/Crops_(DS)", "https://fogu.com/hm6/chan8/index.php"]
+  },
+  {
+    "id": "cultures-grow-mushrooms",
+    "category": "cultures",
+    "title": "Cultiver des champignons",
+    "summary": "Dans la champignonnière, pose du bois sur les palettes et sème des spores : Shiitake (Vesta, 3 000 G), ou Matsutake et Toadstool via la Seed Maker.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "batiments-mushroom-house"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Préparer les palettes",
+        "steps": [
+          "Pose un morceau de bois (Lumber) sur chacune des 6 palettes de la champignonnière.",
+          "Achète des spores de Shiitake chez Vesta (sa boutique ouvre de 16 h à 19 h, pas le lundi) ou fabrique des spores à partir de Matsutake/Toadstool.",
+          "Sème les spores sur le bois et arrose chaque jour. Premier Shiitake en environ 35 jours, puis récolte tous les 3 jours."
+        ],
+        "constraints": ["Boutique de Vesta : 16 h – 19 h", "Fermée le lundi"],
+        "cost": "3 000 G le sachet de Shiitake"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": ["https://fogu.com/hm6/chan8/fungushouse.php", "https://fogu.com/hm6/chan7/shoplist.php"]
+  },
+  {
+    "id": "cultures-basement-offseason",
+    "category": "cultures",
+    "title": "Cultiver hors saison au sous-sol",
+    "summary": "Les sous-sols de la maison sont des serres : avec le bon Seasonal Sun (3e mine), tu y fais pousser des cultures de printemps, d’été ou d’automne toute l’année.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "batiments-basement-1"
+      },
+      {
+        "type": "objective",
+        "id": "mine-access-3"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Installer un Seasonal Sun",
+        "steps": [
+          "Trouve un Spring Sun, Summer Sun ou Fall Sun dans les rochers de la 3e mine (étages finissant par 1, 2 ou 3).",
+          "Place-le dans la boîte saisonnière près de la porte du sous-sol.",
+          "Laboure, sème les graines de cette saison et arrose chaque jour (un point d’eau se trouve dans le dernier sous-sol construit)."
+        ],
+        "tips": [
+          "Retirer le Sun détruit les cultures qui y sont liées.",
+          "Les lutins ne peuvent ni arroser ni récolter au sous-sol."
+        ]
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan8/basements.php",
+      "https://fogu.com/hm6/chan5/mine3items.php",
+      "https://harvestmoon.fandom.com/wiki/Crops_(DS)"
+    ]
+  },
+  {
+    "id": "cultures-waterfall-field",
+    "category": "cultures",
+    "title": "Débloquer le champ derrière la cascade",
+    "summary": "Derrière la cascade se cache le champ « Super » où les cultures poussent plus vite, même en hiver. Il faut l’épée légendaire pour briser les rochers qui le bloquent.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-2-legendary-sword"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Briser les rochers à l’épée",
+        "steps": [
+          "Mets la Legendary Sword dans la case rouge (outil) de ton sac.",
+          "Va à la cascade, près du site de fouilles, place-toi face aux gros rochers et appuie sur A pour les briser.",
+          "Laboure et sème : les cultures y mûrissent 1 jour plus vite qu’un champ rapide (2 jours plus vite qu’à la ferme). Il faut arroser même quand il pleut."
+        ]
+      }
+    ],
+    "rewards": ["Champ à croissance super rapide, cultivable toute l’année"],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan8/fieldtypes.php",
+      "https://fogu.com/hm6/chan5/mining.php",
+      "https://harvestmoon.fandom.com/wiki/Forget-Me-Not_Valley_(DS)"
+    ],
+    "notes": "Le wiki parle d’une croissance « 2× plus rapide » ; Fogu détaille 1 jour de moins qu’un champ rapide."
+  },
+  {
+    "id": "argent-dig-excavation-jewelry",
+    "category": "argent",
+    "title": "Déterrer des bijoux au site de fouilles",
+    "summary": "Dès le début, le sol du site de fouilles de Carter contient des bijoux qui se vendent 2 000 G pièce : le meilleur moyen de démarrer.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Creuser à la houe (avec sauvegarde)",
+        "steps": [
+          "Va au site de fouilles (nord-est de la vallée) et sauvegarde dès l’entrée.",
+          "Creuse le sol à la houe jusqu’à trouver un bijou (Earrings, Brooch, Bracelet ou Necklace).",
+          "Recharge ta sauvegarde, va directement à l’endroit du bijou et déterre-le d’un seul coup. Sauvegarde et recommence.",
+          "Expédie les bijoux (2 000 G pièce)."
+        ],
+        "tips": [
+          "Les objets du sol changent chaque fois que tu ressors du site.",
+          "Skin Lotion, Sunblock, Facial Pack et Dress ne valent qu’environ 50 G."
+        ]
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": ["https://fogu.com/hm6/chan7/money.php", "https://fogu.com/hm6/chan5/mining.php"]
+  },
+  {
+    "id": "argent-sell-casino-prizes-van",
+    "category": "argent",
+    "title": "Revendre des lots du casino à Van",
+    "summary": "Échange des médailles contre des lots du Sprite Casino puis revends-les à Van, qui les paie très cher ; les lots réapparaissent ensuite au casino.",
+    "prerequisites": [
+      {
+        "type": "sprite",
+        "id": "roller"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Échanger puis revendre",
+        "steps": [
+          "Au Sprite Casino (au fond de l’arbre des lutins, 10 h – 18 h), échange tes médailles contre la Teleport Stone (1 000 médailles) ou le Truth Bangle (2 000 médailles).",
+          "Va voir Van à l’étage de l’Inner Inn les jours finissant par 3 ou 8 (10 h – 18 h).",
+          "Vends-lui le lot : environ 5 000 G pour la Teleport Stone, au moins 11 000 G pour le Truth Bangle."
+        ],
+        "constraints": ["Van : jours finissant par 3 ou 8", "Entre 10 h et 18 h"]
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "relatedSpriteIds": ["roller"],
+    "confidence": "medium",
+    "sources": ["https://fogu.com/hm6/chan7/money.php", "https://fogu.com/hm6/chan7/shoplist.php"],
+    "notes": "Prix de rachat donnés par Fogu pour la version américaine ; non vérifiés pour la version EU."
+  },
+  {
+    "id": "argent-mine-precious-gems",
+    "category": "argent",
+    "title": "Miner des pierres précieuses de grande valeur",
+    "summary": "Après l’étage 101 de la 2e mine, l’Alexandrite et le Pink Diamond se vendent 10 000 G pièce.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-2"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Casser les rochers aux bons étages",
+        "steps": [
+          "Descends sous l’étage 101 de la 2e mine.",
+          "Pink Diamond : casse les rochers tous les 3 étages (103, 106…). Alexandrite : tous les 10 étages (110, 120…).",
+          "Expédie-les ou garde-les en cadeau (Keira et Gray les adorent)."
+        ]
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "high",
+    "sources": ["https://fogu.com/hm6/chan5/mine2items.php"]
+  },
+  {
+    "id": "argent-buy-cannery",
+    "category": "argent",
+    "title": "Faire fabriquer la conserverie (Cannery)",
+    "summary": "La Cannery augmente de 150 % la valeur de ce que tu y jettes ; les objets partent ensuite automatiquement à l’expédition.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "batiments-maker-barn"
+      },
+      {
+        "type": "objective",
+        "id": "mine-access-3"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Commander à Gray",
+        "steps": [
+          "Trouve un morceau d’Adamantite dans les rochers de la 3e mine (casse-les au marteau).",
+          "Appelle la forge Saibara (10 h – 16 h, pas le jeudi) : Gray fabrique la machine contre l’Adamantite et 20 000 G.",
+          "La machine s’installe dans ta Maker Barn (6 emplacements). Tiens l’objet en main devant la machine et appuie sur A pour l’y jeter (tu peux jeter une pile entière).",
+          "Jette tes récoltes dans la Cannery au lieu de la caisse d’expédition."
+        ],
+        "constraints": ["Téléphone : forge Saibara, 10 h – 16 h", "Fermé le jeudi"],
+        "cost": "20 000 G + 1 Adamantite"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "medium",
+    "sources": ["https://fogu.com/hm6/chan2/makers.php", "https://fogu.com/hm6/chan7/telephoneshops.php"],
+    "notes": "« 150 % » est la formulation de Fogu (on ne sait pas s’il s’agit de ×1,5 ou de +150 %)."
+  }
+]

@@ -1,0 +1,2107 @@
+[
+  {
+    "id": "celia",
+    "name": "Celia",
+    "nameFr": null,
+    "role": "Prétendante, employée de la ferme de Vesta",
+    "location": "Ferme de Vesta",
+    "birthday": {
+      "season": "spring",
+      "day": 6
+    },
+    "bachelorette": true,
+    "lovedGifts": [
+      "Cake",
+      "Curry dishes (sauf Curry Bun)",
+      "Yarn",
+      "Perfume",
+      "Diamond",
+      "Pink Diamond",
+      "Risotto",
+      "Dry Curry",
+      "Doria",
+      "Gratin",
+      "Elli Leaves"
+    ],
+    "likedGifts": [
+      "Flowers",
+      "Juices",
+      "Apple",
+      "Grape",
+      "Milk",
+      "Cookies",
+      "Cheesecake",
+      "Apple Pie",
+      "Pudding",
+      "Ice Cream"
+    ],
+    "dislikedGifts": [
+      "Pickled Cucumber (horreur)",
+      "Lumber",
+      "Ores",
+      "Toadstool",
+      "Emerald",
+      "Ruby",
+      "Topaz",
+      "Weed",
+      "Stone",
+      "Pickled Turnips"
+    ],
+    "description": "Jeune fermière douce et fragile de santé. Elle travaille aux champs de Vesta et se promène à la source de la Déesse le lundi. Son rival est Marlin.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Celia_(DS)",
+      "https://fogu.com/hm6/chan3/celia.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Cadeau favori (+800 LP) : Cake. Pickled Cucumber fait perdre 5000 LP."
+  },
+  {
+    "id": "flora",
+    "name": "Flora",
+    "nameFr": null,
+    "role": "Prétendante, assistante archéologue",
+    "location": "Tente de fouilles (zone de la cascade)",
+    "birthday": {
+      "season": "winter",
+      "day": 16
+    },
+    "bachelorette": true,
+    "lovedGifts": [
+      "Rainbow Curry",
+      "Curry dishes",
+      "Fish Fossil",
+      "Diamond",
+      "Pink Diamond",
+      "Lithograph",
+      "Dry Curry"
+    ],
+    "likedGifts": [
+      "Crops",
+      "Fruits",
+      "Matsutake",
+      "Milk",
+      "Cheese",
+      "Wool",
+      "Fish",
+      "Seasonal Sun",
+      "Wine",
+      "Chocolate",
+      "Pizza",
+      "Sushi"
+    ],
+    "dislikedGifts": [
+      "Red Grass (horreur)",
+      "Toadstool",
+      "Pirate Treasure",
+      "Perfume",
+      "Weed",
+      "Branch",
+      "Golden Lumber",
+      "Fodder",
+      "Bird Feed"
+    ],
+    "description": "Assistante du professeur Carter, passionnée de fouilles et ceinture noire d'arts martiaux. Son jour de repos est le mardi. Son rival est Carter.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Flora_(DS)",
+      "https://fogu.com/hm6/chan3/flora.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Cadeau favori (+800 LP) : Rainbow Curry. Red Grass fait perdre 5000 LP. Son événement cœur bleu ouvre la source chaude près du cirque."
+  },
+  {
+    "id": "lumina",
+    "name": "Lumina",
+    "nameFr": null,
+    "role": "Prétendante, pianiste",
+    "location": "Manoir de Romana (Villa)",
+    "birthday": {
+      "season": "spring",
+      "day": 29
+    },
+    "bachelorette": true,
+    "lovedGifts": [
+      "Relax Tea",
+      "Perfume",
+      "Diamond",
+      "Pink Diamond",
+      "Omelet",
+      "Omelet Rice",
+      "Risotto",
+      "Dry Curry",
+      "Rainbow Curry",
+      "Baked Yam",
+      "Doria",
+      "Gratin",
+      "Cake",
+      "Chocolate Cake",
+      "Strawberry Milk",
+      "Relaxtea Leaves"
+    ],
+    "likedGifts": [
+      "Moondrop Flower",
+      "Toy Flower",
+      "Pinkcat Flower",
+      "Wool",
+      "Yarn",
+      "Jewelry",
+      "Chocolate",
+      "Cookies",
+      "Apple Pie",
+      "Pudding"
+    ],
+    "dislikedGifts": [
+      "Elli Leaves (horreur)",
+      "Toadstool",
+      "Pirate Treasure",
+      "Fish Fossil",
+      "Weed",
+      "Stone",
+      "Fodder",
+      "Stir Fry",
+      "Pizza",
+      "Vegetable Juice"
+    ],
+    "description": "Petite-fille de Romana, pianiste bien élevée qui vit au manoir avec le majordome Sebastian. Elle aime se promener à la source et à la plage par beau temps. Son rival est Rock.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Lumina_(DS)",
+      "https://fogu.com/hm6/chan3/lumina.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Cadeau favori (+800 LP) : Relax Tea. Elli Leaves fait perdre 5000 LP."
+  },
+  {
+    "id": "muffy",
+    "name": "Muffy",
+    "nameFr": null,
+    "role": "Prétendante, serveuse du Blue Bar",
+    "location": "Blue Bar",
+    "birthday": {
+      "season": "summer",
+      "day": 5
+    },
+    "bachelorette": true,
+    "lovedGifts": [
+      "Apple Pie",
+      "Jewelry",
+      "Diamond",
+      "Wine",
+      "Matsutake",
+      "Stir Fry",
+      "Curry Rice",
+      "Baked Yam",
+      "Pizza",
+      "Cake",
+      "Chocolate Cake",
+      "Butter",
+      "Pumpkin Pudding",
+      "Salad",
+      "Ice Cream"
+    ],
+    "likedGifts": [
+      "Fruits",
+      "Moondrop Flower",
+      "Chocolate",
+      "Bread",
+      "Pancake",
+      "Hot Chocolate",
+      "Cheesecake",
+      "Pudding",
+      "Sandwich"
+    ],
+    "dislikedGifts": [
+      "Small Fish (horreur)",
+      "Ores",
+      "Gems (sauf Diamond)",
+      "Toadstool",
+      "Fish Bones",
+      "Weed",
+      "Stone",
+      "Fish Stew",
+      "Elli Leaves"
+    ],
+    "description": "Serveuse enjouée du Blue Bar, qui cache une peur d'avoir le cœur brisé. Le jour, elle traîne à la source ou sur le pont ; le mercredi elle part en ville. Son rival est Griffin.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Muffy_(DS)",
+      "https://fogu.com/hm6/chan3/muffy.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Cadeau favori (+800 LP) : Apple Pie. Small Fish fait perdre 5000 LP."
+  },
+  {
+    "id": "nami",
+    "name": "Nami",
+    "nameFr": null,
+    "role": "Prétendante, voyageuse",
+    "location": "Inner Inn (l'auberge)",
+    "birthday": {
+      "season": "autumn",
+      "day": 24
+    },
+    "bachelorette": true,
+    "lovedGifts": [
+      "Gratin",
+      "Wild Grape",
+      "Grape",
+      "Grape Juice",
+      "Red Magic Flower",
+      "Seasonal Sun",
+      "Lithograph",
+      "Curry Bread",
+      "Tempura",
+      "Hot Chocolate",
+      "Stew",
+      "Curry Rice",
+      "Apple Pie"
+    ],
+    "likedGifts": [
+      "Fish",
+      "Wine",
+      "Omelet",
+      "Doughnut",
+      "Risotto",
+      "Relax Tea",
+      "Cookies",
+      "Fruit Juice",
+      "Baked Yam"
+    ],
+    "dislikedGifts": [
+      "Grape Jam (horreur)",
+      "Wool",
+      "Apple Jam",
+      "Strawberry Jam",
+      "Jewelry",
+      "Diamond",
+      "Toadstool",
+      "Vegetable Juice",
+      "Fodder"
+    ],
+    "description": "Voyageuse réservée qui loge à l'Inner Inn et considère Ruby comme sa mère. Son emploi du temps est irrégulier (auberge, plage, étang de la tortue, Blue Bar). Son rival est Gustafa.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Nami_(DS)",
+      "https://fogu.com/hm6/chan3/nami.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Cadeau favori (+800 LP) : Gratin. Grape Jam fait perdre 5000 LP. Attention : elle n'aime pas les bijoux ni les diamants."
+  },
+  {
+    "id": "harvest-goddess",
+    "name": "Harvest Goddess",
+    "nameFr": null,
+    "role": "Déesse des récoltes, prétendante spéciale",
+    "location": "Étang de la Déesse",
+    "birthday": {
+      "season": "spring",
+      "day": 8
+    },
+    "bachelorette": true,
+    "lovedGifts": ["Strawberry", "Pineapple"],
+    "likedGifts": ["Crops", "Flowers", "Orange", "Eggs", "Milk", "Relax Tea Leaves"],
+    "dislikedGifts": [
+      "Boot (horreur)",
+      "Pirate Treasure",
+      "Fish Fossil",
+      "Fish Bones",
+      "Empty Can",
+      "Gold Lumber",
+      "Plats cuisinés (sauf Steamed Egg)",
+      "Minerais et gemmes"
+    ],
+    "description": "Changée en pierre par la Witch Princess, elle revient quand tu as retrouvé 60 lutins. Pour lui offrir un cadeau, jette-le dans son étang. Même mariée, elle continue de vivre dans l'étang.",
+    "confidence": "medium",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Goddess_(DS)",
+      "https://fogu.com/hm6/chan3/goddess.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Mariage réputé impossible dans la version nord-américaine (Buckwheat Flour quasi introuvable, Choker/Necklace non comptée dans la liste de la mine). Aucune source ne confirme si ces bugs existent dans la version européenne."
+  },
+  {
+    "id": "witch-princess",
+    "name": "Witch Princess",
+    "nameFr": null,
+    "role": "Sorcière, prétendante spéciale",
+    "location": "Cabane à côté du manoir de Romana",
+    "birthday": {
+      "season": "winter",
+      "day": 29
+    },
+    "bachelorette": true,
+    "lovedGifts": [
+      "Rainbow Curry",
+      "Toadstool",
+      "Red Grass",
+      "Gold Lumber",
+      "Ultimate Curry",
+      "Finest Curry"
+    ],
+    "likedGifts": [
+      "Colored Grasses",
+      "Gems",
+      "Curry dishes",
+      "Pirate Treasure",
+      "Fish Fossil",
+      "Seasonal Sun",
+      "Lithograph",
+      "Fish Bones",
+      "Empty Can",
+      "Bodigizer",
+      "Turbojolt"
+    ],
+    "dislikedGifts": [
+      "Peach (horreur)",
+      "Boot",
+      "Fodder",
+      "Bird Feed",
+      "Peach Juice",
+      "Jewelry",
+      "Perfume",
+      "Dog Ball"
+    ],
+    "description": "Rivale espiègle de la Déesse : c'est elle qui l'a changée en pierre et a dispersé les lutins. Elle récompense les mauvaises actions (laisser mourir ses animaux, jeter des objets par terre, s'évanouir…).",
+    "confidence": "medium",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Witch_Princess_(DS)",
+      "https://fogu.com/hm6/chan3/witch.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Mariage impossible dans la version nord-américaine 1.0 (les animaux morts ne sont pas comptés), corrigé dans certaines versions ultérieures. Statut de la version européenne non confirmé."
+  },
+  {
+    "id": "keira",
+    "name": "Keira",
+    "nameFr": null,
+    "role": "Princesse endormie, prétendante spéciale",
+    "location": "Mine 3, étage 255",
+    "birthday": {
+      "season": "winter",
+      "day": 26
+    },
+    "bachelorette": true,
+    "lovedGifts": ["Golden Lumber", "Alexandrite", "Mythic Stone", "Diamond", "Pink Diamond", "Seasonal Sun"],
+    "likedGifts": [
+      "Mystrile",
+      "Orichalc",
+      "Adamantite",
+      "Moonstone",
+      "Sandrose",
+      "Emerald",
+      "Ruby",
+      "Topaz",
+      "Ultimate Curry",
+      "Finest Curry",
+      "Relax Tea",
+      "Relax Tea Leaves"
+    ],
+    "dislikedGifts": [
+      "Riceballs (horreur)",
+      "Crops",
+      "Fruits",
+      "Fish",
+      "Plats cuisinés (sauf ceux aimés)",
+      "Dairy products",
+      "Toadstool",
+      "Weed",
+      "Stone"
+    ],
+    "description": "Princesse muette (sort de la Witch Princess) qui t'offre la Legendary Sword au fond de la 2e mine, puis dort au 255e étage de la 3e mine. Ses événements de cœur sont des « commandes » écrites sur le panneau près de son lit.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Keira_(DS)",
+      "https://fogu.com/hm6/chan3/keira.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Elle ne participe pas au Starry Night Festival."
+  },
+  {
+    "id": "leia",
+    "name": "Leia",
+    "nameFr": null,
+    "role": "Sirène, prétendante spéciale",
+    "location": "Sous-sol du laboratoire de Daryl",
+    "birthday": {
+      "season": "summer",
+      "day": 30
+    },
+    "bachelorette": true,
+    "lovedGifts": [
+      "Large Fish",
+      "Medium Fish",
+      "Red Magic Flower",
+      "Jewelry",
+      "Perfume",
+      "Diamond",
+      "Pink Diamond",
+      "Grilled Fish",
+      "Sashimi"
+    ],
+    "likedGifts": [
+      "Small Fish",
+      "Toy Flower",
+      "Blue Magic Flower",
+      "Yarn",
+      "Dress",
+      "Fish Bones",
+      "Fish Stew",
+      "Sushi"
+    ],
+    "dislikedGifts": [
+      "Fodder (horreur)",
+      "Colored Grasses",
+      "Ores",
+      "Gems (sauf diamants)",
+      "Toadstool",
+      "Weed",
+      "Stone",
+      "Fruits",
+      "Vegetables"
+    ],
+    "description": "Sirène recueillie par Daryl après une tempête, elle vit dans une baignoire au sous-sol de son laboratoire. La porte du sous-sol reste fermée tant que Daryl n'a pas 100 points d'amitié. Une fois mariée, elle vit dans l'étang de ta ferme.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Leia_(DS)",
+      "https://fogu.com/hm6/chan3/leia.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Le wiki affiche aussi le nom « Leah » dans une galerie ; on garde « Leia », titre de sa page."
+  },
+  {
+    "id": "ann",
+    "name": "Ann",
+    "nameFr": null,
+    "role": "Prétendante de Mineral Town (connexion GBA)",
+    "location": "Visite le vendredi (Inner Inn, cascade)",
+    "birthday": {
+      "season": "summer",
+      "day": 17
+    },
+    "bachelorette": true,
+    "euUnavailable": true,
+    "lovedGifts": [
+      "Cheese Fondue",
+      "Curry dishes",
+      "Diamond",
+      "Pink Diamond",
+      "Chocolate",
+      "Rice Cake",
+      "Cake",
+      "Apple Pie",
+      "Ice Cream"
+    ],
+    "dislikedGifts": ["Gold Lumber (horreur)", "Ores", "Toadstool", "Weed", "Stone"],
+    "description": "Venait de Mineral Town le vendredi, uniquement grâce à la cartouche Friends of Mineral Town branchée dans le port GBA.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Ann_(DS)",
+      "https://fogu.com/hm6/chan3/index.php",
+      "https://fogu.com/hm6/chan1/gbaconnecting.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Version EU : la connexion GBA a été retirée, Ann ne vient jamais dans la vallée et ne peut pas être épousée. Même en version US, l'épouser termine la partie."
+  },
+  {
+    "id": "elli",
+    "name": "Elli",
+    "nameFr": null,
+    "role": "Prétendante de Mineral Town (connexion GBA), infirmière",
+    "location": "Visite le mercredi (clinique, étang de la Déesse)",
+    "birthday": {
+      "season": "spring",
+      "day": 16
+    },
+    "bachelorette": true,
+    "euUnavailable": true,
+    "lovedGifts": [
+      "Moon Dumpling",
+      "Jewelry",
+      "Flowers (sauf Moondrop)",
+      "Strawberry",
+      "Milk",
+      "Diamond",
+      "Hot Milk",
+      "Strawberry Milk",
+      "Sponge Cake",
+      "Elli Leaves"
+    ],
+    "dislikedGifts": ["Tomato Juice (horreur)", "Toadstool", "Pirate Treasure", "Fish Fossil"],
+    "description": "Infirmière de Mineral Town qui accompagnait le Dr Trent le mercredi, uniquement avec la connexion GBA.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Elli_(DS)",
+      "https://fogu.com/hm6/chan1/gbaconnecting.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Version EU : connexion GBA retirée, Elli n'apparaît pas et ne peut pas être épousée."
+  },
+  {
+    "id": "karen",
+    "name": "Karen",
+    "nameFr": null,
+    "role": "Prétendante de Mineral Town (connexion GBA), gérante du Supermarket",
+    "location": "Supermarché de Mineral Town (par téléphone)",
+    "birthday": {
+      "season": "autumn",
+      "day": 15
+    },
+    "bachelorette": true,
+    "lovedGifts": [
+      "Pizza",
+      "Bamboo Shoots",
+      "Matsutake",
+      "Cheese",
+      "Diamond",
+      "Pink Diamond",
+      "Wine",
+      "Tempura",
+      "Risotto",
+      "Sushi"
+    ],
+    "dislikedGifts": ["Elli Leaves (horreur)", "Ores", "Toadstool", "Yogurt", "Wool", "Fodder"],
+    "description": "Tient le Supermarket de Mineral Town, joignable par le téléphone de ta maison (graines, ingrédients, Blue Feather…). Elle ne venait en visite le mardi qu'avec la connexion GBA.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Karen_(DS)",
+      "https://harvestmoon.fandom.com/wiki/Supermarket_(DS)",
+      "https://fogu.com/hm6/chan1/gbaconnecting.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Version EU : elle reste présente comme commerçante au téléphone, mais ne vient jamais dans la vallée : impossible de la courtiser ou de l'épouser.",
+    "marriageUnavailableEu": true
+  },
+  {
+    "id": "mary",
+    "name": "Mary",
+    "nameFr": null,
+    "role": "Prétendante de Mineral Town (connexion GBA), bibliothécaire",
+    "location": "Visite le lundi (manoir de Romana)",
+    "birthday": {
+      "season": "winter",
+      "day": 20
+    },
+    "bachelorette": true,
+    "euUnavailable": true,
+    "lovedGifts": [
+      "Relax Tea",
+      "Chocolate",
+      "Wild Grape",
+      "Matsutake",
+      "Grape",
+      "Diamond",
+      "Lithograph",
+      "Grape Juice",
+      "Raisin Bread",
+      "Elli Leaves"
+    ],
+    "dislikedGifts": [
+      "Buckwheat Chips (horreur)",
+      "Pirate Treasure",
+      "Fish Fossil",
+      "Weed",
+      "Stone",
+      "Golden Lumber"
+    ],
+    "description": "Bibliothécaire de Mineral Town, amie de Lumina ; elle ne venait au manoir le lundi qu'avec la connexion GBA.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Mary_(DS)",
+      "https://fogu.com/hm6/chan1/gbaconnecting.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Version EU : connexion GBA retirée, Mary n'apparaît pas et ne peut pas être épousée."
+  },
+  {
+    "id": "popuri",
+    "name": "Popuri",
+    "nameFr": null,
+    "role": "Prétendante de Mineral Town (connexion GBA), gère la Poultry Farm",
+    "location": "Poultry Farm de Mineral Town (par téléphone)",
+    "birthday": {
+      "season": "summer",
+      "day": 3
+    },
+    "bachelorette": true,
+    "lovedGifts": [
+      "Omelet Rice",
+      "Jewelry",
+      "Apple",
+      "Strawberry",
+      "Eggs",
+      "Diamond",
+      "Chocolate",
+      "Pancake",
+      "Cookies",
+      "Cake",
+      "Apple Pie",
+      "Ice Cream"
+    ],
+    "dislikedGifts": [
+      "Wine (horreur)",
+      "Colored Grasses",
+      "Medicine",
+      "Toadstool",
+      "Fodder",
+      "Wild Grape Wine"
+    ],
+    "description": "Vend poules, canards et nourriture par téléphone. Elle passe chez toi la veille des festivals des canards et des poules et fait partie des enfants du Pumpkin Festival. Ses visites du dimanche n'existaient qu'avec la connexion GBA.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Popuri_(DS)",
+      "https://harvestmoon.fandom.com/wiki/Poultry_Farm_(DS)",
+      "https://fogu.com/hm6/chan1/gbaconnecting.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Version EU : elle reste présente (téléphone, festivals), mais ne peut pas être courtisée ni épousée.",
+    "marriageUnavailableEu": true
+  },
+  {
+    "id": "carter",
+    "name": "Carter",
+    "nameFr": null,
+    "role": "Archéologue, rival de Flora",
+    "location": "Tente et site de fouilles",
+    "birthday": {
+      "season": "spring",
+      "day": 11
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Candied Potato",
+      "Lithograph",
+      "Stir Fry",
+      "Cheese Fondue",
+      "Buckwheat Noodles",
+      "Vegetable Juice",
+      "Cheese Steamed Bun",
+      "Matsutake Rice",
+      "Sashimi"
+    ],
+    "likedGifts": [
+      "Matsutake",
+      "Eggplant",
+      "Cheese",
+      "Wool",
+      "Seasonal Sun",
+      "Wine",
+      "Grilled Fish",
+      "Pizza",
+      "Salad",
+      "Sushi"
+    ],
+    "dislikedGifts": [
+      "Ultimate Curry (horreur)",
+      "Toadstool",
+      "Shiitake",
+      "Curry dishes",
+      "Baked Yam",
+      "Weed",
+      "Stone"
+    ],
+    "description": "Archéologue passionné qui te laisse fouiller sur son site et garder ce que tu trouves. Il ouvre les mines au fil de ses événements. Repos le mardi.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Carter_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Si leurs 4 événements de rival se produisent, il épouse Flora."
+  },
+  {
+    "id": "griffin",
+    "name": "Griffin",
+    "nameFr": null,
+    "role": "Patron du Blue Bar, rival de Muffy",
+    "location": "Blue Bar",
+    "birthday": {
+      "season": "summer",
+      "day": 13
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Fish Stew",
+      "Red Magic Flower",
+      "Fish",
+      "Wine",
+      "Grilled Fish",
+      "Porridge",
+      "Stew",
+      "Sushi",
+      "Sashimi",
+      "Elli Leaves"
+    ],
+    "likedGifts": ["Ores", "Curry dishes", "Eggs", "Perfume", "Gems", "Rice Cake", "Tempura", "Baked Yam"],
+    "dislikedGifts": [
+      "Risotto (horreur)",
+      "Toadstool",
+      "Pirate Treasure",
+      "Lithograph",
+      "Weed",
+      "Gratin",
+      "Apple Pie",
+      "Butter"
+    ],
+    "description": "Barman décontracté et guitariste, il tient le Blue Bar (ouvert le soir, fermé le mercredi).",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Griffin_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Si leurs 4 événements de rival se produisent, il épouse Muffy."
+  },
+  {
+    "id": "gustafa",
+    "name": "Gustafa",
+    "nameFr": null,
+    "role": "Musicien nomade, rival de Nami",
+    "location": "Yourte (zone du marais)",
+    "birthday": {
+      "season": "spring",
+      "day": 3
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Hot Milk",
+      "Popcorn",
+      "Omelet Rice",
+      "French Toast",
+      "Boiled Egg",
+      "Rainbow Curry",
+      "Ultimate Curry",
+      "Finest Curry",
+      "Pizza",
+      "Pickled Turnips",
+      "Pickled Cucumber"
+    ],
+    "likedGifts": ["Curry dishes", "Flowers", "Ores", "Gems", "Jewelry", "Milk", "Peach", "Rice Cake"],
+    "dislikedGifts": [
+      "Sashimi (horreur)",
+      "Toadstool",
+      "Fish",
+      "Pirate Treasure",
+      "Grilled Fish",
+      "Fish Stew",
+      "Sushi"
+    ],
+    "description": "Musicien bohème qui cherche l'inspiration à l'étang de la tortue ou près des moulins de Vesta, et passe ses soirées au Blue Bar.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Gustafa_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Si leurs 4 événements de rival se produisent, il épouse Nami."
+  },
+  {
+    "id": "marlin",
+    "name": "Marlin",
+    "nameFr": null,
+    "role": "Frère de Vesta, rival de Celia",
+    "location": "Ferme de Vesta",
+    "birthday": {
+      "season": "spring",
+      "day": 24
+    },
+    "bachelorette": false,
+    "lovedGifts": ["Elli Leaves", "Wine", "Rice Cake", "Wild Grape Wine", "Roasted Rice Cake"],
+    "likedGifts": ["Fruits", "Stir Fry", "Curry dishes", "Apple Pie", "Juices", "Raisin Bread"],
+    "dislikedGifts": [
+      "Butter (horreur)",
+      "Toadstool",
+      "Colored Grasses",
+      "Tempura",
+      "Weed",
+      "Stone",
+      "Fodder"
+    ],
+    "description": "Fermier taciturne et de santé fragile, il travaille sur la ferme de sa sœur Vesta.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Marlin_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Si leurs 4 événements de rival se produisent, il épouse Celia."
+  },
+  {
+    "id": "rock",
+    "name": "Rock",
+    "nameFr": null,
+    "role": "Fils de Ruby, rival de Lumina",
+    "location": "Inner Inn (l'auberge)",
+    "birthday": {
+      "season": "spring",
+      "day": 9
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Cheese Fondue",
+      "Jewelry",
+      "Matsutake",
+      "Cheese",
+      "Yogurt",
+      "Perfume",
+      "Diamond",
+      "French Fries",
+      "Risotto",
+      "Doria",
+      "Gratin",
+      "Butter"
+    ],
+    "likedGifts": ["Fruits", "Wine", "Chocolate", "Pizza", "Cheesecake", "Juices", "Salad"],
+    "dislikedGifts": [
+      "Elli Leaves (horreur)",
+      "Toadstool",
+      "Mythic Stone",
+      "Lithograph",
+      "Bodigizer",
+      "Turbojolt",
+      "Pickled Turnips"
+    ],
+    "description": "Fils oisif et dragueur de Ruby, qui vit à l'Inner Inn sans jamais aider sa mère.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Rock_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Si leurs 4 événements de rival se produisent, il épouse Lumina."
+  },
+  {
+    "id": "vesta",
+    "name": "Vesta",
+    "nameFr": null,
+    "role": "Fermière, tient la boutique de graines",
+    "location": "Ferme de Vesta",
+    "birthday": {
+      "season": "summer",
+      "day": 28
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Pinkcat Flower",
+      "Magic Flowers",
+      "Perfume",
+      "Diamond",
+      "Porridge",
+      "Curry dishes",
+      "Gratin",
+      "Strawberry Milk",
+      "Lattes"
+    ],
+    "likedGifts": [
+      "Moondrop Flower",
+      "Toy Flower",
+      "Milk",
+      "Ores",
+      "Gems",
+      "Stir Fry",
+      "Risotto",
+      "Stew",
+      "Salad"
+    ],
+    "dislikedGifts": [
+      "Wine",
+      "Wild Grape Wine",
+      "Toadstool",
+      "Golden Lumber",
+      "Fish Bones",
+      "Weed",
+      "Fodder"
+    ],
+    "description": "Fermière au franc-parler, seule boutique permanente de la vallée : elle vend les graines (dont les graines d'arbres fruitiers) de 16 h à 19 h, sauf le lundi où elle part vendre à Mineral Town.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Vesta_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source)."
+  },
+  {
+    "id": "galen",
+    "name": "Galen",
+    "nameFr": null,
+    "role": "Retraité, pêcheur",
+    "location": "Maison sur la colline",
+    "birthday": {
+      "season": "winter",
+      "day": 9
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Pirate Treasure",
+      "Fish Fossil",
+      "Grilled Fish",
+      "Fish Stew",
+      "Noodles",
+      "Buckwheat Noodles",
+      "Stew",
+      "Pickled Turnips",
+      "Sushi",
+      "Sashimi",
+      "Elli Leaves"
+    ],
+    "likedGifts": ["Fruits", "Vegetables", "Fish", "Rice Cake", "Tempura", "Moon Dumpling"],
+    "dislikedGifts": ["Toadstool", "Fish Bones", "Empty Can", "Boot", "Fodder", "Risotto", "Doria", "Gratin"],
+    "description": "Vieil homme bourru mais gentil qui vit avec Nina. C'est lui qui te donne la canne à pêche (chez lui, le samedi).",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Galen_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php",
+      "https://harvestmoon.fandom.com/wiki/Fishing_(DS)"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source)."
+  },
+  {
+    "id": "nina",
+    "name": "Nina",
+    "nameFr": null,
+    "role": "Retraitée, sage-femme",
+    "location": "Maison sur la colline",
+    "birthday": {
+      "season": "spring",
+      "day": 28
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Wool",
+      "Yarn",
+      "Diamond",
+      "Pink Diamond",
+      "Boiled Spinach",
+      "Bodigizer",
+      "Turbojolt",
+      "Pickled Turnips",
+      "Pickled Cucumber",
+      "Elli Leaves"
+    ],
+    "likedGifts": [
+      "Fruits",
+      "Vegetables",
+      "Flowers",
+      "Colored Grasses",
+      "Ores",
+      "Gems",
+      "Rice Cake",
+      "Moon Dumpling"
+    ],
+    "dislikedGifts": ["Toadstool", "Pirate Treasure", "Fish Fossil", "Chocolate", "Mayonnaise", "Perfume"],
+    "description": "Vieille dame active et amoureuse de la nature, souvent près de l'étang de la tortue. Avec au moins 200 points d'amitié, elle tricote la chaussette du Stocking Festival si tu lui offres du Yarn en hiver.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Nina_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php",
+      "https://fogu.com/hm6/chan6/festivals_winter.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source)."
+  },
+  {
+    "id": "hardy",
+    "name": "Hardy",
+    "nameFr": null,
+    "role": "Médecin",
+    "location": "Maison n° 3 (rangée de maisons)",
+    "birthday": {
+      "season": "spring",
+      "day": 12
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Matsutake",
+      "Toadstool",
+      "Colored Grasses",
+      "Fish",
+      "Wine",
+      "Rice Cake",
+      "Stir Fry",
+      "Grilled Fish",
+      "Fish Stew",
+      "Vegetable Juice",
+      "Sushi",
+      "Sashimi",
+      "Elli Leaves"
+    ],
+    "likedGifts": ["Ores", "Gems", "Boiled Spinach", "Boiled Egg", "Porridge", "Salad"],
+    "dislikedGifts": [
+      "Mayonnaise",
+      "Pirate Treasure",
+      "Fish Bones",
+      "Stone",
+      "Fodder",
+      "French Fries",
+      "Curry dishes",
+      "Butter"
+    ],
+    "description": "Médecin de la vallée et de Romana, qu'il visite le samedi. Il t'annonce l'arrivée d'un bébé.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Hardy_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source)."
+  },
+  {
+    "id": "daryl",
+    "name": "Daryl",
+    "nameFr": null,
+    "role": "Savant excentrique",
+    "location": "Laboratoire (zone du marais)",
+    "birthday": {
+      "season": "summer",
+      "day": 29
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Colored Grasses",
+      "Matsutake",
+      "Fish",
+      "Stir Fry",
+      "Happy Eggplant",
+      "Omelet",
+      "Omelet Rice",
+      "Stew",
+      "Elli Leaves"
+    ],
+    "likedGifts": [
+      "Noodle dishes",
+      "Eggplant",
+      "Eggs",
+      "Mayonnaise",
+      "Lithograph",
+      "Fried Rice",
+      "Risotto",
+      "Doria",
+      "Gratin"
+    ],
+    "dislikedGifts": [
+      "Toadstool",
+      "Pirate Treasure",
+      "Fish Fossil",
+      "Fish Bones",
+      "Dog Ball",
+      "Fodder",
+      "Hot Milk",
+      "Strawberry Milk"
+    ],
+    "description": "Scientifique aux expériences ratées, secrètement amoureux de Flora. Avec 100 points d'amitié, il te laisse descendre au sous-sol où vit la sirène Leia.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Daryl_(DS)",
+      "https://fogu.com/hm6/chan3/leia.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source)."
+  },
+  {
+    "id": "cody",
+    "name": "Cody",
+    "nameFr": null,
+    "role": "Sculpteur",
+    "location": "Caravane (zone du marais)",
+    "birthday": {
+      "season": "winter",
+      "day": 28
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Wool",
+      "Yarn",
+      "Copper",
+      "Silver",
+      "Gold",
+      "Stir Fry",
+      "Vegetable Juice",
+      "Vegetable Latte",
+      "Salad"
+    ],
+    "likedGifts": ["Flowers", "Jewelry", "Milk", "Gems", "Stone", "Wood Lumber", "Hot Milk"],
+    "dislikedGifts": [
+      "Toadstool",
+      "Fish",
+      "Fish dishes",
+      "Pirate Treasure",
+      "Gold Lumber",
+      "Fodder",
+      "Sushi",
+      "Sashimi"
+    ],
+    "description": "Artiste solitaire qui cherche l'inspiration à la source et à la plage ; difficile à apprivoiser.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cody_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source)."
+  },
+  {
+    "id": "kassey",
+    "name": "Kassey",
+    "nameFr": null,
+    "role": "Artificier (jumeau de Patrick)",
+    "location": "Atelier des feux d'artifice (zone du marais)",
+    "birthday": {
+      "season": "winter",
+      "day": 11
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Jewelry",
+      "Perfume",
+      "Diamond",
+      "Pink Diamond",
+      "Wine",
+      "Rice Cake",
+      "Buckwheat Noodles",
+      "Curry Rice",
+      "Curry dishes",
+      "Matsutake Rice"
+    ],
+    "likedGifts": ["Matsutake", "Flowers", "Ores", "Gems", "Butter", "Curry Bun"],
+    "dislikedGifts": [
+      "Shiitake",
+      "Toadstool",
+      "Mayonnaise",
+      "Pirate Treasure",
+      "Fodder",
+      "Stir Fry",
+      "Tempura",
+      "Gratin"
+    ],
+    "description": "Meilleur artificier du monde (smiley sur la salopette), il prépare le Fireworks Festival avec son frère.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Kassey_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source)."
+  },
+  {
+    "id": "patrick",
+    "name": "Patrick",
+    "nameFr": null,
+    "role": "Artificier (jumeau de Kassey)",
+    "location": "Atelier des feux d'artifice (zone du marais)",
+    "birthday": {
+      "season": "winter",
+      "day": 11
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Diamond",
+      "Pink Diamond",
+      "Wine",
+      "Rice Cake",
+      "Fried Rice",
+      "Buckwheat Noodles",
+      "Stew",
+      "Curry dishes",
+      "Sushi"
+    ],
+    "likedGifts": ["Shiitake", "Flowers", "Eggs", "Cheese", "Fish", "Ores", "Gems", "Grilled Fish"],
+    "dislikedGifts": [
+      "Toadstool",
+      "Chocolate",
+      "Lithograph",
+      "Pirate Treasure",
+      "Fodder",
+      "Cookies",
+      "Cake",
+      "Ice Cream"
+    ],
+    "description": "Deuxième meilleur artificier du monde (tulipe sur la salopette). Si tu n'as personne avec qui voir les feux d'artifice, tu les regardes avec les jumeaux.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Patrick_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source)."
+  },
+  {
+    "id": "romana",
+    "name": "Romana",
+    "nameFr": null,
+    "role": "Riche aïeule de la vallée",
+    "location": "Manoir de Romana (Villa)",
+    "birthday": {
+      "season": "spring",
+      "day": 2
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Wild Grape",
+      "Grape",
+      "Flowers",
+      "Milk",
+      "Perfume",
+      "Diamond",
+      "Rice Cake",
+      "Hot Milk",
+      "Porridge",
+      "Relax Tea",
+      "Apple Pie",
+      "Grape Juice",
+      "Strawberry Milk",
+      "Ice Cream"
+    ],
+    "likedGifts": ["Shiitake", "Orange", "Yogurt", "Jewelry", "Gems", "Noodles", "Cake", "Salad"],
+    "dislikedGifts": [
+      "Matsutake",
+      "Toadstool",
+      "Mayonnaise",
+      "Cheese",
+      "Fish",
+      "Curry dishes",
+      "Sushi",
+      "Sashimi",
+      "Pickled Turnips"
+    ],
+    "description": "Grand-mère de Lumina, collectionneuse de tableaux, qui veut faire de sa petite-fille une grande pianiste. Le Dr Hardy la visite le samedi.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Romana_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source)."
+  },
+  {
+    "id": "sebastian",
+    "name": "Sebastian",
+    "nameFr": null,
+    "role": "Majordome",
+    "location": "Manoir de Romana (Villa)",
+    "birthday": {
+      "season": "autumn",
+      "day": 23
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Flowers",
+      "Bodigizer",
+      "Turbojolt",
+      "Diamond",
+      "Pink Diamond",
+      "Rice Cake",
+      "Fish Stew",
+      "Curry Noodles",
+      "Buckwheat Noodles",
+      "Rainbow Curry",
+      "Ultimate Curry",
+      "Finest Curry"
+    ],
+    "likedGifts": ["Fish", "Jewelry", "Perfume", "Ores", "Gems", "Wine", "Curry dishes", "Sushi", "Sashimi"],
+    "dislikedGifts": [
+      "Toadstool",
+      "Pirate Treasure",
+      "Sweet Potatoes",
+      "Fish Bones",
+      "Weed",
+      "Stone",
+      "Fodder"
+    ],
+    "description": "Majordome dévoué de Romana, il passe son temps en cuisine ou au jardin ; il aime secrètement l'art.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Sebastian_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source)."
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby",
+    "nameFr": null,
+    "role": "Patronne de l'Inner Inn",
+    "location": "Inner Inn (l'auberge)",
+    "birthday": {
+      "season": "summer",
+      "day": 11
+    },
+    "bachelorette": false,
+    "lovedGifts": ["Rice Cake", "Plats cuisinés (presque tous)"],
+    "likedGifts": ["Fruits", "Vegetables", "Eggs", "Milk", "Fish", "Jewelry", "Wine", "Chocolate"],
+    "dislikedGifts": [
+      "Toadstool",
+      "Red Grass",
+      "Pirate Treasure",
+      "Fish Fossil",
+      "Gold Lumber",
+      "Flowers",
+      "Gems"
+    ],
+    "description": "Aubergiste chaleureuse, mère de Rock et figure maternelle de Nami. Le mardi, elle part faire ses courses à Mineral Town.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Ruby_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source)."
+  },
+  {
+    "id": "grant",
+    "name": "Grant",
+    "nameFr": null,
+    "role": "Comptable (travaille en ville)",
+    "location": "Maison n° 2 (rangée de maisons)",
+    "birthday": {
+      "season": "winter",
+      "day": 3
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Wine",
+      "Tempura",
+      "Noodles",
+      "Buckwheat Noodles",
+      "Fruit Juices",
+      "Vegetable Latte",
+      "Sashimi",
+      "Elli Leaves"
+    ],
+    "likedGifts": ["Matsutake", "Yogurt", "Perfume", "Bread", "Rice Cake", "Risotto", "Relax Tea"],
+    "dislikedGifts": [
+      "Toadstool",
+      "Ores",
+      "Gems",
+      "Lithograph",
+      "Chocolate",
+      "Cake",
+      "Chocolate Cake",
+      "Apple Pie",
+      "Gratin"
+    ],
+    "description": "Père stressé et récemment divorcé qui élève seul sa fille Kate ; il part tôt travailler en ville et rentre tard.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Grant_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source)."
+  },
+  {
+    "id": "kate",
+    "name": "Kate",
+    "nameFr": null,
+    "role": "Enfant, fille de Grant",
+    "location": "Maison n° 2 (rangée de maisons)",
+    "birthday": {
+      "season": "summer",
+      "day": 15
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Cheese",
+      "Yogurt",
+      "Gems",
+      "Grilled Fish",
+      "Dry Curry",
+      "Cheese Fondue",
+      "Curry Rice",
+      "Pizza",
+      "Sushi",
+      "Sashimi"
+    ],
+    "likedGifts": ["Strawberry", "Flowers", "Jewelry", "Chocolate", "Cheesecake", "Ice Cream"],
+    "dislikedGifts": [
+      "Toadstool",
+      "Pepper",
+      "Eggplant",
+      "Carrot",
+      "Wine",
+      "Pancake",
+      "Cake",
+      "Vegetable Juice"
+    ],
+    "description": "Fillette espiègle qui s'ennuie dans la vallée et aime aller au manoir de Romana. Elle sonne chez toi au Pumpkin Festival. Elle grandit après la naissance de ton enfant.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Kate_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Ses goûts changent quand elle devient adolescente (après la naissance de ton enfant)."
+  },
+  {
+    "id": "wally",
+    "name": "Wally",
+    "nameFr": null,
+    "role": "Athlète professionnel",
+    "location": "Maison n° 1 (rangée de maisons)",
+    "birthday": {
+      "season": "autumn",
+      "day": 10
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Yogurt",
+      "Stir Fry",
+      "Rainbow Curry",
+      "Juices",
+      "Vegetable Latte",
+      "Salad",
+      "Elli Leaves"
+    ],
+    "likedGifts": ["Fruits", "Vegetables", "Milk", "Cheese", "Grilled Fish", "Curry dishes"],
+    "dislikedGifts": [
+      "Toadstool",
+      "Red Grass",
+      "Perfume",
+      "Lithograph",
+      "Weed",
+      "Fodder",
+      "Wine",
+      "Mayonnaise"
+    ],
+    "description": "Sportif enthousiaste, mari de Chris et père de Hugh ; il s'entraîne en ville en semaine et passe ses jours de repos en famille.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Wally_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source)."
+  },
+  {
+    "id": "chris",
+    "name": "Chris",
+    "nameFr": null,
+    "role": "Journaliste sportive",
+    "location": "Maison n° 1 (rangée de maisons)",
+    "birthday": {
+      "season": "spring",
+      "day": 20
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Jewelry",
+      "Perfume",
+      "Diamond",
+      "Pink Diamond",
+      "Chocolate",
+      "Doughnut",
+      "Sweet Potatoes",
+      "Cake",
+      "Chocolate Cake",
+      "Cheesecake",
+      "Ice Cream"
+    ],
+    "likedGifts": ["Flowers", "Ores", "Gems", "Fruit Juices", "Apple Pie", "Pudding"],
+    "dislikedGifts": ["Curry dishes", "Toadstool", "Lithograph", "Fish", "Fodder", "Vegetable Juice"],
+    "description": "Femme de Wally et mère de Hugh, elle travaille en ville et n'est présente dans la vallée que le dimanche et le soir. Elle adore secrètement la divination.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Chris_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source)."
+  },
+  {
+    "id": "hugh",
+    "name": "Hugh",
+    "nameFr": null,
+    "role": "Enfant, fils de Wally et Chris",
+    "location": "Maison n° 1 (rangée de maisons)",
+    "birthday": {
+      "season": "autumn",
+      "day": 28
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Milk",
+      "Curry Bread",
+      "Dry Curry",
+      "Stew",
+      "Curry Rice",
+      "Curry dishes",
+      "Cake",
+      "Curry Bun",
+      "Matsutake Rice",
+      "Ice Cream"
+    ],
+    "likedGifts": [
+      "Matsutake",
+      "Mayonnaise",
+      "Yogurt",
+      "Pirate Treasure",
+      "Chocolate",
+      "Omelet",
+      "Juices",
+      "Pudding"
+    ],
+    "dislikedGifts": ["Toadstool", "Cheese", "Wine", "Cheese Fondue", "Cheesecake", "Sashimi", "Fodder"],
+    "description": "Petit sportif qui rêve de médaille d'or ; souvent à l'étang de la Déesse ou de la tortue. Il passe chez toi au Pumpkin Festival. Il grandit après la naissance de ton enfant.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Hugh_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Ses goûts changent quand il devient adolescent (après la naissance de ton enfant)."
+  },
+  {
+    "id": "takakura",
+    "name": "Takakura",
+    "nameFr": null,
+    "role": "Ami de ton père, mentor",
+    "location": "Cabane sur ta ferme",
+    "birthday": {
+      "season": "summer",
+      "day": 18
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Banana",
+      "Large Fish",
+      "Grilled Fish",
+      "Fish Stew",
+      "Stew",
+      "Banana Juice",
+      "Pickled Turnips",
+      "Pickled Cucumber",
+      "Sushi",
+      "Sashimi",
+      "Elli Leaves"
+    ],
+    "likedGifts": ["Cheese", "Rice Cake", "Tempura", "Noodles", "Buckwheat Noodles", "Sweet Potatoes"],
+    "dislikedGifts": [
+      "Toadstool",
+      "Pirate Treasure",
+      "Fish Fossil",
+      "Lithograph",
+      "Weed",
+      "Fodder",
+      "Chocolate",
+      "Carrot"
+    ],
+    "description": "Vieil ami de ton père qui vit sur ta ferme. Il te prévient quand un animal meurt et t'offre un cheval après 1000 objets expédiés.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Takakura_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source)."
+  },
+  {
+    "id": "murrey",
+    "name": "Murrey",
+    "nameFr": null,
+    "role": "Vagabond",
+    "location": "Sous l'arbre des lutins (étang de la Déesse)",
+    "birthday": {
+      "season": "autumn",
+      "day": 29
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Eggs",
+      "Mayonnaise",
+      "Milk",
+      "Cheese",
+      "Yogurt",
+      "Rice Cake",
+      "Omelet",
+      "Boiled Egg",
+      "Buckwheat Noodles",
+      "Salad",
+      "Sashimi"
+    ],
+    "likedGifts": ["Fruits", "Vegetables", "Fish", "Wine", "Bread", "Chocolate", "Plats cuisinés"],
+    "dislikedGifts": [
+      "Jewelry",
+      "Ores",
+      "Gems",
+      "Pirate Treasure",
+      "Fish Fossil",
+      "Lithograph",
+      "Flowers",
+      "Weed"
+    ],
+    "description": "Sans-abri toujours affamé mais inoffensif. Si tu t'évanouis, il te ramène chez toi… en te prenant la moitié de ton argent.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Murrey_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source)."
+  },
+  {
+    "id": "mukumuku",
+    "name": "Mukumuku",
+    "nameFr": null,
+    "role": "Yéti gardien de la forêt",
+    "location": "Zone de l'étang de la Déesse (nuits d'hiver)",
+    "birthday": {
+      "season": "winter",
+      "day": 1
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Baked Corn",
+      "Baked Yam",
+      "Boiled Egg",
+      "Cheesecake",
+      "Cheese Fondue",
+      "Flowers",
+      "Grilled Fish",
+      "Hot Milk",
+      "Omelet",
+      "Stir Fry",
+      "Vegetable Juice"
+    ],
+    "likedGifts": ["Cheese", "Eggs", "Fish", "Fodder", "Fruits", "Vegetables", "Wool", "Yarn"],
+    "dislikedGifts": [
+      "Toadstool",
+      "Bird Feed",
+      "Butter",
+      "Gratin",
+      "Stew",
+      "Pirate Treasure",
+      "Stone",
+      "Weed"
+    ],
+    "description": "Grosse créature blanche visible seulement les nuits d'hiver près de l'étang de la Déesse. Une fois ami, il te donne un disque pour chaque poisson offert.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Mukumuku_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source)."
+  },
+  {
+    "id": "van",
+    "name": "Van",
+    "nameFr": null,
+    "role": "Marchand ambulant",
+    "location": "Inner Inn (étage), les jours 3, 8, 13, 18, 23 et 28",
+    "birthday": {
+      "season": "autumn",
+      "day": 1
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Matsutake",
+      "Mayonnaise",
+      "Pirate Treasure",
+      "Fish Fossil",
+      "Alexandrite",
+      "Diamond",
+      "Chocolate",
+      "Stir Fry",
+      "Pancake",
+      "Cake",
+      "Ice Cream"
+    ],
+    "likedGifts": ["Pineapple", "Yogurt", "Fish", "Jewelry", "Ores", "Gems", "Plats cuisinés"],
+    "dislikedGifts": [
+      "Toadstool",
+      "Lithograph",
+      "Fish Bones",
+      "Weed",
+      "Stone",
+      "Lumber",
+      "Fodder",
+      "Butter",
+      "Flowers"
+    ],
+    "description": "Marchand de passage qui s'installe à l'étage de l'Inner Inn les jours finissant par 3 ou 8. Il vend des objets introuvables ailleurs (DVD…) et rachète des objets non expédiables, souvent plus cher que le bac d'expédition.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Van_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php",
+      "https://harvestmoon.fandom.com/wiki/Van's_Shop_(DS)"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source)."
+  },
+  {
+    "id": "gotz",
+    "name": "Gotz",
+    "nameFr": null,
+    "role": "Menuisier (Mineral Town)",
+    "location": "Mineral Town (par téléphone) ; visite la vallée le samedi",
+    "birthday": {
+      "season": "autumn",
+      "day": 2
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Apple",
+      "Matsutake",
+      "Vegetables",
+      "Eggs",
+      "Cheese",
+      "Wool",
+      "Large Fish",
+      "Bread",
+      "Wood Lumber",
+      "Stone Lumber",
+      "Pumpkin Stew",
+      "Buckwheat Noodles",
+      "Doria"
+    ],
+    "likedGifts": ["Banana", "Milk", "Wine", "Chocolate", "Omelet", "Cake", "Apple Pie", "Juices"],
+    "dislikedGifts": [
+      "Toadstool",
+      "Red Grass",
+      "Fish Fossil",
+      "Weed",
+      "Stone",
+      "Doughnut",
+      "Risotto",
+      "Jewelry",
+      "Gems"
+    ],
+    "description": "Menuisier de Mineral Town que tu appelles par téléphone pour construire bâtiments et agrandissements. Le samedi (son jour de repos), il se promène dans le sud de la vallée puis va au Blue Bar.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Gotz_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php",
+      "https://fogu.com/hm6/chan7/shoplist.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source)."
+  },
+  {
+    "id": "thomas",
+    "name": "Thomas",
+    "nameFr": null,
+    "role": "Maire de Mineral Town",
+    "location": "Ta ferme (16 h 30 – 17 h 30) ; près du manoir le dimanche",
+    "birthday": {
+      "season": "summer",
+      "day": 25
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Jewelry",
+      "Diamond",
+      "Pink Diamond",
+      "Wine",
+      "Rice Cake",
+      "French Toast",
+      "Doughnut",
+      "Cheese Fondue",
+      "Buckwheat Noodles",
+      "Relax Tea",
+      "Pizza",
+      "Chocolate Cake",
+      "Apple Pie"
+    ],
+    "likedGifts": ["Matsutake", "Fruits", "Eggs", "Milk", "Cheese", "Tempura", "Cake"],
+    "dislikedGifts": [
+      "Pirate Treasure",
+      "Fish Fossil",
+      "Fish Bones",
+      "Weed",
+      "Stone",
+      "Fodder",
+      "Risotto",
+      "Porridge",
+      "Fish dishes"
+    ],
+    "description": "Il ramasse ton bac d'expédition chaque jour (sauf jours fériés et jours de pluie), livre les achats de la chaîne TV Shopping, organise plusieurs festivals et célèbre les mariages. Le 25 hiver, il remplit ta chaussette si tu en as une.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Thomas_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source)."
+  },
+  {
+    "id": "kai",
+    "name": "Kai",
+    "nameFr": null,
+    "role": "Cuisinier de la Snack Shack (été)",
+    "location": "Plage (été uniquement)",
+    "birthday": {
+      "season": "summer",
+      "day": 22
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Pineapple",
+      "Curry dishes (sauf Curry Noodles)",
+      "Eggs",
+      "Yogurt",
+      "Medium Fish",
+      "Large Fish",
+      "Perfume",
+      "Diamond",
+      "Wine",
+      "Omelet",
+      "Pineapple Juice"
+    ],
+    "likedGifts": ["Jewelry", "Fruits", "Milk", "Cheese", "Small Fish", "Grilled Fish", "Salad", "Sushi"],
+    "dislikedGifts": [
+      "Chirashi Sushi (horreur)",
+      "Colored Grasses",
+      "Toadstool",
+      "Pirate Treasure",
+      "Lithograph",
+      "Mushrooms",
+      "Rice Cake"
+    ],
+    "description": "Vient de Mineral Town chaque été (même sans connexion GBA) et tient la Snack Shack sur la plage. Il repart à l'automne.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Kai_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php",
+      "https://fogu.com/hm6/chan6/festivals_summer.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source)."
+  },
+  {
+    "id": "barney",
+    "name": "Barney",
+    "nameFr": null,
+    "role": "Clown et directeur du cirque",
+    "location": "Chapiteau du cirque",
+    "birthday": {
+      "season": "summer",
+      "day": 4
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Wine",
+      "Rice Cake",
+      "French Toast",
+      "Risotto",
+      "Relax Tea",
+      "Candied Potato",
+      "Cheese Fondue",
+      "Buckwheat Noodles",
+      "Pizza",
+      "Doria",
+      "Chocolate Cake",
+      "Apple Pie"
+    ],
+    "likedGifts": ["Matsutake", "Fruits", "Eggs", "Milk", "Cheese", "Jewelry", "Cake"],
+    "dislikedGifts": [
+      "Fish Fossil",
+      "Lithograph",
+      "Weed",
+      "Stone",
+      "Lumber",
+      "Fodder",
+      "Ores",
+      "Gems",
+      "Sushi"
+    ],
+    "description": "Arrive avec sa femme Mimi après la naissance de ton enfant. Le cirque n'ouvre jamais, mais tu peux devenir son ami ; il sort le mardi.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Barney_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source)."
+  },
+  {
+    "id": "mimi",
+    "name": "Mimi",
+    "nameFr": null,
+    "role": "Acrobate du cirque",
+    "location": "Chapiteau du cirque",
+    "birthday": {
+      "season": "autumn",
+      "day": 4
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Matsutake",
+      "Grape",
+      "Pinkcat Flower",
+      "Jewelry",
+      "Perfume",
+      "Diamond",
+      "Wine",
+      "Doughnut",
+      "Risotto",
+      "Doria",
+      "Cake",
+      "Cheesecake",
+      "Grape Juice",
+      "Ice Cream"
+    ],
+    "likedGifts": ["Fruits", "Flowers", "Yogurt", "Chocolate", "Pancake", "Juices", "Pudding"],
+    "dislikedGifts": [
+      "Toadstool",
+      "Pirate Treasure",
+      "Lithograph",
+      "Weed",
+      "Fodder",
+      "Curry dishes",
+      "Fish",
+      "Ores"
+    ],
+    "description": "Femme de Barney, elle arrive dans la vallée après la naissance de ton enfant ; elle sort le mardi.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Mimi_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source)."
+  },
+  {
+    "id": "gourmet",
+    "name": "Gourmet",
+    "nameFr": null,
+    "role": "Juge du Cooking Festival",
+    "location": "Plage (Cooking Festival)",
+    "birthday": null,
+    "bachelorette": false,
+    "description": "Expert culinaire de Mineral Town, visible une seule fois par an pour juger le Cooking Festival du 22 printemps. On ne peut ni lui offrir de cadeaux ni devenir son ami.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Gourmet_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_spring.php"
+    ]
+  },
+  {
+    "id": "rick",
+    "name": "Rick",
+    "nameFr": null,
+    "role": "Éleveur de Yodel Farm (Mineral Town)",
+    "location": "Yodel Farm (par téléphone)",
+    "birthday": {
+      "season": "autumn",
+      "day": 27
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Spa Boiled Egg",
+      "Corn",
+      "Eggs",
+      "Mayonnaise",
+      "Cheese",
+      "Large Fish",
+      "Wine",
+      "Chocolate",
+      "Omelet",
+      "Chocolate Cake",
+      "Pudding"
+    ],
+    "dislikedGifts": ["Mythic Stone (horreur)", "Curry dishes", "Ores", "Gems", "Toadstool", "Wool", "Stew"],
+    "description": "Répond au téléphone de Yodel Farm (vaches, moutons, fourrage, potions). Il vient chez toi la veille des festivals des vaches et des moutons pour inscrire ton animal.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Rick_(DS)",
+      "https://harvestmoon.fandom.com/wiki/Yodel_Farm_(DS)",
+      "https://harvestmoon.fandom.com/wiki/Cow_Festival_(DS)",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Ses visites hebdomadaires du dimanche n'existaient qu'avec la connexion GBA (absente en version EU)."
+  },
+  {
+    "id": "gray",
+    "name": "Gray",
+    "nameFr": null,
+    "role": "Forgeron (Blacksmith Saibara, Mineral Town)",
+    "location": "Forge de Mineral Town (par téléphone)",
+    "birthday": {
+      "season": "winter",
+      "day": 6
+    },
+    "bachelorette": false,
+    "lovedGifts": [
+      "Baked Corn",
+      "Jewelry",
+      "Ores",
+      "Gems",
+      "Curry dishes",
+      "Chocolate",
+      "Fried Rice",
+      "Pancake",
+      "Cake",
+      "Apple Pie",
+      "Ice Cream"
+    ],
+    "dislikedGifts": [
+      "Pickled Turnips (horreur)",
+      "Toadstool",
+      "Red Grass",
+      "Pirate Treasure",
+      "Weed",
+      "Stone",
+      "Happy Eggplant",
+      "Boiled Spinach",
+      "Gratin"
+    ],
+    "description": "Répond au téléphone de la forge Saibara : améliorations d'outils et machines (makers).",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Gray_(DS)",
+      "https://fogu.com/hm6/chan7/shoplist.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Ses visites du jeudi dans la vallée n'existaient qu'avec la connexion GBA (absente en version EU) : en EU, on ne le joint que par téléphone."
+  },
+  {
+    "id": "trent",
+    "name": "Trent",
+    "nameFr": null,
+    "role": "Médecin de Mineral Town (connexion GBA)",
+    "location": "Visite le mercredi (clinique de Hardy)",
+    "birthday": {
+      "season": "autumn",
+      "day": 19
+    },
+    "bachelorette": false,
+    "euUnavailable": true,
+    "lovedGifts": [
+      "Milk",
+      "Colored Grasses",
+      "Toadstool",
+      "Bamboo Shoots",
+      "Yogurt",
+      "Large Fish",
+      "Wine",
+      "Hot Milk",
+      "Stew",
+      "Vegetable Juice",
+      "Elli Leaves"
+    ],
+    "dislikedGifts": ["French Fries (horreur)", "Fish Fossil", "Pirate Treasure", "Pizza", "Popcorn"],
+    "description": "Médecin de Mineral Town qui venait voir son confrère Hardy le mercredi, uniquement avec la connexion GBA.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Trent_(DS)",
+      "https://fogu.com/hm6/chan1/gbaconnecting.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Version EU : connexion GBA retirée, Trent n'apparaît pas."
+  },
+  {
+    "id": "cliff",
+    "name": "Cliff",
+    "nameFr": null,
+    "role": "Visiteur de Mineral Town (connexion GBA)",
+    "location": "Visite le samedi (Inner Inn, cascade)",
+    "birthday": {
+      "season": "summer",
+      "day": 6
+    },
+    "bachelorette": false,
+    "euUnavailable": true,
+    "lovedGifts": [
+      "Finest Curry",
+      "Curry dishes",
+      "Stir Fry",
+      "Fried Rice",
+      "Omelet",
+      "Grilled Fish",
+      "Tempura",
+      "Cheese Fondue",
+      "Pizza",
+      "Sushi"
+    ],
+    "dislikedGifts": [
+      "Fish Bone (horreur)",
+      "Toadstool",
+      "Pirate Treasure",
+      "Fish Fossil",
+      "Flour",
+      "Weed",
+      "Gold Lumber"
+    ],
+    "description": "Jeune homme timide de Mineral Town qui venait le samedi, uniquement avec la connexion GBA.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cliff_(DS)",
+      "https://fogu.com/hm6/chan1/gbaconnecting.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Cadeaux : sélection tirée des listes du wiki (liste complète sur la source). Version EU : connexion GBA retirée, Cliff n'apparaît pas."
+  }
+]

@@ -1,0 +1,3245 @@
+[
+  {
+    "id": "guts",
+    "name": "Guts",
+    "nameFr": null,
+    "teamId": "team-brown",
+    "isLeader": true,
+    "fromStart": true,
+    "unlock": "Tu le rencontres automatiquement dans la scène d'ouverture avec la Witch Princess.",
+    "methods": [
+      {
+        "title": "Dès le début",
+        "steps": [
+          "Rien à faire : Guts est trouvé automatiquement pendant la scène d'introduction avec la Witch Princess, au tout début de la partie."
+        ],
+        "tips": [
+          "Guts tient le comptoir du Sprite Company Tree (l'arbre des lutins près du Goddess Pond) : c'est lui qu'il faut aller voir pour engager une équipe de lutins."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/index.php",
+      "https://fogu.com/hm6/chan5/hiringsprites.php",
+      "https://www.gamerevolution.com/?p=39476"
+    ]
+  },
+  {
+    "id": "jackie",
+    "name": "Jackie",
+    "nameFr": null,
+    "teamId": "team-brown",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Essaie de quitter la vallée par le chemin de l'est qui mène vers Mineral Town.",
+    "methods": [
+      {
+        "title": "Tenter de quitter la vallée",
+        "steps": [
+          "Rends-toi à l'est de la vallée, sur le chemin qui sort de Forget-Me-Not Valley en direction de Mineral Town.",
+          "Avance sur ce chemin comme si tu voulais partir : Jackie apparaît et t'empêche de quitter la vallée."
+        ],
+        "tips": ["Tu peux le faire dès les premiers jours de jeu."]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/index.php",
+      "https://www.gamerevolution.com/?p=39476"
+    ],
+    "notes": "Ne dépend pas de la connexion GBA : il suffit de marcher vers la sortie de la vallée, donc disponible en version EU."
+  },
+  {
+    "id": "jum",
+    "name": "Jum",
+    "nameFr": null,
+    "teamId": "team-brown",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Appuie sur A devant la fontaine de la cour du manoir de Romana.",
+    "methods": [
+      {
+        "title": "Fontaine de Romana",
+        "steps": [
+          "Va devant le manoir de Romana, dans sa cour.",
+          "Place-toi face à la fontaine et appuie sur A."
+        ],
+        "tips": ["Jum tient le jeu de Memory (cartes à retourner) du Casino des lutins."]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/index.php",
+      "https://fogu.com/hm6/chan6/casino.php"
+    ]
+  },
+  {
+    "id": "tep",
+    "name": "Tep",
+    "nameFr": null,
+    "teamId": "team-brown",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Appuie sur A devant le poêle situé à gauche de l'Inner Inn (l'auberge).",
+    "methods": [
+      {
+        "title": "Poêle à côté de l'Inner Inn",
+        "steps": [
+          "Va à gauche de l'Inner Inn (l'auberge) : il y a un poêle entouré d'une barrière.",
+          "Saute la barrière en appuyant sur A face à elle.",
+          "Place-toi devant le poêle et appuie de nouveau sur A."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/index.php",
+      "https://fogu.com/hm6/chan6/casino.php"
+    ],
+    "notes": "Tep tient le Blackjack du Casino. D'après Fogu, en version EU seul le jeu de Memory est jouable au Casino, mais les trois lutins du Casino (Jum, Tep, Hops) restent trouvables."
+  },
+  {
+    "id": "hops",
+    "name": "Hops",
+    "nameFr": null,
+    "teamId": "team-brown",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Appuie sur A devant le puits à côté du Blue Bar.",
+    "methods": [
+      {
+        "title": "Puits du Blue Bar",
+        "steps": ["Va au Blue Bar (le bar).", "Place-toi devant le puits juste à côté et appuie sur A."]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/index.php",
+      "https://fogu.com/hm6/chan6/casino.php"
+    ],
+    "notes": "Hops tient le Poker du Casino. D'après Fogu, en version EU seul le jeu de Memory est jouable au Casino, mais Hops reste trouvable."
+  },
+  {
+    "id": "roller",
+    "name": "Roller",
+    "nameFr": null,
+    "teamId": "team-brown",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Le 8 du printemps, traverse le pont en direction de la ferme de Vesta.",
+    "methods": [
+      {
+        "title": "Le pont de Vesta, le 8 printemps",
+        "steps": [
+          "Attends le 8 du printemps (c'est aussi l'anniversaire de la Déesse).",
+          "Marche vers la ferme de Vesta et traverse le pont.",
+          "Roller apparaît et ouvre le Casino au fond du Sprite Company Tree."
+        ],
+        "tips": [
+          "Il ne peut pas être trouvé avant le 8 du printemps.",
+          "Si tu as raté la date : Fogu écrit « après le 8 du printemps », donc retente de traverser le pont les jours suivants avant d'attendre l'année d'après."
+        ],
+        "constraints": ["À partir du 8 printemps"]
+      }
+    ],
+    "prerequisites": [],
+    "dates": [
+      {
+        "season": "spring",
+        "day": 8
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "medium",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/index.php",
+      "https://fogu.com/hm6/chan6/casino.php",
+      "https://www.gamerevolution.com/?p=39476"
+    ],
+    "notes": "Désaccord : le wiki et GameRevolution disent « le 8 du printemps », Fogu dit « après le 8 du printemps ». La date du 8 printemps est retenue ; il est possible qu'il reste trouvable les jours suivants."
+  },
+  {
+    "id": "jet",
+    "name": "Jet",
+    "nameFr": null,
+    "teamId": "team-brown",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Appuie sur A au nord de la caisse orange de Van, au bout du couloir du 1er étage de l'Inner Inn.",
+    "methods": [
+      {
+        "title": "Caisse de Van à l'Inner Inn",
+        "steps": [
+          "Entre dans l'Inner Inn (l'auberge) et monte à l'étage.",
+          "Va au bout du couloir, jusqu'à la caisse orange où Van installe sa boutique.",
+          "Place-toi du côté nord (au-dessus) de la caisse et appuie sur A."
+        ],
+        "tips": [
+          "Une fois trouvé, Jet ouvre une boutique à côté de Guts dans le Sprite Company Tree (disques, ornements, cartes à collectionner)."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/index.php",
+      "https://fogu.com/hm6/chan5/hiringsprites.php"
+    ],
+    "notes": "Le wiki dit « 2nd floor » (étage américain) : c'est l'étage au-dessus du rez-de-chaussée."
+  },
+  {
+    "id": "neptune",
+    "name": "Neptune",
+    "nameFr": null,
+    "teamId": "team-black",
+    "isLeader": true,
+    "fromStart": true,
+    "unlock": "Déjà là dès le début de la partie.",
+    "methods": [
+      {
+        "title": "Dès le début",
+        "steps": ["Rien à faire : Neptune est déjà là dès le début de la partie."],
+        "tips": [
+          "Neptune s'occupe de la chaîne 8 (Tutoriels) de la Sprite Station, disponible dès le départ."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/index.php",
+      "https://harvestmoon.fandom.com/wiki/The_Sprite_Station_(DS)"
+    ],
+    "notes": "Aucune source ne nomme de chef pour l'équipe noire ; Neptune est désigné chef par convention (c'est le lutin qui illustre l'équipe sur le wiki)."
+  },
+  {
+    "id": "mercury",
+    "name": "Mercury",
+    "nameFr": null,
+    "teamId": "team-black",
+    "isLeader": false,
+    "fromStart": true,
+    "unlock": "Trouvé automatiquement pendant ta première scène avec Guts.",
+    "methods": [
+      {
+        "title": "Dès le début",
+        "steps": [
+          "Rien à faire : Mercury est trouvé automatiquement en même temps que Guts, au tout début de la partie."
+        ],
+        "tips": ["Mercury s'occupe de la chaîne 1 (Météo) de la Sprite Station."]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/index.php",
+      "https://fogu.com/hm6/chan1/spritestation.php"
+    ]
+  },
+  {
+    "id": "uranus",
+    "name": "Uranus",
+    "nameFr": null,
+    "teamId": "team-black",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Fais monter l'amitié d'un habitant à 100 points (FP).",
+    "methods": [
+      {
+        "title": "Un ami à 100 FP",
+        "steps": [
+          "Choisis un habitant et parle-lui chaque jour.",
+          "Offre-lui régulièrement des cadeaux qu'il aime.",
+          "Quand il atteint 100 points d'amitié, Uranus apparaît et la chaîne 7 (Variety) se débloque le lendemain matin."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "amitie-first-friend"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/index.php",
+      "https://harvestmoon.fandom.com/wiki/The_Sprite_Station_(DS)",
+      "https://fogu.com/hm6/chan1/spritestation.php"
+    ]
+  },
+  {
+    "id": "venus",
+    "name": "Venus",
+    "nameFr": null,
+    "teamId": "team-black",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Achète un objet au Supermarché de Karen sur 10 jours différents.",
+    "methods": [
+      {
+        "title": "Commander chez Karen",
+        "steps": [
+          "Prends le téléphone de ta maison et appelle le Supermarché de Karen.",
+          "Achète n'importe quel objet.",
+          "Recommence un autre jour, jusqu'à avoir acheté sur 10 jours au total."
+        ],
+        "tips": [
+          "Le wiki (pages Sprite Station et Supermarket) et Fogu précisent un achat par téléphone ; la page des lutins dit seulement « acheter au Supermarché de Karen ».",
+          "Fogu parle de 10 jours « au total » : rien n'indique qu'ils doivent être consécutifs.",
+          "Un objet bon marché suffit (ex. de l'huile à 50 G)."
+        ],
+        "cost": "Environ 500 G (10 petits achats)"
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "medium",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://harvestmoon.fandom.com/wiki/The_Sprite_Station_(DS)",
+      "https://harvestmoon.fandom.com/wiki/Supermarket_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/index.php",
+      "https://fogu.com/hm6/chan1/spritestation.php"
+    ],
+    "notes": "Les sources varient sur le mode d'achat (téléphone vs simple achat au Supermarché). Venus débloque la chaîne 2 (TV Shopping)."
+  },
+  {
+    "id": "earth",
+    "name": "Earth",
+    "nameFr": null,
+    "teamId": "team-black",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Retrouve 20 lutins.",
+    "methods": [
+      {
+        "title": "Atteindre 20 lutins",
+        "steps": ["Continue à trouver des lutins : Earth apparaît dès que tu en as retrouvé 20."],
+        "tips": [
+          "Earth débloque la chaîne 3 (Sprite Profile), qui donne des indices pour trouver les lutins manquants."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "spriteCount",
+        "min": 20
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/index.php",
+      "https://harvestmoon.fandom.com/wiki/The_Sprite_Station_(DS)",
+      "https://fogu.com/hm6/chan1/spritestation.php"
+    ]
+  },
+  {
+    "id": "saturn",
+    "name": "Saturn",
+    "nameFr": null,
+    "teamId": "team-black",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Participe activement à 3 festivals.",
+    "methods": [
+      {
+        "title": "Participer à 3 festivals",
+        "steps": [
+          "Repère les festivals dans le calendrier.",
+          "Le jour venu, participe vraiment à l'épreuve (concours, course…) : y assister ne suffit pas.",
+          "Après le 3e festival auquel tu as participé, Saturn apparaît et la chaîne 6 (News) se débloque."
+        ],
+        "tips": [
+          "Fogu prévient que les festivals des poules et des canards demandent des animaux : la première année, ça peut prendre jusqu'à l'automne."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "manual",
+        "label": "Participer activement à 3 festivals"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/index.php",
+      "https://harvestmoon.fandom.com/wiki/The_Sprite_Station_(DS)",
+      "https://fogu.com/hm6/chan1/spritestation.php"
+    ]
+  },
+  {
+    "id": "jupiter",
+    "name": "Jupiter",
+    "nameFr": null,
+    "teamId": "team-black",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Achète 5 disques à Jet dans le Sprite Company Tree.",
+    "methods": [
+      {
+        "title": "Acheter 5 disques",
+        "steps": [
+          "Va dans le Sprite Company Tree et parle à Jet (sa boutique est à côté de Guts).",
+          "Achète des disques (records) jusqu'à en avoir acheté 5."
+        ],
+        "tips": [
+          "Les disques les moins chers coûtent 500 G.",
+          "Jupiter débloque la chaîne 5 (DJ) pour changer la musique."
+        ],
+        "cost": "Au moins 2 500 G"
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "sprite",
+        "id": "jet"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/index.php",
+      "https://harvestmoon.fandom.com/wiki/The_Sprite_Station_(DS)",
+      "https://fogu.com/hm6/chan1/spritestation.php"
+    ]
+  },
+  {
+    "id": "mars",
+    "name": "Mars",
+    "nameFr": null,
+    "teamId": "team-black",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Expédie au moins 300 exemplaires d'un même produit de ta ferme.",
+    "methods": [
+      {
+        "title": "300 fois le même produit",
+        "steps": [
+          "Choisis un seul produit de ta ferme : une culture, un fruit, une fleur, du lait, des œufs ou de la laine.",
+          "Mets-en 300 au total dans le bac d'expédition."
+        ],
+        "tips": [
+          "Les produits transformés par une Maker (fil, mayonnaise…) ne comptent pas.",
+          "Mars débloque la chaîne 4 (Farm Information)."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/index.php",
+      "https://harvestmoon.fandom.com/wiki/The_Sprite_Station_(DS)",
+      "https://fogu.com/hm6/chan1/spritestation.php"
+    ]
+  },
+  {
+    "id": "pluto",
+    "name": "Pluto",
+    "nameFr": null,
+    "teamId": "team-black",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Expédie au moins 100 000 exemplaires d'un même produit de ta ferme.",
+    "methods": [
+      {
+        "title": "100 000 fois le même produit",
+        "steps": [
+          "Choisis un seul produit de ta ferme (culture, fruit, fleur, lait, œufs ou laine).",
+          "Expédie-le en grande quantité, saison après saison, jusqu'à 100 000."
+        ],
+        "tips": [
+          "Les produits de Maker ne comptent pas.",
+          "C'est le lutin de la Station le plus long à obtenir ; il débloque la chaîne 9 (Quiz)."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/index.php",
+      "https://harvestmoon.fandom.com/wiki/The_Sprite_Station_(DS)",
+      "https://fogu.com/hm6/chan1/spritestation.php"
+    ]
+  },
+  {
+    "id": "ceruleano",
+    "name": "Ceruleano",
+    "nameFr": null,
+    "teamId": "team-blue",
+    "isLeader": true,
+    "fromStart": false,
+    "unlock": "Arrose une case secrète de terre cultivable.",
+    "methods": [
+      {
+        "title": "Case secrète",
+        "steps": [
+          "Pendant le printemps, l'été ou l'automne, laboure (Hoe) un carré de terre en dehors de ta ferme.",
+          "Arrose les cases labourées avec ton arrosoir.",
+          "Recommence ailleurs dans la vallée jusqu'à tomber sur la case secrète : le lutin apparaît."
+        ],
+        "tips": [
+          "D'après Fogu, la case est n'importe où dans la vallée sauf sur ta ferme, et elle change d'une partie à l'autre.",
+          "La terre doit être labourée avant d'être arrosée.",
+          "Un arrosoir et une houe améliorés couvrent beaucoup plus de cases à la fois (GameRevolution conseille le Mythic Watering Can)."
+        ],
+        "constraints": ["Pas en hiver (sol trop dur)"]
+      }
+    ],
+    "prerequisites": [],
+    "availableSeasons": ["spring", "summer", "autumn"],
+    "difficulty": 3,
+    "estimatedDuration": "une saison",
+    "confidence": "medium",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam7.php",
+      "https://www.gamerevolution.com/?p=39476"
+    ],
+    "notes": "L'emplacement est aléatoire selon la partie ; aucune source ne donne de position précise."
+  },
+  {
+    "id": "karaf",
+    "name": "Karaf",
+    "nameFr": null,
+    "teamId": "team-blue",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Appuie sur A à côté du point d'eau de ta ferme.",
+    "methods": [
+      {
+        "title": "Point d'eau de la ferme",
+        "steps": [
+          "Va sur ta ferme, près du petit point d'eau où tu remplis ton arrosoir (près de l'écurie).",
+          "Place-toi juste à côté et appuie sur A."
+        ],
+        "tips": ["C'est l'un des premiers lutins que tu peux trouver."]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam7.php",
+      "https://www.gamerevolution.com/?p=39476"
+    ]
+  },
+  {
+    "id": "misty",
+    "name": "Misty",
+    "nameFr": null,
+    "teamId": "team-blue",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Remplis ton arrosoir 10 fois.",
+    "methods": [
+      {
+        "title": "Remplir l'arrosoir",
+        "steps": [
+          "Prends ton arrosoir en main.",
+          "Remplis-le 10 fois à un point d'eau (par exemple celui de ta ferme)."
+        ],
+        "tips": ["Le plus simple : remplis-le chaque fois que tu arroses tes cultures."]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam7.php"
+    ]
+  },
+  {
+    "id": "eviran",
+    "name": "Eviran",
+    "nameFr": null,
+    "teamId": "team-blue",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Arrose une case secrète de terre cultivable.",
+    "methods": [
+      {
+        "title": "Case secrète",
+        "steps": [
+          "Pendant le printemps, l'été ou l'automne, laboure (Hoe) un carré de terre en dehors de ta ferme.",
+          "Arrose les cases labourées avec ton arrosoir.",
+          "Recommence ailleurs dans la vallée jusqu'à tomber sur la case secrète : le lutin apparaît."
+        ],
+        "tips": [
+          "D'après Fogu, la case est n'importe où dans la vallée sauf sur ta ferme, et elle change d'une partie à l'autre.",
+          "La terre doit être labourée avant d'être arrosée.",
+          "Un arrosoir et une houe améliorés couvrent beaucoup plus de cases à la fois (GameRevolution conseille le Mythic Watering Can)."
+        ],
+        "constraints": ["Pas en hiver (sol trop dur)"]
+      }
+    ],
+    "prerequisites": [],
+    "availableSeasons": ["spring", "summer", "autumn"],
+    "difficulty": 3,
+    "estimatedDuration": "une saison",
+    "confidence": "medium",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam7.php",
+      "https://www.gamerevolution.com/?p=39476"
+    ],
+    "notes": "L'emplacement est aléatoire selon la partie ; aucune source ne donne de position précise."
+  },
+  {
+    "id": "owen",
+    "name": "Owen",
+    "nameFr": null,
+    "teamId": "team-blue",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Arrose une case secrète de terre cultivable.",
+    "methods": [
+      {
+        "title": "Case secrète",
+        "steps": [
+          "Pendant le printemps, l'été ou l'automne, laboure (Hoe) un carré de terre en dehors de ta ferme.",
+          "Arrose les cases labourées avec ton arrosoir.",
+          "Recommence ailleurs dans la vallée jusqu'à tomber sur la case secrète : le lutin apparaît."
+        ],
+        "tips": [
+          "D'après Fogu, la case est n'importe où dans la vallée sauf sur ta ferme, et elle change d'une partie à l'autre.",
+          "La terre doit être labourée avant d'être arrosée.",
+          "Un arrosoir et une houe améliorés couvrent beaucoup plus de cases à la fois (GameRevolution conseille le Mythic Watering Can)."
+        ],
+        "constraints": ["Pas en hiver (sol trop dur)"]
+      }
+    ],
+    "prerequisites": [],
+    "availableSeasons": ["spring", "summer", "autumn"],
+    "difficulty": 3,
+    "estimatedDuration": "une saison",
+    "confidence": "medium",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam7.php",
+      "https://www.gamerevolution.com/?p=39476"
+    ],
+    "notes": "L'emplacement est aléatoire selon la partie ; aucune source ne donne de position précise."
+  },
+  {
+    "id": "roli",
+    "name": "Roli",
+    "nameFr": null,
+    "teamId": "team-blue",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Améliore ton arrosoir au niveau Mystrile, puis utilise-le.",
+    "methods": [
+      {
+        "title": "Arrosoir Mystrile",
+        "steps": [
+          "Fais améliorer ton arrosoir jusqu'au niveau Mystrile (niveau 5).",
+          "Récupère-le et utilise-le une fois : Roli apparaît."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-watering-can-mystrile"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam7.php"
+    ]
+  },
+  {
+    "id": "maddie",
+    "name": "Maddie",
+    "nameFr": null,
+    "teamId": "team-blue",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Trouve l'arrosoir maudit puis fais-le bénir.",
+    "methods": [
+      {
+        "title": "Outil maudit puis béni",
+        "steps": [
+          "Trouve l'arrosoir maudit(e) dans les mines.",
+          "Tu ne peux plus le reposer : appelle l'église avec le téléphone de ta maison pour faire lever la malédiction.",
+          "Une fois l'outil béni, le lutin apparaît."
+        ],
+        "tips": [
+          "Le vœu « Remove curse » de la Déesse (après 9 Wonderful Stones) peut aussi lever une malédiction, mais aucune source ne confirme que ça débloque le lutin."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-watering-can-blessed"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "medium",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam7.php",
+      "https://harvestmoon.fandom.com/wiki/Watering_Can_(DS)"
+    ],
+    "notes": "Les sources ne précisent pas dans quelle mine ni à quel étage se trouve l'arrosoir maudit."
+  },
+  {
+    "id": "chorori",
+    "name": "Chorori",
+    "nameFr": null,
+    "teamId": "team-blue",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Arrose 1 000 cases de terre cultivée.",
+    "methods": [
+      {
+        "title": "Arroser 1 000 cases",
+        "steps": [
+          "Arrose tes cultures chaque jour avec ton arrosoir.",
+          "Continue jusqu'à un total de 1 000 cases arrosées.",
+          "De temps en temps, arrose toi-même quelques cases pour faire apparaître le lutin si le total est atteint."
+        ],
+        "tips": [
+          "Fogu : l'équipe bleue engagée peut arroser pour toi et faire monter le compte, mais elle ne peut pas révéler son coéquipier — il faut que tu arroses toi-même pour qu'il apparaisse.",
+          "Il n'y a aucun moyen de voir le compteur : arrose toi-même régulièrement.",
+          "Un arrosoir amélioré arrose plusieurs cases d'un coup, ce qui accélère le compte."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam7.php"
+    ]
+  },
+  {
+    "id": "walter",
+    "name": "Walter",
+    "nameFr": null,
+    "teamId": "team-blue",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Arrose 5 000 cases de terre cultivée.",
+    "methods": [
+      {
+        "title": "Arroser 5 000 cases",
+        "steps": [
+          "Arrose tes cultures chaque jour avec ton arrosoir.",
+          "Continue jusqu'à un total de 5 000 cases arrosées.",
+          "De temps en temps, arrose toi-même quelques cases pour faire apparaître le lutin si le total est atteint."
+        ],
+        "tips": [
+          "Fogu : l'équipe bleue engagée peut arroser pour toi et faire monter le compte, mais elle ne peut pas révéler son coéquipier — il faut que tu arroses toi-même pour qu'il apparaisse.",
+          "Il n'y a aucun moyen de voir le compteur : arrose toi-même régulièrement.",
+          "Un arrosoir amélioré arrose plusieurs cases d'un coup, ce qui accélère le compte."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 2,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam7.php"
+    ]
+  },
+  {
+    "id": "rainy",
+    "name": "Rainy",
+    "nameFr": null,
+    "teamId": "team-blue",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Arrose 10 000 cases de terre cultivée.",
+    "methods": [
+      {
+        "title": "Arroser 10 000 cases",
+        "steps": [
+          "Arrose tes cultures chaque jour avec ton arrosoir.",
+          "Continue jusqu'à un total de 10 000 cases arrosées.",
+          "De temps en temps, arrose toi-même quelques cases pour faire apparaître le lutin si le total est atteint."
+        ],
+        "tips": [
+          "Fogu : l'équipe bleue engagée peut arroser pour toi et faire monter le compte, mais elle ne peut pas révéler son coéquipier — il faut que tu arroses toi-même pour qu'il apparaisse.",
+          "Il n'y a aucun moyen de voir le compteur : arrose toi-même régulièrement.",
+          "Un arrosoir amélioré arrose plusieurs cases d'un coup, ce qui accélère le compte."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam7.php"
+    ]
+  },
+  {
+    "id": "joro",
+    "name": "Joro",
+    "nameFr": null,
+    "teamId": "team-blue",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Arrose 30 000 cases de terre cultivée.",
+    "methods": [
+      {
+        "title": "Arroser 30 000 cases",
+        "steps": [
+          "Arrose tes cultures chaque jour avec ton arrosoir.",
+          "Continue jusqu'à un total de 30 000 cases arrosées.",
+          "De temps en temps, arrose toi-même quelques cases pour faire apparaître le lutin si le total est atteint."
+        ],
+        "tips": [
+          "Fogu : l'équipe bleue engagée peut arroser pour toi et faire monter le compte, mais elle ne peut pas révéler son coéquipier — il faut que tu arroses toi-même pour qu'il apparaisse.",
+          "Il n'y a aucun moyen de voir le compteur : arrose toi-même régulièrement.",
+          "Un arrosoir amélioré arrose plusieurs cases d'un coup, ce qui accélère le compte."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam7.php"
+    ]
+  },
+  {
+    "id": "patty",
+    "name": "Patty",
+    "nameFr": null,
+    "teamId": "team-blue",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Arrose 50 000 cases de terre cultivée.",
+    "methods": [
+      {
+        "title": "Arroser 50 000 cases",
+        "steps": [
+          "Arrose tes cultures chaque jour avec ton arrosoir.",
+          "Continue jusqu'à un total de 50 000 cases arrosées.",
+          "De temps en temps, arrose toi-même quelques cases pour faire apparaître le lutin si le total est atteint."
+        ],
+        "tips": [
+          "Fogu : l'équipe bleue engagée peut arroser pour toi et faire monter le compte, mais elle ne peut pas révéler son coéquipier — il faut que tu arroses toi-même pour qu'il apparaisse.",
+          "Il n'y a aucun moyen de voir le compteur : arrose toi-même régulièrement.",
+          "Un arrosoir amélioré arrose plusieurs cases d'un coup, ce qui accélère le compte."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam7.php"
+    ]
+  },
+  {
+    "id": "red-ribbon",
+    "name": "Red Ribbon",
+    "nameFr": null,
+    "teamId": "team-red",
+    "isLeader": true,
+    "fromStart": false,
+    "unlock": "Possède en tout 10 vaches et moutons adultes.",
+    "methods": [
+      {
+        "title": "10 vaches et moutons adultes",
+        "steps": [
+          "Fais construire 3 étables (Animal Barns) par Gotz pour pouvoir loger 10 animaux.",
+          "Achète ou fais naître des vaches et des moutons jusqu'à en avoir 10 adultes au total."
+        ],
+        "tips": [
+          "Fogu : tu ne peux avoir que 7 bâtiments d'élevage au total. Fais d'abord Woohoo (5 poulaillers), revends les volailles en trop et fais démolir les poulaillers en trop par Gotz, puis construis les 3 étables."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "batiments-livestock-barn"
+      },
+      {
+        "type": "manual",
+        "label": "Avoir 3 étables (Animal Barns) au total"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam1.php"
+    ]
+  },
+  {
+    "id": "wooly",
+    "name": "Wooly",
+    "nameFr": null,
+    "teamId": "team-red",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Expédie au moins 300 lait, œufs et/ou laine (total cumulé).",
+    "methods": [
+      {
+        "title": "Expédier 300 produits animaux",
+        "steps": [
+          "Récolte chaque jour le lait, les œufs et la laine de tes animaux.",
+          "Mets-les dans le bac d'expédition jusqu'à un total cumulé de 300."
+        ],
+        "tips": ["C'est un total combiné : par exemple 300 œufs suffisent, pas besoin de 300 de chaque."]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam1.php"
+    ]
+  },
+  {
+    "id": "laine",
+    "name": "Laine",
+    "nameFr": null,
+    "teamId": "team-red",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Expédie au moins 500 lait, œufs et/ou laine (total cumulé).",
+    "methods": [
+      {
+        "title": "Expédier 500 produits animaux",
+        "steps": [
+          "Récolte chaque jour le lait, les œufs et la laine de tes animaux.",
+          "Mets-les dans le bac d'expédition jusqu'à un total cumulé de 500."
+        ],
+        "tips": ["C'est un total combiné : par exemple 500 œufs suffisent, pas besoin de 500 de chaque."]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam1.php"
+    ]
+  },
+  {
+    "id": "essa",
+    "name": "Essa",
+    "nameFr": null,
+    "teamId": "team-red",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Expédie au moins 1 000 lait, œufs et/ou laine (total cumulé).",
+    "methods": [
+      {
+        "title": "Expédier 1 000 produits animaux",
+        "steps": [
+          "Récolte chaque jour le lait, les œufs et la laine de tes animaux.",
+          "Mets-les dans le bac d'expédition jusqu'à un total cumulé de 1 000."
+        ],
+        "tips": ["C'est un total combiné : par exemple 1 000 œufs suffisent, pas besoin de 1 000 de chaque."]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam1.php"
+    ]
+  },
+  {
+    "id": "betty",
+    "name": "Betty",
+    "nameFr": null,
+    "teamId": "team-red",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Tonds 100 toisons de laine avec le Touch Glove.",
+    "methods": [
+      {
+        "title": "Tonte au Touch Glove",
+        "steps": [
+          "Équipe le Touch Glove et la tondeuse (Clippers / Cutting Shears).",
+          "Place-toi devant un mouton qui a de la laine et appuie sur Y.",
+          "Frotte la laine avec le stylet pour la récupérer.",
+          "Recommence jusqu'à 100 toisons au total."
+        ],
+        "tips": ["Plus tu as de moutons, plus ça va vite."]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-buy-touch-glove"
+      },
+      {
+        "type": "objective",
+        "id": "animaux-buy-first-sheep"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam1.php"
+    ]
+  },
+  {
+    "id": "chamy",
+    "name": "Chamy",
+    "nameFr": null,
+    "teamId": "team-red",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Tonds 300 toisons de laine avec le Touch Glove.",
+    "methods": [
+      {
+        "title": "Tonte au Touch Glove",
+        "steps": [
+          "Équipe le Touch Glove et la tondeuse (Clippers / Cutting Shears).",
+          "Place-toi devant un mouton qui a de la laine et appuie sur Y.",
+          "Frotte la laine avec le stylet pour la récupérer.",
+          "Recommence jusqu'à 300 toisons au total."
+        ],
+        "tips": ["Plus tu as de moutons, plus ça va vite."]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-buy-touch-glove"
+      },
+      {
+        "type": "objective",
+        "id": "animaux-buy-first-sheep"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam1.php"
+    ]
+  },
+  {
+    "id": "ole",
+    "name": "Ole",
+    "nameFr": null,
+    "teamId": "team-red",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Tonds 700 toisons de laine avec le Touch Glove.",
+    "methods": [
+      {
+        "title": "Tonte au Touch Glove",
+        "steps": [
+          "Équipe le Touch Glove et la tondeuse (Clippers / Cutting Shears).",
+          "Place-toi devant un mouton qui a de la laine et appuie sur Y.",
+          "Frotte la laine avec le stylet pour la récupérer.",
+          "Recommence jusqu'à 700 toisons au total."
+        ],
+        "tips": ["Plus tu as de moutons, plus ça va vite."]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-buy-touch-glove"
+      },
+      {
+        "type": "objective",
+        "id": "animaux-buy-first-sheep"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam1.php"
+    ]
+  },
+  {
+    "id": "sue",
+    "name": "Sue",
+    "nameFr": null,
+    "teamId": "team-red",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Récolte 100 bouteilles de lait avec le Touch Glove.",
+    "methods": [
+      {
+        "title": "Traite au Touch Glove",
+        "steps": [
+          "Équipe le Touch Glove et la trayeuse (Milker).",
+          "Place-toi à côté d'une vache heureuse et appuie sur Y.",
+          "Frotte horizontalement les pis avec le stylet pour obtenir du lait.",
+          "Recommence jusqu'à 100 bouteilles au total."
+        ],
+        "tips": [
+          "Le nombre de bouteilles par traite dépend du niveau de la trayeuse (visible en touchant ton portrait sur l'écran Farm Summary).",
+          "Plus tu frottes vite, meilleure est la qualité du lait."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-buy-touch-glove"
+      },
+      {
+        "type": "objective",
+        "id": "animaux-buy-first-cow"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam1.php"
+    ]
+  },
+  {
+    "id": "magic",
+    "name": "Magic",
+    "nameFr": null,
+    "teamId": "team-red",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Récolte 300 bouteilles de lait avec le Touch Glove.",
+    "methods": [
+      {
+        "title": "Traite au Touch Glove",
+        "steps": [
+          "Équipe le Touch Glove et la trayeuse (Milker).",
+          "Place-toi à côté d'une vache heureuse et appuie sur Y.",
+          "Frotte horizontalement les pis avec le stylet pour obtenir du lait.",
+          "Recommence jusqu'à 300 bouteilles au total."
+        ],
+        "tips": [
+          "Le nombre de bouteilles par traite dépend du niveau de la trayeuse (visible en touchant ton portrait sur l'écran Farm Summary).",
+          "Plus tu frottes vite, meilleure est la qualité du lait."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-buy-touch-glove"
+      },
+      {
+        "type": "objective",
+        "id": "animaux-buy-first-cow"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam1.php"
+    ]
+  },
+  {
+    "id": "bali",
+    "name": "Bali",
+    "nameFr": null,
+    "teamId": "team-red",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Récolte 700 bouteilles de lait avec le Touch Glove.",
+    "methods": [
+      {
+        "title": "Traite au Touch Glove",
+        "steps": [
+          "Équipe le Touch Glove et la trayeuse (Milker).",
+          "Place-toi à côté d'une vache heureuse et appuie sur Y.",
+          "Frotte horizontalement les pis avec le stylet pour obtenir du lait.",
+          "Recommence jusqu'à 700 bouteilles au total."
+        ],
+        "tips": [
+          "Le nombre de bouteilles par traite dépend du niveau de la trayeuse (visible en touchant ton portrait sur l'écran Farm Summary).",
+          "Plus tu frottes vite, meilleure est la qualité du lait."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-buy-touch-glove"
+      },
+      {
+        "type": "objective",
+        "id": "animaux-buy-first-cow"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam1.php"
+    ]
+  },
+  {
+    "id": "mick",
+    "name": "Mick",
+    "nameFr": null,
+    "teamId": "team-red",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Possède en tout 10 volailles (poules et canards).",
+    "methods": [
+      {
+        "title": "10 volailles",
+        "steps": [
+          "Fais construire 3 poulaillers (Bird Barns) par Gotz.",
+          "Achète ou fais éclore des poules et des canards jusqu'à en avoir 10."
+        ],
+        "tips": ["Les œufs éclosent en quelques jours : c'est plus rapide que d'acheter."]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "batiments-poultry-barn"
+      },
+      {
+        "type": "manual",
+        "label": "Avoir 3 poulaillers (Bird Barns) au total"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam1.php"
+    ]
+  },
+  {
+    "id": "woohoo",
+    "name": "Woohoo",
+    "nameFr": null,
+    "teamId": "team-red",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Possède en tout 20 volailles (poules et canards).",
+    "methods": [
+      {
+        "title": "20 volailles",
+        "steps": [
+          "Fais construire 5 poulaillers (Bird Barns) par Gotz.",
+          "Achète ou fais éclore des poules et des canards jusqu'à en avoir 20."
+        ],
+        "tips": [
+          "Fogu : tu ne peux avoir que 7 bâtiments d'élevage. Après avoir trouvé Woohoo, revends les volailles en trop et fais démolir des poulaillers par Gotz pour faire de la place aux 3 étables de Red Ribbon."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "batiments-poultry-barn"
+      },
+      {
+        "type": "manual",
+        "label": "Avoir 5 poulaillers (Bird Barns) au total"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam1.php"
+    ]
+  },
+  {
+    "id": "canary",
+    "name": "Canary",
+    "nameFr": null,
+    "teamId": "team-yellow",
+    "isLeader": true,
+    "fromStart": false,
+    "unlock": "Fais naître 15 animaux sur ta ferme (volailles et/ou bétail).",
+    "methods": [
+      {
+        "title": "15 naissances",
+        "steps": [
+          "Fais éclore des œufs ou fais naître des veaux et agneaux sur ta ferme.",
+          "Continue jusqu'à 15 naissances au total (tous animaux confondus)."
+        ],
+        "tips": ["Les volailles sont le plus rapide : les poussins éclosent en quelques jours."]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam3.php"
+    ]
+  },
+  {
+    "id": "kali",
+    "name": "Kali",
+    "nameFr": null,
+    "teamId": "team-yellow",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Prends, brosse ou parle à tes animaux 50 fois sans le Touch Glove.",
+    "methods": [
+      {
+        "title": "Soins sans le Touch Glove",
+        "steps": [
+          "Retire le Touch Glove de l'emplacement Ornement de ton sac à dos (Rucksack).",
+          "Chaque jour, parle à tes animaux, prends-les dans tes bras ou brosse-les normalement.",
+          "Continue jusqu'à 50 fois au total."
+        ],
+        "tips": ["Les animaux de compagnie (chien, chat) comptent aussi, d'après le wiki."]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam3.php"
+    ]
+  },
+  {
+    "id": "johnny",
+    "name": "Johnny",
+    "nameFr": null,
+    "teamId": "team-yellow",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Prends, brosse ou parle à tes animaux 350 fois sans le Touch Glove.",
+    "methods": [
+      {
+        "title": "Soins sans le Touch Glove",
+        "steps": [
+          "Retire le Touch Glove de l'emplacement Ornement de ton sac à dos (Rucksack).",
+          "Chaque jour, parle à tes animaux, prends-les dans tes bras ou brosse-les normalement.",
+          "Continue jusqu'à 350 fois au total."
+        ],
+        "tips": ["Les animaux de compagnie (chien, chat) comptent aussi, d'après le wiki."]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam3.php"
+    ]
+  },
+  {
+    "id": "brushy",
+    "name": "Brushy",
+    "nameFr": null,
+    "teamId": "team-yellow",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Prends, brosse ou parle à tes animaux 900 fois sans le Touch Glove.",
+    "methods": [
+      {
+        "title": "Soins sans le Touch Glove",
+        "steps": [
+          "Retire le Touch Glove de l'emplacement Ornement de ton sac à dos (Rucksack).",
+          "Chaque jour, parle à tes animaux, prends-les dans tes bras ou brosse-les normalement.",
+          "Continue jusqu'à 900 fois au total."
+        ],
+        "tips": ["Les animaux de compagnie (chien, chat) comptent aussi, d'après le wiki."]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam3.php"
+    ]
+  },
+  {
+    "id": "mouton",
+    "name": "Mouton",
+    "nameFr": null,
+    "teamId": "team-yellow",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Caresse tes animaux 50 fois avec le Touch Glove.",
+    "methods": [
+      {
+        "title": "Caresses au Touch Glove",
+        "steps": [
+          "Équipe le Touch Glove dans l'emplacement Ornement de ton sac à dos, sans outil utilisable sur un animal en main.",
+          "Place-toi à côté d'un animal et appuie sur A.",
+          "Caresse-le avec le stylet.",
+          "Recommence jusqu'à 50 fois au total."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-buy-touch-glove"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam3.php"
+    ]
+  },
+  {
+    "id": "boohoo",
+    "name": "Boohoo",
+    "nameFr": null,
+    "teamId": "team-yellow",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Caresse tes animaux 100 fois avec le Touch Glove.",
+    "methods": [
+      {
+        "title": "Caresses au Touch Glove",
+        "steps": [
+          "Équipe le Touch Glove dans l'emplacement Ornement de ton sac à dos, sans outil utilisable sur un animal en main.",
+          "Place-toi à côté d'un animal et appuie sur A.",
+          "Caresse-le avec le stylet.",
+          "Recommence jusqu'à 100 fois au total."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-buy-touch-glove"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam3.php"
+    ]
+  },
+  {
+    "id": "canal",
+    "name": "Canal",
+    "nameFr": null,
+    "teamId": "team-yellow",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Caresse tes animaux 300 fois avec le Touch Glove.",
+    "methods": [
+      {
+        "title": "Caresses au Touch Glove",
+        "steps": [
+          "Équipe le Touch Glove dans l'emplacement Ornement de ton sac à dos, sans outil utilisable sur un animal en main.",
+          "Place-toi à côté d'un animal et appuie sur A.",
+          "Caresse-le avec le stylet.",
+          "Recommence jusqu'à 300 fois au total."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-buy-touch-glove"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam3.php"
+    ]
+  },
+  {
+    "id": "meow",
+    "name": "Meow",
+    "nameFr": null,
+    "teamId": "team-yellow",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Caresse tes animaux 500 fois avec le Touch Glove.",
+    "methods": [
+      {
+        "title": "Caresses au Touch Glove",
+        "steps": [
+          "Équipe le Touch Glove dans l'emplacement Ornement de ton sac à dos, sans outil utilisable sur un animal en main.",
+          "Place-toi à côté d'un animal et appuie sur A.",
+          "Caresse-le avec le stylet.",
+          "Recommence jusqu'à 500 fois au total."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-buy-touch-glove"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam3.php"
+    ]
+  },
+  {
+    "id": "beta",
+    "name": "Beta",
+    "nameFr": null,
+    "teamId": "team-yellow",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Lave tes animaux 50 fois avec la Brosse et le Touch Glove.",
+    "methods": [
+      {
+        "title": "Lavage au Touch Glove",
+        "steps": [
+          "Équipe le Touch Glove et prends la Brosse (Brush).",
+          "Approche-toi d'un animal et lave-le avec le stylet.",
+          "Recommence jusqu'à 50 lavages au total."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-buy-touch-glove"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "medium",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam3.php"
+    ],
+    "notes": "Wiki et Fogu s'accordent sur la condition, mais aucun ne détaille la manipulation exacte (bouton) pour laver un animal."
+  },
+  {
+    "id": "aiylee",
+    "name": "Aiylee",
+    "nameFr": null,
+    "teamId": "team-yellow",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Lave tes animaux 100 fois avec la Brosse et le Touch Glove.",
+    "methods": [
+      {
+        "title": "Lavage au Touch Glove",
+        "steps": [
+          "Équipe le Touch Glove et prends la Brosse (Brush).",
+          "Approche-toi d'un animal et lave-le avec le stylet.",
+          "Recommence jusqu'à 100 lavages au total."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-buy-touch-glove"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "medium",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam3.php"
+    ],
+    "notes": "Wiki et Fogu s'accordent sur la condition, mais aucun ne détaille la manipulation exacte (bouton) pour laver un animal."
+  },
+  {
+    "id": "pompom",
+    "name": "Pompom",
+    "nameFr": null,
+    "teamId": "team-yellow",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Lave tes animaux 300 fois avec la Brosse et le Touch Glove.",
+    "methods": [
+      {
+        "title": "Lavage au Touch Glove",
+        "steps": [
+          "Équipe le Touch Glove et prends la Brosse (Brush).",
+          "Approche-toi d'un animal et lave-le avec le stylet.",
+          "Recommence jusqu'à 300 lavages au total."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-buy-touch-glove"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "medium",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam3.php"
+    ],
+    "notes": "Wiki et Fogu s'accordent sur la condition, mais aucun ne détaille la manipulation exacte (bouton) pour laver un animal."
+  },
+  {
+    "id": "zoo",
+    "name": "Zoo",
+    "nameFr": null,
+    "teamId": "team-yellow",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Lave tes animaux 500 fois avec la Brosse et le Touch Glove.",
+    "methods": [
+      {
+        "title": "Lavage au Touch Glove",
+        "steps": [
+          "Équipe le Touch Glove et prends la Brosse (Brush).",
+          "Approche-toi d'un animal et lave-le avec le stylet.",
+          "Recommence jusqu'à 500 lavages au total."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-buy-touch-glove"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "medium",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam3.php"
+    ],
+    "notes": "Wiki et Fogu s'accordent sur la condition, mais aucun ne détaille la manipulation exacte (bouton) pour laver un animal."
+  },
+  {
+    "id": "forest",
+    "name": "Forest",
+    "nameFr": null,
+    "teamId": "team-green",
+    "isLeader": true,
+    "fromStart": false,
+    "unlock": "Améliore ta faucille au niveau Mystrile, puis utilise-la.",
+    "methods": [
+      {
+        "title": "Faucille Mystrile",
+        "steps": [
+          "Fais améliorer ta faucille (Sickle) jusqu'au niveau Mystrile (niveau 5).",
+          "Récupère-la et utilise-la une fois : Forest apparaît."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-sickle-mystrile"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam4.php"
+    ]
+  },
+  {
+    "id": "veggie",
+    "name": "Veggie",
+    "nameFr": null,
+    "teamId": "team-green",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Achète le panier (Basket) au Supermarché de Karen et mets-y un objet.",
+    "methods": [
+      {
+        "title": "Le panier de Karen",
+        "steps": [
+          "Achète le Basket (panier d'expédition) au Supermarché de Karen pour 5 000 G.",
+          "Une fois le panier livré, mets-y n'importe quel objet expédiable."
+        ],
+        "cost": "5 000 G"
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam4.php",
+      "https://harvestmoon.fandom.com/wiki/Supermarket_(DS)"
+    ]
+  },
+  {
+    "id": "kevin",
+    "name": "Kevin",
+    "nameFr": null,
+    "teamId": "team-green",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Mets un objet dans les sacoches de ton cheval.",
+    "methods": [
+      {
+        "title": "Sacoches du cheval",
+        "steps": [
+          "Expédie 1 000 objets : Takakura t'offre alors un cheval adulte avec des sacoches.",
+          "Prends un objet expédiable et mets-le dans les sacoches du cheval."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "animaux-get-horse"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam4.php",
+      "https://harvestmoon.fandom.com/wiki/Takakura_(DS)"
+    ]
+  },
+  {
+    "id": "kamar",
+    "name": "Kamar",
+    "nameFr": null,
+    "teamId": "team-green",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Expédie un chou (Cabbage).",
+    "methods": [
+      {
+        "title": "Cultiver et expédier",
+        "steps": [
+          "Échange 500 médailles contre les graines au Casino des lutins (Sprite Casino).",
+          "Plante-les et fais-les pousser au printemps.",
+          "Mets un chou (Cabbage) récolté dans le bac d'expédition."
+        ],
+        "constraints": ["Pousse au printemps"],
+        "cost": "500 médailles"
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "sprite",
+        "id": "roller"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam4.php",
+      "https://harvestmoon.fandom.com/wiki/Crops_(DS)"
+    ],
+    "notes": "Ces graines ne s'obtiennent qu'au Casino des lutins (ouvert après avoir trouvé Roller)."
+  },
+  {
+    "id": "moor",
+    "name": "Moor",
+    "nameFr": null,
+    "teamId": "team-green",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Expédie un ananas (Pineapple).",
+    "methods": [
+      {
+        "title": "Cultiver et expédier",
+        "steps": [
+          "Échange 1 000 médailles contre les graines au Casino des lutins (Sprite Casino).",
+          "Plante-les et fais-les pousser en été.",
+          "Mets un ananas (Pineapple) récolté dans le bac d'expédition."
+        ],
+        "constraints": ["Pousse en été"],
+        "cost": "1 000 médailles"
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "sprite",
+        "id": "roller"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam4.php",
+      "https://harvestmoon.fandom.com/wiki/Crops_(DS)"
+    ],
+    "notes": "Ces graines ne s'obtiennent qu'au Casino des lutins (ouvert après avoir trouvé Roller)."
+  },
+  {
+    "id": "vail",
+    "name": "Vail",
+    "nameFr": null,
+    "teamId": "team-green",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Expédie un poivron vert (Green Pepper).",
+    "methods": [
+      {
+        "title": "Cultiver et expédier",
+        "steps": [
+          "Échange 150 médailles contre les graines au Casino des lutins (Sprite Casino).",
+          "Plante-les et fais-les pousser en automne.",
+          "Mets un poivron vert (Green Pepper) récolté dans le bac d'expédition."
+        ],
+        "constraints": ["Pousse en automne"],
+        "cost": "150 médailles"
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "sprite",
+        "id": "roller"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam4.php",
+      "https://harvestmoon.fandom.com/wiki/Crops_(DS)"
+    ],
+    "notes": "Ces graines ne s'obtiennent qu'au Casino des lutins (ouvert après avoir trouvé Roller)."
+  },
+  {
+    "id": "fraw",
+    "name": "Fraw",
+    "nameFr": null,
+    "teamId": "team-green",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Mets 1 000 objets dans le bac d'expédition.",
+    "methods": [
+      {
+        "title": "Expédier 1 000 objets",
+        "steps": [
+          "Mets chaque jour tout ce que tu peux dans le bac d'expédition.",
+          "Continue jusqu'à 1 000 objets au total."
+        ],
+        "tips": [
+          "N'importe quel objet compte : cultures, produits animaux, et même mauvaises herbes et branches."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam4.php"
+    ]
+  },
+  {
+    "id": "ridge",
+    "name": "Ridge",
+    "nameFr": null,
+    "teamId": "team-green",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Mets 5 000 objets dans le bac d'expédition.",
+    "methods": [
+      {
+        "title": "Expédier 5 000 objets",
+        "steps": [
+          "Mets chaque jour tout ce que tu peux dans le bac d'expédition.",
+          "Continue jusqu'à 5 000 objets au total."
+        ],
+        "tips": [
+          "N'importe quel objet compte : cultures, produits animaux, et même mauvaises herbes et branches."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam4.php"
+    ]
+  },
+  {
+    "id": "ali",
+    "name": "Ali",
+    "nameFr": null,
+    "teamId": "team-green",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Mets 10 000 objets dans le bac d'expédition.",
+    "methods": [
+      {
+        "title": "Expédier 10 000 objets",
+        "steps": [
+          "Mets chaque jour tout ce que tu peux dans le bac d'expédition.",
+          "Continue jusqu'à 10 000 objets au total."
+        ],
+        "tips": [
+          "N'importe quel objet compte : cultures, produits animaux, et même mauvaises herbes et branches."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam4.php"
+    ]
+  },
+  {
+    "id": "cady",
+    "name": "Cady",
+    "nameFr": null,
+    "teamId": "team-green",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Mets 30 000 objets dans le bac d'expédition.",
+    "methods": [
+      {
+        "title": "Expédier 30 000 objets",
+        "steps": [
+          "Mets chaque jour tout ce que tu peux dans le bac d'expédition.",
+          "Continue jusqu'à 30 000 objets au total."
+        ],
+        "tips": [
+          "N'importe quel objet compte : cultures, produits animaux, et même mauvaises herbes et branches."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam4.php"
+    ]
+  },
+  {
+    "id": "paddy",
+    "name": "Paddy",
+    "nameFr": null,
+    "teamId": "team-green",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Mets 50 000 objets dans le bac d'expédition.",
+    "methods": [
+      {
+        "title": "Expédier 50 000 objets",
+        "steps": [
+          "Mets chaque jour tout ce que tu peux dans le bac d'expédition.",
+          "Continue jusqu'à 50 000 objets au total."
+        ],
+        "tips": [
+          "N'importe quel objet compte : cultures, produits animaux, et même mauvaises herbes et branches."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam4.php"
+    ]
+  },
+  {
+    "id": "matthew",
+    "name": "Matthew",
+    "nameFr": null,
+    "teamId": "team-green",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Trouve la faucille maudite puis fais-la bénir.",
+    "methods": [
+      {
+        "title": "Outil maudit puis béni",
+        "steps": [
+          "Trouve la faucille maudite dans les mines (Fogu : dans la 3e mine).",
+          "Tu ne peux plus le reposer : appelle l'église avec le téléphone de ta maison pour faire lever la malédiction.",
+          "Une fois l'outil béni, le lutin apparaît."
+        ],
+        "tips": [
+          "Le vœu « Remove curse » de la Déesse (après 9 Wonderful Stones) peut aussi lever une malédiction, mais aucune source ne confirme que ça débloque le lutin."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-sickle-blessed"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "medium",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam4.php"
+    ],
+    "notes": "Fogu situe la faucille maudite dans la 3e mine, sans préciser l'étage."
+  },
+  {
+    "id": "blue",
+    "name": "Blue",
+    "nameFr": null,
+    "teamId": "team-indigo",
+    "isLeader": true,
+    "fromStart": false,
+    "unlock": "Lance ta canne à pêche dans la source chaude près du terrain du cirque.",
+    "methods": [
+      {
+        "title": "Source chaude du cirque",
+        "steps": [
+          "Débloque la source chaude près du terrain du cirque (événement « cœur bleu » de Flora, ou naissance de ton enfant).",
+          "Va à cette source chaude avec ta canne à pêche.",
+          "Lance ta ligne dans l'eau : Blue apparaît."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "amitie-flora-hot-spring"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam6.php",
+      "https://harvestmoon.fandom.com/wiki/Flora_(DS)"
+    ],
+    "notes": "Le wiki mentionne aussi un déblocage propre à DS Cute (amitié 250+), ignoré ici."
+  },
+  {
+    "id": "riviera",
+    "name": "Riviera",
+    "nameFr": null,
+    "teamId": "team-indigo",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Lance ta canne à pêche dans le point d'eau de ta ferme.",
+    "methods": [
+      {
+        "title": "Pêcher dans le point d'eau",
+        "steps": [
+          "Va au petit point d'eau de ta ferme (celui où tu remplis ton arrosoir).",
+          "Lance ta canne à pêche dedans."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam6.php"
+    ]
+  },
+  {
+    "id": "yacht",
+    "name": "Yacht",
+    "nameFr": null,
+    "teamId": "team-indigo",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Lance ta canne à pêche dans l'étang à canards (Duck Pond).",
+    "methods": [
+      {
+        "title": "Duck Pond",
+        "steps": [
+          "Fais construire le Duck Pond sur ta ferme par Gotz.",
+          "Une fois construit, lance ta canne à pêche dedans."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "batiments-duck-pond"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam6.php"
+    ]
+  },
+  {
+    "id": "paige",
+    "name": "Paige",
+    "nameFr": null,
+    "teamId": "team-indigo",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Pêche 50 poissons.",
+    "methods": [
+      {
+        "title": "Pêcher 50 poissons",
+        "steps": [
+          "Pêche régulièrement (rivière, mer, étangs).",
+          "Continue jusqu'à 50 poissons au total.",
+          "Lance ensuite toi-même ta ligne dans n'importe quelle eau pêchable pour faire apparaître le lutin."
+        ],
+        "tips": [
+          "Fogu : les prises de l'équipe indigo engagée comptent, mais elle ne peut pas révéler son coéquipier — c'est à toi de lancer ta ligne."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam6.php"
+    ]
+  },
+  {
+    "id": "fry",
+    "name": "Fry",
+    "nameFr": null,
+    "teamId": "team-indigo",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Pêche 500 poissons.",
+    "methods": [
+      {
+        "title": "Pêcher 500 poissons",
+        "steps": [
+          "Pêche régulièrement (rivière, mer, étangs).",
+          "Continue jusqu'à 500 poissons au total.",
+          "Lance ensuite toi-même ta ligne dans n'importe quelle eau pêchable pour faire apparaître le lutin."
+        ],
+        "tips": [
+          "Fogu : les prises de l'équipe indigo engagée comptent, mais elle ne peut pas révéler son coéquipier — c'est à toi de lancer ta ligne."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam6.php"
+    ]
+  },
+  {
+    "id": "rod",
+    "name": "Rod",
+    "nameFr": null,
+    "teamId": "team-indigo",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Pêche 1 000 poissons.",
+    "methods": [
+      {
+        "title": "Pêcher 1 000 poissons",
+        "steps": [
+          "Pêche régulièrement (rivière, mer, étangs).",
+          "Continue jusqu'à 1 000 poissons au total.",
+          "Lance ensuite toi-même ta ligne dans n'importe quelle eau pêchable pour faire apparaître le lutin."
+        ],
+        "tips": [
+          "Fogu : les prises de l'équipe indigo engagée comptent, mais elle ne peut pas révéler son coéquipier — c'est à toi de lancer ta ligne."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam6.php"
+    ]
+  },
+  {
+    "id": "gigi",
+    "name": "Gigi",
+    "nameFr": null,
+    "teamId": "team-indigo",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Pêche 5 000 poissons.",
+    "methods": [
+      {
+        "title": "Pêcher 5 000 poissons",
+        "steps": [
+          "Pêche régulièrement (rivière, mer, étangs).",
+          "Continue jusqu'à 5 000 poissons au total.",
+          "Lance ensuite toi-même ta ligne dans n'importe quelle eau pêchable pour faire apparaître le lutin."
+        ],
+        "tips": [
+          "Fogu : les prises de l'équipe indigo engagée comptent, mais elle ne peut pas révéler son coéquipier — c'est à toi de lancer ta ligne."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam6.php"
+    ]
+  },
+  {
+    "id": "pedro",
+    "name": "Pedro",
+    "nameFr": null,
+    "teamId": "team-indigo",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Pêche 10 000 poissons.",
+    "methods": [
+      {
+        "title": "Pêcher 10 000 poissons",
+        "steps": [
+          "Pêche régulièrement (rivière, mer, étangs).",
+          "Continue jusqu'à 10 000 poissons au total.",
+          "Lance ensuite toi-même ta ligne dans n'importe quelle eau pêchable pour faire apparaître le lutin."
+        ],
+        "tips": [
+          "Fogu : les prises de l'équipe indigo engagée comptent, mais elle ne peut pas révéler son coéquipier — c'est à toi de lancer ta ligne."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam6.php"
+    ]
+  },
+  {
+    "id": "tricky",
+    "name": "Tricky",
+    "nameFr": null,
+    "teamId": "team-indigo",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Pêche 50 000 poissons.",
+    "methods": [
+      {
+        "title": "Pêcher 50 000 poissons",
+        "steps": [
+          "Pêche régulièrement (rivière, mer, étangs).",
+          "Continue jusqu'à 50 000 poissons au total.",
+          "Lance ensuite toi-même ta ligne dans n'importe quelle eau pêchable pour faire apparaître le lutin."
+        ],
+        "tips": [
+          "Fogu : les prises de l'équipe indigo engagée comptent, mais elle ne peut pas révéler son coéquipier — c'est à toi de lancer ta ligne."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam6.php"
+    ]
+  },
+  {
+    "id": "fisher",
+    "name": "Fisher",
+    "nameFr": null,
+    "teamId": "team-indigo",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Améliore ta canne à pêche au niveau Mystrile, puis utilise-la.",
+    "methods": [
+      {
+        "title": "Canne Mystrile",
+        "steps": [
+          "Fais améliorer ta canne à pêche jusqu'au niveau Mystrile.",
+          "Utilise-la une première fois : Fisher apparaît."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-fishing-rod-mystrile"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam6.php"
+    ]
+  },
+  {
+    "id": "reese",
+    "name": "Reese",
+    "nameFr": null,
+    "teamId": "team-indigo",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Lance ta canne à pêche dans la source chaude près du Goddess Pond.",
+    "methods": [
+      {
+        "title": "Source chaude de la Déesse",
+        "steps": [
+          "Utilise 100 fois la première source chaude (près du cirque) pour débloquer celle près du Goddess Pond.",
+          "Va à la source chaude près du Goddess Pond et lances-y ta ligne."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "amitie-flora-hot-spring"
+      },
+      {
+        "type": "manual",
+        "label": "Source chaude du Goddess Pond débloquée (100 bains dans la source du cirque)"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam6.php"
+    ]
+  },
+  {
+    "id": "sammy",
+    "name": "Sammy",
+    "nameFr": null,
+    "teamId": "team-indigo",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Trouve la canne à pêche maudite puis fais-la bénir.",
+    "methods": [
+      {
+        "title": "Outil maudit puis béni",
+        "steps": [
+          "Trouve la canne à pêche maudite dans les mines.",
+          "Tu ne peux plus le reposer : appelle l'église avec le téléphone de ta maison pour faire lever la malédiction.",
+          "Une fois l'outil béni, le lutin apparaît."
+        ],
+        "tips": [
+          "Le vœu « Remove curse » de la Déesse (après 9 Wonderful Stones) peut aussi lever une malédiction, mais aucune source ne confirme que ça débloque le lutin."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-fishing-rod-blessed"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "medium",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam6.php"
+    ],
+    "notes": "Les sources ne précisent pas dans quelle mine ni à quel étage se trouve la canne maudite."
+  },
+  {
+    "id": "oran",
+    "name": "Oran",
+    "nameFr": null,
+    "teamId": "team-orange",
+    "isLeader": true,
+    "fromStart": false,
+    "unlock": "Le 2 de l'hiver, donne à Thomas l'objet qu'il te demande.",
+    "methods": [
+      {
+        "title": "La demande de Thomas",
+        "steps": [
+          "Le 2 de l'hiver, reste chez toi le matin : Thomas passe te demander de lui trouver un objet.",
+          "Trouve l'objet demandé.",
+          "Thomas revient à 16 h 30 : donne-lui l'objet. Il t'offre du Golden Lumber et Oran apparaît."
+        ],
+        "constraints": ["Seulement le 2 hiver"]
+      }
+    ],
+    "prerequisites": [],
+    "dates": [
+      {
+        "season": "winter",
+        "day": 2
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam2.php"
+    ],
+    "notes": "L'objet demandé n'est précisé par aucune source consultée."
+  },
+  {
+    "id": "bran",
+    "name": "Bran",
+    "nameFr": null,
+    "teamId": "team-orange",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Coupe 100 branches avec ta hache.",
+    "methods": [
+      {
+        "title": "Couper 100 branches",
+        "steps": [
+          "Prends ta hache (Axe) en main.",
+          "Coupe les petites branches qui traînent sur ta ferme et dans la vallée jusqu'à 100 au total."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam2.php"
+    ]
+  },
+  {
+    "id": "decoy",
+    "name": "Decoy",
+    "nameFr": null,
+    "teamId": "team-orange",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Coupe 250 branches avec ta hache.",
+    "methods": [
+      {
+        "title": "Couper 250 branches",
+        "steps": [
+          "Prends ta hache (Axe) en main.",
+          "Coupe les petites branches qui traînent sur ta ferme et dans la vallée jusqu'à 250 au total."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam2.php"
+    ]
+  },
+  {
+    "id": "woody",
+    "name": "Woody",
+    "nameFr": null,
+    "teamId": "team-orange",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Coupe 500 branches avec ta hache.",
+    "methods": [
+      {
+        "title": "Couper 500 branches",
+        "steps": [
+          "Prends ta hache (Axe) en main.",
+          "Coupe les petites branches qui traînent sur ta ferme et dans la vallée jusqu'à 500 au total."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam2.php"
+    ]
+  },
+  {
+    "id": "pierre",
+    "name": "Pierre",
+    "nameFr": null,
+    "teamId": "team-orange",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Fends 15 souches avec ta hache.",
+    "methods": [
+      {
+        "title": "Fendre 15 souches",
+        "steps": [
+          "Améliore ta hache au moins au niveau cuivre (niveau 2) : sinon elle ne coupe pas les souches.",
+          "Fends 15 souches au total."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-axe-copper"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam2.php"
+    ]
+  },
+  {
+    "id": "tilus",
+    "name": "Tilus",
+    "nameFr": null,
+    "teamId": "team-orange",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Casse 100 pierres avec ton marteau.",
+    "methods": [
+      {
+        "title": "Casser 100 pierres",
+        "steps": [
+          "Prends ton marteau (Hammer) en main.",
+          "Casse les petites pierres sur ta ferme et dans la vallée jusqu'à 100 au total."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam2.php"
+    ]
+  },
+  {
+    "id": "stony",
+    "name": "Stony",
+    "nameFr": null,
+    "teamId": "team-orange",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Casse 250 pierres avec ton marteau.",
+    "methods": [
+      {
+        "title": "Casser 250 pierres",
+        "steps": [
+          "Prends ton marteau (Hammer) en main.",
+          "Casse les petites pierres sur ta ferme et dans la vallée jusqu'à 250 au total."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam2.php"
+    ]
+  },
+  {
+    "id": "rosh",
+    "name": "Rosh",
+    "nameFr": null,
+    "teamId": "team-orange",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Casse 500 pierres avec ton marteau.",
+    "methods": [
+      {
+        "title": "Casser 500 pierres",
+        "steps": [
+          "Prends ton marteau (Hammer) en main.",
+          "Casse les petites pierres sur ta ferme et dans la vallée jusqu'à 500 au total."
+        ]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam2.php"
+    ]
+  },
+  {
+    "id": "alpen",
+    "name": "Alpen",
+    "nameFr": null,
+    "teamId": "team-orange",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Casse 5 grosses pierres lisses avec ton marteau.",
+    "methods": [
+      {
+        "title": "Grosses pierres lisses",
+        "steps": [
+          "Améliore ton marteau au moins au niveau cuivre : sinon il ne casse pas les grosses pierres.",
+          "Casse 5 grosses pierres lisses au total (ce sont des versions géantes des petites pierres, pas les rochers à facettes)."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-hammer-copper"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam2.php",
+      "https://harvestmoon.fandom.com/wiki/Hammer_(DS)"
+    ]
+  },
+  {
+    "id": "rocky",
+    "name": "Rocky",
+    "nameFr": null,
+    "teamId": "team-orange",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Casse 15 grosses pierres lisses avec ton marteau.",
+    "methods": [
+      {
+        "title": "Grosses pierres lisses",
+        "steps": [
+          "Améliore ton marteau au moins au niveau cuivre : sinon il ne casse pas les grosses pierres.",
+          "Casse 15 grosses pierres lisses au total (ce sont des versions géantes des petites pierres, pas les rochers à facettes)."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-hammer-copper"
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam2.php",
+      "https://harvestmoon.fandom.com/wiki/Hammer_(DS)"
+    ]
+  },
+  {
+    "id": "valie",
+    "name": "Valie",
+    "nameFr": null,
+    "teamId": "team-orange",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Améliore ta hache au niveau Mystrile, puis utilise-la.",
+    "methods": [
+      {
+        "title": "Hache Mystrile",
+        "steps": [
+          "Fais améliorer ta hache jusqu'au niveau Mystrile (niveau 5).",
+          "Utilise-la une fois : Valie apparaît."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-axe-mystrile"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam2.php"
+    ]
+  },
+  {
+    "id": "fen",
+    "name": "Fen",
+    "nameFr": null,
+    "teamId": "team-orange",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Trouve le marteau maudit puis fais-le bénir.",
+    "methods": [
+      {
+        "title": "Outil maudit puis béni",
+        "steps": [
+          "Trouve le marteau maudit dans les mines (Fogu : dans la 3e mine).",
+          "Tu ne peux plus le reposer : appelle l'église avec le téléphone de ta maison pour faire lever la malédiction.",
+          "Une fois l'outil béni, le lutin apparaît."
+        ],
+        "tips": [
+          "Le vœu « Remove curse » de la Déesse (après 9 Wonderful Stones) peut aussi lever une malédiction, mais aucune source ne confirme que ça débloque le lutin."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "outils-hammer-blessed"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "medium",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam2.php",
+      "https://harvestmoon.fandom.com/wiki/Hammer_(DS)"
+    ],
+    "notes": "Fogu situe le marteau maudit dans la 3e mine, sans préciser l'étage."
+  },
+  {
+    "id": "violetto",
+    "name": "Violetto",
+    "nameFr": null,
+    "teamId": "team-purple",
+    "isLeader": true,
+    "fromStart": false,
+    "unlock": "Baigne-toi 200 fois (au moins 1 h à chaque fois) dans la source chaude près du cirque.",
+    "methods": [
+      {
+        "title": "200 bains au cirque",
+        "steps": [
+          "Débloque la source chaude près du terrain du cirque (événement « cœur bleu » de Flora, ou naissance de ton enfant).",
+          "Entre dans la source et restes-y au moins 1 heure de jeu avant de ressortir.",
+          "Recommence jusqu'à 200 bains."
+        ],
+        "tips": ["Entrer et ressortir aussitôt ne compte pas : il faut au moins 1 h à chaque bain."]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "amitie-flora-hot-spring"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam5.php"
+    ]
+  },
+  {
+    "id": "spirity",
+    "name": "Spirity",
+    "nameFr": null,
+    "teamId": "team-purple",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Achète 1 boisson au Blue Bar.",
+    "methods": [
+      {
+        "title": "Une boisson au Blue Bar",
+        "steps": [
+          "Va au Blue Bar le soir (il ouvre en soirée).",
+          "Achète une boisson autre que de l'eau : tu la bois immédiatement."
+        ],
+        "tips": ["L'eau ne compte pas."]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam5.php"
+    ]
+  },
+  {
+    "id": "souly",
+    "name": "Souly",
+    "nameFr": null,
+    "teamId": "team-purple",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Achète 50 boissons au Blue Bar.",
+    "methods": [
+      {
+        "title": "50 boissons au Blue Bar",
+        "steps": ["Va au Blue Bar le soir.", "Achète des boissons (pas de l'eau) jusqu'à 50 au total."],
+        "tips": ["L'eau ne compte pas."]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam5.php"
+    ]
+  },
+  {
+    "id": "anime",
+    "name": "Anime",
+    "nameFr": null,
+    "teamId": "team-purple",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Mange 30 herbes sauvages.",
+    "methods": [
+      {
+        "title": "Manger 30 herbes",
+        "steps": [
+          "Ramasse des herbes sauvages (wild grass) dans les zones non cultivées de la vallée.",
+          "Tiens une herbe dans tes mains et appuie sur X pour la manger.",
+          "Recommence jusqu'à 30 au total."
+        ],
+        "tips": ["N'importe quel type d'herbe compte ; les Elli Leaves aussi (Fogu)."]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam5.php"
+    ]
+  },
+  {
+    "id": "powery",
+    "name": "Powery",
+    "nameFr": null,
+    "teamId": "team-purple",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Mange 80 herbes sauvages.",
+    "methods": [
+      {
+        "title": "Manger 80 herbes",
+        "steps": [
+          "Ramasse des herbes sauvages (wild grass) dans les zones non cultivées de la vallée.",
+          "Tiens une herbe dans tes mains et appuie sur X pour la manger.",
+          "Recommence jusqu'à 80 au total."
+        ],
+        "tips": ["N'importe quel type d'herbe compte ; les Elli Leaves aussi (Fogu)."]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam5.php"
+    ]
+  },
+  {
+    "id": "koto",
+    "name": "Koto",
+    "nameFr": null,
+    "teamId": "team-purple",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Mange 150 herbes sauvages.",
+    "methods": [
+      {
+        "title": "Manger 150 herbes",
+        "steps": [
+          "Ramasse des herbes sauvages (wild grass) dans les zones non cultivées de la vallée.",
+          "Tiens une herbe dans tes mains et appuie sur X pour la manger.",
+          "Recommence jusqu'à 150 au total."
+        ],
+        "tips": ["N'importe quel type d'herbe compte ; les Elli Leaves aussi (Fogu)."]
+      }
+    ],
+    "prerequisites": [],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam5.php"
+    ]
+  },
+  {
+    "id": "carey",
+    "name": "Carey",
+    "nameFr": null,
+    "teamId": "team-purple",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Baigne-toi 200 fois (au moins 1 h à chaque fois) dans la source chaude près du Goddess Pond.",
+    "methods": [
+      {
+        "title": "200 bains à la source de la Déesse",
+        "steps": [
+          "Débloque la source chaude près du Goddess Pond en prenant 100 bains dans celle du cirque.",
+          "Entre dans la source près du Goddess Pond et restes-y au moins 1 heure de jeu.",
+          "Recommence jusqu'à 200 bains."
+        ],
+        "tips": ["Entrer et ressortir aussitôt ne compte pas : il faut au moins 1 h à chaque bain."]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "amitie-flora-hot-spring"
+      },
+      {
+        "type": "manual",
+        "label": "Source chaude du Goddess Pond débloquée (100 bains dans la source du cirque)"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam5.php"
+    ]
+  },
+  {
+    "id": "sacci",
+    "name": "Sacci",
+    "nameFr": null,
+    "teamId": "team-purple",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Baigne-toi 500 fois (au moins 1 h à chaque fois) dans la source chaude près du Goddess Pond.",
+    "methods": [
+      {
+        "title": "500 bains à la source de la Déesse",
+        "steps": [
+          "Débloque la source chaude près du Goddess Pond en prenant 100 bains dans celle du cirque.",
+          "Entre dans la source près du Goddess Pond et restes-y au moins 1 heure de jeu.",
+          "Recommence jusqu'à 500 bains."
+        ],
+        "tips": ["Entrer et ressortir aussitôt ne compte pas : il faut au moins 1 h à chaque bain."]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "amitie-flora-hot-spring"
+      },
+      {
+        "type": "manual",
+        "label": "Source chaude du Goddess Pond débloquée (100 bains dans la source du cirque)"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam5.php"
+    ]
+  },
+  {
+    "id": "nette",
+    "name": "Nette",
+    "nameFr": null,
+    "teamId": "team-purple",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Engage l'équipe violette et demande-lui de restaurer ton endurance 100 fois.",
+    "methods": [
+      {
+        "title": "Soins de l'équipe violette",
+        "steps": [
+          "Va voir Guts au Sprite Company Tree et engage l'équipe violette (Recovery Team) avec des médailles.",
+          "Va à l'endroit où tu l'as envoyée et parle à un lutin pour qu'il restaure ton endurance.",
+          "Recommence jusqu'à 100 fois au total."
+        ],
+        "tips": [
+          "Tu peux redemander des soins environ toutes les 30 minutes de jeu (Fogu).",
+          "Les lutins ne travaillent pas les jours fériés."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "manual",
+        "label": "Avoir au moins un lutin de l'équipe violette pour pouvoir l'engager"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam5.php",
+      "https://fogu.com/hm6/chan5/hiringsprites.php"
+    ]
+  },
+  {
+    "id": "whitney",
+    "name": "Whitney",
+    "nameFr": null,
+    "teamId": "team-purple",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Engage l'équipe violette et demande-lui de restaurer ton endurance 500 fois.",
+    "methods": [
+      {
+        "title": "Soins de l'équipe violette",
+        "steps": [
+          "Va voir Guts au Sprite Company Tree et engage l'équipe violette (Recovery Team) avec des médailles.",
+          "Va à l'endroit où tu l'as envoyée et parle à un lutin pour qu'il restaure ton endurance.",
+          "Recommence jusqu'à 500 fois au total."
+        ],
+        "tips": [
+          "Tu peux redemander des soins environ toutes les 30 minutes de jeu (Fogu).",
+          "Les lutins ne travaillent pas les jours fériés."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "manual",
+        "label": "Avoir au moins un lutin de l'équipe violette pour pouvoir l'engager"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam5.php",
+      "https://fogu.com/hm6/chan5/hiringsprites.php"
+    ]
+  },
+  {
+    "id": "juna",
+    "name": "Juna",
+    "nameFr": null,
+    "teamId": "team-purple",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Engage l'équipe violette et demande-lui de restaurer ton endurance 750 fois.",
+    "methods": [
+      {
+        "title": "Soins de l'équipe violette",
+        "steps": [
+          "Va voir Guts au Sprite Company Tree et engage l'équipe violette (Recovery Team) avec des médailles.",
+          "Va à l'endroit où tu l'as envoyée et parle à un lutin pour qu'il restaure ton endurance.",
+          "Recommence jusqu'à 750 fois au total."
+        ],
+        "tips": [
+          "Tu peux redemander des soins environ toutes les 30 minutes de jeu (Fogu).",
+          "Les lutins ne travaillent pas les jours fériés."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "manual",
+        "label": "Avoir au moins un lutin de l'équipe violette pour pouvoir l'engager"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam5.php",
+      "https://fogu.com/hm6/chan5/hiringsprites.php"
+    ]
+  },
+  {
+    "id": "sante",
+    "name": "Sante",
+    "nameFr": null,
+    "teamId": "team-purple",
+    "isLeader": false,
+    "fromStart": false,
+    "unlock": "Engage l'équipe violette et demande-lui de restaurer ton endurance 1 000 fois.",
+    "methods": [
+      {
+        "title": "Soins de l'équipe violette",
+        "steps": [
+          "Va voir Guts au Sprite Company Tree et engage l'équipe violette (Recovery Team) avec des médailles.",
+          "Va à l'endroit où tu l'as envoyée et parle à un lutin pour qu'il restaure ton endurance.",
+          "Recommence jusqu'à 1 000 fois au total."
+        ],
+        "tips": [
+          "Tu peux redemander des soins environ toutes les 30 minutes de jeu (Fogu).",
+          "Les lutins ne travaillent pas les jours fériés."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "manual",
+        "label": "Avoir au moins un lutin de l'équipe violette pour pouvoir l'engager"
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam5.php",
+      "https://fogu.com/hm6/chan5/hiringsprites.php"
+    ]
+  },
+  {
+    "id": "baby",
+    "name": "Baby",
+    "nameFr": null,
+    "teamId": "team-white",
+    "isLeader": true,
+    "fromStart": false,
+    "unlock": "Après avoir retrouvé 60 lutins et sauvé la Déesse, appuie sur A devant le grand pot à gauche du comptoir du Sprite Company Tree.",
+    "methods": [
+      {
+        "title": "Le grand pot",
+        "steps": [
+          "Retrouve 60 lutins : la Déesse est alors délivrée.",
+          "Entre dans le Sprite Company Tree.",
+          "Place-toi devant le grand pot à gauche du comptoir et appuie sur A."
+        ],
+        "tips": [
+          "Si tu offres 250 cadeaux à Baby, ton or et tes médailles augmentent (Fogu). Son plat préféré : le Curry Rice."
+        ]
+      }
+    ],
+    "prerequisites": [
+      {
+        "type": "spriteCount",
+        "min": 60
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/index.php",
+      "https://fogu.com/hm6/chan5/hiringsprites.php",
+      "https://www.gamerevolution.com/?p=39476",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Goddess_(DS)"
+    ]
+  }
+]

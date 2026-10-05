@@ -1,0 +1,150 @@
+{
+  "daysPerSeason": 30,
+  "firstWeekday": "sunday",
+  "schedules": [
+    {
+      "id": "vesta-shop",
+      "place": "Boutique de Vesta (graines)",
+      "hours": "16 h – 19 h",
+      "closedOn": ["monday"],
+      "details": "Seule boutique permanente de la vallée. Le lundi, Vesta part vendre ses récoltes à Mineral Town.",
+      "confidence": "high",
+      "sources": ["https://fogu.com/hm6/chan7/shoplist.php", "https://harvestmoon.fandom.com/wiki/Vesta_(DS)"]
+    },
+    {
+      "id": "blue-bar",
+      "place": "Blue Bar (le bar de Griffin)",
+      "hours": "17 h – 23 h",
+      "closedOn": ["wednesday"],
+      "details": "Fermé aussi les jours fériés (festivals). Les boissons se boivent sur place.",
+      "confidence": "high",
+      "sources": [
+        "https://harvestmoon.fandom.com/wiki/Blue_Bar_(DS)",
+        "https://fogu.com/hm6/chan7/shoplist.php"
+      ]
+    },
+    {
+      "id": "van-shop",
+      "place": "Boutique de Van (étage de l'Inner Inn)",
+      "hours": "10 h – 18 h, uniquement les jours 3, 8, 13, 18, 23 et 28",
+      "details": "Van n'est présent que les jours qui finissent par 3 ou 8. Il vend des objets rares (DVD…) et rachète les objets non expédiables.",
+      "confidence": "high",
+      "sources": [
+        "https://fogu.com/hm6/chan7/shoplist.php",
+        "https://harvestmoon.fandom.com/wiki/Van_(DS)",
+        "https://harvestmoon.fandom.com/wiki/Van's_Shop_(DS)"
+      ]
+    },
+    {
+      "id": "kai-snack-shack",
+      "place": "Snack Shack de Kai (plage)",
+      "hours": "8 h – 18 h",
+      "details": "Uniquement en été ; fermée les jours de pluie.",
+      "confidence": "high",
+      "sources": ["https://fogu.com/hm6/chan7/shoplist.php", "https://harvestmoon.fandom.com/wiki/Kai_(DS)"]
+    },
+    {
+      "id": "supermarket",
+      "place": "Supermarket de Karen (par téléphone)",
+      "hours": "9 h – 17 h",
+      "closedOn": ["tuesday", "sunday"],
+      "details": "Commandes par le téléphone de ta maison. Fermé aussi les jours de festival à Mineral Town. Acheter 10 jours débloque la chaîne 2 (TV Shopping).",
+      "confidence": "medium",
+      "sources": [
+        "https://fogu.com/hm6/chan7/shoplist.php",
+        "https://harvestmoon.fandom.com/wiki/Supermarket_(DS)"
+      ],
+      "notes": "Fogu : fermé le dimanche et le mardi. Le wiki ne cite que le mardi (et les jours fériés). Un guide GameRevolution confirme « excluding Tuesdays, Sundays, and holidays »."
+    },
+    {
+      "id": "poultry-farm",
+      "place": "Poultry Farm de Popuri (par téléphone)",
+      "hours": "11 h – 16 h",
+      "closedOn": ["sunday"],
+      "details": "Poules, canards, nourriture, médicaments. Fermée aussi les jours fériés.",
+      "confidence": "high",
+      "sources": [
+        "https://fogu.com/hm6/chan7/shoplist.php",
+        "https://harvestmoon.fandom.com/wiki/Poultry_Farm_(DS)"
+      ]
+    },
+    {
+      "id": "yodel-farm",
+      "place": "Yodel Farm de Rick (par téléphone)",
+      "hours": "10 h – 15 h",
+      "closedOn": ["sunday"],
+      "details": "Vaches, moutons, fourrage, potions. Fermée aussi les jours fériés.",
+      "confidence": "high",
+      "sources": [
+        "https://fogu.com/hm6/chan7/shoplist.php",
+        "https://harvestmoon.fandom.com/wiki/Yodel_Farm_(DS)"
+      ]
+    },
+    {
+      "id": "blacksmith",
+      "place": "Blacksmith Saibara, forge de Gray (par téléphone)",
+      "hours": "10 h – 16 h",
+      "closedOn": ["thursday"],
+      "details": "Améliorations d'outils et machines. Fermée aussi les jours de festival à Mineral Town.",
+      "confidence": "medium",
+      "sources": ["https://fogu.com/hm6/chan7/shoplist.php"],
+      "notes": "Source unique (Fogu). Une autre page de Fogu donne 10 h – 17 h, du vendredi au mercredi (fermé le jeudi) : 10 h – 16 h retenu, comme dans les objectifs d’outils."
+    },
+    {
+      "id": "carpenter-gotz",
+      "place": "Menuisier Gotz (par téléphone)",
+      "hours": "11 h – 16 h",
+      "closedOn": ["saturday"],
+      "details": "Constructions et agrandissements : un chantier à la fois, interrompu les jours de festival et le samedi.",
+      "confidence": "high",
+      "sources": [
+        "https://fogu.com/hm6/chan7/shoplist.php",
+        "https://fogu.com/hm6/chan2/buildings.php",
+        "https://www.gamerevolution.com/?p=39476"
+      ]
+    },
+    {
+      "id": "church",
+      "place": "Église de Mineral Town (par téléphone)",
+      "hours": "12 h – 16 h",
+      "closedOn": ["saturday", "sunday"],
+      "details": "On y appelle pour retirer un objet maudit (cursed).",
+      "confidence": "medium",
+      "sources": ["https://fogu.com/hm6/chan7/shoplist.php"],
+      "notes": "Source unique (Fogu)."
+    },
+    {
+      "id": "sprite-shop",
+      "place": "Sprite Shop de Jet (arbre des lutins)",
+      "hours": "10 h – 18 h",
+      "details": "Ouvert tous les jours ; inaccessible seulement si une tempête t'empêche de quitter ta ferme.",
+      "confidence": "high",
+      "sources": ["https://fogu.com/hm6/chan7/shoplist.php"]
+    },
+    {
+      "id": "sprite-casino",
+      "place": "Sprite Casino de Roller (arbre des lutins)",
+      "hours": "10 h – 18 h",
+      "details": "Ouvert tous les jours (paiement en médailles) ; inaccessible seulement les jours de tempête.",
+      "confidence": "high",
+      "sources": ["https://fogu.com/hm6/chan7/shoplist.php"]
+    },
+    {
+      "id": "shipping-pickup",
+      "place": "Ramassage du bac d'expédition (Thomas)",
+      "hours": "16 h 30 – 17 h 30",
+      "details": "Thomas ne passe pas les jours fériés ni les jours de pluie : tes objets restent alors dans le bac.",
+      "confidence": "medium",
+      "sources": ["https://harvestmoon.fandom.com/wiki/Thomas_(DS)"],
+      "notes": "Source unique (wiki)."
+    }
+  ],
+  "confidence": "low",
+  "sources": [
+    "https://www.gamerevolution.com/?p=39476",
+    "https://harvestmoon.fandom.com/wiki/Fishing_(DS)",
+    "https://fogu.com/hm6/chan7/printcalendar.php",
+    "https://fogu.com/hmforum/viewtopic.php?t=42665"
+  ],
+  "notes": "Aucune source ne donne explicitement le jour de la semaine du 1er printemps. « Dimanche » est déduit du guide GameRevolution (Dark Ranger) : l'événement de la canne à pêche de Galen, qui n'a lieu que le samedi selon le wiki, y est placé le 7 printemps, et le guide découpe les semaines à partir du 9 et du 16 (lundis). Le calendrier imprimable de Fogu place les 1er et 2 en fin de première ligne, ce qui suggérerait plutôt un samedi : désaccord non résolu. Les jours de fermeture des boutiques permettent de vérifier en jeu (ex. : Supermarket fermé le mardi)."
+}

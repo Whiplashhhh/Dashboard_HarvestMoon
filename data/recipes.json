@@ -1,0 +1,2217 @@
+[
+  {
+    "id": "stir-fry",
+    "name": "Stir Fry",
+    "nameFr": null,
+    "ingredients": ["Oil", "Cabbage"],
+    "utensils": ["Frying Pan"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Frying Pan.",
+    "effect": "Endurance +40 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "fried-rice",
+    "name": "Fried Rice",
+    "nameFr": null,
+    "ingredients": ["Riceballs", "Oil", "Egg (tout type)"],
+    "utensils": ["Frying Pan"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Frying Pan.",
+    "effect": "Endurance +40 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "savory-pancake",
+    "name": "Savory Pancake",
+    "nameFr": null,
+    "ingredients": ["Cabbage", "Flour", "Egg (tout type)", "Oil"],
+    "utensils": ["Frying Pan"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Frying Pan.",
+    "effect": "Endurance +50 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "french-fries",
+    "name": "French Fries",
+    "nameFr": null,
+    "ingredients": ["Potato", "Oil"],
+    "utensils": ["Frying Pan"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Frying Pan.",
+    "effect": "Endurance +30 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "croquettes",
+    "name": "Croquettes",
+    "nameFr": null,
+    "ingredients": ["Potato", "Onion", "Egg (tout type)", "Flour", "Oil"],
+    "utensils": ["Frying Pan"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Frying Pan.",
+    "effect": "Endurance +20 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Appelé « Croquette » sur Fogu."
+  },
+  {
+    "id": "popcorn",
+    "name": "Popcorn",
+    "nameFr": null,
+    "ingredients": ["Corn"],
+    "utensils": ["Frying Pan"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Frying Pan.",
+    "effect": "Endurance +30 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "corn-flakes",
+    "name": "Corn Flakes",
+    "nameFr": null,
+    "ingredients": ["Corn", "Milk (tout type)"],
+    "utensils": ["Frying Pan"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Frying Pan.",
+    "effect": "Endurance +10 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Écrit « Cornflakes » sur Fogu."
+  },
+  {
+    "id": "happy-eggplant",
+    "name": "Happy Eggplant",
+    "nameFr": null,
+    "ingredients": ["Eggplant"],
+    "utensils": ["Frying Pan"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Frying Pan.",
+    "effect": "Endurance +30 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "scrambled-eggs",
+    "name": "Scrambled Eggs",
+    "nameFr": null,
+    "ingredients": ["Egg (tout type)", "Oil"],
+    "utensils": ["Frying Pan"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Frying Pan.",
+    "effect": "Endurance +40 / Fatigue −3",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "omelet",
+    "name": "Omelet",
+    "nameFr": null,
+    "ingredients": ["Egg (tout type)", "Milk (tout type)", "Oil"],
+    "utensils": ["Frying Pan"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Frying Pan.",
+    "effect": "Endurance +50 / Fatigue −4",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "omelet-rice",
+    "name": "Omelet Rice",
+    "nameFr": null,
+    "ingredients": ["Egg (tout type)", "Milk (tout type)", "Oil", "Riceballs"],
+    "utensils": ["Frying Pan"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Frying Pan.",
+    "effect": "Endurance +60 / Fatigue −4",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "apple-souffle",
+    "name": "Apple Souffle",
+    "nameFr": null,
+    "ingredients": ["Apple"],
+    "utensils": ["Frying Pan"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Frying Pan.",
+    "effect": "Endurance +8 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "curry-bread",
+    "name": "Curry Bread",
+    "nameFr": null,
+    "ingredients": ["Bread", "Curry Powder", "Oil"],
+    "utensils": ["Frying Pan"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Frying Pan.",
+    "effect": "Endurance +30 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "french-toast",
+    "name": "French Toast",
+    "nameFr": null,
+    "ingredients": ["Egg (tout type)", "Bread", "Oil"],
+    "utensils": ["Frying Pan"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Frying Pan.",
+    "effect": "Endurance +30 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "doughnut",
+    "name": "Doughnut",
+    "nameFr": null,
+    "ingredients": ["Egg (tout type)", "Milk (tout type)", "Butter", "Flour", "Oil"],
+    "utensils": ["Frying Pan"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Frying Pan.",
+    "effect": "Endurance +30 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "grilled-fish",
+    "name": "Grilled Fish",
+    "nameFr": null,
+    "ingredients": ["Medium Fish ou Large Fish"],
+    "utensils": ["Frying Pan"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Frying Pan.",
+    "effect": "Endurance +30 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "medium",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Le wiki accepte un poisson moyen ou grand ; Fogu n'indique que Medium Fish."
+  },
+  {
+    "id": "fried-thick-noodles",
+    "name": "Fried Thick Noodles",
+    "nameFr": null,
+    "ingredients": ["Noodles", "Oil"],
+    "utensils": ["Frying Pan"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Frying Pan.",
+    "effect": "Endurance +60 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "fried-noodles",
+    "name": "Fried Noodles",
+    "nameFr": null,
+    "ingredients": ["Buckwheat Noodles", "Oil"],
+    "utensils": ["Frying Pan"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Frying Pan.",
+    "effect": "Endurance +60 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "tempura",
+    "name": "Tempura",
+    "nameFr": null,
+    "ingredients": ["Egg (tout type)", "Flour", "Oil"],
+    "utensils": ["Frying Pan"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Frying Pan.",
+    "effect": "Endurance +20 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "pancake",
+    "name": "Pancake",
+    "nameFr": null,
+    "ingredients": ["Egg (tout type)", "Milk (tout type)", "Flour", "Oil"],
+    "utensils": ["Frying Pan"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Frying Pan.",
+    "effect": "Endurance +20 / Fatigue −3",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "pot-sticker",
+    "name": "Pot Sticker",
+    "nameFr": null,
+    "ingredients": ["Cabbage", "Onion", "Flour", "Oil"],
+    "utensils": ["Frying Pan"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Frying Pan.",
+    "effect": "Endurance +25 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "risotto",
+    "name": "Risotto",
+    "nameFr": null,
+    "ingredients": ["Tomato", "Onion", "Riceballs", "Oil"],
+    "utensils": ["Frying Pan"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Frying Pan.",
+    "effect": "Endurance +35 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "dry-curry",
+    "name": "Dry Curry",
+    "nameFr": null,
+    "ingredients": ["Riceballs", "Curry Powder"],
+    "utensils": ["Frying Pan"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Frying Pan.",
+    "effect": "Endurance +25 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "hot-milk",
+    "name": "Hot Milk",
+    "nameFr": null,
+    "ingredients": ["Milk (tout type)"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +20 / Fatigue −10",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "hot-chocolate",
+    "name": "Hot Chocolate",
+    "nameFr": null,
+    "ingredients": ["Milk (tout type)", "Chocolate"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +10 / Fatigue −15",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "wild-grape-wine",
+    "name": "Wild Grape Wine",
+    "nameFr": null,
+    "ingredients": ["Wine", "Purple Grass", "Grape ou Wild Grape"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +1 / Fatigue −40",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "pumpkin-stew",
+    "name": "Pumpkin Stew",
+    "nameFr": null,
+    "ingredients": ["Pumpkin"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +8 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "fish-stew",
+    "name": "Fish Stew",
+    "nameFr": null,
+    "ingredients": ["Medium Fish ou Large Fish"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +7 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "boiled-spinach",
+    "name": "Boiled Spinach",
+    "nameFr": null,
+    "ingredients": ["Spinach"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +20 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "boiled-egg",
+    "name": "Boiled Egg",
+    "nameFr": null,
+    "ingredients": ["Egg (tout type)"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +20 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "candied-potato",
+    "name": "Candied Potato",
+    "nameFr": null,
+    "ingredients": ["Yam"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +8 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "dumplings",
+    "name": "Dumplings",
+    "nameFr": null,
+    "ingredients": ["Cabbage", "Onion", "Flour", "Oil"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +25 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "strawberry-jam",
+    "name": "Strawberry Jam",
+    "nameFr": null,
+    "ingredients": ["Strawberry"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +5 / Fatigue −5",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "apple-jam",
+    "name": "Apple Jam",
+    "nameFr": null,
+    "ingredients": ["Apple"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +5 / Fatigue −5",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "grape-jam",
+    "name": "Grape Jam",
+    "nameFr": null,
+    "ingredients": ["Grape ou Wild Grape"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +5 / Fatigue −5",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "marmalade",
+    "name": "Marmalade",
+    "nameFr": null,
+    "ingredients": ["Orange"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +5 / Fatigue −5",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "cheese-fondue",
+    "name": "Cheese Fondue",
+    "nameFr": null,
+    "ingredients": ["Cheese (tout type)", "Bread"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +40 / Fatigue −3",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "noodles",
+    "name": "Noodles",
+    "nameFr": null,
+    "ingredients": ["Flour"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +40 / Fatigue −3",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "curry-noodles",
+    "name": "Curry Noodles",
+    "nameFr": null,
+    "ingredients": ["Noodles", "Curry Powder"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +60 / Fatigue −3",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "tempura-noodles",
+    "name": "Tempura Noodles",
+    "nameFr": null,
+    "ingredients": ["Tempura", "Noodles"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +60 / Fatigue −3",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "buckwheat-noodles",
+    "name": "Buckwheat Noodles",
+    "nameFr": null,
+    "ingredients": ["Buckwheat Flour"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +40 / Fatigue −3",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "La Buckwheat Flour s'obtient une fois par an au festival du Nouvel An (New Year's Eve) ; des Buckwheat Noodles peuvent aussi y être reçues selon Fogu."
+  },
+  {
+    "id": "tempura-buckwheat-noodles",
+    "name": "Tempura Buckwheat Noodles",
+    "nameFr": null,
+    "ingredients": ["Buckwheat Noodles", "Tempura"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +60 / Fatigue −3",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "mountain-stew",
+    "name": "Mountain Stew",
+    "nameFr": null,
+    "ingredients": ["Carrot", "Bamboo Shoots", "Shiitake (tout type)"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +40 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "rice-soup",
+    "name": "Rice Soup",
+    "nameFr": null,
+    "ingredients": ["Riceballs"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +5 / Fatigue −3",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "porridge",
+    "name": "Porridge",
+    "nameFr": null,
+    "ingredients": ["Milk (tout type)", "Riceballs"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +7 / Fatigue −8",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "tempura-rice",
+    "name": "Tempura Rice",
+    "nameFr": null,
+    "ingredients": ["Riceballs", "Tempura"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +30 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "egg-over-rice",
+    "name": "Egg Over Rice",
+    "nameFr": null,
+    "ingredients": ["Egg (tout type)", "Riceballs"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +20 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "stew",
+    "name": "Stew",
+    "nameFr": null,
+    "ingredients": ["Milk (tout type)", "Flour"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +30 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "curry-rice",
+    "name": "Curry Rice",
+    "nameFr": null,
+    "ingredients": ["Riceballs", "Curry Powder"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +30 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "blue-curry",
+    "name": "Blue Curry",
+    "nameFr": null,
+    "ingredients": ["Riceballs", "Curry Powder", "Blue Grass"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +45 / Fatigue −3",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "green-curry",
+    "name": "Green Curry",
+    "nameFr": null,
+    "ingredients": ["Riceballs", "Curry Powder", "Green Grass"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +30 / Fatigue −6",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "red-curry",
+    "name": "Red Curry",
+    "nameFr": null,
+    "ingredients": ["Riceballs", "Curry Powder", "Red Grass"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +15 / Fatigue inchangée",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "yellow-curry",
+    "name": "Yellow Curry",
+    "nameFr": null,
+    "ingredients": ["Riceballs", "Curry Powder", "Yellow Grass"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +25 / Fatigue −20",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "orange-curry",
+    "name": "Orange Curry",
+    "nameFr": null,
+    "ingredients": ["Riceballs", "Curry Powder", "Orange Grass"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +30 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "purple-curry",
+    "name": "Purple Curry",
+    "nameFr": null,
+    "ingredients": ["Riceballs", "Curry Powder", "Purple Grass"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +40 / Fatigue −5",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "indigo-curry",
+    "name": "Indigo Curry",
+    "nameFr": null,
+    "ingredients": ["Riceballs", "Curry Powder", "Indigo Grass"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +70 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "black-curry",
+    "name": "Black Curry",
+    "nameFr": null,
+    "ingredients": ["Riceballs", "Curry Powder", "Black Grass"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +40 / Fatigue −20",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "white-curry",
+    "name": "White Curry",
+    "nameFr": null,
+    "ingredients": ["Riceballs", "Curry Powder", "White Grass"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +50 / Fatigue −30",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "rainbow-curry",
+    "name": "Rainbow Curry",
+    "nameFr": null,
+    "ingredients": [
+      "Blue Curry",
+      "Green Curry",
+      "Red Curry",
+      "Yellow Curry",
+      "Orange Curry",
+      "Purple Curry",
+      "Indigo Curry",
+      "Curry Rice"
+    ],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +200 / Fatigue −100",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "ultimate-curry",
+    "name": "Ultimate Curry",
+    "nameFr": null,
+    "ingredients": [
+      "Rainbow Curry",
+      "Black Curry",
+      "Les 6 plats ratés (Failed Dish) : un par ustensile (Frying Pan, Pot, Oven, Mixer, Steamer) et un sans ustensile"
+    ],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +250 / Fatigue −100",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "finest-curry",
+    "name": "Finest Curry",
+    "nameFr": null,
+    "ingredients": [
+      "Rainbow Curry",
+      "White Curry",
+      "Les 6 plats ratés (Failed Dish) : un par ustensile (Frying Pan, Pot, Oven, Mixer, Steamer) et un sans ustensile"
+    ],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +200 / Fatigue −200",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Fogu indique Fatigue −200 : la valeur dépasse le maximum de 100, ce qui revient à remettre la fatigue à zéro."
+  },
+  {
+    "id": "relax-tea",
+    "name": "Relax Tea",
+    "nameFr": null,
+    "ingredients": ["Relax Tea Leaves"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +50 / Fatigue −50",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Écrit « RelaxTea » sur Fogu."
+  },
+  {
+    "id": "turbojolt",
+    "name": "Turbojolt",
+    "nameFr": null,
+    "ingredients": ["Orange Grass", "White Grass", "Red Magic Flower"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Endurance +50 / Fatigue −1 (Fogu ; le wiki dit « réduit la fatigue »)",
+    "sellPrice": 500,
+    "confidence": "low",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Contradiction : le wiki décrit le Turbojolt comme réduisant la fatigue et le Bodigizer comme rendant de l'endurance (comme dans FoMT), alors que Fogu donne l'inverse. Effet affiché d'après Fogu, à vérifier en jeu. Fogu indique aussi qu'il est vendu au « Ban's Shop » (probablement Van, le marchand ambulant ; nom non vérifié)."
+  },
+  {
+    "id": "bodigizer",
+    "name": "Bodigizer",
+    "nameFr": null,
+    "ingredients": ["Orange Grass", "Black Grass", "Red Magic Flower"],
+    "utensils": ["Pot"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Pot.",
+    "effect": "Fatigue −20 (Fogu ; le wiki dit « restaure l'endurance »)",
+    "sellPrice": 250,
+    "confidence": "low",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Contradiction : le wiki décrit le Turbojolt comme réduisant la fatigue et le Bodigizer comme rendant de l'endurance (comme dans FoMT), alors que Fogu donne l'inverse. Effet affiché d'après Fogu, à vérifier en jeu. Fogu indique aussi qu'il est vendu au « Ban's Shop » (probablement Van, le marchand ambulant ; nom non vérifié)."
+  },
+  {
+    "id": "baked-corn",
+    "name": "Baked Corn",
+    "nameFr": null,
+    "ingredients": ["Corn"],
+    "utensils": ["Oven"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Oven.",
+    "effect": "Endurance +7 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "toasted-rice-ball",
+    "name": "Toasted Rice Ball",
+    "nameFr": null,
+    "ingredients": ["Riceballs"],
+    "utensils": ["Oven"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Oven.",
+    "effect": "Endurance +5 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "roasted-rice-cake",
+    "name": "Roasted Rice Cake",
+    "nameFr": null,
+    "ingredients": ["Rice Cake"],
+    "utensils": ["Oven"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Oven.",
+    "effect": "Endurance +10 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Le Rice Cake n'est donné qu'au festival du Nouvel An (New Year's Day), une fois par an."
+  },
+  {
+    "id": "baked-yam",
+    "name": "Baked Yam",
+    "nameFr": null,
+    "ingredients": ["Yam"],
+    "utensils": ["Oven"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Oven.",
+    "effect": "Endurance +40 / Fatigue −5",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "toast",
+    "name": "Toast",
+    "nameFr": null,
+    "ingredients": ["Bread"],
+    "utensils": ["Oven"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Oven.",
+    "effect": "Endurance +7 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "jam-bun",
+    "name": "Jam Bun",
+    "nameFr": null,
+    "ingredients": ["Milk (tout type)", "Egg (tout type)", "Jam (tout type)"],
+    "utensils": ["Oven"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Oven.",
+    "effect": "Endurance +40 / Fatigue −5",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Écrit « Jambun » sur Fogu."
+  },
+  {
+    "id": "dinner-roll",
+    "name": "Dinner Roll",
+    "nameFr": null,
+    "ingredients": ["Egg (tout type)", "Milk (tout type)", "Butter"],
+    "utensils": ["Oven"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Oven.",
+    "effect": "Endurance +40 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "pizza",
+    "name": "Pizza",
+    "nameFr": null,
+    "ingredients": ["Cheese (tout type)", "Flour", "Ketchup"],
+    "utensils": ["Oven"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Oven.",
+    "effect": "Endurance +40 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "doria",
+    "name": "Doria",
+    "nameFr": null,
+    "ingredients": ["Onion", "Butter", "Milk (tout type)", "Riceballs", "Flour"],
+    "utensils": ["Oven"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Oven.",
+    "effect": "Endurance +45 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "gratin",
+    "name": "Gratin",
+    "nameFr": null,
+    "ingredients": ["Onion", "Butter", "Milk (tout type)", "Cheese (tout type)", "Flour"],
+    "utensils": ["Oven"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Oven.",
+    "effect": "Endurance +30 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "buckwheat-ball",
+    "name": "Buckwheat Ball",
+    "nameFr": null,
+    "ingredients": ["Egg (tout type)", "Flour", "Buckwheat Flour"],
+    "utensils": ["Oven"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Oven.",
+    "effect": "Endurance +15 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "sweet-potatoes",
+    "name": "Sweet Potatoes",
+    "nameFr": null,
+    "ingredients": ["Egg (tout type)", "Butter", "Yam"],
+    "utensils": ["Oven"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Oven.",
+    "effect": "Endurance +40 / Fatigue −5",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "cookies",
+    "name": "Cookies",
+    "nameFr": null,
+    "ingredients": ["Egg (tout type)", "Flour", "Butter"],
+    "utensils": ["Oven"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Oven.",
+    "effect": "Endurance +15 / Fatigue −5",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "chocolate-cookies",
+    "name": "Chocolate Cookies",
+    "nameFr": null,
+    "ingredients": ["Cookies", "Chocolate"],
+    "utensils": ["Oven"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Oven.",
+    "effect": "Endurance +30 / Fatigue −5",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "cake",
+    "name": "Cake",
+    "nameFr": null,
+    "ingredients": [
+      "Egg (tout type)",
+      "Flour",
+      "Butter",
+      "1 fruit au choix : Apple, Orange, Pineapple, Peach, Banana, Grape ou Wild Grape"
+    ],
+    "utensils": ["Oven"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Oven.",
+    "effect": "Endurance +40 / Fatigue −8",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "chocolate-cake",
+    "name": "Chocolate Cake",
+    "nameFr": null,
+    "ingredients": ["Egg (tout type)", "Flour", "Butter", "Chocolate"],
+    "utensils": ["Oven"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Oven.",
+    "effect": "Endurance +70 / Fatigue −8",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "cheesecake",
+    "name": "Cheesecake",
+    "nameFr": null,
+    "ingredients": ["Egg (tout type)", "Cheese (tout type)", "Milk (tout type)"],
+    "utensils": ["Oven"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Oven.",
+    "effect": "Endurance +50 / Fatigue −5",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "apple-pie",
+    "name": "Apple Pie",
+    "nameFr": null,
+    "ingredients": ["Apple", "Egg (tout type)", "Butter", "Flour"],
+    "utensils": ["Oven"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Oven.",
+    "effect": "Endurance +80 / Fatigue −8",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "pineapple-juice",
+    "name": "Pineapple Juice",
+    "nameFr": null,
+    "ingredients": ["Pineapple"],
+    "utensils": ["Mixer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Mixer.",
+    "effect": "Endurance +5 / Fatigue −15",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "tomato-juice",
+    "name": "Tomato Juice",
+    "nameFr": null,
+    "ingredients": ["Tomato"],
+    "utensils": ["Mixer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Mixer.",
+    "effect": "Endurance +20 / Fatigue −20",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "grape-juice",
+    "name": "Grape Juice",
+    "nameFr": null,
+    "ingredients": ["Grape"],
+    "utensils": ["Mixer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Mixer.",
+    "effect": "Endurance +7 / Fatigue −13",
+    "sellPrice": 0,
+    "confidence": "medium",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Fogu accepte aussi la Wild Grape ; le wiki ne cite que Grape. La Grape Juice s'achète aussi au Supermarché de Karen."
+  },
+  {
+    "id": "peach-juice",
+    "name": "Peach Juice",
+    "nameFr": null,
+    "ingredients": ["Peach"],
+    "utensils": ["Mixer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Mixer.",
+    "effect": "Endurance +10 / Fatigue −10",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "banana-juice",
+    "name": "Banana Juice",
+    "nameFr": null,
+    "ingredients": ["Banana"],
+    "utensils": ["Mixer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Mixer.",
+    "effect": "Endurance +12 / Fatigue −8",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "orange-juice",
+    "name": "Orange Juice",
+    "nameFr": null,
+    "ingredients": ["Orange"],
+    "utensils": ["Mixer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Mixer.",
+    "effect": "Endurance +7 / Fatigue −13",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "apple-juice",
+    "name": "Apple Juice",
+    "nameFr": null,
+    "ingredients": ["Apple"],
+    "utensils": ["Mixer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Mixer.",
+    "effect": "Endurance +5 / Fatigue −15",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "strawberry-milk",
+    "name": "Strawberry Milk",
+    "nameFr": null,
+    "ingredients": ["Strawberry", "Milk (tout type)"],
+    "utensils": ["Mixer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Mixer.",
+    "effect": "Endurance +30 / Fatigue −15",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "fruit-juice",
+    "name": "Fruit Juice",
+    "nameFr": null,
+    "ingredients": ["Strawberry"],
+    "utensils": ["Mixer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Mixer.",
+    "effect": "Endurance +20 / Fatigue −15",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Les deux sources donnent la même recette que Strawberry Milk sans le lait (Strawberry seule) ; recette surprenante mais recoupée."
+  },
+  {
+    "id": "fruit-latte",
+    "name": "Fruit Latte",
+    "nameFr": null,
+    "ingredients": ["Fruit Juice", "Milk (tout type)"],
+    "utensils": ["Mixer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Mixer.",
+    "effect": "Endurance +30 / Fatigue −15",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "vegetable-juice",
+    "name": "Vegetable Juice",
+    "nameFr": null,
+    "ingredients": ["Carrot, Cucumber ou Cabbage"],
+    "utensils": ["Mixer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Mixer.",
+    "effect": "Endurance +20 / Fatigue −20",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "vegetable-latte",
+    "name": "Vegetable Latte",
+    "nameFr": null,
+    "ingredients": ["Vegetable Juice", "Milk (tout type)"],
+    "utensils": ["Mixer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Mixer.",
+    "effect": "Endurance +30 / Fatigue −20",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "mix-juice",
+    "name": "Mix Juice",
+    "nameFr": null,
+    "ingredients": [
+      "1 légume au choix : Carrot, Cucumber ou Cabbage",
+      "1 fruit au choix : Apple, Orange, Pineapple, Peach, Banana, Grape ou Wild Grape"
+    ],
+    "utensils": ["Mixer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Mixer.",
+    "effect": "Endurance +50 / Fatigue −30",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Variante : Fruit Juice + Vegetable Juice. Appelé « Mixed Juice » sur Fogu."
+  },
+  {
+    "id": "mix-latte",
+    "name": "Mix Latte",
+    "nameFr": null,
+    "ingredients": [
+      "Milk (tout type)",
+      "1 légume au choix : Carrot, Cucumber ou Cabbage",
+      "1 fruit au choix : Apple, Orange, Pineapple, Peach, Banana, Grape ou Wild Grape"
+    ],
+    "utensils": ["Mixer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Mixer.",
+    "effect": "Endurance +60 / Fatigue −20",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Variantes : Milk + Mix Juice, ou Milk + Fruit Juice + Vegetable Juice. Appelé « Mixed Latte » sur Fogu."
+  },
+  {
+    "id": "ketchup",
+    "name": "Ketchup",
+    "nameFr": null,
+    "ingredients": ["Tomato", "Onion"],
+    "utensils": ["Mixer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Mixer.",
+    "effect": "Endurance +1 / Fatigue inchangée",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Sert surtout d'ingrédient (Pizza)."
+  },
+  {
+    "id": "butter",
+    "name": "Butter",
+    "nameFr": null,
+    "ingredients": ["Milk (tout type)"],
+    "utensils": ["Mixer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Mixer.",
+    "effect": "Endurance +1 / Fatigue inchangée",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Sert surtout d'ingrédient (gâteaux, cookies, Doria, Gratin…)."
+  },
+  {
+    "id": "fish-sticks",
+    "name": "Fish Sticks",
+    "nameFr": null,
+    "ingredients": ["Medium Fish ou Large Fish"],
+    "utensils": ["Mixer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Mixer.",
+    "effect": "Endurance +5 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "turbojolt-xl",
+    "name": "Turbojolt XL",
+    "nameFr": null,
+    "ingredients": ["Turbojolt", "Green Grass"],
+    "utensils": ["Mixer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Mixer.",
+    "effect": "Endurance +100 / Fatigue −1 (Fogu ; le wiki dit « réduit beaucoup la fatigue »)",
+    "sellPrice": 1000,
+    "confidence": "low",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Contradiction : le wiki décrit le Turbojolt comme réduisant la fatigue et le Bodigizer comme rendant de l'endurance (comme dans FoMT), alors que Fogu donne l'inverse. Effet affiché d'après Fogu, à vérifier en jeu. Fogu indique aussi qu'il est vendu au « Ban's Shop » (probablement Van, le marchand ambulant ; nom non vérifié)."
+  },
+  {
+    "id": "bodigizer-xl",
+    "name": "Bodigizer XL",
+    "nameFr": null,
+    "ingredients": ["Bodigizer", "Blue Grass"],
+    "utensils": ["Mixer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Mixer.",
+    "effect": "Fatigue −50 (Fogu ; le wiki dit « restaure beaucoup d'endurance »)",
+    "sellPrice": 500,
+    "confidence": "low",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Contradiction : le wiki décrit le Turbojolt comme réduisant la fatigue et le Bodigizer comme rendant de l'endurance (comme dans FoMT), alors que Fogu donne l'inverse. Effet affiché d'après Fogu, à vérifier en jeu. Fogu indique aussi qu'il est vendu au « Ban's Shop » (probablement Van, le marchand ambulant ; nom non vérifié)."
+  },
+  {
+    "id": "moon-dumplings",
+    "name": "Moon Dumplings",
+    "nameFr": null,
+    "ingredients": ["Dumpling Powder"],
+    "utensils": ["Steamer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Steamer.",
+    "effect": "Endurance +40 / Fatigue −3",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "La Dumpling Powder s'achète au Supermarché de Karen."
+  },
+  {
+    "id": "green-dumplings",
+    "name": "Green Dumplings",
+    "nameFr": null,
+    "ingredients": ["Rice Cake", "Weed"],
+    "utensils": ["Steamer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Steamer.",
+    "effect": "Endurance +20 / Fatigue −3",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Le Rice Cake n'est donné qu'au festival du Nouvel An (New Year's Day)."
+  },
+  {
+    "id": "bamboo-dumplings",
+    "name": "Bamboo Dumplings",
+    "nameFr": null,
+    "ingredients": ["Rice Cake", "Bamboo Shoots"],
+    "utensils": ["Steamer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Steamer.",
+    "effect": "Endurance +25 / Fatigue −3",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Le Rice Cake n'est donné qu'au festival du Nouvel An (New Year's Day)."
+  },
+  {
+    "id": "steamed-bun",
+    "name": "Steamed Bun",
+    "nameFr": null,
+    "ingredients": ["Flour", "Oil"],
+    "utensils": ["Steamer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Steamer.",
+    "effect": "Endurance +20 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "cheese-steamed-bun",
+    "name": "Cheese Steamed Bun",
+    "nameFr": null,
+    "ingredients": ["Cheese (tout type)", "Flour", "Oil"],
+    "utensils": ["Steamer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Steamer.",
+    "effect": "Endurance +25 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "shaomai",
+    "name": "Shaomai",
+    "nameFr": null,
+    "ingredients": ["Onion", "Cabbage", "Egg (tout type)", "Flour"],
+    "utensils": ["Steamer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Steamer.",
+    "effect": "Endurance +30 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Écrit « Shaomi » sur Fogu."
+  },
+  {
+    "id": "steamed-egg",
+    "name": "Steamed Egg",
+    "nameFr": null,
+    "ingredients": ["Egg (tout type)", "Shiitake (tout type)", "Bamboo Shoots"],
+    "utensils": ["Steamer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Steamer.",
+    "effect": "Endurance +30 / Fatigue −3",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "chinese-bun",
+    "name": "Chinese Bun",
+    "nameFr": null,
+    "ingredients": ["Shiitake (tout type)", "Flour", "Bamboo Shoots", "Carrot"],
+    "utensils": ["Steamer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Steamer.",
+    "effect": "Endurance +25 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "curry-bun",
+    "name": "Curry Bun",
+    "nameFr": null,
+    "ingredients": ["Flour", "Curry Powder"],
+    "utensils": ["Steamer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Steamer.",
+    "effect": "Endurance +15 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "steamed-dumplings",
+    "name": "Steamed Dumplings",
+    "nameFr": null,
+    "ingredients": ["Cabbage", "Onion", "Flour", "Oil"],
+    "utensils": ["Steamer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Steamer.",
+    "effect": "Endurance +15 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Mêmes ingrédients que Dumplings (Pot) et Pot Sticker (Frying Pan) : c'est l'ustensile qui décide du plat."
+  },
+  {
+    "id": "sponge-cake",
+    "name": "Sponge Cake",
+    "nameFr": null,
+    "ingredients": ["Egg (tout type)", "Flour"],
+    "utensils": ["Steamer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Steamer.",
+    "effect": "Endurance +5 / Fatigue −3",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "steamed-cake",
+    "name": "Steamed Cake",
+    "nameFr": null,
+    "ingredients": ["Egg (tout type)", "Milk (tout type)", "Oil"],
+    "utensils": ["Steamer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Steamer.",
+    "effect": "Endurance +40 / Fatigue −8",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "pudding",
+    "name": "Pudding",
+    "nameFr": null,
+    "ingredients": ["Egg (tout type)", "Milk (tout type)"],
+    "utensils": ["Steamer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Steamer.",
+    "effect": "Endurance +30 / Fatigue −8",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "pumpkin-pudding",
+    "name": "Pumpkin Pudding",
+    "nameFr": null,
+    "ingredients": ["Chicken Egg (toute taille)", "Milk (tout type)", "Pumpkin"],
+    "utensils": ["Steamer"],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis l'ustensile Steamer.",
+    "effect": "Endurance +50 / Fatigue −10",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "mayonnaise-s",
+    "name": "Mayonnaise S",
+    "nameFr": null,
+    "ingredients": ["Oil", "Small Chicken Egg"],
+    "utensils": [],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis « sans ustensile ».",
+    "effect": "Endurance +1 / Fatigue −1",
+    "sellPrice": 100,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Appelée « Small Mayonnaise » dans la liste d'expédition (Fogu). Aussi produite par le Mayonnaise Maker."
+  },
+  {
+    "id": "mayonnaise-m",
+    "name": "Mayonnaise M",
+    "nameFr": null,
+    "ingredients": ["Oil", "Medium Chicken Egg"],
+    "utensils": [],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis « sans ustensile ».",
+    "effect": "Endurance +2 / Fatigue −1",
+    "sellPrice": 150,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Appelée « Medium Mayonnaise » dans la liste d'expédition (Fogu). Aussi produite par le Mayonnaise Maker."
+  },
+  {
+    "id": "mayonnaise-l",
+    "name": "Mayonnaise L",
+    "nameFr": null,
+    "ingredients": ["Oil", "Large Chicken Egg"],
+    "utensils": [],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis « sans ustensile ».",
+    "effect": "Endurance +3 / Fatigue −1",
+    "sellPrice": 200,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Appelée « Large Mayonnaise » dans la liste d'expédition (Fogu). Aussi produite par le Mayonnaise Maker."
+  },
+  {
+    "id": "salad",
+    "name": "Salad",
+    "nameFr": null,
+    "ingredients": ["Oil", "1 légume au choix : Cucumber, Cabbage, Tomato ou Carrot"],
+    "utensils": [],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis « sans ustensile ».",
+    "effect": "Endurance +20 / Fatigue −5",
+    "sellPrice": 0,
+    "confidence": "medium",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Le wiki demande de l'Oil en plus du légume ; Fogu ne cite que le légume. Mets de l'Oil pour être sûre."
+  },
+  {
+    "id": "sandwich",
+    "name": "Sandwich",
+    "nameFr": null,
+    "ingredients": ["Bread", "1 garniture au choix : Tomato, Cucumber ou Boiled Egg"],
+    "utensils": [],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis « sans ustensile ».",
+    "effect": "Endurance +40 / Fatigue −5",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "fruit-sandwich",
+    "name": "Fruit Sandwich",
+    "nameFr": null,
+    "ingredients": ["Bread", "1 fruit au choix : Orange, Banana, Apple, Strawberry, Peach ou Pineapple"],
+    "utensils": [],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis « sans ustensile ».",
+    "effect": "Endurance +40 / Fatigue −5",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "pickled-turnip",
+    "name": "Pickled Turnip",
+    "nameFr": null,
+    "ingredients": ["Turnip"],
+    "utensils": [],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis « sans ustensile ».",
+    "effect": "Endurance +20 / Fatigue −4",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "pickled-cucumber",
+    "name": "Pickled Cucumber",
+    "nameFr": null,
+    "ingredients": ["Cucumber"],
+    "utensils": [],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis « sans ustensile ».",
+    "effect": "Endurance +20 / Fatigue −7",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "bamboo-rice",
+    "name": "Bamboo Rice",
+    "nameFr": null,
+    "ingredients": ["Bamboo Shoots", "Riceballs"],
+    "utensils": [],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis « sans ustensile ».",
+    "effect": "Endurance +30 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "matsutake-rice",
+    "name": "Matsutake Rice",
+    "nameFr": null,
+    "ingredients": ["Matsutake (tout type)", "Riceballs"],
+    "utensils": [],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis « sans ustensile ».",
+    "effect": "Endurance +60 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "mushroom-rice",
+    "name": "Mushroom Rice",
+    "nameFr": null,
+    "ingredients": ["Shiitake (tout type)", "Riceballs"],
+    "utensils": [],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis « sans ustensile ».",
+    "effect": "Endurance +60 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "sushi",
+    "name": "Sushi",
+    "nameFr": null,
+    "ingredients": ["Sashimi", "Riceballs"],
+    "utensils": [],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis « sans ustensile ».",
+    "effect": "Endurance +40 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "raisin-bread",
+    "name": "Raisin Bread",
+    "nameFr": null,
+    "ingredients": ["Bread", "Grape ou Wild Grape"],
+    "utensils": [],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis « sans ustensile ».",
+    "effect": "Endurance +30 / Fatigue −4",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "sashimi",
+    "name": "Sashimi",
+    "nameFr": null,
+    "ingredients": ["Medium Fish ou Large Fish"],
+    "utensils": [],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis « sans ustensile ».",
+    "effect": "Endurance +30 / Fatigue −3",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "chirashi-sushi",
+    "name": "Chirashi Sushi",
+    "nameFr": null,
+    "ingredients": ["Scrambled Eggs", "Sashimi", "Riceballs", "1 au choix : Carrot, Cucumber ou Pumpkin"],
+    "utensils": [],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis « sans ustensile ».",
+    "effect": "Endurance +50 / Fatigue −1",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "buckwheat-chips",
+    "name": "Buckwheat Chips",
+    "nameFr": null,
+    "ingredients": ["Buckwheat Flour"],
+    "utensils": [],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis « sans ustensile ».",
+    "effect": "Endurance +15 / Fatigue −2",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "ice-cream",
+    "name": "Ice Cream",
+    "nameFr": null,
+    "ingredients": ["Egg (tout type)", "Milk (tout type)"],
+    "utensils": [],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis « sans ustensile ».",
+    "effect": "Endurance +30 / Fatigue −20",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ]
+  },
+  {
+    "id": "relax-tea-leaves",
+    "name": "Relax Tea Leaves",
+    "nameFr": null,
+    "ingredients": [
+      "Purple Grass",
+      "Red Grass",
+      "Blue Grass",
+      "Green Grass",
+      "Indigo Grass",
+      "Orange Grass",
+      "Yellow Grass",
+      "Weed"
+    ],
+    "utensils": [],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis « sans ustensile ».",
+    "effect": "Endurance +2 / Fatigue −3",
+    "sellPrice": 1000,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Aussi obtenables au Sprite Casino ou via le quiz de la chaîne 9 (Fogu)."
+  },
+  {
+    "id": "elli-leaves",
+    "name": "Elli Leaves",
+    "nameFr": null,
+    "ingredients": [
+      "Bodigizer XL",
+      "Turbojolt XL",
+      "Les 6 plats ratés (Failed Dish) : un par ustensile (Frying Pan, Pot, Oven, Mixer, Steamer) et un sans ustensile"
+    ],
+    "utensils": [],
+    "howToLearn": "Pas d'apprentissage : dans ta Kitchen, sélectionne ces ingrédients puis « sans ustensile ».",
+    "effect": "Endurance +100 / Fatigue −50",
+    "sellPrice": 0,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Appelées « Elli Grass » dans le tableau de recettes de Fogu, « Elli Leaves » dans sa liste d'expédition et sur le wiki."
+  }
+]

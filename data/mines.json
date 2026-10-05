@@ -1,0 +1,130 @@
+[
+  {
+    "id": "excavation-site",
+    "name": "Excavation Site",
+    "nameFr": null,
+    "access": "Ouvert dès le début, au nord-est de la vallée (zone de la cascade), là où Carter et Flora font des fouilles.",
+    "items": [
+      "Earrings",
+      "Brooch",
+      "Bracelet",
+      "Necklace (Choker)",
+      "Dress",
+      "Facial Pack",
+      "Perfume (à partir de l’année 6)",
+      "Skin Lotion",
+      "Sunblock",
+      "Petits sacs d’argent"
+    ],
+    "description": "Le site de fouilles : creuse le sol à la houe pour trouver des bijoux (2 000 G pièce). C’est aussi là que Carter ouvre les 4 mines, une à une, avec ton aide au marteau.",
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan5/mining.php",
+      "https://fogu.com/hm6/chan7/money.php",
+      "https://harvestmoon.fandom.com/wiki/Forget-Me-Not_Valley_(DS)"
+    ]
+  },
+  {
+    "id": "mine-1",
+    "name": "1st Mine",
+    "nameFr": null,
+    "access": "Va au site de fouilles très tôt le matin ou après 21 h : Carter, seul, te demande de frapper un mur au marteau.",
+    "floors": "10 étages",
+    "items": [
+      "Copper (tous étages)",
+      "Silver (tous étages)",
+      "Gold (étage 3 et plus)",
+      "Mystrile (étage 6 et plus)",
+      "Junk Ore",
+      "Black Grass"
+    ],
+    "description": "Mine courte et facile, principale source de minerais pour améliorer tes outils. Une créature (Dark Chick) garde le 10e étage : bats-la pour pouvoir ouvrir la 2e mine.",
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan5/mining.php",
+      "https://fogu.com/hm6/chan5/mine1items.php",
+      "https://fogu.com/hm6/chan5/mine_descent.php"
+    ]
+  },
+  {
+    "id": "mine-2",
+    "name": "2nd Mine",
+    "nameFr": null,
+    "access": "Après avoir vaincu la créature du 10e étage de la 1re mine, refais l’événement de Carter au site de fouilles.",
+    "floors": "255 étages",
+    "items": [
+      "Amethyst",
+      "Agate",
+      "Fluorite",
+      "Peridot",
+      "Topaz",
+      "Ruby",
+      "Emerald",
+      "Sandrose",
+      "Moonstone",
+      "Diamond",
+      "Pink Diamond (tous les 3 étages après le 101e)",
+      "Alexandrite (tous les 10 étages après le 101e)",
+      "Lithograph (tous les 50 étages)",
+      "Legendary Sword (étage 255)"
+    ],
+    "description": "Mine des pierres précieuses ; les chutes vont jusqu’à 10 étages. Au fond, élimine les créatures pour que Keira te remette l’épée légendaire.",
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan5/mining.php",
+      "https://fogu.com/hm6/chan5/mine2items.php",
+      "https://fogu.com/hm6/chan5/mine_descent.php"
+    ]
+  },
+  {
+    "id": "mine-3",
+    "name": "3rd Mine",
+    "nameFr": null,
+    "access": "Après avoir nettoyé le 255e étage de la 2e mine (épée légendaire), refais l’événement de Carter.",
+    "floors": "999 étages",
+    "items": [
+      "Copper",
+      "Silver",
+      "Gold",
+      "Mystrile",
+      "Orichalc",
+      "Adamantite",
+      "Spring Sun / Summer Sun / Fall Sun / Winter Sun (étages finissant par 1, 2, 3, 4)",
+      "Cursed tools (étages 24 à 197)",
+      "Cursed accessories (à partir de l’étage 324)",
+      "Mythic Stone (après les 6 outils bénis)",
+      "Lithograph"
+    ],
+    "description": "Mine de la fin de partie : outils et accessoires maudits, Seasonal Suns pour les sous-sols, Adamantite pour les machines. Keira dort au 255e étage ; les chutes vont jusqu’à 100 étages.",
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan5/mining.php",
+      "https://fogu.com/hm6/chan5/mine3items.php",
+      "https://fogu.com/hm6/chan2/alltools.php",
+      "https://fogu.com/hm6/chan2/curseditems.php"
+    ]
+  },
+  {
+    "id": "mine-4",
+    "name": "4th Mine",
+    "nameFr": null,
+    "access": "Avant ton mariage : déclenche l’événement de Keira (255e étage de la 3e mine) et atteins le 999e étage de la 3e mine, puis refais l’événement de Carter.",
+    "floors": "65 535 étages",
+    "items": [
+      "Wonderful Stones (9 couleurs, étages finissant par 10 à 90)",
+      "Bronze Coin",
+      "Silver Coin",
+      "Gold Coin (étages 1 à 300 finissant par 0)",
+      "Lithograph",
+      "Black Grass"
+    ],
+    "description": "Mine gigantesque pleine de créatures ; les chutes vont jusqu’à 300 étages. Les 9 Wonderful Stones réunies font apparaître la Déesse pour un vœu. Thomas tient une boutique hors de prix aux étages finissant par 00.",
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan5/mining.php",
+      "https://fogu.com/hm6/chan5/mine4items.php",
+      "https://fogu.com/hm6/chan5/lovelystones.php",
+      "https://fogu.com/hm6/chan5/mine_descent.php"
+    ]
+  }
+]

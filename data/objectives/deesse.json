@@ -1,0 +1,435 @@
+[
+  {
+    "id": "deesse-find-20-sprites",
+    "category": "deesse",
+    "title": "Retrouver 20 lutins",
+    "summary": "Premier palier vers la Déesse : à 20 lutins retrouvés, le lutin Earth apparaît et débloque la chaîne 3 de la Sprite Station, qui donne des indices pour trouver les lutins cachés.",
+    "prerequisites": [
+      {
+        "type": "spriteCount",
+        "min": 20
+      }
+    ],
+    "methods": [
+      {
+        "title": "Viser les lutins faciles d’abord",
+        "steps": [
+          "Explore la vallée en appuyant sur A devant les objets suspects (fontaine de Romana, poêle à gauche de l’Inner Inn, puits près du Blue Bar…).",
+          "Fais tes tâches de ferme au quotidien : beaucoup de lutins apparaissent quand tu arroses, coupes du bois, casses des pierres ou expédies des produits.",
+          "Une fois 20 lutins trouvés, ouvre la Sprite Station (menu en bas à gauche de l’écran tactile) et regarde la chaîne 3 pour les indices."
+        ],
+        "tips": ["Chaque lutin retrouvé rapporte aussi des points de Farm Degree."]
+      }
+    ],
+    "rewards": ["Lutin Earth", "Chaîne 3 de la Sprite Station (profils et indices des lutins)"],
+    "difficulty": 1,
+    "estimatedDuration": "une saison",
+    "relatedSpriteIds": ["earth"],
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan1/spritestation.php",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/index.php"
+    ]
+  },
+  {
+    "id": "deesse-restore-goddess",
+    "category": "deesse",
+    "title": "Libérer la Déesse des Moissons (60 lutins)",
+    "summary": "La Witch Princess a changé la Harvest Goddess en pierre ; elle revient dans son étang dès que tu as retrouvé 60 des 101 lutins. C’est le grand objectif de l’histoire.",
+    "prerequisites": [
+      {
+        "type": "spriteCount",
+        "min": 60
+      }
+    ],
+    "methods": [
+      {
+        "title": "Retrouver 60 lutins",
+        "steps": [
+          "Continue de retrouver les lutins des équipes (arrosage, récolte, animaux, bois/pierre, pêche, récupération) en faisant les tâches correspondantes.",
+          "Juste après ton 60e lutin, une scène se déclenche : la Déesse revient, te remercie et t’invite à venir la voir à son étang.",
+          "Retourne ensuite dans l’arbre des lutins (Sprite Company Tree, près de l’étang de la Déesse) et appuie sur A devant les grands pots à gauche du comptoir pour trouver le bébé lutin."
+        ],
+        "tips": [
+          "Les lutins liés aux améliorations d’outils (niveau Mystrile) et aux expéditions comptent beaucoup : avance aussi ta ferme.",
+          "Le retour de la Déesse compte comme son premier événement de cœur (cœur noir)."
+        ]
+      }
+    ],
+    "rewards": [
+      "La Harvest Goddess revient dans son étang (tu peux lui faire des offrandes)",
+      "Le bébé lutin (Baby Sprite) apparaît dans les pots de l’arbre des lutins",
+      "Ses événements de cœur deviennent accessibles"
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "milestone": true,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Goddess_(DS)",
+      "https://fogu.com/hm6/chan3/goddess.php",
+      "https://fogu.com/hm6/chan3/sprites/index.php",
+      "https://harvestmoon.fandom.com/wiki/Forget-Me-Not_Valley_(DS)"
+    ]
+  },
+  {
+    "id": "deesse-offer-gift-pond",
+    "category": "deesse",
+    "title": "Faire une offrande à la Déesse",
+    "summary": "Une fois libérée, la Déesse vit dans son étang : jette-y un objet pour la faire apparaître et faire monter son affection.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "deesse-restore-goddess"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Jeter un cadeau dans l’étang",
+        "steps": [
+          "Prends en main un objet qu’elle aime : sa préférée est la fraise (Strawberry), elle adore l’ananas (Pineapple) et apprécie les légumes, fleurs, œufs, lait et oranges.",
+          "Va à l’étang de la Déesse (Goddess Pond), face à l’eau, et appuie sur A pour jeter l’objet.",
+          "La Déesse sort de l’étang ; reviens chaque jour pour monter son affection."
+        ],
+        "tips": [
+          "Évite les plats cuisinés (sauf le Steamed Egg), les minerais et pierres précieuses, le vin et surtout la botte (Boot), qu’elle déteste.",
+          "Son affection est invisible : compte tes offrandes."
+        ],
+        "constraints": ["Tous les jours, à toute heure"]
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Goddess_(DS)",
+      "https://fogu.com/hm6/chan3/goddess.php"
+    ]
+  },
+  {
+    "id": "deesse-goddess-purple-event",
+    "category": "deesse",
+    "title": "Voir l’événement « cœur violet » de la Déesse",
+    "summary": "Deuxième événement de cœur de la Déesse : elle se confie sur son patron. Cet événement demande des records de pas, d’expédition et de pêche, plus le fond de la première mine.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "deesse-restore-goddess"
+      },
+      {
+        "type": "objective",
+        "id": "mine-1-bottom"
+      },
+      {
+        "type": "manual",
+        "label": "Avoir fait 10 000 pas au podomètre"
+      },
+      {
+        "type": "manual",
+        "label": "Avoir expédié au moins 10 000 exemplaires d’un même objet"
+      },
+      {
+        "type": "manual",
+        "label": "Avoir pêché au moins 10 000 exemplaires d’un même poisson"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Remplir les conditions puis faire une offrande",
+        "steps": [
+          "Vérifie que tu as atteint le fond de la 1re mine (étage 10) et vaincu la créature.",
+          "Monte l’affection de la Déesse jusqu’au cœur violet en lui faisant des offrandes quotidiennes.",
+          "Quand tout est rempli, jette un objet dans son étang : l’événement se lance quand elle sort de l’eau."
+        ],
+        "tips": [
+          "Elle te félicite (gros bonus d’affection) quand tu atteins 1 000 puis 10 000 objets expédiés ou poissons pêchés d’un même type."
+        ],
+        "constraints": ["N’importe quel jour, heure ou météo"]
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Goddess_(DS)",
+      "https://fogu.com/hm6/chan3/goddess.php"
+    ]
+  },
+  {
+    "id": "deesse-sprite-station-all-channels",
+    "category": "deesse",
+    "title": "Débloquer les 9 chaînes de la Sprite Station",
+    "summary": "Chaque chaîne de la Sprite Station est tenue par un lutin « planète ». Les avoir toutes est requis pour l’événement « cœur bleu » de la Déesse.",
+    "prerequisites": [
+      {
+        "type": "sprite",
+        "id": "neptune"
+      },
+      {
+        "type": "sprite",
+        "id": "mercury"
+      },
+      {
+        "type": "sprite",
+        "id": "venus"
+      },
+      {
+        "type": "sprite",
+        "id": "earth"
+      },
+      {
+        "type": "sprite",
+        "id": "mars"
+      },
+      {
+        "type": "sprite",
+        "id": "jupiter"
+      },
+      {
+        "type": "sprite",
+        "id": "saturn"
+      },
+      {
+        "type": "sprite",
+        "id": "uranus"
+      },
+      {
+        "type": "sprite",
+        "id": "pluto"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Retrouver les 9 lutins de la Sprite Station",
+        "steps": [
+          "Neptune (chaîne 8) et Mercury (chaîne 1) sont là dès le début.",
+          "Venus (chaîne 2) : achète quelque chose au Supermarché de Karen par téléphone pendant 10 jours.",
+          "Earth (chaîne 3) : retrouve 20 lutins. Uranus (chaîne 7) : monte un villageois à 100 points d’amitié.",
+          "Mars (chaîne 4) : expédie 300 exemplaires d’un même produit de ta ferme. Jupiter (chaîne 5) : achète 5 disques à Jet.",
+          "Saturn (chaîne 6) : participe activement à 3 festivals. Pluto (chaîne 9) : expédie 100 000 exemplaires d’un même produit de ta ferme."
+        ],
+        "tips": ["Les produits des machines (mayonnaise, fil…) ne comptent pas pour Mars et Pluto."]
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "relatedSpriteIds": [
+      "neptune",
+      "mercury",
+      "venus",
+      "earth",
+      "mars",
+      "jupiter",
+      "saturn",
+      "uranus",
+      "pluto"
+    ],
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan1/spritestation.php",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/goddess.php"
+    ]
+  },
+  {
+    "id": "deesse-goddess-blue-event",
+    "category": "deesse",
+    "title": "Voir l’événement « cœur bleu » de la Déesse",
+    "summary": "Troisième événement de cœur : la Déesse s’inquiète de sa rivalité avec la Witch Princess.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "deesse-goddess-purple-event"
+      },
+      {
+        "type": "objective",
+        "id": "deesse-sprite-station-all-channels"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Faire une offrande au bon moment",
+        "steps": [
+          "Monte l’affection de la Déesse jusqu’au cœur bleu (offrandes quotidiennes).",
+          "Jette un objet dans son étang : l’événement se déclenche.",
+          "Choisis de soutenir la Harvest Goddess."
+        ]
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Goddess_(DS)",
+      "https://fogu.com/hm6/chan3/goddess.php"
+    ]
+  },
+  {
+    "id": "deesse-goddess-yellow-event",
+    "category": "deesse",
+    "title": "Voir l’événement « cœur jaune » de la Déesse",
+    "summary": "Dernier événement de cœur : la Déesse, épuisée, rêve d’être humaine. Il faut lui avoir fait au moins 500 offrandes.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "deesse-goddess-blue-event"
+      },
+      {
+        "type": "manual",
+        "label": "Avoir offert au moins 500 cadeaux à la Déesse (1 par jour)"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Persévérer dans les offrandes",
+        "steps": [
+          "Fais une offrande par jour à l’étang jusqu’à atteindre 500 cadeaux et le cœur jaune.",
+          "Jette ensuite un objet dans l’étang pour lancer l’événement.",
+          "Réponds « that’s not true » pour la réconforter."
+        ]
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Goddess_(DS)",
+      "https://fogu.com/hm6/chan3/goddess.php"
+    ],
+    "notes": "Épouser la Déesse demande en plus : être en 5e année ou plus, avoir expédié au moins un exemplaire de chaque objet, avoir l’épée légendaire et le champ derrière la cascade, avoir trouvé tous les objets des 4 mines et les 101 lutins. Dans la version nord-américaine, ce mariage est réputé impossible (Buckwheat Flour quasi introuvable, collier non enregistré dans la liste des mines). On ne sait pas avec certitude si ces bugs existent dans la version européenne."
+  },
+  {
+    "id": "deesse-complete-sprite-team",
+    "category": "deesse",
+    "title": "Compléter une équipe de 12 lutins",
+    "summary": "Quand tu as retrouvé les 12 membres d’une des 7 équipes de travail (couleurs), deux d’entre eux t’invitent à une fête dansante.",
+    "prerequisites": [
+      {
+        "type": "spriteCount",
+        "min": 12
+      }
+    ],
+    "methods": [
+      {
+        "title": "Finir une équipe puis sortir la nuit",
+        "steps": [
+          "Choisis une équipe proche de ton style de jeu (ex. l’équipe orange bois/pierre, ou l’équipe bleue arrosage).",
+          "Retrouve ses 12 membres en répétant la tâche associée.",
+          "Le soir où tu trouves le dernier, sors de ta maison tard dans la nuit : deux lutins t’attendent à la porte. Accepte l’invitation."
+        ],
+        "tips": ["La fête rapporte des points de Farm Degree (+50)."]
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "medium",
+    "sources": ["https://fogu.com/hm6/chan5/hiringsprites.php", "https://fogu.com/hm6/chan1/farmdegree.php"]
+  },
+  {
+    "id": "deesse-find-101-sprites",
+    "category": "deesse",
+    "title": "Trouver les 101 lutins",
+    "summary": "Retrouver tous les lutins de la vallée : l’accomplissement ultime de l’histoire, et une condition pour épouser la Déesse.",
+    "prerequisites": [
+      {
+        "type": "spriteCount",
+        "min": 101
+      }
+    ],
+    "methods": [
+      {
+        "title": "Compléter toutes les équipes",
+        "steps": [
+          "Termine les 7 équipes de travail (12 lutins chacune), l’équipe marron (boutique et casino) et les 9 lutins de la Sprite Station.",
+          "N’oublie pas le bébé lutin, dans les pots de l’arbre des lutins après la libération de la Déesse.",
+          "Les derniers lutins demandent souvent les outils bénis (mine 3) ou des records d’expédition, de pêche et de sources chaudes."
+        ]
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "milestone": true,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/index.php"
+    ],
+    "notes": "Aucune récompense directe documentée pour les 101 lutins, à part la condition de mariage avec la Déesse."
+  },
+  {
+    "id": "deesse-goddess-wish",
+    "category": "deesse",
+    "title": "Obtenir un vœu de la Déesse (9 Wonderful Stones)",
+    "summary": "Dans la 4e mine, rassemble les 9 Wonderful Stones de couleur : la Déesse apparaît et te propose 3 vœux au choix (argent, popularité, lever une malédiction, Goddess Gift…).",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "mine-access-4"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Collectionner les 9 pierres",
+        "steps": [
+          "Descends dans la 4e mine. Les pierres sont cachées dans les rochers des étages finissant par 10 (bleue), 20 (violette), 30 (verte), 40 (indigo), 50 (rouge), 60 (noire), 70 (jaune), 80 (blanche) et 90 (orange).",
+          "Casse les rochers au marteau sur ces étages ; tu ne peux en porter qu’une de chaque couleur.",
+          "À la 9e, la Déesse apparaît : choisis un des 3 vœux proposés."
+        ],
+        "tips": [
+          "Sauvegarde avant de casser le rocher de la dernière pierre : si les vœux ne te plaisent pas, recharge.",
+          "Le vœu « Give me an item » donne la Goddess Gift, qui ajoute 1 point de Farm Degree par jour tant qu’elle est dans ton sac.",
+          "Le vœu « Remove curse » évite les 100 000 G de l’église pour un accessoire ou un outil maudit."
+        ]
+      }
+    ],
+    "rewards": [
+      "Un vœu au choix parmi 3 (argent, médailles, popularité, prix d’expédition, Goddess Gift, soin des animaux, Farm Degree +5…)"
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan5/lovelystones.php",
+      "https://fogu.com/hm6/chan5/mine4items.php",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Goddess_(DS)"
+    ],
+    "notes": "Fogu ne précise pas si la Déesse doit déjà être libérée pour exaucer le vœu ; en pratique la 4e mine arrive bien après les 60 lutins."
+  },
+  {
+    "id": "deesse-witch-princess-pond-event",
+    "category": "deesse",
+    "title": "Surprendre la Witch Princess à l’étang de la Déesse",
+    "summary": "Deuxième événement de cœur de la Witch Princess : elle crie dans l’étang pour faire sortir la Déesse. Il n’est possible qu’après la libération de la Déesse et demande de nombreuses « mauvaises actions ».",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "deesse-restore-goddess"
+      },
+      {
+        "type": "manual",
+        "label": "Avoir vu le premier événement de la Witch Princess (sortir de la villa de Romana entre 6 h et minuit)"
+      },
+      {
+        "type": "manual",
+        "label": "Witch Princess au cœur violet ou plus"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Remplir ses conditions puis sortir de l’arbre des lutins",
+        "steps": [
+          "Conditions : avoir jeté des déchets 10 fois, tenté de quitter la vallée 10 fois, t’être évanouie 10 fois, offert 10 cadeaux à la Witch Princess et offert un Toadstool au Harvest Festival pendant 5 ans.",
+          "Le guide Fogu cite aussi « 50 animaux morts » : c’est très pénalisant pour l’amitié avec tout le village.",
+          "Sors de l’arbre des lutins entre 10 h et 18 h pour déclencher la scène et dis-lui que tu es d’accord."
+        ],
+        "constraints": ["Entre 10 h et 18 h"]
+      }
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "medium",
+    "sources": ["https://harvestmoon.fandom.com/wiki/Witch_Princess_(DS)"],
+    "notes": "Réservé à qui veut courtiser la Witch Princess. Dans certaines versions nord-américaines (avant la 1.1), le nombre d’animaux morts n’est pas enregistré et rend son mariage impossible ; situation de la version EU inconnue."
+  }
+]
