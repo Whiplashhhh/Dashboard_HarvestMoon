@@ -19,7 +19,8 @@ describe('données du jeu (data/*.json)', () => {
 
   it('contient le jalon majeur des 60 lutins (restauration de la Déesse)', () => {
     const milestone = game.objectives.find(
-      (o) => o.milestone && o.prerequisites.some((p) => p.type === 'spriteCount' && p.min === GODDESS_SPRITES),
+      (o) =>
+        o.milestone && o.prerequisites.some((p) => p.type === 'spriteCount' && p.min === GODDESS_SPRITES),
     )
     expect(milestone?.category).toBe('deesse')
   })
@@ -32,7 +33,8 @@ describe('données du jeu (data/*.json)', () => {
   })
 
   it('les sources pointent vers des sites connus (wiki Fandom, Fogu…)', () => {
-    const allowed = /^https:\/\/(harvestmoon\.fandom\.com|fogu\.com|www\.fogu\.com|gamefaqs\.gamespot\.com|www\.gamerevolution\.com)\//
+    const allowed =
+      /^https:\/\/(harvestmoon\.fandom\.com|fogu\.com|www\.fogu\.com|gamefaqs\.gamespot\.com|www\.gamerevolution\.com)\//
     const all = [
       ...game.objectives,
       ...game.sprites,
