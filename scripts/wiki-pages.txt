@@ -1,0 +1,4 @@
+# Pages du wiki Harvest Moon (Fandom) utilisées pour constituer data/.
+# Une page par ligne (titre exact). `npm run data:fetch` les met en cache dans data/raw/.
+Harvest Moon DS
+Harvest Sprites (DS)

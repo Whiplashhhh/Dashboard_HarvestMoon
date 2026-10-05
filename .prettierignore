@@ -1,0 +1,11 @@
+node_modules
+.nuxt
+.output
+coverage
+playwright-report
+test-results
+package-lock.json
+data/raw
+server/database/migrations/meta
+docs/screenshots
+PROMPT_HARVEST_MOON.md
