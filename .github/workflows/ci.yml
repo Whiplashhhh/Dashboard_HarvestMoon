@@ -1,0 +1,61 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  qualite:
+    name: Lint, typecheck, tests, build
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: carnet
+          POSTGRES_PASSWORD: carnet
+          POSTGRES_DB: carnet_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U carnet"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+
+    env:
+      NUXT_DATABASE_URL: postgres://carnet:carnet@localhost:5432/carnet_test
+      NUXT_SESSION_SECRET: ci-only-secret-not-used-in-production-0123456789
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Installer les dépendances
+        run: npm ci
+
+      - name: Lint (ESLint + Prettier)
+        run: npm run lint
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Build
+        run: npm run build
+
+      - name: Tests (Vitest)
+        run: npm test

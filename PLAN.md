@@ -45,49 +45,49 @@ Le cahier des charges complet est dans [`PROMPT_HARVEST_MOON.md`](./PROMPT_HARVE
 
 ### 2.1 Base de données (PostgreSQL)
 
-| Table             | Rôle                                                                                                                   |
-| ----------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| `users`           | id (uuid), username (unique, insensible à la casse), email (optionnel), hash argon2id, réglages (jsonb), ferme active |
-| `sessions`        | id = SHA-256 du jeton (le jeton brut n'est jamais stocké), user_id, jeton CSRF, expiration glissante                   |
+| Table             | Rôle                                                                                                                      |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| `users`           | id (uuid), username (unique, insensible à la casse), email (optionnel), hash argon2id, réglages (jsonb), ferme active     |
+| `sessions`        | id = SHA-256 du jeton (le jeton brut n'est jamais stocké), user_id, jeton CSRF, expiration glissante                      |
 | `farms`           | ferme (sauvegarde) : nom du fermier, nom de la ferme, date du jeu (année/saison/jour), objectif épinglé, dernière session |
-| `farm_objectives` | objectifs accomplis (un lutin trouvé = objectif `sprite-<id>` accompli)                                                |
-| `farm_steps`      | étapes cochées (objectif, méthode, étape)                                                                              |
-| `notes`           | notes de session : texte, date réelle, date du jeu                                                                     |
-| `auth_throttle`   | limitation de débit connexion/inscription (clé = IP ou nom d'utilisateur)                                              |
+| `farm_objectives` | objectifs accomplis (un lutin trouvé = objectif `sprite-<id>` accompli)                                                   |
+| `farm_steps`      | étapes cochées (objectif, méthode, étape)                                                                                 |
+| `notes`           | notes de session : texte, date réelle, date du jeu                                                                        |
+| `auth_throttle`   | limitation de débit connexion/inscription (clé = IP ou nom d'utilisateur)                                                 |
 
 ### 2.2 Fichiers JSON (`data/`)
 
-| Fichier                                        | Contenu                                                            |
-| ---------------------------------------------- | ------------------------------------------------------------------ |
+| Fichier                                        | Contenu                                                             |
+| ---------------------------------------------- | ------------------------------------------------------------------- |
 | `sprites.json`                                 | 101 lutins : nom, équipe, condition de déblocage, étapes, prérequis |
-| `teams.json`                                   | 10 équipes de lutins (couleur, chef)                               |
+| `teams.json`                                   | 10 équipes de lutins (couleur, chef)                                |
 | `objectives/*.json`                            | objectifs hors lutins, regroupés par thème (déesse, ferme, social…) |
-| `characters.json`                              | villageois, anniversaires, cadeaux, prétendantes                   |
-| `festivals.json`                               | festivals (saison, jour, lieu, participation)                      |
+| `characters.json`                              | villageois, anniversaires, cadeaux, prétendantes                    |
+| `festivals.json`                               | festivals (saison, jour, lieu, participation)                       |
 | `calendar.json`                                | règles du calendrier (30 jours/saison, jours de la semaine)         |
-| `buildings.json`, `tools.json`, `recipes.json` | référentiels consultables                                          |
-| `raw/`                                         | cache du wikitext brut récupéré par `scripts/fetch-wiki.ts`        |
+| `buildings.json`, `tools.json`, `recipes.json` | référentiels consultables                                           |
+| `raw/`                                         | cache du wikitext brut récupéré par `scripts/fetch-wiki.ts`         |
 
 Les objectifs « lutins » sont **générés** à partir de `sprites.json` (une seule source de vérité).
 Chaque entrée porte `sources: string[]`, `confidence` et éventuellement `notes`.
 
 ## 3. Écrans
 
-| Route                        | Écran                                                                   |
-| ---------------------------- | ----------------------------------------------------------------------- |
-| `/connexion`, `/inscription` | Boîte aux lettres / lettre, accueil dialogué                            |
-| `/bienvenue`                 | Onboarding : créer sa ferme, puis « Qu'as-tu déjà fait ? »              |
-| `/`                          | Ma ferme : bon retour, compteurs, suggestions, prochains événements     |
-| `/objectifs`                 | Liste filtrable + recherche                                             |
+| Route                        | Écran                                                                    |
+| ---------------------------- | ------------------------------------------------------------------------ |
+| `/connexion`, `/inscription` | Boîte aux lettres / lettre, accueil dialogué                             |
+| `/bienvenue`                 | Onboarding : créer sa ferme, puis « Qu'as-tu déjà fait ? »               |
+| `/`                          | Ma ferme : bon retour, compteurs, suggestions, prochains événements      |
+| `/objectifs`                 | Liste filtrable + recherche                                              |
 | `/objectifs/[id]`            | Détail : méthodes en marque-pages, étapes cochables, prérequis, débloque |
-| `/lutins`                    | Collection des 101 lutins par équipe                                    |
-| `/calendrier`                | Calendrier mural par saison                                             |
-| `/carnet`                    | Notes de session                                                        |
-| `/recettes`                  | Tableau filtrable                                                       |
-| `/compte`                    | Mot de passe, export JSON, suppression, gestion des fermes              |
-| `/reglages`                  | Sons, animations réduites, saison forcée                                |
-| `/credits`                   | Crédits & sources (CC BY-SA)                                            |
-| (partout)                    | « Fin de session » : mise à jour rapide en < 30 s                       |
+| `/lutins`                    | Collection des 101 lutins par équipe                                     |
+| `/calendrier`                | Calendrier mural par saison                                              |
+| `/carnet`                    | Notes de session                                                         |
+| `/recettes`                  | Tableau filtrable                                                        |
+| `/compte`                    | Mot de passe, export JSON, suppression, gestion des fermes               |
+| `/reglages`                  | Sons, animations réduites, saison forcée                                 |
+| `/credits`                   | Crédits & sources (CC BY-SA)                                             |
+| (partout)                    | « Fin de session » : mise à jour rapide en < 30 s                        |
 
 ## 4. Phases (ordre de priorité du cahier des charges)
 

@@ -1,0 +1,54 @@
+{
+  "name": "carnet-de-la-ferme",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Compagnon de jeu non officiel pour Harvest Moon DS (version européenne).",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint . && prettier --check .",
+    "lint:fix": "eslint . --fix && prettier --write .",
+    "format": "prettier --write .",
+    "typecheck": "nuxt typecheck",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "data:fetch": "tsx scripts/fetch-wiki.ts",
+    "data:check": "vitest run tests/data",
+    "data:validate": "tsx scripts/validate-data.ts"
+  },
+  "dependencies": {
+    "@node-rs/argon2": "^2.2.1",
+    "drizzle-orm": "^0.45.3",
+    "nuxt": "^3.21.11",
+    "postgres": "^3.4.9",
+    "vue": "^3.5.43",
+    "vue-router": "^4.6.4",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.17.0",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^22.20.5",
+    "drizzle-kit": "^0.31.11",
+    "eslint": "^10.12.0",
+    "prettier": "^3.9.9",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3",
+    "vitest": "^5.0.3",
+    "vue-tsc": "^3.3.12"
+  },
+  "allowScripts": {
+    "esbuild@0.18.20": true,
+    "esbuild@0.25.12": true,
+    "esbuild@0.28.2": true,
+    "unrs-resolver@1.12.2": true
+  }
+}
