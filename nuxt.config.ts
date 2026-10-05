@@ -11,9 +11,8 @@ export default defineNuxtConfig({
     typeCheck: false,
   },
 
-  alias: {
-    '#shared': './shared',
-  },
+  // Composants rangés par dossier mais référencés sans préfixe (<GameButton>, <FarmScene>…)
+  components: [{ path: '~/components', pathPrefix: false }],
 
   css: ['~/assets/css/main.css'],
 
