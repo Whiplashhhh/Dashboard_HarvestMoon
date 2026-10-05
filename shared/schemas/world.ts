@@ -33,8 +33,10 @@ export const characterSchema = z.object({
   location: z.string().min(2).optional(),
   birthday: seasonDaySchema.nullable(),
   bachelorette: z.boolean(),
-  /** Absent de la version européenne (connexion GBA avec Friends of Mineral Town retirée). */
+  /** Totalement absent de la version européenne (connexion GBA avec Friends of Mineral Town retirée). */
   euUnavailable: z.boolean().optional(),
+  /** Présent en version EU mais pas épousable (le mariage dépendait de la connexion GBA). */
+  marriageUnavailableEu: z.boolean().optional(),
   lovedGifts: z.array(z.string().min(2)).optional(),
   likedGifts: z.array(z.string().min(2)).optional(),
   dislikedGifts: z.array(z.string().min(2)).optional(),

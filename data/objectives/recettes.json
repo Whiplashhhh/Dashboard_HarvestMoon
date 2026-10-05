@@ -1,0 +1,235 @@
+[
+  {
+    "id": "recettes-reunir-ustensiles",
+    "category": "recettes",
+    "title": "Réunir les 5 ustensiles de cuisine",
+    "summary": "Chaque recette se fait avec un seul ustensile (ou sans ustensile). Avec Pot, Frying Pan, Mixer, Oven et Steamer, tu peux préparer les 134 plats du jeu.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "ferme-buy-kitchen"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Commander les ustensiles par la TV Shopping",
+        "steps": [
+          "Regarde la chaîne 2 (TV Shopping) chaque jour jusqu'à voir passer chaque ustensile.",
+          "Commande-les par téléphone : Pot (1 000 G), Frying Pan (1 200 G), Mixer (1 200 G), Steamer (2 000 G), Oven (2 500 G).",
+          "Commence par le Pot et le Frying Pan : ce sont eux qui ouvrent le plus de recettes (41 et 23)."
+        ],
+        "tips": [
+          "19 recettes se font sans aucun ustensile (Salad, Sashimi, Ice Cream…) : tu peux cuisiner dès que tu as la Kitchen.",
+          "Au Cooking Festival (22 du printemps, sur la plage), Gourmet impose un ustensile : mieux vaut les avoir tous."
+        ],
+        "constraints": ["Kitchen requise"],
+        "cost": "7 900 G au total"
+      }
+    ],
+    "rewards": ["Toutes les recettes deviennent réalisables"],
+    "difficulty": 1,
+    "estimatedDuration": "une saison",
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan2/tvshopping.php",
+      "https://fogu.com/hm6/chan5/cooking.php",
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://harvestmoon.fandom.com/wiki/Cooking_Festival_(DS)"
+    ],
+    "notes": "Il n'existe pas de Knife, Rolling Pin, Whisk ni d'assaisonnements comme ustensiles dans Harvest Moon DS (contrairement à FoMT) : seulement les 5 ustensiles listés ici."
+  },
+  {
+    "id": "recettes-plats-endurance",
+    "category": "recettes",
+    "title": "Préparer des plats d'endurance pour la mine",
+    "summary": "Quelques plats rendent beaucoup d'endurance : cuisine-en d'avance avant une longue descente à la mine ou une grosse journée à la ferme.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "ferme-buy-kitchen"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Plats au four (Oven)",
+        "steps": [
+          "Achète Flour au Supermarché de Karen (par téléphone) et prépare du Butter au Mixer avec du Milk.",
+          "Apple Pie : Apple + Egg + Butter + Flour, puis choisis l'Oven (endurance +80, fatigue −8).",
+          "Chocolate Cake : Egg + Flour + Butter + Chocolate, puis l'Oven (endurance +70, fatigue −8)."
+        ],
+        "constraints": ["Oven requis"],
+        "tips": [
+          "Ajouter un ingrédient incompatible avec le bouton « Arrange » donne un plat raté (Failed Dish), qui fait perdre de l'endurance et ajoute de la fatigue."
+        ]
+      },
+      {
+        "title": "Currys et nouilles à la marmite (Pot)",
+        "steps": [
+          "Achète Riceballs et Curry Powder au Supermarché de Karen.",
+          "Indigo Curry : Riceballs + Curry Powder + Indigo Grass, puis le Pot (endurance +70, fatigue −2).",
+          "Curry Noodles ou Tempura Noodles : endurance +60, fatigue −3."
+        ],
+        "constraints": ["Pot requis"]
+      },
+      {
+        "title": "Sans ustensile",
+        "steps": [
+          "Matsutake Rice (Matsutake + Riceballs) ou Mushroom Rice (Shiitake + Riceballs) : endurance +60, fatigue −1, sans aucun ustensile."
+        ]
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://harvestmoon.fandom.com/wiki/Supermarket_(DS)"
+    ],
+    "notes": "Valeurs d'endurance/fatigue issues de Fogu uniquement (le wiki ne les donne pas)."
+  },
+  {
+    "id": "recettes-plats-rates",
+    "category": "recettes",
+    "title": "Collectionner les 6 plats ratés",
+    "summary": "Les recettes ultimes (Ultimate Curry, Finest Curry, Elli Leaves) demandent un plat raté (Failed Dish) de chaque type : un par ustensile et un sans ustensile.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "recettes-reunir-ustensiles"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Rater volontairement un plat avec chaque ustensile",
+        "steps": [
+          "Lance une recette simple, puis utilise le bouton « Arrange » pour ajouter un ingrédient qui ne va pas avec : le plat est raté.",
+          "Recommence avec chaque ustensile : Frying Pan, Pot, Oven, Mixer, Steamer, et une fois sans ustensile.",
+          "Range les 6 plats ratés dans ton Refrigerator, ne les mange pas."
+        ],
+        "tips": ["Manger un plat raté fait perdre 10 d'endurance et ajoute 10 de fatigue."],
+        "constraints": ["Les 5 ustensiles requis"]
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une session",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php",
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)"
+    ],
+    "notes": "La méthode « Arrange + ingrédient incompatible » vient de Fogu ; une combinaison d'ingrédients sans recette valide donne probablement aussi un plat raté, mais ce n'est pas écrit explicitement dans les sources."
+  },
+  {
+    "id": "recettes-currys-ultimes",
+    "category": "recettes",
+    "title": "Cuisiner le Rainbow Curry puis l'Ultimate Curry",
+    "summary": "Le défi culinaire du jeu : préparer les 7 currys colorés, les combiner en Rainbow Curry, puis réaliser l'Ultimate Curry ou le Finest Curry.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "recettes-plats-rates"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Monter la chaîne des currys",
+        "steps": [
+          "Achète Riceballs et Curry Powder au Supermarché de Karen (fermé le mardi et le dimanche).",
+          "Avec le Pot, prépare Curry Rice (Riceballs + Curry Powder) et les currys colorés : ajoute une herbe Blue, Green, Red, Yellow, Orange, Purple ou Indigo Grass.",
+          "Rainbow Curry : les 7 currys colorés + Curry Rice, au Pot (endurance +200, fatigue −100).",
+          "Ultimate Curry : Rainbow Curry + Black Curry + les 6 plats ratés, au Pot.",
+          "Finest Curry : Rainbow Curry + White Curry + les 6 plats ratés, au Pot."
+        ],
+        "tips": [
+          "Tu ne peux choisir que 8 ingrédients par recette : le Rainbow Curry en utilise exactement 8.",
+          "Prépare deux Rainbow Curry si tu veux faire à la fois l'Ultimate et le Finest Curry."
+        ],
+        "constraints": ["Pot requis", "Herbes de 9 couleurs nécessaires"]
+      }
+    ],
+    "rewards": [
+      "Ultimate Curry (endurance +250, fatigue −100)",
+      "Finest Curry (endurance +200, fatigue −200)"
+    ],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php"
+    ],
+    "notes": "Jours de fermeture du Supermarché alignés sur calendar.json : Fogu et GameRevolution indiquent mardi et dimanche, le wiki seulement le mardi."
+  },
+  {
+    "id": "recettes-elli-leaves",
+    "category": "recettes",
+    "title": "Préparer les Elli Leaves",
+    "summary": "Recette rare qui combine Turbojolt XL, Bodigizer XL et les 6 plats ratés, sans ustensile.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "recettes-plats-rates"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Tout cuisiner soi-même",
+        "steps": [
+          "Turbojolt : Orange Grass + White Grass + Red Magic Flower, au Pot.",
+          "Turbojolt XL : Turbojolt + Green Grass, au Mixer.",
+          "Bodigizer : Orange Grass + Black Grass + Red Magic Flower, au Pot.",
+          "Bodigizer XL : Bodigizer + Blue Grass, au Mixer.",
+          "Elli Leaves : Turbojolt XL + Bodigizer XL + les 6 plats ratés, sans ustensile."
+        ],
+        "constraints": ["Pot et Mixer requis"]
+      }
+    ],
+    "rewards": ["Elli Leaves (endurance +100, fatigue −50 d'après Fogu)"],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "medium",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Recipes_(DS)",
+      "https://fogu.com/hm6/chan5/cookingrecipes.php",
+      "https://fogu.com/hm6/chan7/shippeditems.php"
+    ],
+    "notes": "Fogu indique que Turbojolt, Bodigizer et leurs versions XL se vendent aussi au « Ban's Shop » (probablement Van) : acheter ces boissons peut éviter de les cuisiner, à vérifier en jeu."
+  },
+  {
+    "id": "recettes-expedier-plats",
+    "category": "recettes",
+    "title": "Expédier tes plats cuisinés",
+    "summary": "Les plats comptent dans la liste des objets expédiés (273 objets), nécessaire pour épouser la Harvest Goddess. On ne peut pas les poser directement dans le Shipping Bin.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "ferme-buy-kitchen"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Passer par le Basket",
+        "steps": [
+          "Achète le Basket (5 000 G) au Supermarché de Karen.",
+          "Mets tes plats cuisinés dans le Basket (ils ne peuvent plus en ressortir).",
+          "Vide le contenu du Basket dans le Shipping Bin."
+        ],
+        "cost": "5 000 G (Basket)",
+        "tips": [
+          "La plupart des plats ne rapportent rien (0 G) d'après Fogu : on les expédie pour compléter la liste, pas pour l'argent."
+        ]
+      },
+      {
+        "title": "Passer par la Cannery",
+        "steps": ["Si tu as le Maker Barn avec la Cannery, mets-y tes plats cuisinés pour les expédier."]
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "long terme",
+    "confidence": "medium",
+    "sources": ["https://fogu.com/hm6/chan7/shippeditems.php", "https://fogu.com/hm6/chan5/cooking.php"],
+    "notes": "Détails issus de Fogu uniquement. Les plats ratés (« Burnt ») figurent aussi dans la liste d'expédition selon Fogu."
+  }
+]

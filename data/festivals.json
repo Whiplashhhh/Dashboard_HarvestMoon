@@ -1,0 +1,273 @@
+[
+  {
+    "id": "new-years-day",
+    "name": "New Year's Day",
+    "nameFr": null,
+    "season": "spring",
+    "day": 1,
+    "location": "Plage",
+    "time": "10 h – 18 h",
+    "description": "Premier jour de l'année : tous les habitants se retrouvent sur la plage pour préparer et manger des Rice Cakes (mochi).",
+    "participation": "Va à la plage entre 10 h et 18 h. À la fin, Thomas te donne du Rice Cake à rapporter (à cuisiner, offrir ou expédier).",
+    "objectiveId": "festivals-new-years-day",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/New_Years_Day_Festival_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_spring.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ]
+  },
+  {
+    "id": "spring-thanksgiving",
+    "name": "Spring Thanksgiving",
+    "nameFr": null,
+    "season": "spring",
+    "day": 14,
+    "description": "Fête où les garçons offrent des Cookies aux filles. Un Cookie offert à une prétendante lui donne +1000 points d'amour.",
+    "participation": "Il te faut la cuisine et l'Oven (four) : cuisine des Cookies (Egg + Flour + Butter) avant le jour J, puis offre-les à toutes les prétendantes que tu veux.",
+    "objectiveId": "festivals-spring-thanksgiving",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Spring_Thanksgiving_Festival_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_spring.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Le wiki affirme que les filles viennent à ta porte à des heures fixes, mais sa liste recopie celle du Winter Thanksgiving (Muffy citée deux fois) ; Fogu dit simplement d'aller offrir les Cookies. Si tu es marié, ton épouse glisse des Chocolate Cookies dans ton sac pendant la nuit. Boutiques fermées ce jour-là."
+  },
+  {
+    "id": "duck-festival",
+    "name": "Duck Festival",
+    "nameFr": null,
+    "season": "spring",
+    "day": 18,
+    "location": "Plage",
+    "time": "10 h – 18 h",
+    "description": "Concours de canards sur la plage : ton canard affronte trois autres concurrents.",
+    "participation": "La veille (17), Popuri passe le matin chez toi : choisis un canard adulte en bonne santé. Le 18, va à la plage entre 10 h et 18 h et parle à Popuri pour lancer le jugement. Plus ton canard a de cœurs (9–10), plus il a de chances de gagner.",
+    "objectiveId": "festivals-duck",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Duck_Festival_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_spring.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ]
+  },
+  {
+    "id": "cooking-festival",
+    "name": "Cooking Festival",
+    "nameFr": null,
+    "season": "spring",
+    "day": 22,
+    "location": "Plage",
+    "time": "10 h – 12 h (inscription), puis 12 h – 18 h",
+    "description": "Concours de cuisine jugé par le Gourmet : il annonce l'ustensile imposé, puis compare ton plat à ceux des autres participants.",
+    "participation": "Va à la plage entre 10 h et 12 h et parle au Gourmet pour connaître la catégorie (Fry Pan, Pot, Mixer, Oven, Steamer ou sans ustensile). Tu reviens chez toi à midi : cuisine un plat de cette catégorie et rapporte-le au Gourmet avant 18 h.",
+    "objectiveId": "festivals-cooking",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Festival_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_spring.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Bug connu de la version nord-américaine d'origine : le premier plat présenté est réutilisé les années suivantes. Version EU non vérifiée."
+  },
+  {
+    "id": "beach-opening-day",
+    "name": "Beach Opening Day",
+    "nameFr": null,
+    "season": "summer",
+    "day": 1,
+    "location": "Plage",
+    "time": "13 h – 18 h",
+    "description": "Inauguration de la Snack Shack de Kai : habitants de la vallée et de Mineral Town font la fête sur la plage, Kai cuisine pour tout le monde.",
+    "participation": "Kai passe chez toi le 30 printemps pour t'inviter ; viens simplement à la plage entre 13 h et 18 h. Aucune récompense.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Beach_Opening_Day_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_summer.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ]
+  },
+  {
+    "id": "chicken-festival",
+    "name": "Chicken Festival",
+    "nameFr": null,
+    "season": "summer",
+    "day": 7,
+    "location": "Plage",
+    "time": "10 h – 18 h",
+    "description": "Concours de poules sur la plage : ta poule affronte trois autres concurrentes.",
+    "participation": "La veille (6), Popuri passe le matin : choisis une poule adulte en bonne santé (pas de poussin). Le 7, va à la plage entre 10 h et 18 h et parle à Popuri pour lancer le jugement.",
+    "objectiveId": "festivals-chicken",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Chicken_Festival_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_summer.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ]
+  },
+  {
+    "id": "cow-festival",
+    "name": "Cow Festival",
+    "nameFr": null,
+    "season": "summer",
+    "day": 20,
+    "location": "Plage",
+    "time": "10 h – 18 h",
+    "description": "Concours de vaches sur la plage : ta vache affronte trois autres concurrentes.",
+    "participation": "La veille (19), Rick passe le matin : choisis une vache adulte ni malade ni gestante. Le 20, va à la plage entre 10 h et 18 h et parle à Rick pour lancer le jugement.",
+    "objectiveId": "festivals-cow",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cow_Festival_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_summer.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ]
+  },
+  {
+    "id": "fireworks-festival",
+    "name": "Fireworks Festival",
+    "nameFr": null,
+    "season": "summer",
+    "day": 24,
+    "location": "Plage",
+    "time": "18 h – 21 h",
+    "description": "Feux d'artifice de Kassey et Patrick sur la plage, le soir. Toutes les prétendantes sont présentes.",
+    "participation": "Va à la plage entre 18 h et 21 h. Tu peux inviter une prétendante au cœur vert ou plus à regarder le spectacle avec toi ; sinon tu le regardes avec les jumeaux. Marié, tu le regardes avec ton épouse.",
+    "objectiveId": "festivals-fireworks",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Fireworks_Festival_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_summer.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ]
+  },
+  {
+    "id": "harvest-festival",
+    "name": "Harvest Festival",
+    "nameFr": null,
+    "season": "autumn",
+    "day": 9,
+    "description": "Tous les habitants préparent ensemble un grand ragoût : chacun apporte un ingrédient pour la marmite, puis tout le monde festoie.",
+    "participation": "Apporte un ingrédient et donne-le à Thomas pour la marmite. Pour la Witch Princess, il faut y mettre un Toadstool 5 années de suite (cela fait baisser l'amitié des autres habitants). Ne mets jamais un Toadstool de niveau 100 : la vallée entière est empoisonnée et le générique de fin se lance.",
+    "objectiveId": "festivals-harvest",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan6/festivals_fall.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Moon_DS"
+    ],
+    "notes": "Pas de page wiki dédiée ; lieu et horaire non précisés par Fogu."
+  },
+  {
+    "id": "sheep-festival",
+    "name": "Sheep Festival",
+    "nameFr": null,
+    "season": "autumn",
+    "day": 21,
+    "location": "Plage",
+    "time": "10 h – 18 h",
+    "description": "Concours de moutons sur la plage : ton mouton affronte trois autres concurrents.",
+    "participation": "La veille (20), Rick passe le matin : choisis un mouton adulte, ni malade ni gestant, avec toute sa laine (non tondu). Le 21, va à la plage entre 10 h et 18 h et parle à Rick.",
+    "objectiveId": "festivals-sheep",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Sheep_Festival_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_fall.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ]
+  },
+  {
+    "id": "pumpkin-festival",
+    "name": "Pumpkin Festival",
+    "nameFr": null,
+    "season": "autumn",
+    "day": 30,
+    "location": "Ta maison",
+    "time": "6 h – 11 h (visites)",
+    "description": "Fête façon Halloween : les enfants viennent frapper à ta porte pour réclamer des friandises.",
+    "participation": "Garde des Cookies, du Cake ou du Chocolate (Supermarket de Karen) dans ton sac. Sors de chez toi : Kate entre 6 h et 7 h, Hugh entre 8 h et 9 h, Popuri entre 10 h et 11 h. Si tu es marié, rentre entre 12 h et 18 h pour le dîner en famille (la journée se termine ensuite).",
+    "objectiveId": "festivals-pumpkin",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Pumpkin_Festival_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_fall.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ]
+  },
+  {
+    "id": "winter-thanksgiving",
+    "name": "Winter Thanksgiving",
+    "nameFr": null,
+    "season": "winter",
+    "day": 14,
+    "location": "Ta maison",
+    "time": "6 h – 15 h",
+    "description": "Les prétendantes au cœur violet ou plus viennent t'offrir du chocolat (du Chocolate Cake à partir du cœur vert).",
+    "participation": "Sors de chez toi aux bons créneaux (rentre puis ressors pour voir la suivante) : Lumina 6 h – 7 h, Celia 8 h – 9 h, Flora 10 h – 11 h, Muffy 12 h – 13 h, Nami 14 h – 15 h. Marié, ton épouse glisse un Chocolate Cake dans ton sac pendant la nuit (si tu n'as rien d'équipé).",
+    "objectiveId": "festivals-winter-thanksgiving",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Winter_Thanksgiving_Festival_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_winter.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Le wiki cite Muffy deux fois (12 h et 14 h) ; Fogu donne Nami à 14 h – 15 h, retenu ici. Les chocolats des prétendantes spéciales arrivent par courrier en version japonaise seulement."
+  },
+  {
+    "id": "starry-night-festival",
+    "name": "Starry Night Festival",
+    "nameFr": null,
+    "season": "winter",
+    "day": 24,
+    "location": "Variable selon la prétendante",
+    "time": "Le soir (après 18 h)",
+    "description": "Soirée en tête-à-tête avec une prétendante qui t'a invité la veille.",
+    "participation": "Le 23 hiver, parle à une prétendante au cœur vert ou plus : elle t'invite pour le lendemain soir. Le 24, rejoins-la : Celia chez Vesta, Flora dans la tente, Lumina dans sa chambre au manoir, Muffy au Blue Bar, Nami dans le hall de l'Inner Inn. Pour Leia, la Déesse ou la Witch Princess, rentre chez toi après 18 h puis ressors. Marié, rentre après 18 h pour le repas en famille.",
+    "objectiveId": "festivals-starry-night",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Starry_Night_Festival_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_winter.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Keira et les filles de Mineral Town n'y participent pas."
+  },
+  {
+    "id": "stocking-festival",
+    "name": "Stocking Festival",
+    "nameFr": null,
+    "season": "winter",
+    "day": 25,
+    "location": "Ta maison",
+    "time": "La nuit (coucher après 21 h)",
+    "description": "La nuit, Thomas déguisé en Père Noël passe chez toi et dépose un cadeau dans ta chaussette si tu en as une accrochée.",
+    "participation": "Obtiens la chaussette de Nina (au moins 200 points d'amitié, puis offre-lui du Yarn entre le 1er et le 23 hiver quand elle est chez elle). Le 25, couche-toi après 21 h.",
+    "objectiveId": "festivals-stocking",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan6/festivals_winter.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php",
+      "https://harvestmoon.fandom.com/wiki/Nina_(DS)"
+    ],
+    "notes": "Fogu seul pour le déroulé ; le wiki confirme la chaussette de Nina et la visite de Thomas le 25 hiver."
+  },
+  {
+    "id": "new-years-eve",
+    "name": "New Year's Eve",
+    "nameFr": null,
+    "season": "winter",
+    "day": 30,
+    "location": "Plage",
+    "time": "À partir de 18 h",
+    "description": "Dernier soir de l'année : les habitants mangent des Buckwheat Noodles sur la plage.",
+    "participation": "Va à la plage après 18 h. Si tes emplacements rouge, vert et bleu du sac sont vides, tu peux recevoir de la Buckwheat Flour ; sinon des Buckwheat Noodles. Tu te réveilles ensuite le 1er printemps.",
+    "objectiveId": "festivals-new-years-eve",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan6/festivals_winter.php",
+      "https://fogu.com/hm6/chan7/printcalendar.php"
+    ],
+    "notes": "Y participer empêche de voir les rêves du Nouvel An. Pas de page wiki dédiée. La Buckwheat Flour serait extrêmement rare en pratique (voir page de la Déesse)."
+  }
+]

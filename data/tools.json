@@ -1,0 +1,607 @@
+[
+  {
+    "id": "hoe",
+    "name": "Hoe",
+    "nameFr": null,
+    "obtain": "Outil de départ, dans ton sac dès le début du jeu.",
+    "upgradable": true,
+    "levels": [
+      {
+        "level": 0,
+        "name": "Hoe",
+        "effect": "Laboure 1 case"
+      },
+      {
+        "level": 1,
+        "name": "Copper Hoe",
+        "material": "Copper (minerai)",
+        "costGold": 1000,
+        "effect": "Laboure 1×2 cases",
+        "objectiveId": "outils-hoe-copper"
+      },
+      {
+        "level": 2,
+        "name": "Silver Hoe",
+        "material": "Silver (minerai)",
+        "costGold": 2000,
+        "effect": "Laboure 1×3 cases",
+        "objectiveId": "outils-hoe-silver"
+      },
+      {
+        "level": 3,
+        "name": "Gold Hoe",
+        "material": "Gold (minerai)",
+        "costGold": 3000,
+        "effect": "Laboure 1×4 cases",
+        "objectiveId": "outils-hoe-gold"
+      },
+      {
+        "level": 4,
+        "name": "Mystrile Hoe",
+        "material": "Mystrile (minerai)",
+        "costGold": 5000,
+        "effect": "Laboure 1×6 cases",
+        "objectiveId": "outils-hoe-mystrile"
+      },
+      {
+        "level": 5,
+        "name": "Cursed Hoe",
+        "material": "Trouvé dans la 3e mine",
+        "effect": "Laboure 3×12 cases ; ne peut pas être déséquipée"
+      },
+      {
+        "level": 6,
+        "name": "Blessed Hoe",
+        "material": "Cursed Hoe béni à l’église",
+        "costGold": 100000,
+        "effect": "Laboure 3×12 cases",
+        "objectiveId": "outils-hoe-blessed"
+      },
+      {
+        "level": 7,
+        "name": "Mythic Hoe",
+        "material": "Mythic Stone + outil Mystrile",
+        "costGold": 50000,
+        "effect": "Laboure 5×18 cases",
+        "objectiveId": "outils-hoe-mythic"
+      }
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/alltools.php",
+      "https://harvestmoon.fandom.com/wiki/Hoe_(DS)"
+    ],
+    "notes": "Améliorations chez Gray (forge Saibara, par téléphone) quand la jauge de l’outil atteint 100 % par niveau. costGold des niveaux 1 à 4 = prix depuis l’outil de base selon Fogu (1/2/3/4 jours) ; le prix d’un seul niveau depuis un outil déjà amélioré n’est pas documenté. Les outils maudits n’apparaissent qu’une fois les 6 outils en Mystrile. Effets d’après Fogu ; les pages wiki DS reprennent les valeurs de Friends of Mineral Town (ex. marteau maudit 11×11) et ne sont pas retenues."
+  },
+  {
+    "id": "sickle",
+    "name": "Sickle",
+    "nameFr": null,
+    "obtain": "Outil de départ, dans ton sac dès le début du jeu.",
+    "upgradable": true,
+    "levels": [
+      {
+        "level": 0,
+        "name": "Sickle",
+        "effect": "Coupe 1 case"
+      },
+      {
+        "level": 1,
+        "name": "Copper Sickle",
+        "material": "Copper (minerai)",
+        "costGold": 1000,
+        "effect": "Coupe 1×3 cases",
+        "objectiveId": "outils-sickle-copper"
+      },
+      {
+        "level": 2,
+        "name": "Silver Sickle",
+        "material": "Silver (minerai)",
+        "costGold": 2000,
+        "effect": "Coupe 2×3 cases",
+        "objectiveId": "outils-sickle-silver"
+      },
+      {
+        "level": 3,
+        "name": "Gold Sickle",
+        "material": "Gold (minerai)",
+        "costGold": 3000,
+        "effect": "Coupe 3×3 cases",
+        "objectiveId": "outils-sickle-gold"
+      },
+      {
+        "level": 4,
+        "name": "Mystrile Sickle",
+        "material": "Mystrile (minerai)",
+        "costGold": 5000,
+        "effect": "Coupe 5×5 cases",
+        "objectiveId": "outils-sickle-mystrile"
+      },
+      {
+        "level": 5,
+        "name": "Cursed Sickle",
+        "material": "Trouvé dans la 3e mine",
+        "effect": "Coupe 9×9 cases ; ne peut pas être déséquipée"
+      },
+      {
+        "level": 6,
+        "name": "Blessed Sickle",
+        "material": "Cursed Sickle béni à l’église",
+        "costGold": 100000,
+        "effect": "Coupe 9×9 cases",
+        "objectiveId": "outils-sickle-blessed"
+      },
+      {
+        "level": 7,
+        "name": "Mythic Sickle",
+        "material": "Mythic Stone + outil Mystrile",
+        "costGold": 50000,
+        "effect": "Coupe 15×15 cases",
+        "objectiveId": "outils-sickle-mythic"
+      }
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/alltools.php",
+      "https://harvestmoon.fandom.com/wiki/Sickle_(DS)"
+    ],
+    "notes": "Améliorations chez Gray (forge Saibara, par téléphone) quand la jauge de l’outil atteint 100 % par niveau. costGold des niveaux 1 à 4 = prix depuis l’outil de base selon Fogu (1/2/3/4 jours) ; le prix d’un seul niveau depuis un outil déjà amélioré n’est pas documenté. Les outils maudits n’apparaissent qu’une fois les 6 outils en Mystrile. Effets d’après Fogu ; les pages wiki DS reprennent les valeurs de Friends of Mineral Town (ex. marteau maudit 11×11) et ne sont pas retenues."
+  },
+  {
+    "id": "hammer",
+    "name": "Hammer",
+    "nameFr": null,
+    "obtain": "Outil de départ, dans ton sac dès le début du jeu.",
+    "upgradable": true,
+    "levels": [
+      {
+        "level": 0,
+        "name": "Hammer",
+        "effect": "Casse seulement les petites pierres"
+      },
+      {
+        "level": 1,
+        "name": "Copper Hammer",
+        "material": "Copper (minerai)",
+        "costGold": 1000,
+        "effect": "Casse les pierres lisses en 3 coups",
+        "objectiveId": "outils-hammer-copper"
+      },
+      {
+        "level": 2,
+        "name": "Silver Hammer",
+        "material": "Silver (minerai)",
+        "costGold": 2000,
+        "effect": "Pierres en 2 coups, gros rochers en 6",
+        "objectiveId": "outils-hammer-silver"
+      },
+      {
+        "level": 3,
+        "name": "Gold Hammer",
+        "material": "Gold (minerai)",
+        "costGold": 3000,
+        "effect": "Pierres en 1 coup, gros rochers en 3",
+        "objectiveId": "outils-hammer-gold"
+      },
+      {
+        "level": 4,
+        "name": "Mystrile Hammer",
+        "material": "Mystrile (minerai)",
+        "costGold": 5000,
+        "effect": "Gros rochers en 2 coups",
+        "objectiveId": "outils-hammer-mystrile"
+      },
+      {
+        "level": 5,
+        "name": "Cursed Hammer",
+        "material": "Trouvé dans la 3e mine",
+        "effect": "Casse toutes les pierres d’un carré de 9×9 ; ne peut pas être déséquipé"
+      },
+      {
+        "level": 6,
+        "name": "Blessed Hammer",
+        "material": "Cursed Hammer béni à l’église",
+        "costGold": 100000,
+        "effect": "Casse toutes les pierres d’un carré de 9×9",
+        "objectiveId": "outils-hammer-blessed"
+      },
+      {
+        "level": 7,
+        "name": "Mythic Hammer",
+        "material": "Mythic Stone + outil Mystrile",
+        "costGold": 50000,
+        "effect": "Casse toutes les pierres de l’écran",
+        "objectiveId": "outils-hammer-mythic"
+      }
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/alltools.php",
+      "https://harvestmoon.fandom.com/wiki/Hammer_(DS)"
+    ],
+    "notes": "Améliorations chez Gray (forge Saibara, par téléphone) quand la jauge de l’outil atteint 100 % par niveau. costGold des niveaux 1 à 4 = prix depuis l’outil de base selon Fogu (1/2/3/4 jours) ; le prix d’un seul niveau depuis un outil déjà amélioré n’est pas documenté. Les outils maudits n’apparaissent qu’une fois les 6 outils en Mystrile. Effets d’après Fogu ; les pages wiki DS reprennent les valeurs de Friends of Mineral Town (ex. marteau maudit 11×11) et ne sont pas retenues."
+  },
+  {
+    "id": "axe",
+    "name": "Axe",
+    "nameFr": null,
+    "obtain": "Outil de départ, dans ton sac dès le début du jeu.",
+    "upgradable": true,
+    "levels": [
+      {
+        "level": 0,
+        "name": "Axe",
+        "effect": "Coupe seulement les branches"
+      },
+      {
+        "level": 1,
+        "name": "Copper Axe",
+        "material": "Copper (minerai)",
+        "costGold": 1000,
+        "effect": "Souches en 6 coups",
+        "objectiveId": "outils-axe-copper"
+      },
+      {
+        "level": 2,
+        "name": "Silver Axe",
+        "material": "Silver (minerai)",
+        "costGold": 2000,
+        "effect": "Souches en 3 coups",
+        "objectiveId": "outils-axe-silver"
+      },
+      {
+        "level": 3,
+        "name": "Gold Axe",
+        "material": "Gold (minerai)",
+        "costGold": 3000,
+        "effect": "Souches en 2 coups",
+        "objectiveId": "outils-axe-gold"
+      },
+      {
+        "level": 4,
+        "name": "Mystrile Axe",
+        "material": "Mystrile (minerai)",
+        "costGold": 5000,
+        "effect": "Souches en 1 coup",
+        "objectiveId": "outils-axe-mystrile"
+      },
+      {
+        "level": 5,
+        "name": "Cursed Axe",
+        "material": "Trouvé dans la 3e mine",
+        "effect": "Coupe tout le bois de l’écran ; ne peut pas être déséquipée"
+      },
+      {
+        "level": 6,
+        "name": "Blessed Axe",
+        "material": "Cursed Axe béni à l’église",
+        "costGold": 100000,
+        "effect": "Coupe tout le bois de l’écran",
+        "objectiveId": "outils-axe-blessed"
+      },
+      {
+        "level": 7,
+        "name": "Mythic Axe",
+        "material": "Mythic Stone + outil Mystrile",
+        "costGold": 50000,
+        "effect": "Coupe tout le bois de l’écran",
+        "objectiveId": "outils-axe-mythic"
+      }
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/alltools.php",
+      "https://harvestmoon.fandom.com/wiki/Axe_(DS)"
+    ],
+    "notes": "Améliorations chez Gray (forge Saibara, par téléphone) quand la jauge de l’outil atteint 100 % par niveau. costGold des niveaux 1 à 4 = prix depuis l’outil de base selon Fogu (1/2/3/4 jours) ; le prix d’un seul niveau depuis un outil déjà amélioré n’est pas documenté. Les outils maudits n’apparaissent qu’une fois les 6 outils en Mystrile. Effets d’après Fogu ; les pages wiki DS reprennent les valeurs de Friends of Mineral Town (ex. marteau maudit 11×11) et ne sont pas retenues."
+  },
+  {
+    "id": "watering-can",
+    "name": "Watering Can",
+    "nameFr": null,
+    "obtain": "Outil de départ, dans ton sac dès le début du jeu. Se remplit à n’importe quel point d’eau.",
+    "upgradable": true,
+    "levels": [
+      {
+        "level": 0,
+        "name": "Watering Can",
+        "effect": "Arrose 1 case"
+      },
+      {
+        "level": 1,
+        "name": "Copper Watering Can",
+        "material": "Copper (minerai)",
+        "costGold": 1000,
+        "effect": "Arrose 1×3 cases",
+        "objectiveId": "outils-watering-can-copper"
+      },
+      {
+        "level": 2,
+        "name": "Silver Watering Can",
+        "material": "Silver (minerai)",
+        "costGold": 2000,
+        "effect": "Arrose 2×3 cases",
+        "objectiveId": "outils-watering-can-silver"
+      },
+      {
+        "level": 3,
+        "name": "Gold Watering Can",
+        "material": "Gold (minerai)",
+        "costGold": 3000,
+        "effect": "Arrose 3×3 cases",
+        "objectiveId": "outils-watering-can-gold"
+      },
+      {
+        "level": 4,
+        "name": "Mystrile Watering Can",
+        "material": "Mystrile (minerai)",
+        "costGold": 5000,
+        "effect": "Arrose 3×5 cases",
+        "objectiveId": "outils-watering-can-mystrile"
+      },
+      {
+        "level": 5,
+        "name": "Cursed Watering Can",
+        "material": "Trouvé dans la 3e mine",
+        "effect": "Arrose 6×13 cases ; ne peut pas être déséquipé"
+      },
+      {
+        "level": 6,
+        "name": "Blessed Watering Can",
+        "material": "Cursed Watering Can béni à l’église",
+        "costGold": 100000,
+        "effect": "Arrose 6×13 cases",
+        "objectiveId": "outils-watering-can-blessed"
+      },
+      {
+        "level": 7,
+        "name": "Mythic Watering Can",
+        "material": "Mythic Stone + outil Mystrile",
+        "costGold": 50000,
+        "effect": "Arrose 12×21 cases",
+        "objectiveId": "outils-watering-can-mythic"
+      }
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/alltools.php",
+      "https://harvestmoon.fandom.com/wiki/Watering_Can_(DS)"
+    ],
+    "notes": "Améliorations chez Gray (forge Saibara, par téléphone) quand la jauge de l’outil atteint 100 % par niveau. costGold des niveaux 1 à 4 = prix depuis l’outil de base selon Fogu (1/2/3/4 jours) ; le prix d’un seul niveau depuis un outil déjà amélioré n’est pas documenté. Les outils maudits n’apparaissent qu’une fois les 6 outils en Mystrile. Effets d’après Fogu ; les pages wiki DS reprennent les valeurs de Friends of Mineral Town (ex. marteau maudit 11×11) et ne sont pas retenues."
+  },
+  {
+    "id": "fishing-rod",
+    "name": "Fishing Rod",
+    "nameFr": null,
+    "obtain": "Donnée par Galen chez lui (Hilltop House) un samedi vers midi, sans outil équipé.",
+    "upgradable": true,
+    "levels": [
+      {
+        "level": 0,
+        "name": "Fishing Rod",
+        "effect": "Petits et moyens poissons"
+      },
+      {
+        "level": 1,
+        "name": "Copper Fishing Rod",
+        "material": "Copper (minerai)",
+        "costGold": 1000,
+        "effect": "Petits et moyens poissons",
+        "objectiveId": "outils-fishing-rod-copper"
+      },
+      {
+        "level": 2,
+        "name": "Silver Fishing Rod",
+        "material": "Silver (minerai)",
+        "costGold": 2000,
+        "effect": "Petits et moyens poissons",
+        "objectiveId": "outils-fishing-rod-silver"
+      },
+      {
+        "level": 3,
+        "name": "Gold Fishing Rod",
+        "material": "Gold (minerai)",
+        "costGold": 3000,
+        "effect": "Toutes tailles de poissons",
+        "objectiveId": "outils-fishing-rod-gold"
+      },
+      {
+        "level": 4,
+        "name": "Mystrile Fishing Rod",
+        "material": "Mystrile (minerai)",
+        "costGold": 5000,
+        "effect": "Toutes tailles de poissons",
+        "objectiveId": "outils-fishing-rod-mystrile"
+      },
+      {
+        "level": 5,
+        "name": "Cursed Fishing Rod",
+        "material": "Trouvé dans la 3e mine",
+        "effect": "Tous les poissons, objets rares et rois des poissons ; ne peut pas être déséquipée"
+      },
+      {
+        "level": 6,
+        "name": "Blessed Fishing Rod",
+        "material": "Cursed Fishing Rod béni à l’église",
+        "costGold": 100000,
+        "effect": "Tous les poissons, objets rares et rois des poissons",
+        "objectiveId": "outils-fishing-rod-blessed"
+      },
+      {
+        "level": 7,
+        "name": "Mythic Fishing Rod",
+        "material": "Mythic Stone + outil Mystrile",
+        "costGold": 50000,
+        "effect": "Tous les poissons, objets rares et rois des poissons",
+        "objectiveId": "outils-fishing-rod-mythic"
+      }
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan2/index.php",
+      "https://fogu.com/hm6/chan2/toolupgrades.php",
+      "https://fogu.com/hm6/chan2/alltools.php",
+      "https://harvestmoon.fandom.com/wiki/Fishing_(DS)"
+    ],
+    "notes": "Améliorations chez Gray (forge Saibara, par téléphone) quand la jauge de l’outil atteint 100 % par niveau. costGold des niveaux 1 à 4 = prix depuis l’outil de base selon Fogu (1/2/3/4 jours) ; le prix d’un seul niveau depuis un outil déjà amélioré n’est pas documenté. Les outils maudits n’apparaissent qu’une fois les 6 outils en Mystrile. Effets d’après Fogu ; les pages wiki DS reprennent les valeurs de Friends of Mineral Town (ex. marteau maudit 11×11) et ne sont pas retenues."
+  },
+  {
+    "id": "milker",
+    "name": "Milker",
+    "nameFr": null,
+    "obtain": "Acheté 2 000 G à la forge Saibara par téléphone.",
+    "upgradable": false,
+    "levels": [
+      {
+        "level": 0,
+        "name": "Milker",
+        "costGold": 2000,
+        "effect": "Trait une vache adulte (petit lait).",
+        "objectiveId": "outils-buy-milker"
+      }
+    ],
+    "confidence": "high",
+    "sources": ["https://fogu.com/hm6/chan4/livestock.php", "https://fogu.com/hm6/chan7/telephoneshops.php"]
+  },
+  {
+    "id": "wool-clippers",
+    "name": "Wool Clippers",
+    "nameFr": null,
+    "obtain": "Achetées 1 800 G à la forge Saibara par téléphone.",
+    "upgradable": false,
+    "levels": [
+      {
+        "level": 0,
+        "name": "Wool Clippers",
+        "costGold": 1800,
+        "effect": "Tond la laine des moutons (repousse en 8 jours).",
+        "objectiveId": "outils-buy-clippers"
+      }
+    ],
+    "confidence": "high",
+    "sources": ["https://fogu.com/hm6/chan4/livestock.php", "https://fogu.com/hm6/chan7/telephoneshops.php"]
+  },
+  {
+    "id": "brush",
+    "name": "Brush",
+    "nameFr": null,
+    "obtain": "Achetée 800 G à la forge Saibara par téléphone.",
+    "upgradable": false,
+    "levels": [
+      {
+        "level": 0,
+        "name": "Brush",
+        "costGold": 800,
+        "effect": "Brosse les animaux ; avec le Touch Panel Glove, permet de les laver.",
+        "objectiveId": "outils-buy-brush"
+      }
+    ],
+    "confidence": "high",
+    "sources": ["https://fogu.com/hm6/chan7/telephoneshops.php", "https://fogu.com/hm6/chan4/pets.php"]
+  },
+  {
+    "id": "touch-panel-glove",
+    "name": "Touch Panel Glove",
+    "nameFr": null,
+    "obtain": "Accessoire acheté 1 000 G par téléphone à la Poultry Farm (Popuri) ou au Yodel Ranch (Rick).",
+    "upgradable": false,
+    "levels": [
+      {
+        "level": 0,
+        "name": "Touch Panel Glove",
+        "costGold": 1000,
+        "effect": "Caresser, traire et tondre au stylet : lait et laine plus gros, affection accrue.",
+        "objectiveId": "outils-buy-touch-glove"
+      }
+    ],
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan7/telephoneshops.php",
+      "https://fogu.com/hm6/chan4/livestock.php",
+      "https://fogu.com/hm6/chan4/poultry.php"
+    ]
+  },
+  {
+    "id": "basket",
+    "name": "Basket",
+    "nameFr": null,
+    "obtain": "Acheté 5 000 G au Supermarché de Karen par téléphone.",
+    "upgradable": false,
+    "levels": [
+      {
+        "level": 0,
+        "name": "Basket",
+        "costGold": 5000,
+        "effect": "Transporte de nombreuses récoltes.",
+        "objectiveId": "outils-buy-basket"
+      }
+    ],
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan7/telephoneshops.php",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)"
+    ]
+  },
+  {
+    "id": "rucksack",
+    "name": "Rucksack",
+    "nameFr": null,
+    "obtain": "Sac de départ ; agrandissements au Supermarché de Karen par téléphone.",
+    "upgradable": true,
+    "levels": [
+      {
+        "level": 0,
+        "name": "Rucksack",
+        "effect": "Sac de départ."
+      },
+      {
+        "level": 1,
+        "name": "2nd Rucksack",
+        "costGold": 2000,
+        "effect": "Plus de place dans le sac.",
+        "objectiveId": "outils-buy-rucksack-2"
+      },
+      {
+        "level": 2,
+        "name": "3rd Rucksack",
+        "costGold": 3000,
+        "effect": "Encore plus de place dans le sac.",
+        "objectiveId": "outils-buy-rucksack-3"
+      }
+    ],
+    "confidence": "medium",
+    "sources": ["https://fogu.com/hm6/chan7/telephoneshops.php"],
+    "notes": "Le nombre exact de cases ajoutées n’est pas précisé par la source."
+  },
+  {
+    "id": "legendary-sword",
+    "name": "Legendary Sword",
+    "nameFr": null,
+    "obtain": "Remise par Keira au 255e étage (fond) de la 2e mine, après avoir éliminé les créatures.",
+    "upgradable": false,
+    "levels": [
+      {
+        "level": 0,
+        "name": "Legendary Sword",
+        "effect": "Brise les rochers devant le champ derrière la cascade ; arme contre les créatures des mines (touche Y).",
+        "objectiveId": "mine-2-legendary-sword"
+      }
+    ],
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan5/mining.php",
+      "https://fogu.com/hm6/chan8/fieldtypes.php",
+      "https://harvestmoon.fandom.com/wiki/Keira_(DS)"
+    ]
+  }
+]

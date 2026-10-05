@@ -1,0 +1,154 @@
+[
+  {
+    "id": "team-brown",
+    "name": "Brown Sprite Company Tree Team",
+    "nameFr": null,
+    "color": "brown",
+    "colorLabel": "Marron",
+    "leaderSpriteId": "guts",
+    "description": "L'équipe du Sprite Company Tree : comptoir de Guts, boutique de Jet et Casino.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/index.php",
+      "https://fogu.com/hm6/chan5/hiringsprites.php"
+    ]
+  },
+  {
+    "id": "team-black",
+    "name": "Black Sprite Station Team",
+    "nameFr": null,
+    "color": "black",
+    "colorLabel": "Noir",
+    "leaderSpriteId": "neptune",
+    "description": "Les opérateurs de la Sprite Station, nommés d'après les planètes : chacun débloque une chaîne.",
+    "confidence": "low",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/index.php",
+      "https://harvestmoon.fandom.com/wiki/The_Sprite_Station_(DS)"
+    ],
+    "notes": "Aucune source ne nomme de chef pour cette équipe ; Neptune est désigné par convention (lutin illustrant l'équipe sur le wiki)."
+  },
+  {
+    "id": "team-blue",
+    "name": "Blue Watering Team",
+    "nameFr": null,
+    "color": "blue",
+    "colorLabel": "Bleu",
+    "leaderSpriteId": "ceruleano",
+    "description": "Équipe d'arrosage : elle arrose les cultures de la zone où tu l'envoies.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam7.php",
+      "https://fogu.com/hm6/chan5/hiringsprites.php"
+    ],
+    "notes": "Fogu l'appelle « Sky Blue » (bleu ciel) pour la distinguer de l'équipe indigo."
+  },
+  {
+    "id": "team-red",
+    "name": "Red Animal Husbandry Team",
+    "nameFr": null,
+    "color": "red",
+    "colorLabel": "Rouge",
+    "leaderSpriteId": "red-ribbon",
+    "description": "Équipe d'élevage : elle récolte lait, œufs et laine et remplit les mangeoires.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam1.php",
+      "https://fogu.com/hm6/chan5/hiringsprites.php"
+    ]
+  },
+  {
+    "id": "team-yellow",
+    "name": "Yellow Animal Care Team",
+    "nameFr": null,
+    "color": "yellow",
+    "colorLabel": "Jaune",
+    "leaderSpriteId": "canary",
+    "description": "Équipe de soins aux animaux : elle brosse et chouchoute tes bêtes.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam3.php",
+      "https://fogu.com/hm6/chan5/hiringsprites.php"
+    ]
+  },
+  {
+    "id": "team-green",
+    "name": "Green Crop Harvesting Team",
+    "nameFr": null,
+    "color": "green",
+    "colorLabel": "Vert",
+    "leaderSpriteId": "forest",
+    "description": "Équipe de récolte : elle cueille les cultures que tu as plantées.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam4.php",
+      "https://fogu.com/hm6/chan5/hiringsprites.php"
+    ]
+  },
+  {
+    "id": "team-indigo",
+    "name": "Indigo Fishing Team",
+    "nameFr": null,
+    "color": "indigo",
+    "colorLabel": "Indigo",
+    "leaderSpriteId": "blue",
+    "description": "Équipe de pêche : elle pêche pour toi et envoie les poissons au bac d'expédition.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam6.php",
+      "https://fogu.com/hm6/chan5/hiringsprites.php"
+    ]
+  },
+  {
+    "id": "team-orange",
+    "name": "Orange Gathering Team",
+    "nameFr": null,
+    "color": "orange",
+    "colorLabel": "Orange",
+    "leaderSpriteId": "oran",
+    "description": "Équipe de ramassage : elle coupe branches et souches et casse pierres et rochers.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam2.php",
+      "https://fogu.com/hm6/chan5/hiringsprites.php"
+    ]
+  },
+  {
+    "id": "team-purple",
+    "name": "Purple Recovery Team",
+    "nameFr": null,
+    "color": "purple",
+    "colorLabel": "Violet",
+    "leaderSpriteId": "violetto",
+    "description": "Équipe de récupération : elle restaure ton endurance quand tu lui parles.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/spriteteam5.php",
+      "https://fogu.com/hm6/chan5/hiringsprites.php"
+    ]
+  },
+  {
+    "id": "team-white",
+    "name": "White Team",
+    "nameFr": null,
+    "color": "white",
+    "colorLabel": "Blanc",
+    "leaderSpriteId": "baby",
+    "description": "Le bébé lutin, seul membre de l'équipe, qui apparaît une fois la Déesse délivrée.",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan3/sprites/index.php",
+      "https://fogu.com/hm6/chan5/hiringsprites.php"
+    ]
+  }
+]

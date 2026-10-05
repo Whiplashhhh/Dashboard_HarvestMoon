@@ -1,0 +1,1315 @@
+[
+  {
+    "id": "mariage-blue-feather",
+    "category": "mariage",
+    "title": "Obtenir la Blue Feather",
+    "summary": "La plume bleue sert de demande en mariage. Elle s'achète 1 000 G au Supermarket de Karen, par téléphone.",
+    "prerequisites": [
+      {
+        "type": "manual",
+        "label": "Une prétendante au cœur orange (50 000 LP) ou plus"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Commander la plume chez Karen",
+        "steps": [
+          "Fais monter une prétendante au moins au cœur orange.",
+          "Prends le téléphone de ta maison et appelle le Supermarket (9 h – 17 h).",
+          "Achète la Blue Feather (1 000 G) en bas de la liste.",
+          "Garde-la : tu l'utiliseras une fois toutes les conditions du mariage remplies."
+        ],
+        "tips": [
+          "Le Supermarket est fermé le mardi et le dimanche ainsi que les jours de festival à Mineral Town."
+        ],
+        "constraints": ["Supermarket : 9 h – 17 h", "Fermé le mardi et le dimanche"],
+        "cost": "1 000 G"
+      }
+    ],
+    "rewards": ["Blue Feather"],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "onboarding": true,
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan3/index.php",
+      "https://harvestmoon.fandom.com/wiki/Supermarket_(DS)"
+    ],
+    "notes": "Fogu : la plume apparaît en boutique dès qu'une prétendante est au cœur orange. Le wiki dit « pas disponible avant que les conditions du mariage soient remplies ». Jours de fermeture du Supermarché alignés sur calendar.json : Fogu et GameRevolution indiquent mardi et dimanche, le wiki seulement le mardi."
+  },
+  {
+    "id": "mariage-celia",
+    "category": "mariage",
+    "title": "Épouser Celia",
+    "summary": "Courtise Celia, la jeune fermière de chez Vesta, jusqu'au cœur rouge puis demande-la en mariage avec la Blue Feather.",
+    "prerequisites": [
+      {
+        "type": "spriteCount",
+        "min": 60
+      },
+      {
+        "type": "objective",
+        "id": "mariage-blue-feather"
+      },
+      {
+        "type": "objective",
+        "id": "ferme-buy-big-bed"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Séduire Celia",
+        "steps": [
+          "Offre chaque jour à Celia un cadeau qu'elle adore ou aime.",
+          "Cœur noir : un jour de pluie (sauf lundi), entre dans la maison de Vesta entre 10 h et 12 h.",
+          "Cœur violet (ou plus) : entre 15 h 40 et 18 h (sauf lundi), marche du chemin principal vers l'étang de la Déesse ; Celia t'aborde.",
+          "Cœur bleu (ou plus) : un jour de pluie hors hiver, entre dans la clinique du Dr Hardy entre 6 h et 12 h.",
+          "Cœur jaune (ou plus) : entre au Blue Bar entre 16 h et 18 h (sauf lundi et mercredi).",
+          "Conditions finales : cœur rouge, ses 4 événements de cœur vus (les réponses ne comptent pas), 60 lutins retrouvés (Déesse revenue), Big Bed, Blue Feather.",
+          "Quand elle est au cœur rouge (60 000 LP) et que tout est prêt, équipe la Blue Feather comme outil (emplacement rouge du sac), place-toi à côté d'elle et appuie sur le bouton d'outil.",
+          "Le mariage a lieu une semaine plus tard."
+        ],
+        "tips": [
+          "Ses favoris : Cake (+800 LP), plats au curry, Yarn, Perfume, diamants, Risotto, Doria, Gratin. À éviter absolument : Pickled Cucumber (-5000 LP).",
+          "Un cadeau par jour suffit pour les points d'amour (seul le premier cadeau du jour compte). Le jour de son anniversaire, les points sont multipliés par 5.",
+          "Rival : Marlin. Si leurs 4 événements de rival se produisent (le dernier, au cœur orange, pas avant ta 4e année et 60 lutins), ils se marient. Les événements de rival n'arrivent que si son cœur est au niveau requis ou en dessous : garder son cœur haut le protège."
+        ],
+        "constraints": ["Événements : jamais le lundi"],
+        "cost": "Blue Feather 1 000 G + Big Bed 10 000 G (+ agrandissements)"
+      }
+    ],
+    "rewards": ["Mariage", "Possibilité d'avoir un enfant"],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "milestone": true,
+    "onboarding": true,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Celia_(DS)",
+      "https://fogu.com/hm6/chan3/celia.php",
+      "https://fogu.com/hm6/chan3/index.php",
+      "https://fogu.com/hm6/chan3/rivals.php"
+    ]
+  },
+  {
+    "id": "mariage-flora",
+    "category": "mariage",
+    "title": "Épouser Flora",
+    "summary": "Courtise Flora, l'assistante archéologue, jusqu'au cœur rouge puis demande-la en mariage avec la Blue Feather.",
+    "prerequisites": [
+      {
+        "type": "spriteCount",
+        "min": 60
+      },
+      {
+        "type": "objective",
+        "id": "mariage-blue-feather"
+      },
+      {
+        "type": "objective",
+        "id": "ferme-buy-big-bed"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Séduire Flora",
+        "steps": [
+          "Offre chaque jour à Flora un cadeau qu'elle adore ou aime.",
+          "Cœur noir : entre dans le site de fouilles entre 23 h et minuit.",
+          "Cœur violet (ou plus) : entre dans le hall de l'Inner Inn entre 13 h et 16 h (sauf mardi).",
+          "Cœur bleu (ou plus) : par beau temps, entre 23 h 20 et minuit (sauf dimanche), marche de la ferme de Vesta vers la zone de la cascade ; accepte d'aider Flora à chercher le trésor (cela ouvre la source chaude).",
+          "Cœur jaune (ou plus) : par beau temps, entre dans le site de fouilles entre 7 h 30 et 20 h (sauf mardi).",
+          "Conditions finales : cœur rouge, ses 4 événements de cœur vus (les réponses ne comptent pas), 60 lutins retrouvés (Déesse revenue), Big Bed, Blue Feather.",
+          "Quand elle est au cœur rouge (60 000 LP) et que tout est prêt, équipe la Blue Feather comme outil (emplacement rouge du sac), place-toi à côté d'elle et appuie sur le bouton d'outil.",
+          "Le mariage a lieu une semaine plus tard."
+        ],
+        "tips": [
+          "Ses favoris : Rainbow Curry (+800 LP), plats au curry, Fish Fossil, diamants, Lithograph, Dry Curry. À éviter absolument : Red Grass (-5000 LP).",
+          "Un cadeau par jour suffit pour les points d'amour (seul le premier cadeau du jour compte). Le jour de son anniversaire, les points sont multipliés par 5.",
+          "Rival : Carter. Si leurs 4 événements de rival se produisent (le dernier, au cœur orange, pas avant ta 4e année et 60 lutins), ils se marient. Les événements de rival n'arrivent que si son cœur est au niveau requis ou en dessous : garder son cœur haut le protège.",
+          "Son événement cœur bleu débloque la source chaude près du cirque, nécessaire au lutin Blue."
+        ],
+        "constraints": ["Événements de nuit"],
+        "cost": "Blue Feather 1 000 G + Big Bed 10 000 G (+ agrandissements)"
+      }
+    ],
+    "rewards": ["Mariage", "Possibilité d'avoir un enfant"],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "milestone": true,
+    "onboarding": true,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Flora_(DS)",
+      "https://fogu.com/hm6/chan3/flora.php",
+      "https://fogu.com/hm6/chan3/index.php",
+      "https://fogu.com/hm6/chan3/rivals.php"
+    ]
+  },
+  {
+    "id": "mariage-lumina",
+    "category": "mariage",
+    "title": "Épouser Lumina",
+    "summary": "Courtise Lumina, la pianiste du manoir, jusqu'au cœur rouge puis demande-la en mariage avec la Blue Feather.",
+    "prerequisites": [
+      {
+        "type": "spriteCount",
+        "min": 60
+      },
+      {
+        "type": "objective",
+        "id": "mariage-blue-feather"
+      },
+      {
+        "type": "objective",
+        "id": "ferme-buy-big-bed"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Séduire Lumina",
+        "steps": [
+          "Offre chaque jour à Lumina un cadeau qu'elle adore ou aime.",
+          "Cœur noir : entre dans le manoir de Romana entre 19 h 30 et 20 h ; pendant la dispute, accuse Sebastian pour que tout le monde soit content.",
+          "Cœur violet (ou plus) : possède un lecteur DVD et un DVD ; réveille-toi un matin de beau temps, Lumina vient le voir.",
+          "Cœur bleu (ou plus) : par beau temps, sors de l'arbre des lutins (Sprite Company) entre 15 h 30 et 18 h et aide-la à retrouver son collier.",
+          "Cœur jaune (ou plus) : par beau temps, entre dans sa chambre au manoir entre 21 h et 23 h.",
+          "Conditions finales : cœur rouge, ses 4 événements de cœur vus (les réponses ne comptent pas), 60 lutins retrouvés (Déesse revenue), Big Bed, Blue Feather.",
+          "Quand elle est au cœur rouge (60 000 LP) et que tout est prêt, équipe la Blue Feather comme outil (emplacement rouge du sac), place-toi à côté d'elle et appuie sur le bouton d'outil.",
+          "Le mariage a lieu une semaine plus tard."
+        ],
+        "tips": [
+          "Ses favoris : Relax Tea (+800 LP), Perfume, diamants, Omelet, Risotto, curry, Baked Yam, Cake, Strawberry Milk. À éviter absolument : Elli Leaves (-5000 LP).",
+          "Un cadeau par jour suffit pour les points d'amour (seul le premier cadeau du jour compte). Le jour de son anniversaire, les points sont multipliés par 5.",
+          "Rival : Rock. Si leurs 4 événements de rival se produisent (le dernier, au cœur orange, pas avant ta 4e année et 60 lutins), ils se marient. Les événements de rival n'arrivent que si son cœur est au niveau requis ou en dessous : garder son cœur haut le protège."
+        ],
+        "constraints": ["Lecteur DVD requis"],
+        "cost": "Blue Feather 1 000 G + Big Bed 10 000 G (+ agrandissements)"
+      }
+    ],
+    "rewards": ["Mariage", "Possibilité d'avoir un enfant"],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "milestone": true,
+    "onboarding": true,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Lumina_(DS)",
+      "https://fogu.com/hm6/chan3/lumina.php",
+      "https://fogu.com/hm6/chan3/index.php",
+      "https://fogu.com/hm6/chan3/rivals.php"
+    ],
+    "notes": "Van vend des DVD (wiki) ; les pages consultées ne précisent pas où acheter le lecteur DVD."
+  },
+  {
+    "id": "mariage-muffy",
+    "category": "mariage",
+    "title": "Épouser Muffy",
+    "summary": "Courtise Muffy, la serveuse du Blue Bar, jusqu'au cœur rouge puis demande-la en mariage avec la Blue Feather.",
+    "prerequisites": [
+      {
+        "type": "spriteCount",
+        "min": 60
+      },
+      {
+        "type": "objective",
+        "id": "mariage-blue-feather"
+      },
+      {
+        "type": "objective",
+        "id": "ferme-buy-big-bed"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Séduire Muffy",
+        "steps": [
+          "Offre chaque jour à Muffy un cadeau qu'elle adore ou aime.",
+          "Cœur noir : entre au Blue Bar (sauf mercredi) : par beau temps entre 17 h et 18 h 59, par pluie entre 16 h 20 et 18 h 59. Réponds « cheerful and pretty ».",
+          "Cœur violet (ou plus) : un jour de pluie (sauf mercredi), va à la plage entre 9 h et 11 h ; conseille-lui de refuser l'homme après l'avoir rencontré.",
+          "Cœur bleu (ou plus) : entre au Blue Bar entre 18 h et 20 h (sauf mercredi) ; propose le lait comme dernier ingrédient.",
+          "Cœur jaune (ou plus) : en été, par beau temps, sors de chez toi entre 9 h et 12 h ; accepte le rendez-vous.",
+          "Conditions finales : cœur rouge, ses 4 événements de cœur vus (les réponses ne comptent pas), 60 lutins retrouvés (Déesse revenue), Big Bed, Blue Feather.",
+          "Quand elle est au cœur rouge (60 000 LP) et que tout est prêt, équipe la Blue Feather comme outil (emplacement rouge du sac), place-toi à côté d'elle et appuie sur le bouton d'outil.",
+          "Le mariage a lieu une semaine plus tard."
+        ],
+        "tips": [
+          "Ses favoris : Apple Pie (+800 LP), bijoux, Diamond, Wine, Matsutake, Pizza, Cake, Ice Cream. À éviter absolument : Small Fish (-5000 LP).",
+          "Un cadeau par jour suffit pour les points d'amour (seul le premier cadeau du jour compte). Le jour de son anniversaire, les points sont multipliés par 5.",
+          "Rival : Griffin. Si leurs 4 événements de rival se produisent (le dernier, au cœur orange, pas avant ta 4e année et 60 lutins), ils se marient. Les événements de rival n'arrivent que si son cœur est au niveau requis ou en dessous : garder son cœur haut le protège."
+        ],
+        "constraints": ["Événements : jamais le mercredi", "Cœur jaune : seulement en été"],
+        "cost": "Blue Feather 1 000 G + Big Bed 10 000 G (+ agrandissements)"
+      }
+    ],
+    "rewards": ["Mariage", "Possibilité d'avoir un enfant"],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "milestone": true,
+    "onboarding": true,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Muffy_(DS)",
+      "https://fogu.com/hm6/chan3/muffy.php",
+      "https://fogu.com/hm6/chan3/index.php",
+      "https://fogu.com/hm6/chan3/rivals.php"
+    ],
+    "notes": "Cœur noir : le wiki indique 15 h – 17 h, Fogu donne les créneaux détaillés retenus ici."
+  },
+  {
+    "id": "mariage-nami",
+    "category": "mariage",
+    "title": "Épouser Nami",
+    "summary": "Courtise Nami, la voyageuse de l'Inner Inn, jusqu'au cœur rouge puis demande-la en mariage avec la Blue Feather.",
+    "prerequisites": [
+      {
+        "type": "spriteCount",
+        "min": 60
+      },
+      {
+        "type": "objective",
+        "id": "mariage-blue-feather"
+      },
+      {
+        "type": "objective",
+        "id": "ferme-buy-big-bed"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Séduire Nami",
+        "steps": [
+          "Offre chaque jour à Nami un cadeau qu'elle adore ou aime.",
+          "Cœur noir : un mardi de pluie, entre dans le hall de l'Inner Inn entre 12 h et 14 h.",
+          "Cœur violet (ou plus) : entre dans le hall de l'Inner Inn à partir de 6 h ; accepte de lui montrer tes outils.",
+          "Cœur bleu (ou plus) : un matin au réveil, quelqu'un frappe : laisse entrer Nami et aide-la à choisir un cadeau pour Ruby.",
+          "Cœur jaune (ou plus) : par beau temps, sors de chez toi entre 6 h et 12 h ; dis-lui qu'elle ne te dérange pas.",
+          "Conditions finales : cœur rouge, ses 4 événements de cœur vus (les réponses ne comptent pas), 60 lutins retrouvés (Déesse revenue), Big Bed, Blue Feather.",
+          "Quand elle est au cœur rouge (60 000 LP) et que tout est prêt, équipe la Blue Feather comme outil (emplacement rouge du sac), place-toi à côté d'elle et appuie sur le bouton d'outil.",
+          "Le mariage a lieu une semaine plus tard."
+        ],
+        "tips": [
+          "Ses favoris : Gratin (+800 LP), Wild Grape, Grape, Grape Juice, Red Magic Flower, Seasonal Sun, Curry Bread, Stew, Apple Pie. Elle n'aime pas les bijoux ni les diamants. À éviter absolument : Grape Jam (-5000 LP).",
+          "Un cadeau par jour suffit pour les points d'amour (seul le premier cadeau du jour compte). Le jour de son anniversaire, les points sont multipliés par 5.",
+          "Rival : Gustafa. Si leurs 4 événements de rival se produisent (le dernier, au cœur orange, pas avant ta 4e année et 60 lutins), ils se marient. Les événements de rival n'arrivent que si son cœur est au niveau requis ou en dessous : garder son cœur haut le protège."
+        ],
+        "constraints": ["Cœur noir : un mardi de pluie"],
+        "cost": "Blue Feather 1 000 G + Big Bed 10 000 G (+ agrandissements)"
+      }
+    ],
+    "rewards": ["Mariage", "Possibilité d'avoir un enfant"],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "milestone": true,
+    "onboarding": true,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Nami_(DS)",
+      "https://fogu.com/hm6/chan3/nami.php",
+      "https://fogu.com/hm6/chan3/index.php",
+      "https://fogu.com/hm6/chan3/rivals.php"
+    ],
+    "notes": "Cœur violet : le wiki dit 6 h – 12 h, Fogu 6 h – minuit."
+  },
+  {
+    "id": "mariage-leia",
+    "category": "mariage",
+    "title": "Épouser Leia",
+    "summary": "Rencontre la sirène Leia au sous-sol du laboratoire de Daryl, fais monter son cœur et demande-la en mariage. Une fois mariée, elle vit dans l'étang de ta ferme.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "amitie-daryl"
+      },
+      {
+        "type": "spriteCount",
+        "min": 60
+      },
+      {
+        "type": "objective",
+        "id": "mariage-blue-feather"
+      },
+      {
+        "type": "objective",
+        "id": "ferme-buy-big-bed"
+      },
+      {
+        "type": "objective",
+        "id": "batiments-duck-pond"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Séduire Leia",
+        "steps": [
+          "Cœur noir : avec Daryl à 100 points d'amitié, descends au sous-sol de son laboratoire quand il est chez lui ; réponds qu'il est gentil.",
+          "Offre chaque jour un cadeau à Leia (poissons moyens et gros, Grilled Fish, Sashimi, bijoux, diamants…).",
+          "Cœur violet (ou plus) : entre dans le laboratoire sans rien tenir dans l'emplacement vert du sac.",
+          "Cœur bleu (ou plus) : descends voir Leia au sous-sol et accepte de goûter sa cuisine.",
+          "Cœur jaune (ou plus) : au printemps, pêche une Bottled Message dans la mer (canne en Mystrile ou mieux), puis entre dans le laboratoire avec la bouteille dans ton sac. Leia retourne à la mer.",
+          "Ensuite, tu ne la vois plus que sur la plage dans la nuit du mardi au mercredi (vers minuit) : continue à lui offrir des cadeaux.",
+          "Conditions finales : cœur rouge, ses 4 événements de cœur vus (les réponses ne comptent pas), 60 lutins retrouvés (Déesse revenue), Big Bed, Blue Feather. Il faut aussi le Duck Pond.",
+          "Quand elle est au cœur rouge (60 000 LP) et que tout est prêt, équipe la Blue Feather comme outil (emplacement rouge du sac), place-toi à côté d'elle et appuie sur le bouton d'outil."
+        ],
+        "tips": [
+          "Fogu : avant de déclencher l'événement jaune, monte-la vers 57 000 LP pour ne pas attendre trop de semaines ensuite.",
+          "Cadeau favori : Large Fish (+800 LP). À éviter : Fodder (-5000 LP).",
+          "Un cadeau par jour suffit pour les points d'amour (seul le premier cadeau du jour compte). Le jour de son anniversaire, les points sont multipliés par 5."
+        ],
+        "constraints": ["Bouteille : pêche en mer au printemps", "Après le cœur jaune : mardi vers minuit"],
+        "cost": "Blue Feather 1 000 G + Big Bed 10 000 G"
+      }
+    ],
+    "rewards": ["Mariage"],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "milestone": true,
+    "onboarding": true,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Leia_(DS)",
+      "https://fogu.com/hm6/chan3/leia.php",
+      "https://fogu.com/hm6/chan3/index.php"
+    ]
+  },
+  {
+    "id": "mariage-keira",
+    "category": "mariage",
+    "title": "Épouser Keira",
+    "summary": "Keira dort au 255e étage de la 3e mine. Ses événements de cœur sont des commandes écrites sur le panneau près de son lit ; ensuite, demande-la en mariage avec la Blue Feather.",
+    "prerequisites": [
+      {
+        "type": "spriteCount",
+        "min": 60
+      },
+      {
+        "type": "objective",
+        "id": "mariage-blue-feather"
+      },
+      {
+        "type": "objective",
+        "id": "ferme-buy-big-bed"
+      },
+      {
+        "type": "objective",
+        "id": "mine-2-legendary-sword"
+      },
+      {
+        "type": "objective",
+        "id": "mine-3-keira-floor-255"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Séduire Keira",
+        "steps": [
+          "Cœur noir : descends au 255e étage de la 3e mine ; lis le panneau et rapporte-lui un Ultimate Curry ou un Finest Curry.",
+          "Offre-lui un cadeau par jour (Seasonal Sun ramassé en descendant, Alexandrite, Mythic Stone, diamants, Golden Lumber).",
+          "Cœur violet (ou plus) : lis le panneau et apporte-lui un Relax Tea.",
+          "Cœur bleu (ou plus) : le panneau demande une pierre précieuse précise (différente selon les parties) : apporte-la.",
+          "Cœur jaune (ou plus) : apporte-lui un Golden Lumber.",
+          "Conditions finales : cœur rouge, ses 4 événements de cœur vus (les réponses ne comptent pas), 60 lutins retrouvés (Déesse revenue), Big Bed, Blue Feather.",
+          "Quand elle est au cœur rouge (60 000 LP) et que tout est prêt, équipe la Blue Feather comme outil (emplacement rouge du sac), place-toi à côté d'elle et appuie sur le bouton d'outil."
+        ],
+        "tips": [
+          "Apporter l'objet demandé ne compte pas comme le cadeau du jour : tu peux faire les deux le même jour.",
+          "Cadeau favori : Golden Lumber (+800 LP). À éviter : Riceballs (-5000 LP), et presque toute la nourriture.",
+          "Un cadeau par jour suffit pour les points d'amour (seul le premier cadeau du jour compte). Le jour de son anniversaire, les points sont multipliés par 5."
+        ],
+        "constraints": ["Mine 3, étage 255"],
+        "cost": "Blue Feather 1 000 G + Big Bed 10 000 G"
+      }
+    ],
+    "rewards": ["Mariage"],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "milestone": true,
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Keira_(DS)",
+      "https://fogu.com/hm6/chan3/keira.php",
+      "https://fogu.com/hm6/chan3/index.php"
+    ],
+    "notes": "Keira ne participe pas au Starry Night Festival."
+  },
+  {
+    "id": "mariage-witch-princess",
+    "category": "mariage",
+    "title": "Épouser la Witch Princess",
+    "summary": "Le mariage le plus long du jeu : il faut accumuler les « mauvaises actions » qu'elle apprécie et lui offrir au total 10 000 cadeaux.",
+    "prerequisites": [
+      {
+        "type": "spriteCount",
+        "min": 60
+      },
+      {
+        "type": "objective",
+        "id": "mariage-blue-feather"
+      },
+      {
+        "type": "objective",
+        "id": "ferme-buy-big-bed"
+      },
+      {
+        "type": "year",
+        "min": 5
+      }
+    ],
+    "methods": [
+      {
+        "title": "Séduire la Witch Princess",
+        "steps": [
+          "Cœur noir : sors du manoir de Romana entre 6 h et minuit ; dans sa cabane, réponds que la Déesse t'agace aussi.",
+          "Offre-lui des cadeaux tous les jours (Rainbow Curry, Toadstool, Red Grass, Gold Lumber…). Plusieurs cadeaux par jour comptent pour le total de 10 000.",
+          "Cœur violet : il faut avoir jeté des objets par terre 10 fois, laissé mourir 50 animaux, mis un Toadstool dans la marmite du Harvest Festival 5 années, tenté de quitter la vallée 10 fois, libéré la Déesse, t'être évanoui 10 fois et lui avoir offert 10 cadeaux. Sors alors de l'arbre des lutins entre 10 h et 18 h et donne-lui raison.",
+          "Cœur bleu : après au moins 1 000 cadeaux, entre dans sa cabane entre 6 h et minuit et accepte de passer du temps avec elle.",
+          "Cœur jaune : connais la recette des Elli Leaves, évanouis-toi au moins 100 fois, vide l'emplacement vert de ton sac, puis entre dans sa cabane entre 6 h et minuit.",
+          "Atteins 10 000 cadeaux au total et le cœur rouge, puis utilise la Blue Feather."
+        ],
+        "tips": [
+          "Ces actions font baisser l'amitié de tous les autres habitants.",
+          "Montrer ton chat compte aussi comme interaction ; des objets bon marché (Flour, poissons, Weed) suffisent pour accumuler les cadeaux.",
+          "À éviter : Peach (-5000 LP)."
+        ],
+        "constraints": ["5e année au plus tôt (Harvest Festival × 5)"]
+      }
+    ],
+    "rewards": ["Mariage"],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "low",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Witch_Princess_(DS)",
+      "https://fogu.com/hm6/chan3/witch.php",
+      "https://fogu.com/hm6/chan3/index.php"
+    ],
+    "notes": "Confiance basse : en version nord-américaine 1.0 les animaux morts ne sont pas comptés (mariage impossible), corrigé seulement dans certaines versions. Aucune source ne confirme le comportement de la version européenne. Le seuil de 10 000 cadeaux vient de Fogu."
+  },
+  {
+    "id": "mariage-harvest-goddess",
+    "category": "mariage",
+    "title": "Épouser la Harvest Goddess",
+    "summary": "Le défi ultime : après l'avoir libérée, il faut presque tout accomplir dans le jeu (101 lutins, liste d'expédition complète, toutes les mines). Réputé impossible à cause de bugs.",
+    "prerequisites": [
+      {
+        "type": "spriteCount",
+        "min": 101
+      },
+      {
+        "type": "objective",
+        "id": "mariage-blue-feather"
+      },
+      {
+        "type": "objective",
+        "id": "ferme-buy-big-bed"
+      },
+      {
+        "type": "year",
+        "min": 5
+      },
+      {
+        "type": "objective",
+        "id": "cultures-waterfall-field"
+      },
+      {
+        "type": "manual",
+        "label": "Au moins 1 exemplaire de chaque objet expédié et tous les objets des 4 mines trouvés"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Séduire la Déesse",
+        "steps": [
+          "Cœur noir : retrouve 60 lutins ; la Déesse revient et te remercie.",
+          "Offre-lui un cadeau par jour en le jetant dans son étang (Strawberry +800 LP, Pineapple, récoltes, fleurs, œufs, lait).",
+          "Cœur violet : 10 000 pas au podomètre, 10 000 exemplaires d'un même objet expédiés, 10 000 prises d'un même poisson, fond de la 1re mine atteint ; jette alors un cadeau dans l'étang.",
+          "Cœur bleu : débloque les 9 chaînes de la Sprite Station, puis jette un cadeau.",
+          "Cœur jaune : après au moins 500 cadeaux (un par jour), jette un cadeau.",
+          "Remplis les conditions supplémentaires (5e année, 101 lutins, expédition complète, Legendary Sword et champ de la cascade, tous les objets des mines), atteins le cœur rouge puis utilise la Blue Feather."
+        ],
+        "tips": [
+          "Chaque « félicitation » de la Déesse (paliers de pas, d'expéditions, de poissons, d'étages de mine) lui ajoute 3 000 LP.",
+          "À éviter : Boot (-5000 LP)."
+        ],
+        "constraints": ["5e année au plus tôt"]
+      }
+    ],
+    "rewards": ["Mariage"],
+    "difficulty": 3,
+    "estimatedDuration": "long terme",
+    "confidence": "low",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Harvest_Goddess_(DS)",
+      "https://fogu.com/hm6/chan3/goddess.php"
+    ],
+    "notes": "Confiance basse : en version nord-américaine, mariage réputé impossible (Buckwheat Flour quasi introuvable au New Year's Eve, Choker/Necklace non enregistrée dans la liste des mines). Aucune source sur la version européenne. Même mariée, elle reste dans son étang."
+  },
+  {
+    "id": "amitie-first-friend",
+    "category": "amitie",
+    "title": "Amener un habitant à 100 points d'amitié",
+    "summary": "Choisis un habitant et fais monter son amitié (FP) jusqu'à 100 : cela débloque le lutin Uranus.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Cadeaux et discussions quotidiennes",
+        "steps": [
+          "Choisis un habitant facile à croiser (ex. Takakura, qui vit sur ta ferme, ou ta prétendante préférée).",
+          "Parle-lui chaque jour.",
+          "Offre-lui chaque jour un objet qu'il adore ou aime : le premier cadeau du jour donne +9 FP.",
+          "Continue jusqu'à 100 FP."
+        ],
+        "tips": [
+          "Le jour de son anniversaire, les points sont multipliés par 5 (+45 FP pour un cadeau adoré).",
+          "Sans contact, les FP baissent lentement : ne l'ignore pas trop longtemps."
+        ]
+      },
+      {
+        "title": "Astuce de l'animal de compagnie",
+        "steps": [
+          "Prends ton chien ou ton chat dans les bras.",
+          "Montre-le à l'habitant : +1 FP à chaque fois.",
+          "Répète autant de fois que tu veux le même jour jusqu'à 100 FP."
+        ],
+        "tips": [
+          "Certains préfèrent le chat (Grant, Hugh, Kassey, Marlin, Muffy, Takakura, Witch Princess) ; Patrick seulement le chien ; Popuri, Keira, Mukumuku, Rick et Thomas ne réagissent pas."
+        ]
+      }
+    ],
+    "rewards": ["Lutin Uranus", "Chaîne 7 (Variety) de la Sprite Station"],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "relatedSpriteIds": ["uranus"],
+    "onboarding": true,
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan5/makingfriends.php",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)",
+      "https://fogu.com/hm6/chan1/spritestation.php"
+    ]
+  },
+  {
+    "id": "amitie-love-bangle",
+    "category": "amitie",
+    "title": "Obtenir le Love Bangle",
+    "summary": "Bracelet du Sprite Casino qui affiche les points d'amour (LP) et d'amitié (FP) des habitants quand tu leur parles.",
+    "prerequisites": [
+      {
+        "type": "sprite",
+        "id": "roller"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Échanger des médailles au casino",
+        "steps": [
+          "Gagne des médailles au Sprite Casino de Roller (arbre des lutins, 10 h – 18 h).",
+          "Échange 5 000 médailles contre le Love Bangle.",
+          "Équipe-le dans l'emplacement d'ornement de ton sac, puis parle aux habitants pour voir leurs points."
+        ],
+        "tips": [
+          "Pratique pour vérifier les seuils de cœur (ex. 50 000 LP pour la Blue Feather) et le cœur invisible de la Déesse."
+        ],
+        "constraints": ["Sprite Casino : 10 h – 18 h"],
+        "cost": "5 000 médailles"
+      }
+    ],
+    "rewards": ["Love Bangle"],
+    "difficulty": 2,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "high",
+    "sources": [
+      "https://fogu.com/hm6/chan5/makingfriends.php",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Moon_DS"
+    ]
+  },
+  {
+    "id": "amitie-daryl",
+    "category": "amitie",
+    "title": "Se lier d'amitié avec Daryl (100 FP)",
+    "summary": "Avec 100 points d'amitié, Daryl laisse ouverte la porte du sous-sol de son laboratoire, où vit la sirène Leia.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Cadeaux à Daryl",
+        "steps": [
+          "Va au laboratoire de Daryl (zone du marais) et parle-lui chaque jour.",
+          "Offre-lui un objet adoré : herbes colorées (Colored Grasses), Matsutake, poisson, Stir Fry, Omelet, Stew, Elli Leaves.",
+          "À 100 FP, descends au sous-sol quand il est chez lui pour rencontrer Leia."
+        ],
+        "tips": [
+          "Les herbes colorées se ramassent gratuitement partout : idéal au début.",
+          "Évite Toadstool, Hot Milk et Strawberry Milk qu'il déteste."
+        ]
+      },
+      {
+        "title": "Astuce de l'animal de compagnie",
+        "steps": [
+          "Prends ton chien ou ton chat dans les bras.",
+          "Montre-le à Daryl autant de fois que nécessaire : +1 FP à chaque fois."
+        ]
+      }
+    ],
+    "rewards": ["Accès au sous-sol du laboratoire (Leia)"],
+    "difficulty": 1,
+    "estimatedDuration": "quelques jours de jeu",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Daryl_(DS)",
+      "https://harvestmoon.fandom.com/wiki/Leia_(DS)",
+      "https://fogu.com/hm6/chan3/leia.php",
+      "https://fogu.com/hm6/chan5/makingfriends.php"
+    ]
+  },
+  {
+    "id": "amitie-flora-hot-spring",
+    "category": "amitie",
+    "title": "Ouvrir la source chaude du cirque",
+    "summary": "L’événement « cœur bleu » de Flora (ou la naissance de ton enfant) fait découvrir une source chaude près du terrain du cirque, nécessaire pour les lutins Blue et Violetto.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Événements de Flora",
+        "steps": [
+          "Fais monter Flora au cœur bleu en lui offrant ses cadeaux préférés (curry, Fish Fossil, Lithograph…).",
+          "Vois ses événements noir (site de fouilles, 23 h – minuit) et violet (hall de l'Inner Inn, 13 h – 16 h, sauf mardi).",
+          "Par beau temps, entre 23 h 20 et minuit (sauf dimanche), marche de la ferme de Vesta vers la zone de la cascade.",
+          "Accepte d'aider Flora à chercher le trésor et creuse : vous découvrez la source chaude.",
+          "Lance ensuite ta canne à pêche dans cette source pour trouver le lutin Blue."
+        ],
+        "tips": ["La naissance de ton enfant ouvre aussi cette source."],
+        "constraints": ["Par beau temps", "Entre 23 h 20 et minuit"]
+      },
+      {
+        "title": "Attendre la naissance de ton enfant",
+        "steps": [
+          "Marie-toi et attends la naissance de ton enfant : la source chaude près du cirque s’ouvre alors elle aussi."
+        ],
+        "constraints": ["Après le mariage"]
+      }
+    ],
+    "rewards": ["Source chaude", "Accès au lutin Blue"],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "relatedSpriteIds": ["blue", "violetto"],
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Flora_(DS)",
+      "https://fogu.com/hm6/chan3/flora.php",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Sprites_(DS)"
+    ],
+    "notes": "Déblocage par la naissance de l’enfant : indiqué par le wiki (page des lutins), sans détail sur le moment exact."
+  },
+  {
+    "id": "amitie-mukumuku",
+    "category": "amitie",
+    "title": "Se lier d'amitié avec Mukumuku",
+    "summary": "Le yéti Mukumuku n'apparaît que les nuits d'hiver près de l'étang de la Déesse. Une fois ami, il te donne un disque pour chaque poisson offert.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Visites nocturnes en hiver",
+        "steps": [
+          "En hiver, va le soir près de l'étang de la Déesse.",
+          "Offre-lui chaque soir un objet adoré : Baked Corn, Baked Yam, Boiled Egg, Grilled Fish, Hot Milk, Omelet, fleurs…",
+          "Une fois devenu ami, donne-lui des poissons pour recevoir des disques."
+        ],
+        "tips": [
+          "Il est né le 1er hiver : un cadeau ce jour-là compte cinq fois plus.",
+          "Il ne réagit pas aux animaux de compagnie."
+        ],
+        "constraints": ["Seulement en hiver", "La nuit"]
+      }
+    ],
+    "rewards": ["Disques de musique"],
+    "availableSeasons": ["winter"],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "medium",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Mukumuku_(DS)",
+      "https://fogu.com/hm6/chan5/makingfriends.php"
+    ],
+    "notes": "Le seuil d'amitié exact pour les disques n'est pas précisé par la source."
+  },
+  {
+    "id": "festivals-new-years-day",
+    "category": "festivals",
+    "title": "Fêter le Nouvel An (New Year's Day)",
+    "summary": "Le 1er printemps, rejoins les habitants sur la plage pour manger des Rice Cakes ; Thomas t'en donne à emporter.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Aller à la plage",
+        "steps": [
+          "Le 1er printemps, va à la plage entre 10 h et 18 h.",
+          "Profite de la fête jusqu'au bout pour recevoir du Rice Cake de Thomas."
+        ],
+        "constraints": ["Entre 10 h et 18 h"]
+      }
+    ],
+    "rewards": ["Rice Cake"],
+    "availableSeasons": ["spring"],
+    "dates": [
+      {
+        "season": "spring",
+        "day": 1
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/New_Years_Day_Festival_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_spring.php"
+    ]
+  },
+  {
+    "id": "festivals-spring-thanksgiving",
+    "category": "festivals",
+    "title": "Offrir des Cookies au Spring Thanksgiving",
+    "summary": "Le 14 printemps, offre des Cookies aux prétendantes : +1 000 points d'amour chacune.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "ferme-buy-kitchen"
+      },
+      {
+        "type": "manual",
+        "label": "Avoir l’ustensile Oven (four), 2 500 G sur la chaîne TV Shopping"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Préparer et offrir des Cookies",
+        "steps": [
+          "Avant le 14, cuisine des Cookies avec l'Oven : Egg + Flour + Butter.",
+          "Le 14 printemps, va voir les prétendantes que tu courtises.",
+          "Offre-leur un Cookie à chacune."
+        ],
+        "tips": [
+          "Impossible la première année si tu n'as pas encore la cuisine.",
+          "Marié, ton épouse te laisse des Chocolate Cookies dans le sac pendant la nuit."
+        ],
+        "constraints": ["Seulement le 14 printemps"]
+      }
+    ],
+    "rewards": ["+1 000 LP par prétendante"],
+    "availableSeasons": ["spring"],
+    "dates": [
+      {
+        "season": "spring",
+        "day": 14
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Spring_Thanksgiving_Festival_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_spring.php"
+    ]
+  },
+  {
+    "id": "festivals-duck",
+    "category": "festivals",
+    "title": "Gagner le Duck Festival",
+    "summary": "Inscris un canard au concours du 18 printemps et remporte la première place.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "animaux-buy-first-duck"
+      },
+      {
+        "type": "manual",
+        "label": "Au moins un canard adulte en bonne santé"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Inscrire son canard",
+        "steps": [
+          "Le 17 printemps au matin, Popuri passe chez toi : choisis ton canard.",
+          "Le 18, va à la plage entre 10 h et 18 h.",
+          "Parle à Popuri pour lancer le jugement."
+        ],
+        "tips": [
+          "Plus ton canard a de cœurs, plus il a de chances de gagner : 9–10 cœurs presque toujours gagnant.",
+          "Seule la première place compte ; perdre n'a aucune conséquence."
+        ],
+        "constraints": ["Inscription la veille au matin", "Entre 10 h et 18 h"]
+      }
+    ],
+    "rewards": ["Niveau du canard +1", "100 points de Farm Degree"],
+    "availableSeasons": ["spring"],
+    "dates": [
+      {
+        "season": "spring",
+        "day": 18
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une session",
+    "relatedSpriteIds": ["saturn"],
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Duck_Festival_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_spring.php"
+    ],
+    "notes": "Participer compte pour le lutin Saturn (3 festivals)."
+  },
+  {
+    "id": "festivals-cooking",
+    "category": "festivals",
+    "title": "Participer au Cooking Festival",
+    "summary": "Le 22 printemps, présente au Gourmet un plat de la catégorie qu'il impose.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Cuisiner selon la catégorie",
+        "steps": [
+          "Le 22 printemps, va à la plage entre 10 h et 12 h et parle au Gourmet pour connaître l'ustensile imposé.",
+          "Tu es renvoyé chez toi à midi : cuisine un plat de la catégorie (ex. Pot : Stew ; Oven : Cake ; Mixer : Fruit Juice ; sans ustensile : Salad).",
+          "Retourne à la plage avant 18 h et donne ton plat au Gourmet."
+        ],
+        "tips": ["Il faut la cuisine et les ustensiles de la chaîne TV Shopping pour vraiment concourir."],
+        "constraints": ["Inscription 10 h – 12 h", "Plat avant 18 h"]
+      },
+      {
+        "title": "Participer sans cuisine",
+        "steps": [
+          "Achète du Grape Juice au Supermarket de Karen avant le festival.",
+          "Le 22, présente-le au Gourmet : tu ne gagneras pas, mais ta participation compte."
+        ],
+        "tips": ["Astuce donnée par Fogu pour avancer vers le lutin Saturn."]
+      }
+    ],
+    "rewards": ["100 points de Farm Degree en cas de victoire"],
+    "availableSeasons": ["spring"],
+    "dates": [
+      {
+        "season": "spring",
+        "day": 22
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une session",
+    "relatedSpriteIds": ["saturn"],
+    "confidence": "medium",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cooking_Festival_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_spring.php",
+      "https://fogu.com/hm6/chan1/spritestation.php"
+    ],
+    "notes": "Participer compte pour le lutin Saturn. Bug de la version nord-américaine d'origine : le premier plat présenté est réutilisé les années suivantes ; version EU non vérifiée."
+  },
+  {
+    "id": "festivals-chicken",
+    "category": "festivals",
+    "title": "Gagner le Chicken Festival",
+    "summary": "Inscris une poule au concours du 7 été et remporte la première place.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "animaux-buy-first-chicken"
+      },
+      {
+        "type": "manual",
+        "label": "Au moins une poule adulte en bonne santé"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Inscrire sa poule",
+        "steps": [
+          "Le 6 été au matin, Popuri passe chez toi : choisis ta poule.",
+          "Le 7, va à la plage entre 10 h et 18 h.",
+          "Parle à Popuri pour lancer le jugement."
+        ],
+        "tips": ["9–10 cœurs : victoire presque assurée.", "Perdre n'a aucune conséquence."],
+        "constraints": ["Inscription la veille au matin", "Entre 10 h et 18 h"]
+      }
+    ],
+    "rewards": ["Niveau de la poule +1"],
+    "availableSeasons": ["summer"],
+    "dates": [
+      {
+        "season": "summer",
+        "day": 7
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une session",
+    "relatedSpriteIds": ["saturn"],
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Chicken_Festival_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_summer.php"
+    ],
+    "notes": "Participer compte pour le lutin Saturn."
+  },
+  {
+    "id": "festivals-cow",
+    "category": "festivals",
+    "title": "Gagner le Cow Festival",
+    "summary": "Inscris une vache au concours du 20 été et remporte la première place.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "animaux-buy-first-cow"
+      },
+      {
+        "type": "manual",
+        "label": "Au moins une vache adulte, ni malade ni gestante"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Inscrire sa vache",
+        "steps": [
+          "Le 19 été au matin, Rick passe chez toi : choisis ta vache.",
+          "Le 20, va à la plage entre 10 h et 18 h.",
+          "Parle à Rick pour lancer le jugement."
+        ],
+        "tips": ["9–10 cœurs : victoire presque assurée.", "Perdre n'a aucune conséquence."],
+        "constraints": ["Inscription la veille au matin", "Entre 10 h et 18 h"]
+      }
+    ],
+    "rewards": ["Niveau de la vache +1"],
+    "availableSeasons": ["summer"],
+    "dates": [
+      {
+        "season": "summer",
+        "day": 20
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une session",
+    "relatedSpriteIds": ["saturn"],
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Cow_Festival_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_summer.php"
+    ],
+    "notes": "Participer compte pour le lutin Saturn."
+  },
+  {
+    "id": "festivals-fireworks",
+    "category": "festivals",
+    "title": "Regarder les feux d'artifice avec ta prétendante",
+    "summary": "Le 24 été au soir, invite une prétendante au cœur vert ou plus à regarder le Fireworks Festival avec toi.",
+    "prerequisites": [
+      {
+        "type": "manual",
+        "label": "Une prétendante au cœur vert (30 000 LP) ou plus"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Inviter une prétendante",
+        "steps": [
+          "Le 24 été, va à la plage entre 18 h et 21 h.",
+          "Parle à la prétendante de ton choix (cœur vert ou plus) pour l'inviter."
+        ],
+        "tips": [
+          "Sinon, tu regardes le spectacle avec Kassey et Patrick.",
+          "Marié, tu ne peux inviter que ton épouse."
+        ],
+        "constraints": ["Entre 18 h et 21 h"]
+      }
+    ],
+    "availableSeasons": ["summer"],
+    "dates": [
+      {
+        "season": "summer",
+        "day": 24
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Fireworks_Festival_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_summer.php"
+    ]
+  },
+  {
+    "id": "festivals-harvest",
+    "category": "festivals",
+    "title": "Participer au Harvest Festival",
+    "summary": "Le 9 automne, apporte un ingrédient pour la grande marmite commune.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Apporter un ingrédient",
+        "steps": [
+          "Prépare un ingrédient (légume, poisson…) dans ton sac avant le 9 automne.",
+          "Le 9 automne, rejoins la fête et donne ton ingrédient à Thomas.",
+          "Partage le repas avec les habitants."
+        ],
+        "tips": [
+          "Pour la Witch Princess : y mettre un Toadstool 5 années de suite (les autres habitants n'aiment pas…).",
+          "Jamais de Toadstool de niveau 100 : cela empoisonne la vallée et termine la partie (retour à la dernière sauvegarde)."
+        ],
+        "constraints": ["Seulement le 9 automne"]
+      }
+    ],
+    "availableSeasons": ["autumn"],
+    "dates": [
+      {
+        "season": "autumn",
+        "day": 9
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "relatedSpriteIds": ["saturn"],
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan6/festivals_fall.php",
+      "https://harvestmoon.fandom.com/wiki/Harvest_Moon_DS"
+    ],
+    "notes": "Fogu suggère que ce festival compte pour Saturn (« avant le 9 automne »). Lieu et horaire non précisés par les sources."
+  },
+  {
+    "id": "festivals-sheep",
+    "category": "festivals",
+    "title": "Gagner le Sheep Festival",
+    "summary": "Inscris un mouton au concours du 21 automne et remporte la première place.",
+    "prerequisites": [
+      {
+        "type": "objective",
+        "id": "animaux-buy-first-sheep"
+      },
+      {
+        "type": "manual",
+        "label": "Au moins un mouton adulte non tondu, ni malade ni gestant"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Inscrire son mouton",
+        "steps": [
+          "Ne tonds pas ton mouton dans les jours qui précèdent : il doit avoir toute sa laine.",
+          "Le 20 automne au matin, Rick passe chez toi : choisis ton mouton.",
+          "Le 21, va à la plage entre 10 h et 18 h et parle à Rick."
+        ],
+        "tips": ["9–10 cœurs : victoire presque assurée.", "Perdre n'a aucune conséquence."],
+        "constraints": ["Mouton non tondu", "Entre 10 h et 18 h"]
+      }
+    ],
+    "rewards": ["Niveau du mouton +1"],
+    "availableSeasons": ["autumn"],
+    "dates": [
+      {
+        "season": "autumn",
+        "day": 21
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une session",
+    "relatedSpriteIds": ["saturn"],
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Sheep_Festival_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_fall.php"
+    ],
+    "notes": "Participer compte pour le lutin Saturn."
+  },
+  {
+    "id": "festivals-pumpkin",
+    "category": "festivals",
+    "title": "Distribuer des friandises au Pumpkin Festival",
+    "summary": "Le 30 automne, donne des sucreries aux enfants qui frappent à ta porte (+20 FP chacun).",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Préparer des friandises",
+        "steps": [
+          "Avant le 30 automne, achète du Chocolate au Supermarket de Karen ou cuisine des Cookies / du Cake.",
+          "Le 30, sors de chez toi entre 6 h et 7 h (Kate), puis entre 8 h et 9 h (Hugh), puis entre 10 h et 11 h (Popuri).",
+          "Donne une friandise à chaque enfant."
+        ],
+        "tips": [
+          "Garde les friandises dans ton sac : tu n'as pas le temps d'aller en acheter.",
+          "Marié, rentre chez toi entre 12 h et 18 h pour le dîner familial (la journée s'arrête après : fais tes corvées avant)."
+        ],
+        "constraints": ["Le matin, de 6 h à 11 h"]
+      }
+    ],
+    "rewards": ["+20 FP avec chaque enfant"],
+    "availableSeasons": ["autumn"],
+    "dates": [
+      {
+        "season": "autumn",
+        "day": 30
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Pumpkin_Festival_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_fall.php"
+    ]
+  },
+  {
+    "id": "festivals-winter-thanksgiving",
+    "category": "festivals",
+    "title": "Recevoir des chocolats au Winter Thanksgiving",
+    "summary": "Le 14 hiver, les prétendantes au cœur violet ou plus viennent t'offrir du chocolat.",
+    "prerequisites": [
+      {
+        "type": "manual",
+        "label": "Au moins une prétendante au cœur violet (10 000 LP) ou plus"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Attendre les visites",
+        "steps": [
+          "Le 14 hiver, sors de chez toi entre 6 h et 7 h (Lumina).",
+          "Rentre puis ressors entre 8 h et 9 h (Celia), 10 h et 11 h (Flora), 12 h et 13 h (Muffy), 14 h et 15 h (Nami)."
+        ],
+        "tips": [
+          "Au cœur vert ou plus, elles offrent un Chocolate Cake.",
+          "Marié, ton épouse glisse un Chocolate Cake dans ton sac la nuit si tu n'as rien d'équipé."
+        ],
+        "constraints": ["Entre 6 h et 15 h"]
+      }
+    ],
+    "rewards": ["Chocolate / Chocolate Cake"],
+    "availableSeasons": ["winter"],
+    "dates": [
+      {
+        "season": "winter",
+        "day": 14
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Winter_Thanksgiving_Festival_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_winter.php"
+    ],
+    "notes": "Horaire de Nami (14 h – 15 h) d'après Fogu ; le wiki cite Muffy deux fois."
+  },
+  {
+    "id": "festivals-starry-night",
+    "category": "festivals",
+    "title": "Passer le Starry Night Festival avec ta prétendante",
+    "summary": "Le 23 hiver, fais-toi inviter par une prétendante au cœur vert ou plus, puis rejoins-la le soir du 24.",
+    "prerequisites": [
+      {
+        "type": "manual",
+        "label": "Une prétendante au cœur vert (30 000 LP) ou plus"
+      }
+    ],
+    "methods": [
+      {
+        "title": "Se faire inviter la veille",
+        "steps": [
+          "Le 23 hiver, parle à une prétendante au cœur vert ou plus : elle t'invite pour le lendemain soir.",
+          "Le 24 au soir, rejoins-la : Celia chez Vesta, Flora dans la tente, Lumina dans sa chambre au manoir, Muffy au Blue Bar, Nami dans le hall de l'Inner Inn.",
+          "Pour Leia, la Déesse ou la Witch Princess : rentre chez toi après 18 h puis ressors."
+        ],
+        "tips": [
+          "Keira et les filles de Mineral Town n'y participent pas.",
+          "Après une fête de nuit, tu te réveilles sans avoir récupéré ton énergie : mange quelque chose."
+        ],
+        "constraints": ["Invitation le 23 hiver", "Fête le 24 au soir"]
+      }
+    ],
+    "availableSeasons": ["winter"],
+    "dates": [
+      {
+        "season": "winter",
+        "day": 23
+      },
+      {
+        "season": "winter",
+        "day": 24
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "high",
+    "sources": [
+      "https://harvestmoon.fandom.com/wiki/Starry_Night_Festival_(DS)",
+      "https://fogu.com/hm6/chan6/festivals_winter.php",
+      "https://fogu.com/hm6/chan6/festivals.php"
+    ]
+  },
+  {
+    "id": "festivals-stocking",
+    "category": "festivals",
+    "title": "Recevoir un cadeau du Stocking Festival",
+    "summary": "Obtiens la chaussette tricotée par Nina pour que Thomas y dépose un cadeau dans la nuit du 25 hiver.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "La chaussette de Nina",
+        "steps": [
+          "Monte l'amitié de Nina à au moins 200 FP (Wool, Yarn, diamants, Boiled Spinach, Pickled Turnips…).",
+          "Entre le 1er et le 23 hiver, offre-lui du Yarn (n'importe quelle taille) quand elle est chez elle.",
+          "Elle te tricote une chaussette pour ta maison.",
+          "Le 25 hiver, couche-toi après 21 h : Thomas passe et remplit la chaussette."
+        ],
+        "tips": [
+          "Les cadeaux sont modestes (Topaz, Ruby…).",
+          "Si ton enfant est au stade « enfant », il peut surprendre Thomas : pas de cadeau cette année-là."
+        ],
+        "constraints": ["Yarn à offrir entre le 1er et le 23 hiver", "Se coucher après 21 h le 25"]
+      }
+    ],
+    "rewards": ["Chaussette", "Petit cadeau (gemme)"],
+    "availableSeasons": ["winter"],
+    "dates": [
+      {
+        "season": "winter",
+        "day": 25
+      }
+    ],
+    "difficulty": 2,
+    "estimatedDuration": "une saison",
+    "confidence": "medium",
+    "sources": [
+      "https://fogu.com/hm6/chan6/festivals_winter.php",
+      "https://harvestmoon.fandom.com/wiki/Nina_(DS)",
+      "https://fogu.com/hm6/chan6/festivals.php"
+    ]
+  },
+  {
+    "id": "festivals-new-years-eve",
+    "category": "festivals",
+    "title": "Fêter le New Year's Eve",
+    "summary": "Le 30 hiver au soir, mange des Buckwheat Noodles avec les habitants sur la plage.",
+    "prerequisites": [],
+    "methods": [
+      {
+        "title": "Aller à la plage le soir",
+        "steps": [
+          "Le 30 hiver, vide si possible les emplacements rouge, vert et bleu de ton sac.",
+          "Va à la plage après 18 h.",
+          "Tu reçois de la Buckwheat Flour (rare) ou des Buckwheat Noodles, puis tu te réveilles le 1er printemps."
+        ],
+        "tips": ["Y participer t'empêche de voir les rêves du Nouvel An."],
+        "constraints": ["Après 18 h"]
+      }
+    ],
+    "rewards": ["Buckwheat Noodles ou Buckwheat Flour"],
+    "availableSeasons": ["winter"],
+    "dates": [
+      {
+        "season": "winter",
+        "day": 30
+      }
+    ],
+    "difficulty": 1,
+    "estimatedDuration": "une session",
+    "confidence": "medium",
+    "sources": ["https://fogu.com/hm6/chan6/festivals_winter.php"],
+    "notes": "Source unique (Fogu). D'après la page de la Déesse, la Buckwheat Flour serait quasi introuvable en version US."
+  }
+]
