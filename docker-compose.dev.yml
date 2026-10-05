@@ -1,0 +1,21 @@
+# Base de données locale pour le développement et les tests (non exposée hors de la machine).
+# Usage : docker compose -f docker-compose.dev.yml up -d
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: carnet
+      POSTGRES_PASSWORD: carnet
+      POSTGRES_DB: carnet
+    ports:
+      - '127.0.0.1:5433:5432'
+    volumes:
+      - carnet-dev-db:/var/lib/postgresql/data
+      - ./docker/dev-init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U carnet']
+      interval: 5s
+      retries: 10
+
+volumes:
+  carnet-dev-db:
