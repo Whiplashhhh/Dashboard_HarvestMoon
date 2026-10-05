@@ -1,0 +1,33 @@
+# Dépendances
+node_modules/
+
+# Builds Nuxt / Nitro
+.nuxt/
+.output/
+.nitro/
+.cache/
+dist/
+
+# Environnement (les secrets ne sont jamais commités)
+.env
+.env.*
+!.env.example
+
+# Tests
+coverage/
+playwright-report/
+test-results/
+blob-report/
+docs/screenshots/_work/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Éditeurs / OS
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+*.swp
