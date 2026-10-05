@@ -22,9 +22,13 @@
     "test:e2e": "playwright test",
     "data:fetch": "tsx scripts/fetch-wiki.ts",
     "data:check": "vitest run tests/data",
-    "data:validate": "tsx scripts/validate-data.ts"
+    "data:validate": "tsx scripts/validate-data.ts",
+    "screenshots": "tsx scripts/screenshots.ts"
   },
   "dependencies": {
+    "@fontsource-variable/fredoka": "^5.3.0",
+    "@fontsource-variable/nunito": "^5.3.0",
+    "@fontsource-variable/pixelify-sans": "^5.3.0",
     "@node-rs/argon2": "^2.2.1",
     "drizzle-orm": "^0.45.3",
     "nuxt": "^3.21.11",

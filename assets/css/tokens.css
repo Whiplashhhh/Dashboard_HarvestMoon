@@ -1,0 +1,253 @@
+/*
+ * Design tokens — « Le Carnet de la Ferme »
+ * Base commune (bois, parchemin, encre, prairie, ciel) + un thème par saison du jeu + un état jour/nuit.
+ * Les couleurs saisonnières sont enregistrées avec @property pour pouvoir être animées (fondu entre saisons).
+ */
+
+@property --season-sky-top {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #8fd3f4;
+}
+@property --season-sky-bottom {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #dff4ff;
+}
+@property --season-hill-far {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #9fd486;
+}
+@property --season-hill-mid {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #79bf5f;
+}
+@property --season-hill-near {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #5aa845;
+}
+@property --season-foliage {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #f5b3c8;
+}
+@property --season-foliage-dark {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #e48aa8;
+}
+@property --season-accent {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #e86f98;
+}
+@property --season-accent-strong {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #b8406a;
+}
+@property --season-accent-soft {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #fde3ec;
+}
+@property --season-page {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #f6ecd6;
+}
+@property --sky-tint {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: transparent;
+}
+
+:root {
+  /* — Bois — */
+  --wood-950: #2e1b0e;
+  --wood-900: #4a2e1a;
+  --wood-800: #613b20;
+  --wood-700: #7a4a26;
+  --wood-600: #925b2f;
+  --wood-500: #a8703c;
+  --wood-400: #c48d55;
+  --wood-300: #d9a86c;
+  --wood-200: #e8c590;
+  --wood-100: #f0d9b0;
+
+  /* — Parchemin — */
+  --paper-50: #fffcf4;
+  --paper-100: #fdf5e2;
+  --paper-200: #f7e8c6;
+  --paper-300: #ecd5a6;
+  --paper-400: #dcbd85;
+
+  /* — Encre — */
+  --ink: #3b2616;
+  --ink-soft: #634329;
+  --ink-faint: #8a6a4c;
+
+  /* — Nature — */
+  --meadow-300: #a8dc8a;
+  --meadow-500: #5aa845;
+  --meadow-600: #47903a;
+  --meadow-700: #357029;
+  --sky-200: #cdeefe;
+  --sky-400: #79c5ee;
+  --sky-600: #2f8ac2;
+  --sun: #ffd54a;
+  --gold: #f2b52c;
+  --gold-ink: #6b4400;
+  --berry: #c8424a;
+  --berry-ink: #8f1f2a;
+
+  /* — Équipes de lutins (badges, filtres, collection) — */
+  --team-brown: #9a6233;
+  --team-black: #3d3a4a;
+  --team-red: #d8433b;
+  --team-blue: #3a78d4;
+  --team-green: #3f9a3c;
+  --team-yellow: #f0c02c;
+  --team-orange: #ee8030;
+  --team-purple: #8c55c6;
+  --team-indigo: #4a4fae;
+  --team-white: #f7f3ea;
+  --team-pink: #ea6aa4;
+  --team-aqua: #2fb2ad;
+
+  /* — Typographie — */
+  --font-display: 'Fredoka Variable', 'Fredoka', 'Nunito Variable', ui-rounded, system-ui, sans-serif;
+  --font-body: 'Nunito Variable', 'Nunito', ui-rounded, system-ui, sans-serif;
+  --font-pixel: 'Pixelify Sans Variable', 'Pixelify Sans', ui-monospace, monospace;
+
+  --text-xs: 0.8125rem;
+  --text-sm: 0.9375rem;
+  --text-base: 1.0625rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: clamp(1.6rem, 1.2rem + 1.6vw, 2.1rem);
+  --text-3xl: clamp(2rem, 1.4rem + 2.6vw, 2.9rem);
+
+  /* — Espacements — */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+
+  /* — Formes — */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-xl: 30px;
+  --border-thick: 4px;
+  --border-chunky: 6px;
+
+  /* Ombres « solides » façon jeu (pas de flou SaaS) */
+  --shadow-press: 0 4px 0 var(--wood-800);
+  --shadow-card: 0 3px 0 rgb(74 46 26 / 0.25), 0 10px 22px -12px rgb(74 46 26 / 0.45);
+  --shadow-lift: 0 6px 0 rgb(74 46 26 / 0.22), 0 18px 30px -16px rgb(74 46 26 / 0.5);
+
+  --tap: 44px;
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --season-fade: 1.4s;
+
+  /* Printemps par défaut */
+  --season-sky-top: #8fd3f4;
+  --season-sky-bottom: #e4f6ff;
+  --season-hill-far: #b5df9c;
+  --season-hill-mid: #8ccb6b;
+  --season-hill-near: #67b24c;
+  --season-foliage: #f7b8cc;
+  --season-foliage-dark: #e58aab;
+  --season-accent: #e8769d;
+  --season-accent-strong: #a8345e;
+  --season-accent-soft: #fde4ee;
+  --season-page: #f7eedb;
+
+  color-scheme: light;
+  transition:
+    --season-sky-top var(--season-fade) var(--ease-soft),
+    --season-sky-bottom var(--season-fade) var(--ease-soft),
+    --season-hill-far var(--season-fade) var(--ease-soft),
+    --season-hill-mid var(--season-fade) var(--ease-soft),
+    --season-hill-near var(--season-fade) var(--ease-soft),
+    --season-foliage var(--season-fade) var(--ease-soft),
+    --season-foliage-dark var(--season-fade) var(--ease-soft),
+    --season-accent var(--season-fade) var(--ease-soft),
+    --season-accent-strong var(--season-fade) var(--ease-soft),
+    --season-accent-soft var(--season-fade) var(--ease-soft),
+    --season-page var(--season-fade) var(--ease-soft),
+    --sky-tint 2s var(--ease-soft);
+}
+
+/* — Thèmes saisonniers (saison dans le jeu) — */
+:root[data-season='summer'] {
+  --season-sky-top: #3fa8ee;
+  --season-sky-bottom: #c4ecff;
+  --season-hill-far: #7cc35a;
+  --season-hill-mid: #4fa23c;
+  --season-hill-near: #2f8231;
+  --season-foliage: #3e9a3a;
+  --season-foliage-dark: #24702b;
+  --season-accent: #f0a91c;
+  --season-accent-strong: #915c00;
+  --season-accent-soft: #fff1c7;
+  --season-page: #f8efd4;
+}
+
+:root[data-season='autumn'] {
+  --season-sky-top: #87b8d8;
+  --season-sky-bottom: #f6dcb8;
+  --season-hill-far: #d9b46a;
+  --season-hill-mid: #c48e45;
+  --season-hill-near: #9a6a2e;
+  --season-foliage: #e8742c;
+  --season-foliage-dark: #b8461f;
+  --season-accent: #d9622b;
+  --season-accent-strong: #9c3a12;
+  --season-accent-soft: #fbe2cd;
+  --season-page: #f6e8d2;
+}
+
+:root[data-season='winter'] {
+  --season-sky-top: #a9c4e8;
+  --season-sky-bottom: #eef3fb;
+  --season-hill-far: #e9eef8;
+  --season-hill-mid: #dbe4f3;
+  --season-hill-near: #c9d6ec;
+  --season-foliage: #f4f7fc;
+  --season-foliage-dark: #b9c6e2;
+  --season-accent: #7a74c9;
+  --season-accent-strong: #4a4596;
+  --season-accent-soft: #e8e6fa;
+  --season-page: #eef0f6;
+}
+
+/* — Moments de la journée (heure réelle de l'appareil) : teinte du ciel — */
+:root[data-daytime='dawn'] {
+  --sky-tint: rgb(255 170 140 / 0.38);
+}
+:root[data-daytime='dusk'] {
+  --sky-tint: rgb(240 110 80 / 0.45);
+}
+:root[data-daytime='night'] {
+  --sky-tint: rgb(18 22 70 / 0.78);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --season-fade: 0s;
+  }
+}
+
+:root[data-motion='reduced'] {
+  --season-fade: 0s;
+}
