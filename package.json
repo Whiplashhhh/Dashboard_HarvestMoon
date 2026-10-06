@@ -30,7 +30,8 @@
     "test:api": "vitest run --project api",
     "db:seed-demo": "tsx --env-file-if-exists=.env scripts/seed-demo.ts",
     "icons": "tsx scripts/generate-icons.ts",
-    "fonts": "tsx scripts/copy-fonts.ts"
+    "fonts": "tsx scripts/copy-fonts.ts",
+    "screenshots:final": "bash scripts/screenshots-final.sh"
   },
   "dependencies": {
     "@node-rs/argon2": "^2.2.1",

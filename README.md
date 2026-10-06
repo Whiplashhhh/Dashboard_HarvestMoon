@@ -9,7 +9,9 @@ propose **quoi faire maintenant** selon ton avancement et la saison dans le jeu,
 > proviennent du [wiki Harvest Moon (Fandom)](https://harvestmoon.fandom.com/) sous licence CC BY-SA 3.0
 > (voir la page « Crédits & sources » du site).
 
-![Accueil sur ordinateur](docs/screenshots/accueil--spring--1440x900.png)
+| Ordinateur (printemps)                                                    | Téléphone (automne)                                                     |
+| ------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| ![Accueil sur ordinateur](docs/screenshots/accueil--spring--1440x900.jpg) | ![Accueil sur téléphone](docs/screenshots/accueil--autumn--390x844.jpg) |
 
 ## Fonctionnalités
 

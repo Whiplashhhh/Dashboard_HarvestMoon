@@ -32,7 +32,7 @@ const greeting = computed(() => {
   return pages
 })
 
-const top = computed(() => suggestions.value.filter((s) => s.objective.id !== pinned.value?.id).slice(0, 5))
+const top = computed(() => suggestions.value.filter((s) => s.objective.id !== pinned.value?.id).slice(0, 4))
 const tilts = [-1.2, 0.8, -0.5, 1.1, -0.9]
 </script>
 

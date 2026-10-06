@@ -33,3 +33,8 @@ export function sourceLabel(url: string): string {
     return url
   }
 }
+
+/** Typographie française : espace insécable avant ! ? ; : » et après «. */
+export function frenchSpacing(text: string): string {
+  return text.replace(/ ([!?;:»])/g, '\u00a0$1').replace(/« /g, '«\u00a0')
+}

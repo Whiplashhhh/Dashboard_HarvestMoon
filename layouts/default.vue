@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { weatherFor } from '~/utils/weather'
+
 /**
  * Mise en page « DS ouverte » : écran du haut = la vallée vivante ; charnière = navigation ;
  * écran du bas = le contenu interactif. Sur mobile : bandeau compact + barre de navigation au pouce.
@@ -7,6 +9,7 @@ const season = useThemeSeason()
 const { foundTeamColors } = usePlayer()
 const { show } = useSessionDialog()
 const { farm, load } = useFarm()
+const weather = computed(() => (farm.value ? weatherFor(farm.value.date) : 'sunny'))
 
 await load()
 </script>
@@ -16,7 +19,7 @@ await load()
     <a class="skip-link" href="#contenu">Aller au contenu</a>
 
     <header class="ds__top">
-      <FarmScene class="ds__scene" :season="season" :walkers="foundTeamColors">
+      <FarmScene class="ds__scene" :season="season" :walkers="foundTeamColors" :weather="weather">
         <SceneHud />
       </FarmScene>
     </header>

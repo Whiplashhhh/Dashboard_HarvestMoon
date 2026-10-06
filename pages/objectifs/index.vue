@@ -240,6 +240,7 @@ watch([category, status, season, () => route.query.q], () => (shown.value = PAGE
   max-width: 100%;
 }
 .segmented button {
+  flex: 1 1 auto;
   min-height: var(--tap);
   padding: 0.3rem 0.8rem;
   border: 0;

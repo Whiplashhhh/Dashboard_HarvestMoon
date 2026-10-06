@@ -5,6 +5,7 @@
  * Tout est décoratif (aria-hidden) ; les informations utiles sont dans le contenu.
  */
 import type { Season } from '#shared/schemas'
+import type { Weather } from '~/utils/weather'
 
 const props = withDefaults(
   defineProps<{
@@ -12,8 +13,10 @@ const props = withDefaults(
     /** Couleurs des lutins trouvés qui se promènent (6 au maximum affichés). */
     walkers?: string[]
     compact?: boolean
+    /** Météo décorative (nuages, pluie, neige plus dense). */
+    weather?: Weather
   }>(),
-  { walkers: () => [], compact: false },
+  { walkers: () => [], compact: false, weather: 'sunny' },
 )
 
 const daytime = useDaytime()
@@ -24,7 +27,7 @@ const shownWalkers = computed(() => props.walkers.slice(0, props.compact ? 3 : 6
 
 /** Positions pseudo-aléatoires mais déterministes (pas d'écart d'hydratation SSR/client). */
 const particles = computed(() =>
-  Array.from({ length: props.compact ? 8 : 14 }, (_, i) => ({
+  Array.from({ length: (props.compact ? 8 : 14) * (props.weather === 'snow' ? 2 : 1) }, (_, i) => ({
     left: (i * 37 + 11) % 100,
     delay: -((i * 1.7) % 9),
     duration: 7 + ((i * 2.3) % 6),
@@ -54,7 +57,7 @@ function resetPointer() {
   <div
     ref="root"
     class="scene"
-    :class="[`scene--${season}`, `scene--${daytime}`, { 'scene--compact': compact }]"
+    :class="[`scene--${season}`, `scene--${daytime}`, `scene--${weather}`, { 'scene--compact': compact }]"
     @pointermove="onPointer"
     @pointerleave="resetPointer"
   >
@@ -317,6 +320,15 @@ function resetPointer() {
       />
     </div>
 
+    <!-- Pluie (météo décorative) -->
+    <div v-if="weather === 'rain' && !reduced" class="scene__rain" aria-hidden="true">
+      <span
+        v-for="i in 24"
+        :key="i"
+        :style="{ left: `${(i * 41) % 100}%`, animationDelay: `${-((i * 0.37) % 1.2)}s` }"
+      />
+    </div>
+
     <!-- Lutins trouvés qui se baladent -->
     <div class="scene__walkers" aria-hidden="true">
       <div
@@ -549,6 +561,51 @@ function resetPointer() {
   }
 }
 
+/* Météo décorative */
+.scene--cloudy .scene__clouds,
+.scene--rain .scene__clouds {
+  fill: rgb(236 238 244 / 0.95);
+}
+.scene--cloudy .scene__sun {
+  opacity: 0.45;
+}
+.scene--rain .scene__sun {
+  opacity: 0;
+}
+.scene--cloudy .scene__tint,
+.scene--rain .scene__tint {
+  fill: rgb(110 120 140 / 0.28);
+}
+.scene--night.scene--rain .scene__tint,
+.scene--night.scene--cloudy .scene__tint {
+  fill: var(--sky-tint);
+}
+.scene--rain .scene__dim {
+  opacity: 0.12;
+  fill: #3a4660;
+}
+.scene__rain {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.scene__rain span {
+  position: absolute;
+  top: -20%;
+  width: 2px;
+  height: 16px;
+  border-radius: 2px;
+  background: rgb(220 236 255 / 0.75);
+  transform: rotate(12deg);
+  animation: rain 1.2s linear infinite;
+  will-change: transform;
+}
+@keyframes rain {
+  to {
+    transform: translate(-40px, 360px) rotate(12deg);
+  }
+}
+
 /* Particules */
 .scene__particles {
   position: absolute;
@@ -685,7 +742,8 @@ function resetPointer() {
 <style>
 /* Sur téléphone, on allège le décor : moins de particules visibles. */
 @media (max-width: 599px) {
-  .scene__particles .particle:nth-child(n + 7) {
+  .scene__particles .particle:nth-child(n + 7),
+  .scene__walkers .walker:nth-child(n + 4) {
     display: none;
   }
 }
