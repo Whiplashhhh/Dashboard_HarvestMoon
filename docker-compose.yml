@@ -34,7 +34,8 @@ services:
       NUXT_DATABASE_URL: postgres://carnet:${POSTGRES_PASSWORD:-change-moi-en-production}@db:5432/carnet
       NUXT_SESSION_SECRET: ${NUXT_SESSION_SECRET:-}
       NUXT_PUBLIC_SITE_URL: ${NUXT_PUBLIC_SITE_URL:-http://localhost:3000}
-      NUXT_TRUST_PROXY: ${NUXT_TRUST_PROXY:-false}
+      # L'app n'est joignable que via 127.0.0.1 (donc via Caddy) : on fait confiance à X-Forwarded-For.
+      NUXT_TRUST_PROXY: ${NUXT_TRUST_PROXY:-true}
       NUXT_COOKIE_SECURE: ${NUXT_COOKIE_SECURE:-true}
     ports:
       - '127.0.0.1:${APP_PORT:-3000}:3000'

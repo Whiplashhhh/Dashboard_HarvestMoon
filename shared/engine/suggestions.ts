@@ -77,6 +77,7 @@ export function countFoundSprites(game: GameData, completed: ReadonlySet<string>
 export class ObjectiveIndex {
   readonly byId = new Map<string, Objective>()
   readonly dependents = new Map<string, string[]>()
+  private readonly unlockCounts = new Map<string, number>()
 
   constructor(readonly game: GameData) {
     for (const objective of game.objectives) this.byId.set(objective.id, objective)
@@ -98,6 +99,8 @@ export class ObjectiveIndex {
 
   /** Nombre d'objectifs débloqués, directement ou indirectement. */
   transitiveUnlockCount(objectiveId: string): number {
+    const cached = this.unlockCounts.get(objectiveId)
+    if (cached !== undefined) return cached
     const seen = new Set<string>()
     const stack = [...(this.dependents.get(objectiveId) ?? [])]
     while (stack.length > 0) {
@@ -106,6 +109,7 @@ export class ObjectiveIndex {
       seen.add(id)
       stack.push(...(this.dependents.get(id) ?? []))
     }
+    this.unlockCounts.set(objectiveId, seen.size)
     return seen.size
   }
 }

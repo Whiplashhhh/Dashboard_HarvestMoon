@@ -1,4 +1,40 @@
-/* Polices auto-hébergées (paquets @fontsource, servies depuis le site : aucune ressource tierce). */
-@import '@fontsource-variable/fredoka/wght.css';
-@import '@fontsource-variable/nunito/wght.css';
-@import '@fontsource-variable/pixelify-sans/wght.css';
+/*
+ * Polices auto-hébergées (aucune ressource tierce), sous-ensemble latin, polices variables.
+ * Fichiers copiés depuis @fontsource par `npm run fonts` ; préchargés dans nuxt.config.ts.
+ * Polices de secours aux métriques ajustées pour limiter le décalage de mise en page au chargement.
+ */
+@font-face {
+  font-family: 'Fredoka Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300 700;
+  src: url('/fonts/fredoka.woff2') format('woff2-variations');
+}
+@font-face {
+  font-family: 'Nunito Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 1000;
+  src: url('/fonts/nunito.woff2') format('woff2-variations');
+}
+@font-face {
+  font-family: 'Pixelify Sans Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400 700;
+  src: url('/fonts/pixelify-sans.woff2') format('woff2-variations');
+}
+@font-face {
+  font-family: 'Fredoka Fallback';
+  src: local('Arial Rounded MT Bold'), local('Arial');
+  size-adjust: 104%;
+  ascent-override: 92%;
+  descent-override: 24%;
+}
+@font-face {
+  font-family: 'Nunito Fallback';
+  src: local('Arial');
+  size-adjust: 101%;
+  ascent-override: 99%;
+  descent-override: 35%;
+}

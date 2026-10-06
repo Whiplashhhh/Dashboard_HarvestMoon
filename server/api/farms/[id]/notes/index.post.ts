@@ -3,6 +3,7 @@ import { noteSchema } from '#shared/schemas'
 export default defineEventHandler(async (event) => {
   const farm = await requireFarm(event, getRouterParam(event, 'id'))
   const input = await readValidated(event, noteSchema)
+  await assertNoteQuota(farm.id)
   const date = input.date ?? farmDate(farm)
   const [note] = await useDb()
     .insert(schema.notes)

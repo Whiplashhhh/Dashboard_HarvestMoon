@@ -6,6 +6,7 @@ export default defineEventHandler(async (event) => {
   const input = await readValidated(event, sessionUpdateSchema)
   await applyObjectiveChanges(farm.id, input.complete, input.uncomplete)
   const date = input.date ?? farmDate(farm)
+  if (input.note) await assertNoteQuota(farm.id)
   if (input.note)
     await useDb().insert(schema.notes).values({
       farmId: farm.id,

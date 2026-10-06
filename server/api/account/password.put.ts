@@ -6,12 +6,12 @@ export default defineEventHandler(async (event) => {
   const userKey = `login-user:${auth.user.username.toLowerCase()}`
   await assertNotThrottled(event, [userKey])
   const input = await readValidated(event, changePasswordSchema)
+  await recordAttempt(userKey, throttlePolicies().loginUser)
   const db = useDb()
   const [user] = await db.select().from(schema.users).where(eq(schema.users.id, auth.user.id))
-  if (!user || !(await verifyPassword(user.passwordHash, input.currentPassword))) {
-    await recordAttempt(userKey, throttlePolicies().loginUser)
+  if (!user || !(await verifyPassword(user.passwordHash, input.currentPassword)))
     throw userError(400, 'Mot de passe actuel incorrect.')
-  }
+  await clearThrottle(userKey)
   const problem = passwordProblem(input.newPassword, user.username)
   if (problem) throw userError(400, problem)
 

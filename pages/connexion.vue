@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { safeRedirect } from '~/utils/redirect'
+
 definePageMeta({ layout: 'portal' })
 useHead({ title: 'Connexion — Le Carnet de la Ferme' })
 
@@ -14,9 +16,7 @@ async function submit() {
   loading.value = true
   try {
     await login(username.value, password.value)
-    const next =
-      typeof route.query.suite === 'string' && route.query.suite.startsWith('/') ? route.query.suite : '/'
-    await navigateTo(next.startsWith('//') ? '/' : next)
+    await navigateTo(safeRedirect(route.query.suite))
   } catch (e) {
     error.value = apiErrorMessage(e)
     password.value = ''

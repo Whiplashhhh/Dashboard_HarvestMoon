@@ -1,5 +1,5 @@
 import { createHash, randomBytes } from 'node:crypto'
-import { and, eq, gt, lt, ne } from 'drizzle-orm'
+import { and, desc, eq, gt, inArray, lt, ne } from 'drizzle-orm'
 import type { H3Event } from 'h3'
 import type { StoredSettings } from '../database/schema'
 
@@ -55,6 +55,26 @@ export async function createSession(event: H3Event, userId: string): Promise<voi
     userAgent: getHeader(event, 'user-agent')?.slice(0, 255) ?? null,
   })
   setSessionCookie(event, token)
+  await pruneSessions(userId)
+}
+
+/** Garde au plus MAX_SESSIONS sessions par compte (les plus anciennes sont fermées). */
+const MAX_SESSIONS = 20
+async function pruneSessions(userId: string) {
+  const db = useDb()
+  const stale = await db
+    .select({ id: schema.sessions.id })
+    .from(schema.sessions)
+    .where(eq(schema.sessions.userId, userId))
+    .orderBy(desc(schema.sessions.lastSeenAt))
+    .offset(MAX_SESSIONS)
+  if (stale.length > 0)
+    await db.delete(schema.sessions).where(
+      inArray(
+        schema.sessions.id,
+        stale.map((s) => s.id),
+      ),
+    )
 }
 
 /** Lit la session du cookie, la prolonge (glissement) et renvoie l'utilisatrice, ou null. */
@@ -70,7 +90,7 @@ export async function loadSession(event: H3Event): Promise<AuthContext | null> {
     .where(and(eq(schema.sessions.id, id), gt(schema.sessions.expiresAt, new Date())))
     .limit(1)
   if (!row) {
-    deleteCookie(event, securityConfig().sessionCookie, { path: '/' })
+    deleteCookie(event, securityConfig().sessionCookie, { path: '/', secure: securityConfig().secure })
     return null
   }
 
