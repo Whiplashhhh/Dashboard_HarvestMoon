@@ -119,9 +119,9 @@
   --team-aqua: #2fb2ad;
 
   /* — Typographie — */
-  --font-display: 'Fredoka Variable', 'Fredoka', 'Nunito Variable', ui-rounded, system-ui, sans-serif;
-  --font-body: 'Nunito Variable', 'Nunito', ui-rounded, system-ui, sans-serif;
-  --font-pixel: 'Pixelify Sans Variable', 'Pixelify Sans', ui-monospace, monospace;
+  --font-display: 'Fredoka Variable', 'Fredoka Fallback', ui-rounded, system-ui, sans-serif;
+  --font-body: 'Nunito Variable', 'Nunito Fallback', ui-rounded, system-ui, sans-serif;
+  --font-pixel: 'Pixelify Sans Variable', ui-monospace, monospace;
 
   --text-xs: 0.8125rem;
   --text-sm: 0.9375rem;

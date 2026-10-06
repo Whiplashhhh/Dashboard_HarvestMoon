@@ -63,3 +63,18 @@ Format : **décision** — pourquoi.
   refuse de tourner avec `NODE_ENV=production` sauf `ALLOW_DEMO_SEED=true`.
 - **Captures d'écran** : les captures finales gardées dans `docs/screenshots/` couvrent les écrans principaux sur les
   6 tailles au printemps + les 4 saisons de l'accueil, en JPEG, pour ne pas alourdir le dépôt de centaines d'images.
+
+## Revue de sécurité (passe finale)
+
+- **Comptage des tentatives avant la vérification du mot de passe** : une rafale de requêtes parallèles ne peut plus
+  contourner la limite ; une connexion réussie retire sa tentative du compteur de l'IP.
+- **Corps de requête limités à 64 Ko** (middleware Nitro + `request_body` dans le Caddyfile).
+- **`NUXT_TRUST_PROXY=true` par défaut dans Docker Compose** : l'application n'est publiée que sur `127.0.0.1`, donc
+  uniquement joignable via le reverse proxy ; sans cela, toutes les IP seraient celle de la passerelle Docker.
+- **Risque accepté** : la limitation par nom d'utilisateur permet à un tiers de retarder les connexions d'un compte
+  (délai plafonné à 15 min, jamais de blocage définitif). C'est le compromis classique contre le bourrage
+  d'identifiants ; à revoir (clé nom + appareil) si le site devenait une cible.
+- **Plafonds** : 20 sessions actives par compte (les plus anciennes sont fermées), 2 000 notes par ferme,
+  10 fermes par compte.
+- `Cache-Control: private, no-store` sur les pages et l'API (pas de réaffichage après déconnexion).
+- Le secret d'exemple de `.env.example` est refusé (remplacé par un secret aléatoire temporaire + avertissement).

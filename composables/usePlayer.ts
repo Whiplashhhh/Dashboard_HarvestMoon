@@ -8,8 +8,20 @@ import {
   type PlayerState,
 } from '#shared/engine'
 
-/** Vue « moteur » de la partie : statut de chaque objectif, suggestions, lutins, événements à venir. */
+/**
+ * Vue « moteur » de la partie : statut de chaque objectif, suggestions, lutins, événements à venir.
+ * Instance partagée : le moteur n'est calculé qu'une fois, quel que soit le nombre de composants qui l'utilisent.
+ */
+let shared: ReturnType<typeof createPlayer> | null = null
+
 export function usePlayer() {
+  // Côté serveur, une instance par requête (pas d'état partagé entre utilisatrices).
+  if (import.meta.server) return createPlayer()
+  if (!shared) shared = effectScope(true).run(createPlayer)!
+  return shared
+}
+
+function createPlayer() {
   const { game, lookups } = useGame()
   const { farm, completed, steps } = useFarm()
 

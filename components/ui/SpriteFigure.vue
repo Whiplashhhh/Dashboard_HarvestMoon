@@ -126,15 +126,14 @@ const hat = computed(() => (props.found ? `var(--team-${props.color})` : 'var(--
   fill: var(--wood-800);
 }
 
-.sprite__body {
-  transform-origin: 20px 46px;
-  transform-box: view-box;
-}
-.sprite--breathe .sprite__body {
+/* L'animation porte sur l'élément <svg> lui-même (transform composité par le GPU), pas sur un groupe interne. */
+.sprite--breathe,
+.sprite--sleep {
+  transform-origin: 50% 96%;
   animation: breathe 2.6s ease-in-out infinite;
 }
-.sprite--sleep .sprite__body {
-  animation: breathe 3.6s ease-in-out infinite;
+.sprite--sleep {
+  animation-duration: 3.6s;
 }
 .sprite--sleep .sprite__eyes {
   display: none;

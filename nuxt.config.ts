@@ -4,6 +4,8 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   // Pas de manifeste d'application : aucune règle de route n'est utile côté client.
   experimental: { appManifest: false },
+  // CSS des composants intégrée à la page rendue : aucune feuille de style bloquante supplémentaire.
+  features: { inlineStyles: true },
   telemetry: false,
 
   modules: ['@nuxt/eslint'],
@@ -27,6 +29,13 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32.png' },
         { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
         { rel: 'manifest', href: '/manifest.webmanifest' },
+        ...['fredoka', 'nunito', 'pixelify-sans'].map((font) => ({
+          rel: 'preload',
+          as: 'font' as const,
+          type: 'font/woff2',
+          href: `/fonts/${font}.woff2`,
+          crossorigin: 'anonymous' as const,
+        })),
       ],
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' },
@@ -61,6 +70,8 @@ export default defineNuxtConfig({
   },
 
   routeRules: {
+    '/fonts/**': { headers: { 'cache-control': 'public, max-age=2592000' } },
+    '/icons/**': { headers: { 'cache-control': 'public, max-age=2592000' } },
     '/api/game.json': { headers: { 'cache-control': 'public, max-age=3600, stale-while-revalidate=86400' } },
   },
 

@@ -1,4 +1,4 @@
-import { and, desc, eq, inArray, sql } from 'drizzle-orm'
+import { and, count, desc, eq, inArray, sql } from 'drizzle-orm'
 import type { H3Event } from 'h3'
 import { loadGameData } from '#shared/data/sources'
 import type { GameDate } from '#shared/schemas'
@@ -116,4 +116,16 @@ export async function touchFarm(farmId: string, date?: GameDate) {
       ...(date ? { gameYear: date.year, gameSeason: date.season, gameDay: date.day } : {}),
     })
     .where(eq(schema.farms.id, farmId))
+}
+
+export const MAX_NOTES_PER_FARM = 2000
+
+/** Plafond de notes par ferme (évite qu'un compte fasse grossir la base sans limite). */
+export async function assertNoteQuota(farmId: string): Promise<void> {
+  const [{ total } = { total: 0 }] = await useDb()
+    .select({ total: count() })
+    .from(schema.notes)
+    .where(eq(schema.notes.farmId, farmId))
+  if (total >= MAX_NOTES_PER_FARM)
+    throw userError(400, `Ton carnet est plein (${MAX_NOTES_PER_FARM} notes) : supprime d'anciennes notes.`)
 }

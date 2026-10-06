@@ -73,6 +73,14 @@ export async function recordAttempt(key: string, policy: ThrottlePolicy): Promis
       .where(eq(schema.authThrottle.key, key))
 }
 
+/** Retire une tentative réussie du compteur (sans lever un éventuel blocage en cours). */
+export async function forgiveAttempt(key: string): Promise<void> {
+  await useDb()
+    .update(schema.authThrottle)
+    .set({ attempts: sql`greatest(${schema.authThrottle.attempts} - 1, 0)` })
+    .where(eq(schema.authThrottle.key, key))
+}
+
 export async function clearThrottle(key: string): Promise<void> {
   await useDb().delete(schema.authThrottle).where(eq(schema.authThrottle.key, key))
 }

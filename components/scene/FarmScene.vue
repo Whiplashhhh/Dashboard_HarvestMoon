@@ -24,7 +24,7 @@ const shownWalkers = computed(() => props.walkers.slice(0, props.compact ? 3 : 6
 
 /** Positions pseudo-aléatoires mais déterministes (pas d'écart d'hydratation SSR/client). */
 const particles = computed(() =>
-  Array.from({ length: props.compact ? 10 : 18 }, (_, i) => ({
+  Array.from({ length: props.compact ? 8 : 14 }, (_, i) => ({
     left: (i * 37 + 11) % 100,
     delay: -((i * 1.7) % 9),
     duration: 7 + ((i * 2.3) % 6),
@@ -558,6 +558,7 @@ function resetPointer() {
 }
 .particle {
   position: absolute;
+  will-change: transform;
   top: -6%;
   width: calc(10px * var(--size));
   height: calc(7px * var(--size));
@@ -679,5 +680,14 @@ function resetPointer() {
   position: relative;
   z-index: 2;
   height: 100%;
+}
+</style>
+
+<style>
+/* Sur téléphone, on allège le décor : moins de particules visibles. */
+@media (max-width: 599px) {
+  .scene__particles .particle:nth-child(n + 7) {
+    display: none;
+  }
 }
 </style>

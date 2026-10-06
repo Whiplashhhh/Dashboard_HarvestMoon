@@ -143,3 +143,18 @@ describe.skipIf(!base)('en-têtes de sécurité', () => {
     for (const tag of scripts) expect(tag).toContain(`nonce="${nonce}"`)
   })
 })
+
+describe.skipIf(!base)('robustesse', () => {
+  it('refuse un corps de requête trop volumineux (413)', async () => {
+    const response = await new TestClient(base!).post('/api/auth/login', {
+      username: 'x',
+      password: 'y'.repeat(70 * 1024),
+    })
+    expect(response.status).toBe(413)
+  })
+
+  it('les pages ne sont jamais mises en cache partagé', async () => {
+    const response = await new TestClient(base!).get('/connexion')
+    expect(response.headers.get('cache-control')).toBe('private, no-store')
+  })
+})

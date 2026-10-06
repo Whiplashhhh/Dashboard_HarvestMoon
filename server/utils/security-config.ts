@@ -7,7 +7,8 @@ let ephemeralSecret: string | null = null
  * fonctionne « du premier coup » ; les jetons CSRF sont simplement renouvelés à chaque redémarrage).
  */
 function resolveSecret(configured: string): string {
-  if (configured && configured.length >= 32) return configured
+  const placeholder = configured.startsWith('remplace-moi')
+  if (configured && configured.length >= 32 && !placeholder) return configured
   if (!ephemeralSecret) {
     ephemeralSecret = randomBytes(48).toString('base64url')
     console.warn('[sécurité] NUXT_SESSION_SECRET absent ou trop court : secret aléatoire temporaire utilisé.')

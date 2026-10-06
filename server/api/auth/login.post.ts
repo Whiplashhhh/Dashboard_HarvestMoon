@@ -9,6 +9,9 @@ export default defineEventHandler(async (event) => {
   const ipKey = `login-ip:${clientIp(event)}`
   const userKey = `login-user:${input.username.toLowerCase()}`
   await assertNotThrottled(event, [ipKey, userKey])
+  // La tentative est comptée AVANT la vérification : une rafale de requêtes parallèles ne peut pas
+  // contourner la limite (chaque requête incrémente le compteur de façon atomique).
+  await Promise.all([recordAttempt(ipKey, policies.loginIp), recordAttempt(userKey, policies.loginUser)])
 
   const [user] = await useDb()
     .select({ id: schema.users.id, passwordHash: schema.users.passwordHash })
@@ -18,12 +21,9 @@ export default defineEventHandler(async (event) => {
   const valid = user
     ? await verifyPassword(user.passwordHash, input.password)
     : (await burnPasswordCheck(input.password), false)
-  if (!user || !valid) {
-    await Promise.all([recordAttempt(ipKey, policies.loginIp), recordAttempt(userKey, policies.loginUser)])
-    throw userError(401, GENERIC)
-  }
+  if (!user || !valid) throw userError(401, GENERIC)
 
-  await clearThrottle(userKey)
+  await Promise.all([clearThrottle(userKey), forgiveAttempt(ipKey)])
   await createSession(event, user.id)
   return { ok: true }
 })

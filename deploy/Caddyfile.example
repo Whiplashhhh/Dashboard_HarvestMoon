@@ -6,6 +6,11 @@
 carnet.example.fr {
 	encode zstd gzip
 
+	# Les requêtes de l'application sont petites : on refuse tout corps de plus de 64 Ko.
+	request_body {
+		max_size 64KB
+	}
+
 	# L'application pose elle-même ses en-têtes de sécurité (CSP, HSTS…) ; on masque juste l'en-tête Server.
 	header -Server
 
