@@ -1,0 +1,25 @@
+# Exemple de Caddyfile : HTTPS automatique (Let's Encrypt) devant l'application.
+# 1. Remplace carnet.example.fr par ton domaine (enregistrement DNS A/AAAA vers le serveur).
+# 2. Dans .env : NUXT_PUBLIC_SITE_URL=https://carnet.example.fr et NUXT_TRUST_PROXY=true
+# 3. sudo cp Caddyfile.example /etc/caddy/Caddyfile && sudo systemctl reload caddy
+
+carnet.example.fr {
+	encode zstd gzip
+
+	# L'application pose elle-même ses en-têtes de sécurité (CSP, HSTS…) ; on masque juste l'en-tête Server.
+	header -Server
+
+	reverse_proxy 127.0.0.1:3000 {
+		header_up X-Forwarded-For {remote_host}
+	}
+
+	log {
+		output file /var/log/caddy/carnet.log
+		format console
+	}
+}
+
+# Redirection éventuelle du www vers le domaine principal
+www.carnet.example.fr {
+	redir https://carnet.example.fr{uri} permanent
+}

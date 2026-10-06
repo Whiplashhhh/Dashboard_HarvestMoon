@@ -201,3 +201,12 @@ describe.skipIf(!base)('données du jeu', () => {
     expect(second.status).toBe(304)
   })
 })
+
+describe.skipIf(!base)('sonde de santé et PWA', () => {
+  it('répond ok quand la base est joignable, et sert le manifeste', async () => {
+    const client = new TestClient(base!)
+    expect((await client.get('/api/health')).json).toEqual({ status: 'ok' })
+    const manifest = await client.get('/manifest.webmanifest')
+    expect(manifest.json.name).toBe('Le Carnet de la Ferme')
+  })
+})

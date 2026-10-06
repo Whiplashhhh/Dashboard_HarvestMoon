@@ -33,3 +33,33 @@ Format : **décision** — pourquoi.
 - **Un lutin trouvé = un objectif `sprite-<id>` accompli** : une seule table de progression, pas de double état.
 - **Les données du jeu ne passent pas par la base** : elles sont validées au démarrage (un fichier invalide empêche le
   serveur de démarrer) et servies telles quelles par `GET /api/game` avec un ETag.
+
+## Interface et front
+
+- **Design system maison** : tokens CSS + `@property` pour animer le passage d'une saison à l'autre ; ombres
+  « solides » façon jeu plutôt que des ombres floues ; icônes pixel-art 12×12 dessinées en grilles de caractères et
+  rendues en SVG (un `<path>` par couleur, rendu `crispEdges`).
+- **Polices** : Fredoka (titres) retenue face à Baloo 2 et Chewy : plus lisible avec les accents français tout en
+  restant ronde et « logo de jeu » ; Nunito pour le texte ; Pixelify Sans pour les accents de jeu.
+- **Lutin original** : corps rond crème, grands yeux, chapeau pointu recourbé à pompon dans la couleur de l'équipe.
+- **Données du jeu chargées côté client** depuis un fichier statique pré-rendu et compressé (`/api/game.json`,
+  ≈ 75 Ko en gzip) plutôt qu'injectées dans chaque page rendue côté serveur (≈ 520 Ko de JSON) : pages légères,
+  cache navigateur, moteur de suggestions recalculé instantanément à chaque case cochée.
+- **Jour/nuit appliqué après l'hydratation** (`onNuxtReady`) pour éviter tout écart d'hydratation.
+- **Réglages** stockés sur le compte (source de vérité) et recopiés dans un cookie non sensible pour que le thème soit
+  appliqué dès le rendu serveur (pas de flash).
+- **Accueil « Bon retour »** : le temps écoulé est mesuré depuis la dernière mise à jour de la partie (case cochée,
+  date changée, note), pas depuis la dernière visite du site.
+
+## Déploiement
+
+- **`docker compose up` fonctionne sans configuration** : valeurs par défaut de démonstration pour le mot de passe
+  PostgreSQL (base jamais exposée hors du réseau Docker interne) et secret CSRF aléatoire généré au démarrage si
+  `NUXT_SESSION_SECRET` est absent (avertissement dans les logs). La documentation insiste pour les changer en
+  production.
+- **Conteneur applicatif** : utilisateur `node` (non-root), système de fichiers en lecture seule, `no-new-privileges`,
+  toutes les capacités Linux retirées, sonde `/api/health`.
+- **Seed de démonstration** : service Docker séparé derrière le profil `demo` (jamais lancé par défaut) ; le script
+  refuse de tourner avec `NODE_ENV=production` sauf `ALLOW_DEMO_SEED=true`.
+- **Captures d'écran** : les captures finales gardées dans `docs/screenshots/` couvrent les écrans principaux sur les
+  6 tailles au printemps + les 4 saisons de l'accueil, en JPEG, pour ne pas alourdir le dépôt de centaines d'images.

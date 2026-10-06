@@ -1,0 +1,72 @@
+# Déploiement : application + PostgreSQL 16.
+#   docker compose up -d --build
+# Les secrets se règlent dans un fichier .env à côté de ce fichier (voir .env.example).
+# PostgreSQL n'est exposé que sur le réseau Docker interne ; l'application écoute sur 127.0.0.1:3000
+# (à placer derrière Caddy pour le HTTPS, voir deploy/Caddyfile.example).
+
+name: carnet-de-la-ferme
+
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: carnet
+      POSTGRES_DB: carnet
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change-moi-en-production}
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    networks: [interne]
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U carnet -d carnet']
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  app:
+    build: .
+    image: carnet-de-la-ferme:latest
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      NUXT_DATABASE_URL: postgres://carnet:${POSTGRES_PASSWORD:-change-moi-en-production}@db:5432/carnet
+      NUXT_SESSION_SECRET: ${NUXT_SESSION_SECRET:-}
+      NUXT_PUBLIC_SITE_URL: ${NUXT_PUBLIC_SITE_URL:-http://localhost:3000}
+      NUXT_TRUST_PROXY: ${NUXT_TRUST_PROXY:-false}
+      NUXT_COOKIE_SECURE: ${NUXT_COOKIE_SECURE:-true}
+    ports:
+      - '127.0.0.1:${APP_PORT:-3000}:3000'
+    networks: [interne, web]
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop: [ALL]
+
+  # Compte de démonstration (désactivé par défaut) :
+  #   docker compose --profile demo run --rm seed
+  seed:
+    profiles: [demo]
+    build:
+      context: .
+      target: build
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      NUXT_DATABASE_URL: postgres://carnet:${POSTGRES_PASSWORD:-change-moi-en-production}@db:5432/carnet
+      DEMO_USERNAME: ${DEMO_USERNAME:-demo}
+      DEMO_PASSWORD: ${DEMO_PASSWORD:-Tournesol-Lumineux-42}
+    command: ['npx', 'tsx', 'scripts/seed-demo.ts']
+    networks: [interne]
+
+networks:
+  interne:
+    internal: true
+  web:
+
+volumes:
+  db-data:
