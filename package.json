@@ -28,7 +28,8 @@
     "db:migrate": "tsx --env-file-if-exists=.env scripts/migrate.ts",
     "test:unit": "vitest run --project unit",
     "test:api": "vitest run --project api",
-    "db:seed-demo": "tsx --env-file-if-exists=.env scripts/seed-demo.ts"
+    "db:seed-demo": "tsx --env-file-if-exists=.env scripts/seed-demo.ts",
+    "icons": "tsx scripts/generate-icons.ts"
   },
   "dependencies": {
     "@fontsource-variable/fredoka": "^5.3.0",

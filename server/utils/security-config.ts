@@ -1,3 +1,20 @@
+import { randomBytes } from 'node:crypto'
+
+let ephemeralSecret: string | null = null
+
+/**
+ * Secret de signature CSRF. S'il n'est pas fourni, un secret aléatoire est généré au démarrage (le site
+ * fonctionne « du premier coup » ; les jetons CSRF sont simplement renouvelés à chaque redémarrage).
+ */
+function resolveSecret(configured: string): string {
+  if (configured && configured.length >= 32) return configured
+  if (!ephemeralSecret) {
+    ephemeralSecret = randomBytes(48).toString('base64url')
+    console.warn('[sécurité] NUXT_SESSION_SECRET absent ou trop court : secret aléatoire temporaire utilisé.')
+  }
+  return ephemeralSecret
+}
+
 /** Paramètres de sécurité dérivés de l'environnement. */
 export function securityConfig() {
   const config = useRuntimeConfig()
@@ -10,7 +27,7 @@ export function securityConfig() {
     sessionCookie: secure ? '__Host-carnet_session' : 'carnet_session',
     csrfCookie: secure ? '__Host-carnet_csrf' : 'carnet_csrf',
     siteOrigin: new URL(config.public.siteUrl).origin,
-    secret: config.sessionSecret,
+    secret: resolveSecret(config.sessionSecret),
     trustProxy: String(config.trustProxy) === 'true',
   }
 }
