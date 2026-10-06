@@ -23,3 +23,11 @@ Toute entrée `confidence: "low"` est signalée dans l'interface par « info à 
 - **Saturn** (« participer activement à 3 festivals ») et l'**équipe violette** (« avoir engagé un lutin violet ») restent
   des conditions `manual` : il faudrait un compteur de festivals ou un prérequis « un lutin de l'équipe X ».
 - Conditions de nombre (« 3 étables au total », « 5 poulaillers ») : référence au premier bâtiment + condition `manual`.
+
+## Pistes d'amélioration
+
+- Trouver une source fiable des noms français de la version EU (`nameFr`).
+- Modéliser « nombre de festivals participés » et « avoir un lutin de l'équipe X » pour supprimer les derniers
+  prérequis `manual`.
+- Réinitialisation du mot de passe (nécessiterait l'envoi d'e-mails, exclu pour l'instant).
+- Vérifier en jeu le premier jour de la semaine et mettre à jour `calendar.json` (`firstWeekday`).

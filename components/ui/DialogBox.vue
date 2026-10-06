@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { frenchSpacing } from '~/utils/text'
 /**
  * Boîte de dialogue façon jeu : le texte s'écrit lettre par lettre (un clic ou Entrée le termine),
  * puis un petit triangle clignote. Les lecteurs d'écran reçoivent le texte complet immédiatement.
@@ -22,7 +23,7 @@ const pageIndex = ref(0)
 const shown = ref(0)
 let timer: ReturnType<typeof setInterval> | null = null
 
-const current = computed(() => props.pages[pageIndex.value] ?? '')
+const current = computed(() => frenchSpacing(props.pages[pageIndex.value] ?? ''))
 const typing = computed(() => shown.value < current.value.length)
 const hasNext = computed(() => pageIndex.value < props.pages.length - 1)
 const visibleText = computed(() => current.value.slice(0, shown.value))

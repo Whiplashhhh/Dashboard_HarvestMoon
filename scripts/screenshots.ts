@@ -18,6 +18,7 @@ const seasons = (option('seasons') ?? 'spring,summer,autumn,winter').split(',')
 const login = option('login')
 const daytime = option('daytime')
 const fullPage = !args.includes('--viewport-only')
+const jpeg = option('format') === 'jpeg'
 
 const browser = await chromium.launch()
 await mkdir(out, { recursive: true })
@@ -69,8 +70,12 @@ for (const season of seasons) {
       await page.goto(`${base}${route}`, { waitUntil: 'networkidle' })
       await page.waitForTimeout(900)
       const overflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth)
-      const name = `${route.replace(/\//g, '_').replace(/^_/, '') || 'accueil'}--${season}--${size}.png`
-      await page.screenshot({ path: join(out, name), fullPage })
+      const name = `${route.replace(/\//g, '_').replace(/^_/, '') || 'accueil'}--${season}--${size}.${jpeg ? 'jpg' : 'png'}`
+      await page.screenshot({
+        path: join(out, name),
+        fullPage,
+        ...(jpeg ? { type: 'jpeg' as const, quality: 78 } : {}),
+      })
       console.log(`${overflow ? '⚠ débordement horizontal ' : '✓ '}${name}`)
     }
   }

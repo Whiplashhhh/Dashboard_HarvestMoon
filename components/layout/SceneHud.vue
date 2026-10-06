@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import { SEASON_LABELS, WEEKDAY_LABELS } from '#shared/schemas'
 import { weekdayOf } from '#shared/engine'
+import { WEATHER_LABELS, weatherFor } from '~/utils/weather'
 
 /** Informations « écran du haut » : ferme, date du jeu, compteur de lutins. */
 const { farm } = useFarm()
 const { game } = useGame()
 const { spritesFound } = usePlayer()
+const weather = computed(() => (farm.value ? WEATHER_LABELS[weatherFor(farm.value.date)] : ''))
 
 const weekday = computed(() =>
   farm.value && game.value
@@ -28,6 +30,7 @@ const weekday = computed(() =>
         <span v-if="weekday" class="hud__weekday">{{ weekday.slice(0, 3) }}.</span>
         <strong>{{ farm.date.day }}</strong> {{ SEASON_LABELS[farm.date.season] }}
         <span class="hud__year">An {{ farm.date.year }}</span>
+        <span class="hud__weather" :title="`Météo décorative : ${weather}`">· {{ weather }}</span>
       </p>
       <NuxtLink
         to="/lutins"
@@ -105,7 +108,8 @@ const weekday = computed(() =>
   color: var(--season-accent-strong);
 }
 .hud__weekday,
-.hud__year {
+.hud__year,
+.hud__weather {
   color: var(--ink-soft);
   font-size: 0.9rem;
 }
@@ -127,6 +131,7 @@ const weekday = computed(() =>
     font-size: 1.1rem;
   }
   .hud__year,
+  .hud__weather,
   .hud__weekday {
     display: none;
   }

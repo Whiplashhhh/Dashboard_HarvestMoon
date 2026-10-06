@@ -19,3 +19,12 @@ describe('utilitaires de texte', () => {
     expect(sourceLabel('https://fogu.com/hm6/chan3/sprites/index.php')).toBe('Fogu — hm6/chan3/sprites/index')
   })
 })
+
+describe('frenchSpacing', () => {
+  it('insère des espaces insécables dans la ponctuation double', async () => {
+    const { frenchSpacing } = await import('../../utils/text')
+    expect(frenchSpacing('Bonjour, Lili ! Ça va ? « Oui »')).toBe(
+      'Bonjour, Lili\u00a0! Ça va\u00a0? «\u00a0Oui\u00a0»',
+    )
+  })
+})

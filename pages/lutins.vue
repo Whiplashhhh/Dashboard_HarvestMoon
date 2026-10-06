@@ -150,6 +150,7 @@ async function toggle(spriteId: string, name: string) {
   overflow: hidden;
 }
 .segmented button {
+  flex: 1 1 auto;
   min-height: var(--tap);
   padding: 0.3rem 1rem;
   border: 0;

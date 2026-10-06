@@ -91,18 +91,23 @@ Chaque entrée porte `sources: string[]`, `confidence` et éventuellement `notes
 
 ## 4. Phases (ordre de priorité du cahier des charges)
 
-1. [ ] Squelette Nuxt + outillage (lint, prettier, typecheck, CI) + design system
-2. [ ] Données : 101 lutins + objectifs principaux (Déesse, bâtiments, outils) + schémas + tests
-3. [ ] Moteur « Que faire maintenant ? » + tests
-4. [ ] Auth sécurisée + persistance de la partie
-5. [ ] Pages Accueil, Objectifs, Détail, Lutins, Mise à jour rapide
-6. [ ] Scène animée, particules, jour/nuit, boîtes de dialogue
-7. [ ] Boucle d'auto-critique visuelle (captures Playwright, itérations)
-8. [ ] Calendrier, Carnet, Recettes, Mon compte
-9. [ ] Compléter les données (mariage, amitié, festivals, recettes)
-10. [ ] Docker, Caddy, README, PWA, passes sécurité/accessibilité
+1. [x] Squelette Nuxt + outillage (lint, prettier, typecheck, CI) + design system
+2. [x] Données : 101 lutins + objectifs principaux (Déesse, bâtiments, outils) + schémas + tests
+3. [x] Moteur « Que faire maintenant ? » + tests
+4. [x] Auth sécurisée + persistance de la partie
+5. [x] Pages Accueil, Objectifs, Détail, Lutins, Mise à jour rapide
+6. [x] Scène animée, particules, jour/nuit, boîtes de dialogue
+7. [x] Boucle d'auto-critique visuelle (captures Playwright, itérations)
+8. [x] Calendrier, Carnet, Recettes, Mon compte
+9. [x] Compléter les données (mariage, amitié, festivals, recettes)
+10. [x] Docker, Caddy, README, PWA, passes sécurité/accessibilité
 
-## 5. Workflow git
+## 5. État
+
+Toutes les phases sont livrées (voir [`RAPPORT.md`](./RAPPORT.md)). Historique : PR #1 à #11 sur GitHub, chacune
+fusionnée après une CI verte (lint, typecheck, Vitest avec PostgreSQL, build, Playwright, image Docker).
+
+## 6. Workflow git
 
 - Tout passe par une branche `feat/…`, `chore/…`, `data/…` puis une **pull request** dont la CI (lint, typecheck,
   tests, build) doit être verte avant fusion (squash) dans `main`.
