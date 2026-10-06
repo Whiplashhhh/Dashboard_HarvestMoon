@@ -81,3 +81,27 @@ test('les pages protégées renvoient vers la connexion, la déconnexion fonctio
   await page.getByRole('button', { name: 'Entrer à la ferme' }).click()
   await expect(page.getByRole('alert')).toContainText("Nom d'utilisateur ou mot de passe incorrect.")
 })
+
+test('carnet, calendrier, recettes, compte : les pages secondaires répondent', async ({ page }) => {
+  await register(page, unique('ines'))
+  await onboard(page)
+
+  await page.goto('/carnet')
+  await page.getByLabel('Ta note').fill('Penser au poulailler.')
+  await page.getByRole('button', { name: 'Ranger dans le carnet' }).click()
+  await expect(page.locator('.note__body')).toHaveText('Penser au poulailler.')
+
+  await page.goto('/calendrier')
+  await expect(page.getByRole('tab', { name: 'Hiver' })).toBeVisible()
+  await page.getByRole('tab', { name: 'Hiver' }).click()
+  await expect(page.locator('.calendar__title')).toHaveText('Hiver')
+
+  await page.goto('/recettes')
+  await page.getByLabel('Rechercher une recette ou un ingrédient').fill('egg')
+  await expect(page.locator('table tbody tr').first()).toBeVisible()
+
+  await page.goto('/compte')
+  const download = page.waitForEvent('download')
+  await page.getByRole('link', { name: /Exporter mes données/ }).click()
+  expect((await download).suggestedFilename()).toMatch(/^carnet-de-la-ferme-.*\.json$/)
+})

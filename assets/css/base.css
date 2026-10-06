@@ -282,6 +282,10 @@ ol {
   display: grid;
   gap: var(--space-5);
 }
+/* Les enfants d'une grille ne doivent jamais imposer de débordement horizontal. */
+.page > * {
+  min-width: 0;
+}
 .page-head {
   display: flex;
   flex-wrap: wrap;

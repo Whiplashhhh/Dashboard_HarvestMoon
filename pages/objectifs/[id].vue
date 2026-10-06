@@ -4,6 +4,7 @@ import { formatSeasonDay, formatIn } from '#shared/engine'
 import { spriteObjectiveId } from '#shared/data/game'
 import { stepKey } from '#shared/types/api'
 import { CATEGORY_ICONS, STATUS_LABELS } from '~/utils/categories'
+import { sourceLabel } from '~/utils/text'
 
 const route = useRoute()
 const { game, lookups } = useGame()
@@ -269,7 +270,7 @@ useHead({ title: () => `${objective.value?.title ?? 'Objectif'} — Le Carnet de
               <ul class="plain-list">
                 <li v-for="source in objective.sources" :key="source">
                   <a :href="source" rel="noopener noreferrer external" target="_blank">{{
-                    source.replace(/^https?:\/\//, '')
+                    sourceLabel(source)
                   }}</a>
                 </li>
               </ul>

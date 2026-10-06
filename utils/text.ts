@@ -18,3 +18,18 @@ export function elapsedSince(iso: string, now = new Date()): { days: number; lab
 export function plural(count: number, singular: string, pluralForm = `${singular}s`): string {
   return `${count} ${count > 1 ? pluralForm : singular}`
 }
+
+/** Libellé lisible d'une URL source : « Wiki — Harvest Sprites (DS) », « Fogu — chan3/sprites ». */
+export function sourceLabel(url: string): string {
+  try {
+    const { hostname, pathname } = new URL(url)
+    if (hostname.endsWith('fandom.com'))
+      return `Wiki — ${decodeURIComponent(pathname.replace(/^\/wiki\//, '')).replace(/_/g, ' ')}`
+    const site = hostname.replace(/^www\./, '').replace(/\.com$/, '')
+    const label = site.charAt(0).toUpperCase() + site.slice(1)
+    const path = pathname.replace(/\.(php|html?)$/, '').replace(/^\/|\/$/g, '')
+    return path ? `${label} — ${decodeURIComponent(path)}` : label
+  } catch {
+    return url
+  }
+}
