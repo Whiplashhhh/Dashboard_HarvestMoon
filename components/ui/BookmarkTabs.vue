@@ -71,7 +71,7 @@ function onKey(event: KeyboardEvent, index: number) {
 
 /* Marque-page : ruban en tissu dont le bas est taillé en V */
 .bookmark {
-  --ribbon: var(--season-accent);
+  --ribbon: var(--season-accent-strong);
   flex: none;
   min-height: var(--tap);
   max-width: 15rem;
@@ -94,10 +94,10 @@ function onKey(event: KeyboardEvent, index: number) {
   filter: saturate(0.75) brightness(0.95);
 }
 .bookmark--1 {
-  --ribbon: var(--sky-600);
+  --ribbon: var(--sky-700);
 }
 .bookmark--2 {
-  --ribbon: var(--meadow-600);
+  --ribbon: var(--meadow-700);
 }
 .bookmark--3 {
   --ribbon: var(--wood-600);

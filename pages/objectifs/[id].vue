@@ -64,7 +64,7 @@ useHead({ title: () => `${objective.value?.title ?? 'Objectif'} — Le Carnet de
       </PaperCard>
 
       <article v-else class="detail">
-        <WoodPanel as="header" class="detail__head">
+        <WoodPanel as="header" tone="dark" class="detail__head">
           <div class="detail__headline">
             <span class="detail__icon"
               ><PixelIcon :name="CATEGORY_ICONS[objective.category]" :size="36"
@@ -114,7 +114,7 @@ useHead({ title: () => `${objective.value?.title ?? 'Objectif'} — Le Carnet de
               :aria-pressed="isPinned"
               @click="pin(isPinned ? null : objective.id)"
             >
-              {{ isPinned ? 'Épinglé' : 'Épingler' }}
+              {{ isPinned ? 'Épinglé (retirer)' : 'Épingler' }}
             </GameButton>
           </div>
         </WoodPanel>

@@ -51,9 +51,10 @@ const tag = computed(() => (props.to ? resolveComponent('NuxtLink') : 'button'))
 
 <style scoped>
 .game-button {
-  --btn-bg: var(--meadow-500);
-  --btn-bg-hover: var(--meadow-600);
-  --btn-edge: var(--meadow-700);
+  /* Vert prairie foncé : texte blanc ≥ 6:1 */
+  --btn-bg: #357029;
+  --btn-bg-hover: #2c5e23;
+  --btn-edge: #1f4a18;
   --btn-ink: #fff;
   --btn-depth: 5px;
 
@@ -121,8 +122,8 @@ const tag = computed(() => (props.to ? resolveComponent('NuxtLink') : 'button'))
 }
 
 .game-button--wood {
-  --btn-bg: var(--wood-500);
-  --btn-bg-hover: var(--wood-600);
+  --btn-bg: var(--wood-600);
+  --btn-bg-hover: var(--wood-700);
   --btn-edge: var(--wood-800);
   --btn-ink: var(--paper-50);
 }

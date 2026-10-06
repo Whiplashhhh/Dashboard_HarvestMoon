@@ -11,6 +11,7 @@ const { toasts, dismiss } = useToast()
         type="button"
         class="toast"
         :class="`toast--${toast.tone}`"
+        :aria-label="`${toast.text} (fermer)`"
         @click="dismiss(toast.id)"
       >
         <PixelIcon

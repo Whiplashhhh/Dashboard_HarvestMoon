@@ -125,8 +125,23 @@ async function deleteAccount() {
           </div>
           <div class="farm__actions">
             <TagChip v-if="farm.id === user?.activeFarmId" tone="meadow" icon="check">Ferme active</TagChip>
-            <GameButton v-else size="sm" variant="wood" @click="activate(farm.id)">Ouvrir</GameButton>
-            <GameButton size="sm" variant="ghost" @click="removeFarm(farm)">Supprimer</GameButton>
+            <GameButton
+              v-else
+              size="sm"
+              variant="wood"
+              :aria-label="`Ouvrir la ferme ${farm.farmName}`"
+              @click="activate(farm.id)"
+            >
+              Ouvrir
+            </GameButton>
+            <GameButton
+              size="sm"
+              variant="ghost"
+              :aria-label="`Supprimer la ferme ${farm.farmName}`"
+              @click="removeFarm(farm)"
+            >
+              Supprimer
+            </GameButton>
           </div>
         </li>
       </ul>

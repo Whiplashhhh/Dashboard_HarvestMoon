@@ -12,7 +12,8 @@ export function useToast() {
   function show(text: string, tone: Toast['tone'] = 'info') {
     const id = nextId++
     toasts.value = [...toasts.value.slice(-2), { id, text, tone }]
-    setTimeout(() => dismiss(id), tone === 'error' ? 6000 : 3500)
+    // Les erreurs restent affichées jusqu'à ce qu'on les ferme (pas de limite de temps).
+    if (tone !== 'error') setTimeout(() => dismiss(id), 4500)
   }
   function dismiss(id: number) {
     toasts.value = toasts.value.filter((t) => t.id !== id)

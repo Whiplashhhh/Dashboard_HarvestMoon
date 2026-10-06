@@ -188,7 +188,7 @@ const realDate = (iso: string) =>
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  min-height: 36px;
+  min-height: var(--tap);
   padding: 0 var(--space-2);
   border: 0;
   background: none;

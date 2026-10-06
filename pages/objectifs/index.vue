@@ -99,7 +99,7 @@ watch([category, status, season, () => route.query.q], () => (shown.value = PAGE
       </div>
     </header>
 
-    <PaperCard as="section" aria-label="Filtres" class="filters">
+    <PaperCard as="section" role="search" aria-label="Filtrer les objectifs" class="filters">
       <div class="filters__row">
         <label class="filters__search">
           <span class="visually-hidden">Rechercher un objectif</span>
@@ -149,6 +149,7 @@ watch([category, status, season, () => route.query.q], () => (shown.value = PAGE
     </PaperCard>
 
     <GameGate>
+      <h2 class="visually-hidden">Résultats</h2>
       <p class="results-count" role="status">
         {{ results.length }} objectif{{ results.length > 1 ? 's' : '' }}
       </p>
@@ -168,11 +169,7 @@ watch([category, status, season, () => route.query.q], () => (shown.value = PAGE
             type="button"
             class="pin-btn"
             :aria-pressed="farm?.pinnedObjectiveId === objective.id"
-            :aria-label="
-              farm?.pinnedObjectiveId === objective.id
-                ? `Désépingler ${objective.title}`
-                : `Épingler ${objective.title}`
-            "
+            :aria-label="`Épingler ${objective.title}`"
             @click="pin(farm?.pinnedObjectiveId === objective.id ? null : objective.id)"
           >
             <PixelIcon name="pin" :size="20" />
@@ -215,7 +212,9 @@ watch([category, status, season, () => route.query.q], () => (shown.value = PAGE
   background: #fff;
 }
 .filters__search:focus-within {
-  box-shadow: 0 0 0 4px var(--sun);
+  outline: 3px solid var(--wood-900);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 7px var(--sun);
 }
 .filters__search input {
   flex: 1;
@@ -252,8 +251,12 @@ watch([category, status, season, () => route.query.q], () => (shown.value = PAGE
 .segmented button:last-child {
   border-right: 0;
 }
+.segmented button:focus-visible {
+  outline-offset: -6px;
+  box-shadow: none;
+}
 .segmented button[aria-pressed='true'] {
-  background: var(--season-accent);
+  background: var(--season-accent-strong);
   color: #fff;
   text-shadow: 0 1px 0 rgb(0 0 0 / 0.35);
 }
@@ -270,7 +273,7 @@ watch([category, status, season, () => route.query.q], () => (shown.value = PAGE
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  min-height: 40px;
+  min-height: var(--tap);
   padding: 0.2rem 0.75rem;
   border: 2px solid var(--wood-900);
   border-radius: 999px;
@@ -310,7 +313,7 @@ watch([category, status, season, () => route.query.q], () => (shown.value = PAGE
   border-radius: 50%;
   background: transparent;
   cursor: pointer;
-  filter: grayscale(1) opacity(0.45);
+  filter: grayscale(1) opacity(0.65);
   transition:
     filter 160ms ease,
     transform 160ms var(--ease-bounce);

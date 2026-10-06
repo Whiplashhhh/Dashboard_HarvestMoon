@@ -36,7 +36,7 @@ const recipes = computed(() => {
       </div>
     </header>
     <GameGate>
-      <PaperCard as="section" aria-label="Filtres" class="filters">
+      <PaperCard as="section" role="search" aria-label="Rechercher une recette" class="filters">
         <label class="search">
           <span class="visually-hidden">Rechercher une recette ou un ingrédient</span>
           <PixelIcon name="search" :size="22" />
@@ -69,14 +69,14 @@ const recipes = computed(() => {
                 {{ r.nameFr ?? r.name }}
                 <ConfidenceNote :confidence="r.confidence" :notes="r.notes" />
               </th>
-              <td>{{ r.ingredients.join(', ') }}</td>
-              <td>
+              <td data-label="Ingrédients">{{ r.ingredients.join(', ') }}</td>
+              <td data-label="Ustensiles">
                 <span v-if="r.utensils.length" class="tags">
                   <TagChip v-for="u in r.utensils" :key="u" tone="wood">{{ u }}</TagChip>
                 </span>
                 <span v-else class="muted">aucun</span>
               </td>
-              <td>{{ r.effect ?? '—' }}</td>
+              <td data-label="Effet">{{ r.effect ?? '—' }}</td>
             </tr>
           </tbody>
         </table>
@@ -104,7 +104,9 @@ const recipes = computed(() => {
   background: #fff;
 }
 .search:focus-within {
-  box-shadow: 0 0 0 4px var(--sun);
+  outline: 3px solid var(--wood-900);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 7px var(--sun);
 }
 .search input {
   flex: 1;
@@ -140,7 +142,7 @@ const recipes = computed(() => {
 .recipes thead th {
   position: sticky;
   top: 0;
-  background: var(--wood-500);
+  background: var(--wood-700);
   color: var(--paper-50);
   font-family: var(--font-display);
   font-weight: 600;
@@ -175,6 +177,11 @@ const recipes = computed(() => {
   .recipes td {
     border: 0;
     padding: 2px var(--space-3);
+  }
+  .recipes td::before {
+    content: attr(data-label) ' : ';
+    font-weight: 800;
+    color: var(--ink-soft);
   }
 }
 </style>

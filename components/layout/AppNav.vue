@@ -60,7 +60,7 @@ const route = useRoute()
   text-shadow: 0 2px 0 var(--wood-950);
 }
 .nav--hinge .nav__link:hover {
-  background: rgb(255 255 255 / 0.12);
+  background: rgb(0 0 0 / 0.12);
   transform: translateY(-2px);
 }
 .nav--hinge .nav__link[aria-current='page'] {
@@ -83,7 +83,7 @@ const route = useRoute()
   z-index: 50;
   padding: 6px 6px calc(6px + env(safe-area-inset-bottom));
   border-top: var(--border-thick) solid var(--wood-950);
-  background: linear-gradient(180deg, var(--wood-400), var(--wood-500));
+  background: linear-gradient(180deg, var(--wood-600), var(--wood-700));
   box-shadow: 0 -4px 14px rgb(46 27 14 / 0.25);
 }
 .nav--bar .nav__list {
