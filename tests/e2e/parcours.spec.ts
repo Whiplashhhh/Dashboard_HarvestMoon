@@ -79,7 +79,8 @@ test('les pages protégées renvoient vers la connexion, la déconnexion fonctio
   await page.getByLabel("Nom d'utilisateur").fill(username)
   await page.getByLabel('Mot de passe').fill('pas-le-bon-mot-de-passe')
   await page.getByRole('button', { name: 'Entrer à la ferme' }).click()
-  await expect(page.getByRole('alert')).toContainText("Nom d'utilisateur ou mot de passe incorrect.")
+  await expect(page.locator('#login-error')).toContainText("Nom d'utilisateur ou mot de passe incorrect.")
+  await expect(page.getByLabel('Mot de passe')).toHaveAttribute('aria-invalid', 'true')
 })
 
 test('carnet, calendrier, recettes, compte : les pages secondaires répondent', async ({ page }) => {

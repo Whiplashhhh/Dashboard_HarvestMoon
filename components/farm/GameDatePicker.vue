@@ -130,10 +130,10 @@ function shift(days: number) {
   box-shadow: 0 1px 0 var(--wood-900);
 }
 .season-choice--spring input:checked + span {
-  background: #d9578a;
+  background: #a8345e;
 }
 .season-choice--summer input:checked + span {
-  background: #d98a00;
+  background: #915c00;
 }
 .season-choice--autumn input:checked + span {
   background: #c4501d;
@@ -166,8 +166,17 @@ function shift(days: number) {
   overflow: hidden;
   background: var(--paper-50);
 }
+.stepper__control:focus-within {
+  outline: 3px solid var(--wood-900);
+  outline-offset: 3px;
+}
+.stepper__control :focus-visible {
+  outline: none;
+  box-shadow: inset 0 0 0 3px var(--sun);
+}
 .stepper__control button {
   width: var(--tap);
+  min-height: var(--tap);
   border: 0;
   background: var(--wood-200);
   font-size: 1.4rem;

@@ -8,6 +8,16 @@ const { register } = useAuth()
 const form = reactive({ username: '', password: '', confirm: '', email: '' })
 const error = ref<string | null>(null)
 const loading = ref(false)
+const errorField = ref<'username' | 'password' | 'confirm' | 'email' | null>(null)
+
+function fail(message: string, field: typeof errorField.value) {
+  error.value = message
+  errorField.value = field
+  if (field) nextTick(() => document.getElementById(`reg-${field}`)?.focus())
+}
+const invalid = (field: string) => (errorField.value === field ? 'true' : undefined)
+const describedBy = (field: string, hint?: string) =>
+  [hint, errorField.value === field ? 'reg-error' : null].filter(Boolean).join(' ') || undefined
 
 const passwordHint = computed(() => {
   if (!form.password)
@@ -18,13 +28,16 @@ const passwordHint = computed(() => {
 
 async function submit() {
   error.value = null
+  errorField.value = null
   const parsed = registerSchema.safeParse(form)
   if (!parsed.success) {
-    error.value = parsed.error.issues[0]?.message ?? 'Vérifie le formulaire.'
+    const issue = parsed.error.issues[0]
+    const field = (issue?.path[0] as 'username' | 'password' | 'email' | undefined) ?? null
+    fail(issue?.message ?? 'Vérifie le formulaire.', field)
     return
   }
   if (form.password !== form.confirm) {
-    error.value = 'Les deux mots de passe ne sont pas identiques.'
+    fail('Les deux mots de passe ne sont pas identiques.', 'confirm')
     return
   }
   loading.value = true
@@ -32,7 +45,11 @@ async function submit() {
     await register({ username: form.username, password: form.password, email: form.email || undefined })
     await navigateTo('/bienvenue')
   } catch (e) {
-    error.value = apiErrorMessage(e)
+    const message = apiErrorMessage(e)
+    fail(
+      message,
+      /mot de passe/i.test(message) ? 'password' : /nom d'utilisateur/i.test(message) ? 'username' : null,
+    )
   } finally {
     loading.value = false
   }
@@ -50,7 +67,9 @@ async function submit() {
     <LetterCard stamp="BIENVENUE">
       <form class="auth__form" method="post" novalidate @submit.prevent="submit">
         <h1 class="auth__title">Créer mon carnet</h1>
-        <p v-if="error" class="form-error" role="alert"><PixelIcon name="close" :size="20" />{{ error }}</p>
+        <p v-if="error" id="reg-error" class="form-error" role="alert">
+          <PixelIcon name="close" :size="20" />{{ error }}
+        </p>
         <div class="field">
           <label for="reg-username">Nom d'utilisateur</label>
           <input
@@ -62,7 +81,8 @@ async function submit() {
             spellcheck="false"
             minlength="3"
             maxlength="32"
-            aria-describedby="reg-username-hint"
+            :aria-invalid="invalid('username')"
+            :aria-describedby="describedBy('username', 'reg-username-hint')"
             required
           />
           <span id="reg-username-hint" class="field__hint">3 à 32 caractères : lettres, chiffres, . - _</span>
@@ -76,16 +96,19 @@ async function submit() {
             type="password"
             autocomplete="new-password"
             minlength="10"
-            aria-describedby="reg-password-hint"
+            :aria-invalid="invalid('password')"
+            :aria-describedby="describedBy('password', 'reg-password-hint')"
             required
           />
-          <span id="reg-password-hint" class="field__hint" aria-live="polite">{{ passwordHint }}</span>
+          <span id="reg-password-hint" class="field__hint">{{ passwordHint }}</span>
         </div>
         <div class="field">
           <label for="reg-confirm">Confirme le mot de passe</label>
           <input
             id="reg-confirm"
             v-model="form.confirm"
+            :aria-invalid="invalid('confirm')"
+            :aria-describedby="describedBy('confirm')"
             class="input"
             type="password"
             autocomplete="new-password"
@@ -96,7 +119,15 @@ async function submit() {
           <label for="reg-email"
             >E-mail <span class="field__hint">(facultatif, aucun envoi pour l'instant)</span></label
           >
-          <input id="reg-email" v-model="form.email" class="input" type="email" autocomplete="email" />
+          <input
+            id="reg-email"
+            v-model="form.email"
+            :aria-invalid="invalid('email')"
+            :aria-describedby="describedBy('email')"
+            class="input"
+            type="email"
+            autocomplete="email"
+          />
         </div>
         <GameButton type="submit" size="lg" block icon="sparkle" :loading="loading"
           >Créer mon carnet</GameButton

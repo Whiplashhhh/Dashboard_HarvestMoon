@@ -327,3 +327,20 @@ ol {
   text-align: center;
   font-weight: 700;
 }
+
+::placeholder {
+  color: var(--ink-faint);
+  opacity: 1;
+}
+
+/* Sur mobile, la barre de navigation fixe ne doit pas masquer l'élément qui a le focus. */
+@media (max-width: 899px) {
+  html {
+    scroll-padding-bottom: calc(96px + env(safe-area-inset-bottom));
+  }
+}
+@media (max-width: 899px) and (max-height: 500px) {
+  .nav--bar {
+    position: static !important;
+  }
+}

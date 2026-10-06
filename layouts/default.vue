@@ -100,7 +100,7 @@ await load()
   border-radius: 0 0 var(--radius-lg) var(--radius-lg);
   background:
     repeating-linear-gradient(97deg, transparent 0 22px, rgb(46 27 14 / 0.12) 22px 24px),
-    linear-gradient(180deg, var(--wood-500), var(--wood-600));
+    linear-gradient(180deg, var(--wood-600), var(--wood-700));
   box-shadow:
     inset 0 3px 0 rgb(255 255 255 / 0.2),
     0 5px 0 var(--wood-950);
@@ -144,9 +144,6 @@ await load()
     padding: 0;
   }
   .ds__top {
-    position: sticky;
-    top: 0;
-    z-index: 30;
     border-width: 0 0 var(--border-thick);
     border-radius: 0 0 var(--radius-lg) var(--radius-lg);
   }

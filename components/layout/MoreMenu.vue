@@ -11,6 +11,16 @@ watch(
   () => details.value?.removeAttribute('open'),
 )
 
+function onFocusOut(event: FocusEvent) {
+  if (!details.value?.contains(event.relatedTarget as Node | null)) details.value?.removeAttribute('open')
+}
+function onOutside(event: MouseEvent) {
+  if (details.value?.open && !details.value.contains(event.target as Node))
+    details.value.removeAttribute('open')
+}
+onMounted(() => document.addEventListener('click', onOutside))
+onBeforeUnmount(() => document.removeEventListener('click', onOutside))
+
 function onKey(event: KeyboardEvent) {
   if (event.key === 'Escape' && details.value?.open) {
     details.value.removeAttribute('open')
@@ -20,7 +30,13 @@ function onKey(event: KeyboardEvent) {
 </script>
 
 <template>
-  <details ref="details" class="more" :class="`more--${placement ?? 'down'}`" @keydown="onKey">
+  <details
+    ref="details"
+    class="more"
+    :class="`more--${placement ?? 'down'}`"
+    @keydown="onKey"
+    @focusout="onFocusOut"
+  >
     <summary class="more__trigger">
       <span class="more__dots" aria-hidden="true"><i /><i /><i /></span>
       <span class="more__label">Plus</span>

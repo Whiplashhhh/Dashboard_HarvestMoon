@@ -18,6 +18,7 @@ const checked = ref(new Set<string>())
 const note = ref('')
 const search = ref('')
 const saving = ref(false)
+const error = ref<string | null>(null)
 
 /** Objectifs proposés : épinglé + meilleures suggestions + ce qui vient d'être coché. */
 const proposals = computed(() => {
@@ -53,19 +54,20 @@ watch(open, (value) => {
     checked.value = new Set()
     note.value = ''
     search.value = ''
+    error.value = null
     nextTick(() => dialog.value?.showModal())
   } else dialog.value?.close()
 })
 
 async function save() {
   saving.value = true
-  const ok = await endSession({
+  error.value = await endSession({
     date: date.value,
     complete: [...checked.value],
     ...(note.value.trim() ? { note: note.value.trim() } : {}),
   })
   saving.value = false
-  if (ok) {
+  if (!error.value) {
     hide()
     toast.show('Partie enregistrée. À la prochaine !', 'success')
   }
@@ -107,6 +109,9 @@ async function save() {
           <PixelIcon name="search" :size="20" />
           <input v-model="search" type="search" placeholder="Autre chose ? Cherche un objectif, un lutin…" />
         </label>
+        <p class="visually-hidden" role="status">
+          {{ search.length >= 2 ? `${searchResults.length} résultat(s)` : '' }}
+        </p>
         <ul v-if="searchResults.length" class="session__list">
           <li v-for="objective in searchResults" :key="objective.id">
             <label class="check-row check-row--strike">
@@ -133,6 +138,7 @@ async function save() {
         />
       </section>
 
+      <p v-if="error" class="form-error" role="alert">{{ error }}</p>
       <footer class="session__foot">
         <GameButton variant="paper" @click="hide">Annuler</GameButton>
         <GameButton type="submit" icon="check" :loading="saving">Enregistrer ma partie</GameButton>
@@ -205,7 +211,7 @@ async function save() {
   height: 1.8rem;
   border: 3px solid var(--wood-900);
   border-radius: 50%;
-  background: var(--season-accent);
+  background: var(--season-accent-strong);
   color: #fff;
   font-size: 1rem;
   margin-right: 0.3rem;
@@ -242,7 +248,9 @@ async function save() {
   outline: none;
 }
 .session__search:focus-within {
-  box-shadow: 0 0 0 4px var(--sun);
+  outline: 3px solid var(--wood-900);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 7px var(--sun);
 }
 textarea {
   width: 100%;

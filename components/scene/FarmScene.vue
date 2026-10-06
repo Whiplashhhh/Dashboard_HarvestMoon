@@ -55,11 +55,10 @@ function resetPointer() {
     ref="root"
     class="scene"
     :class="[`scene--${season}`, `scene--${daytime}`, { 'scene--compact': compact }]"
-    aria-hidden="true"
     @pointermove="onPointer"
     @pointerleave="resetPointer"
   >
-    <svg class="scene__svg" viewBox="0 0 1200 360" preserveAspectRatio="xMidYMax slice">
+    <svg class="scene__svg" viewBox="0 0 1200 360" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
       <defs>
         <linearGradient id="scene-sky" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0" style="stop-color: var(--season-sky-top)" />
@@ -303,7 +302,7 @@ function resetPointer() {
     </svg>
 
     <!-- Particules de saison -->
-    <div v-if="!reduced" class="scene__particles">
+    <div v-if="!reduced" class="scene__particles" aria-hidden="true">
       <span
         v-for="(p, i) in particles"
         :key="i"
@@ -319,7 +318,7 @@ function resetPointer() {
     </div>
 
     <!-- Lutins trouvés qui se baladent -->
-    <div class="scene__walkers">
+    <div class="scene__walkers" aria-hidden="true">
       <div
         v-for="(color, i) in shownWalkers"
         :key="i"

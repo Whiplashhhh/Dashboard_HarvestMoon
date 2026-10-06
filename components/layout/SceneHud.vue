@@ -56,7 +56,7 @@ const weekday = computed(() =>
   border-radius: var(--radius-sm);
   background:
     repeating-linear-gradient(97deg, transparent 0 18px, rgb(122 74 38 / 0.18) 18px 20px),
-    linear-gradient(180deg, var(--wood-400), var(--wood-500));
+    linear-gradient(180deg, var(--wood-600), var(--wood-700));
   box-shadow:
     inset 0 2px 0 rgb(255 255 255 / 0.25),
     0 4px 0 var(--wood-950);

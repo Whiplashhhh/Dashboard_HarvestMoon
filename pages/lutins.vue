@@ -95,7 +95,7 @@ async function toggle(spriteId: string, name: string) {
               type="button"
               class="sprite-card__toggle"
               :aria-pressed="completed.has(spriteObjectiveId(sprite.id))"
-              :aria-label="`${sprite.name} : ${completed.has(spriteObjectiveId(sprite.id)) ? 'trouvé (toucher pour annuler)' : 'pas encore trouvé (toucher pour marquer trouvé)'}`"
+              :aria-label="`${sprite.name} trouvé`"
               @click="toggle(sprite.id, sprite.name)"
             >
               <span class="sprite-card__figure" :class="{ 'is-jumping': celebrating === sprite.id }">
@@ -121,7 +121,10 @@ async function toggle(spriteId: string, name: string) {
                 >Verrouillé</TagChip
               >
               <ConfidenceNote :confidence="sprite.confidence" :notes="sprite.notes" />
-              <NuxtLink :to="`/objectifs/${spriteObjectiveId(sprite.id)}`" class="sprite-card__more"
+              <NuxtLink
+                :to="`/objectifs/${spriteObjectiveId(sprite.id)}`"
+                class="sprite-card__more"
+                :aria-label="`Comment débloquer ${sprite.name}`"
                 >Comment faire →</NuxtLink
               >
             </p>
@@ -158,8 +161,12 @@ async function toggle(spriteId: string, name: string) {
 .segmented button:last-child {
   border-right: 0;
 }
+.segmented button:focus-visible {
+  outline-offset: -6px;
+  box-shadow: none;
+}
 .segmented button[aria-pressed='true'] {
-  background: var(--season-accent);
+  background: var(--season-accent-strong);
   color: #fff;
   text-shadow: 0 1px 0 rgb(0 0 0 / 0.35);
 }
@@ -289,7 +296,7 @@ async function toggle(spriteId: string, name: string) {
   border-radius: 4px;
   background: var(--gold);
   font-family: var(--font-body);
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: 800;
   color: var(--gold-ink);
 }

@@ -17,6 +17,7 @@ const emit = defineEmits<{ done: [] }>()
 
 const reduced = useReducedMotion()
 const { play } = useSound()
+const root = ref<HTMLElement | null>(null)
 const pageIndex = ref(0)
 const shown = ref(0)
 let timer: ReturnType<typeof setInterval> | null = null
@@ -46,6 +47,11 @@ function start() {
 }
 
 function advance() {
+  const hadFocus = root.value?.contains(document.activeElement) ?? false
+  if (hadFocus)
+    nextTick(() => {
+      if (!root.value?.contains(document.activeElement)) root.value?.focus()
+    })
   if (typing.value) {
     stop()
     shown.value = current.value.length
@@ -69,7 +75,7 @@ onBeforeUnmount(stop)
 </script>
 
 <template>
-  <div class="dialog-box" @click="advance">
+  <div ref="root" class="dialog-box" tabindex="-1" @click="advance">
     <p v-if="speaker" class="dialog-box__speaker">{{ speaker }}</p>
     <!-- Texte complet pour les technologies d'assistance -->
     <p class="visually-hidden" aria-live="polite">{{ pages.join(' ') }}</p>
@@ -110,6 +116,10 @@ onBeforeUnmount(stop)
   cursor: default;
 }
 
+.dialog-box:focus-visible {
+  outline: 3px solid var(--wood-900);
+  outline-offset: 3px;
+}
 .dialog-box__speaker {
   position: absolute;
   top: -1.05rem;
@@ -118,7 +128,7 @@ onBeforeUnmount(stop)
   padding: 0.1rem 0.9rem;
   border: 3px solid var(--wood-900);
   border-radius: 999px;
-  background: var(--season-accent);
+  background: var(--season-accent-strong);
   color: #fff;
   font-family: var(--font-display);
   font-weight: 600;

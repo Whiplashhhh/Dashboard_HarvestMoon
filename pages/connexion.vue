@@ -10,6 +10,7 @@ const username = ref('')
 const password = ref('')
 const error = ref<string | null>(null)
 const loading = ref(false)
+const passwordInput = ref<HTMLInputElement | null>(null)
 
 async function submit() {
   error.value = null
@@ -20,6 +21,7 @@ async function submit() {
   } catch (e) {
     error.value = apiErrorMessage(e)
     password.value = ''
+    nextTick(() => passwordInput.value?.focus())
   } finally {
     loading.value = false
   }
@@ -35,12 +37,16 @@ async function submit() {
     <LetterCard stamp="FERME">
       <form class="auth__form" method="post" novalidate @submit.prevent="submit">
         <h1 class="auth__title">Ouvrir mon carnet</h1>
-        <p v-if="error" class="form-error" role="alert"><PixelIcon name="close" :size="20" />{{ error }}</p>
+        <p v-if="error" id="login-error" class="form-error" role="alert">
+          <PixelIcon name="close" :size="20" />{{ error }}
+        </p>
         <div class="field">
           <label for="login-username">Nom d'utilisateur</label>
           <input
             id="login-username"
             v-model="username"
+            :aria-invalid="error ? 'true' : undefined"
+            :aria-describedby="error ? 'login-error' : undefined"
             class="input"
             name="username"
             autocomplete="username"
@@ -53,7 +59,10 @@ async function submit() {
           <label for="login-password">Mot de passe</label>
           <input
             id="login-password"
+            ref="passwordInput"
             v-model="password"
+            :aria-invalid="error ? 'true' : undefined"
+            :aria-describedby="error ? 'login-error' : undefined"
             class="input"
             type="password"
             name="password"

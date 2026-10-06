@@ -95,15 +95,15 @@ export function useFarm() {
     )
   }
 
-  async function endSession(input: SessionUpdateInput) {
-    if (!farm.value) return false
+  /** Renvoie null si tout s'est bien passé, sinon le message d'erreur à afficher. */
+  async function endSession(input: SessionUpdateInput): Promise<string | null> {
+    if (!farm.value) return 'Aucune ferme active.'
     try {
       farm.value = await api<FarmDTO>(`/api/farms/${farm.value.id}/session`, { method: 'POST', body: input })
       play('fanfare')
-      return true
+      return null
     } catch (error) {
-      toast.show(apiErrorMessage(error), 'error')
-      return false
+      return apiErrorMessage(error)
     }
   }
 

@@ -99,19 +99,22 @@ const closures = computed(() => (game.value?.calendar.schedules ?? []).filter((s
           :aria-labelledby="`cal-tab-${season}`"
         >
           <h2 class="calendar__title sign-title">{{ SEASON_LABELS[season] }}</h2>
-          <div class="calendar__grid" role="grid" :aria-label="`${SEASON_LABELS[season]}, an ${year}`">
-            <div role="row" class="calendar__week calendar__head">
-              <span v-for="w in WEEKDAYS" :key="w" role="columnheader" :aria-label="WEEKDAY_LABELS[w]">
+          <div class="calendar__grid">
+            <div class="calendar__week calendar__head" aria-hidden="true">
+              <span v-for="w in WEEKDAYS" :key="w">
                 {{ WEEKDAY_LABELS[w].slice(0, 3) }}
               </span>
             </div>
-            <div role="row" class="calendar__days">
+            <div
+              class="calendar__days"
+              role="group"
+              :aria-label="`Jours de ${SEASON_LABELS[season].toLowerCase()}, an ${year}`"
+            >
               <span v-for="n in offset" :key="`pad-${n}`" class="calendar__pad" aria-hidden="true" />
               <button
                 v-for="d in days"
                 :key="d.day"
                 type="button"
-                role="gridcell"
                 class="day"
                 :class="{
                   'day--today': d.isToday,
@@ -300,7 +303,7 @@ const closures = computed(() => (game.value?.calendar.schedules ?? []).filter((s
   overflow: hidden;
 }
 .day__label {
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   font-weight: 700;
   line-height: 1.15;
   color: var(--ink-soft);
