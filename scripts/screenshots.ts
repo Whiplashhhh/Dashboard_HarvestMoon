@@ -46,12 +46,20 @@ for (const season of seasons) {
   const page = await context.newPage()
   if (login) {
     const [username, password] = login.split(':')
-    await page.goto(`${base}/connexion`)
+    await page.goto(`${base}/connexion`, { waitUntil: 'networkidle' })
     await page.getByLabel("Nom d'utilisateur").fill(username!)
     await page.getByLabel('Mot de passe').fill(password!)
     await page.getByRole('button', { name: /entrer|connexion|ouvrir/i }).click()
     await page.waitForFunction(() => !location.pathname.startsWith('/connexion'))
-    // La connexion recharge les réglages du compte : on réimpose la saison voulue pour la capture.
+    // Les réglages du compte font foi : on y enregistre la saison voulue pour la capture.
+    await page.evaluate(async (forcedSeason) => {
+      const csrf = document.cookie.match(/(?:^|;\s*)(?:__Host-)?carnet_csrf=([^;]+)/)?.[1] ?? ''
+      await fetch('/api/account/settings', {
+        method: 'PUT',
+        headers: { 'content-type': 'application/json', 'x-csrf-token': decodeURIComponent(csrf) },
+        body: JSON.stringify({ sounds: false, reducedMotion: false, forcedSeason }),
+      })
+    }, season)
     await forceSeason()
   }
   for (const route of routes) {

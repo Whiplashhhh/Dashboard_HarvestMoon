@@ -48,7 +48,7 @@ async function submit() {
       ]"
     />
     <LetterCard stamp="BIENVENUE">
-      <form class="auth__form" novalidate @submit.prevent="submit">
+      <form class="auth__form" method="post" novalidate @submit.prevent="submit">
         <h1 class="auth__title">Créer mon carnet</h1>
         <p v-if="error" class="form-error" role="alert"><PixelIcon name="close" :size="20" />{{ error }}</p>
         <div class="field">
