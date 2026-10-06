@@ -173,3 +173,153 @@ ol {
   animation-iteration-count: 1 !important;
   transition-duration: 0.001ms !important;
 }
+
+/* Ligne cochable (case façon tampon) — étapes, objectifs, onboarding */
+.check-row {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  min-height: var(--tap);
+  padding: var(--space-2);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  line-height: 1.4;
+}
+.check-row:hover {
+  background: rgb(122 74 38 / 0.06);
+}
+.check-row > input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+}
+.check-row__box {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  margin-top: -2px;
+  border: 3px solid var(--wood-900);
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: inset 0 -3px 0 var(--paper-300);
+}
+.check-row__box > svg {
+  opacity: 0;
+  transform: scale(0.4) rotate(-20deg);
+  transition:
+    transform 220ms var(--ease-bounce),
+    opacity 120ms ease;
+}
+.check-row > input:checked + .check-row__box {
+  background: #e4f6da;
+}
+.check-row > input:checked + .check-row__box > svg {
+  opacity: 1;
+  transform: none;
+}
+.check-row--strike > input:checked ~ span:last-child {
+  color: var(--ink-soft);
+  text-decoration: line-through;
+  text-decoration-color: var(--meadow-600);
+  text-decoration-thickness: 2px;
+}
+.check-row > input:focus-visible + .check-row__box {
+  outline: 3px solid var(--wood-900);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 6px var(--sun);
+}
+
+/* Champs de formulaire */
+.field {
+  display: grid;
+  gap: 6px;
+}
+.field > label,
+.field__label {
+  font-weight: 800;
+  color: var(--wood-900);
+}
+.field__hint {
+  font-size: var(--text-sm);
+  color: var(--ink-soft);
+}
+.input {
+  width: 100%;
+  min-height: var(--tap);
+  padding: 0.5rem 0.8rem;
+  border: 3px solid var(--wood-900);
+  border-radius: var(--radius-sm);
+  background: #fff;
+  box-shadow: inset 0 3px 0 rgb(122 74 38 / 0.08);
+}
+.input:focus-visible {
+  outline: 3px solid var(--wood-900);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 6px var(--sun);
+}
+.input[aria-invalid='true'] {
+  border-color: var(--berry);
+}
+.form-error {
+  display: flex;
+  gap: var(--space-2);
+  align-items: flex-start;
+  margin: 0;
+  padding: var(--space-3);
+  border: 3px solid var(--berry);
+  border-radius: var(--radius-sm);
+  background: #fde3e0;
+  color: var(--berry-ink);
+  font-weight: 700;
+}
+
+/* Mise en page des pages */
+.page {
+  display: grid;
+  gap: var(--space-5);
+}
+.page-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+.page-head h1 {
+  margin: 0;
+}
+.page-head p {
+  margin: var(--space-1) 0 0;
+  color: var(--ink-soft);
+}
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin: 0 0 var(--space-3);
+  font-size: var(--text-xl);
+}
+
+/* Pages d'accueil (connexion / inscription) */
+.auth {
+  display: grid;
+  gap: var(--space-6);
+}
+.auth__form {
+  display: grid;
+  gap: var(--space-4);
+}
+.auth__title {
+  margin: 0;
+  padding-right: 4rem;
+  font-size: var(--text-2xl);
+}
+.auth__alt {
+  margin: 0;
+  text-align: center;
+  font-weight: 700;
+}

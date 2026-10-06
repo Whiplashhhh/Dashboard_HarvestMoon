@@ -194,10 +194,10 @@ describe.skipIf(!base)('mon compte', () => {
 describe.skipIf(!base)('données du jeu', () => {
   it('sont servies avec un ETag (304 si inchangées)', async () => {
     const client = new TestClient(base!)
-    const first = await client.get('/api/game')
+    const first = await client.get('/api/game.json')
     expect(first.json.sprites).toHaveLength(101)
     const etag = first.headers.get('etag')!
-    const second = await client.request('GET', '/api/game', undefined, { 'if-none-match': etag })
+    const second = await client.request('GET', '/api/game.json', undefined, { 'if-none-match': etag })
     expect(second.status).toBe(304)
   })
 })

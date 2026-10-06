@@ -24,15 +24,17 @@ await mkdir(out, { recursive: true })
 
 for (const season of seasons) {
   const context = await browser.newContext({ locale: 'fr-FR', reducedMotion: 'reduce' })
-  await context.addCookies([
-    {
-      name: 'carnet-settings',
-      value: encodeURIComponent(
-        JSON.stringify({ sounds: false, reducedMotion: false, forcedSeason: season }),
-      ),
-      url: base,
-    },
-  ])
+  const forceSeason = () =>
+    context.addCookies([
+      {
+        name: 'carnet-settings',
+        value: encodeURIComponent(
+          JSON.stringify({ sounds: false, reducedMotion: false, forcedSeason: season }),
+        ),
+        url: base,
+      },
+    ])
+  await forceSeason()
   if (daytime) {
     const hours: Record<string, number> = { dawn: 6, day: 12, dusk: 19, night: 23 }
     await context.addInitScript(`{
@@ -48,14 +50,16 @@ for (const season of seasons) {
     await page.getByLabel("Nom d'utilisateur").fill(username!)
     await page.getByLabel('Mot de passe').fill(password!)
     await page.getByRole('button', { name: /entrer|connexion|ouvrir/i }).click()
-    await page.waitForURL((url) => !url.pathname.startsWith('/connexion'))
+    await page.waitForFunction(() => !location.pathname.startsWith('/connexion'))
+    // La connexion recharge les réglages du compte : on réimpose la saison voulue pour la capture.
+    await forceSeason()
   }
   for (const route of routes) {
     for (const size of sizes) {
       const [width, height] = size.split('x').map(Number) as [number, number]
       await page.setViewportSize({ width, height })
       await page.goto(`${base}${route}`, { waitUntil: 'networkidle' })
-      await page.waitForTimeout(400)
+      await page.waitForTimeout(900)
       const overflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth)
       const name = `${route.replace(/\//g, '_').replace(/^_/, '') || 'accueil'}--${season}--${size}.png`
       await page.screenshot({ path: join(out, name), fullPage })

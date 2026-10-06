@@ -8,7 +8,8 @@ export async function readValidated<T extends z.ZodType>(event: H3Event, schema:
     const issue = result.error.issues[0]
     throw createError({
       statusCode: 400,
-      statusMessage: 'Données invalides',
+      statusMessage: 'Bad Request',
+      message: issue?.message ?? 'Données invalides.',
       data: { message: issue?.message ?? 'Données invalides.', path: issue?.path.join('.') },
     })
   }
@@ -23,5 +24,5 @@ export function validateParam<T extends z.ZodType>(value: unknown, schema: T): z
 
 /** Erreur 4xx avec un message affichable dans l'interface. */
 export function userError(statusCode: number, message: string) {
-  return createError({ statusCode, statusMessage: message, data: { message } })
+  return createError({ statusCode, message, data: { message } })
 }

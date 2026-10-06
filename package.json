@@ -27,7 +27,8 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "tsx --env-file-if-exists=.env scripts/migrate.ts",
     "test:unit": "vitest run --project unit",
-    "test:api": "vitest run --project api"
+    "test:api": "vitest run --project api",
+    "db:seed-demo": "tsx --env-file-if-exists=.env scripts/seed-demo.ts"
   },
   "dependencies": {
     "@fontsource-variable/fredoka": "^5.3.0",
