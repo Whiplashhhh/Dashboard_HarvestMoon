@@ -2,6 +2,8 @@
 export default defineNuxtConfig({
   compatibilityDate: '2026-10-01',
   devtools: { enabled: false },
+  // Pas de manifeste d'application : aucune règle de route n'est utile côté client.
+  experimental: { appManifest: false },
   telemetry: false,
 
   modules: ['@nuxt/eslint'],
@@ -46,6 +48,12 @@ export default defineNuxtConfig({
 
   nitro: {
     compressPublicAssets: true,
+    // Les données du jeu sont figées au build : servies comme fichier statique compressé (gzip/brotli).
+    prerender: { routes: ['/api/game.json'] },
+  },
+
+  routeRules: {
+    '/api/game.json': { headers: { 'cache-control': 'public, max-age=3600, stale-while-revalidate=86400' } },
   },
 
   eslint: {

@@ -7,6 +7,8 @@ import { migrate } from 'drizzle-orm/postgres-js/migrator'
  * Dossier : MIGRATIONS_DIR, sinon server/database/migrations (copié dans l'image Docker).
  */
 export default defineNitroPlugin(async () => {
+  // Pas de base pendant le pré-rendu (build) des données du jeu.
+  if (import.meta.prerender) return
   const folder = resolve(process.env.MIGRATIONS_DIR ?? 'server/database/migrations')
   if (!existsSync(folder)) {
     console.warn(`[migrations] dossier introuvable (${folder}) : migrations non appliquées`)
