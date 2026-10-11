@@ -37,9 +37,9 @@ await load()
 
     <footer class="ds__footer">
       <p>
-        <strong>Le Carnet de la Ferme</strong> — site de fan non officiel, non affilié à Natsume, Marvelous ou
-        Rising Star Games. Données du jeu : <NuxtLink to="/credits">Crédits &amp; sources</NuxtLink> (CC
-        BY-SA).
+        <strong>Le Carnet de la Ferme</strong>, créé par Willem Vanbaelinghem — site non officiel, non affilié
+        à Natsume, Marvelous ou Rising Star Games. Données du jeu :
+        <NuxtLink to="/credits">Crédits &amp; sources</NuxtLink> (CC BY-SA).
       </p>
     </footer>
 

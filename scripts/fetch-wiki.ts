@@ -20,7 +20,7 @@ const RAW_DIR = join(import.meta.dirname, '..', 'data', 'raw')
 const PAGE_LIST = join(import.meta.dirname, 'wiki-pages.txt')
 const DELAY_MS = 1500
 const USER_AGENT =
-  'CarnetDeLaFerme/0.1 (site de fan non officiel ; https://github.com/Whiplashhhh/Dashboard_HarvestMoon)'
+  'CarnetDeLaFerme/0.1 (site non officiel ; https://github.com/Whiplashhhh/Dashboard_HarvestMoon)'
 
 export interface RawWikiPage {
   title: string

@@ -1,5 +1,7 @@
 # Rapport — Le Carnet de la Ferme
 
+_Projet créé par Willem Vanbaelinghem._
+
 ## Lancer la démo
 
 ```bash

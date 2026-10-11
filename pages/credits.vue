@@ -45,14 +45,20 @@ const pageTitle = (url: string) => sourceLabel(url).replace(/^Wiki — /, '')
         </div>
       </header>
 
-      <PaperCard as="section" aria-labelledby="fan-title">
-        <h2 id="fan-title" class="section-title">
-          <PixelIcon name="heart" :size="24" /> Site de fan non officiel
-        </h2>
+      <PaperCard as="section" aria-labelledby="creator-title">
+        <h2 id="creator-title" class="section-title"><PixelIcon name="pencil" :size="24" /> Création</h2>
         <p>
-          <strong>Le Carnet de la Ferme</strong> est un projet de fan, gratuit et sans publicité. Il n'est ni
-          affilié, ni approuvé, ni sponsorisé par Natsume, Marvelous (anciennement Marvelous Interactive) ou
-          Rising Star Games. « Harvest Moon » est une marque de ses propriétaires respectifs.
+          <strong>Le Carnet de la Ferme</strong> a été conçu et créé par
+          <strong>Willem Vanbaelinghem</strong>.
+        </p>
+      </PaperCard>
+
+      <PaperCard as="section" aria-labelledby="fan-title">
+        <h2 id="fan-title" class="section-title"><PixelIcon name="heart" :size="24" /> Site non officiel</h2>
+        <p>
+          <strong>Le Carnet de la Ferme</strong> est un projet gratuit et sans publicité. Il n'est ni affilié,
+          ni approuvé, ni sponsorisé par Natsume, Marvelous (anciennement Marvelous Interactive) ou Rising
+          Star Games. « Harvest Moon » est une marque de ses propriétaires respectifs.
         </p>
         <p>
           Aucun élément graphique, sonore ou textuel du jeu n'est utilisé : les illustrations, les icônes

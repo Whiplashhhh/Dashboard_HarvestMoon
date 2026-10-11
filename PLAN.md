@@ -1,6 +1,6 @@
 # PLAN — Le Carnet de la Ferme
 
-Compagnon de jeu (site de fan non officiel) pour **Harvest Moon DS** (version européenne, NTR-ABCP-EUR).
+Compagnon de jeu (site non officiel) pour **Harvest Moon DS** (version européenne, NTR-ABCP-EUR).
 Le cahier des charges complet est dans [`PROMPT_HARVEST_MOON.md`](./PROMPT_HARVEST_MOON.md).
 
 > Document vivant : mis à jour à chaque phase. Les choix faits en autonomie sont dans [`DECISIONS.md`](./DECISIONS.md),

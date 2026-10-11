@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "description": "Compagnon de jeu non officiel pour Harvest Moon DS (version européenne).",
+  "author": "Willem Vanbaelinghem",
   "license": "MIT",
   "engines": {
     "node": ">=22"

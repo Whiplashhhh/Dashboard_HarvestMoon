@@ -15,7 +15,8 @@ const season = useThemeSeason()
       <slot />
     </main>
     <footer class="portal__footer">
-      Site de fan non officiel, non affilié à Natsume, Marvelous ou Rising Star Games ·
+      Créé par Willem Vanbaelinghem · Site non officiel, non affilié à Natsume, Marvelous ou Rising Star Games
+      ·
       <NuxtLink to="/credits">Crédits &amp; sources</NuxtLink>
     </footer>
     <ToastStack />

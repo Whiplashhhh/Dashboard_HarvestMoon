@@ -4,7 +4,7 @@
 Pour les joueuses occasionnelles qui reprennent leur partie après des semaines : le site rappelle **où tu en étais**,
 propose **quoi faire maintenant** selon ton avancement et la saison dans le jeu, et garde tes notes de session.
 
-> Site de fan **non officiel**, non affilié à Natsume, Marvelous ou Rising Star Games. Aucun asset du jeu n'est
+> Créé par **Willem Vanbaelinghem**. Site **non officiel**, non affilié à Natsume, Marvelous ou Rising Star Games. Aucun asset du jeu n'est
 > utilisé : illustrations, icônes pixel-art, lutins et sons sont des créations originales. Les données du jeu
 > proviennent du [wiki Harvest Moon (Fandom)](https://harvestmoon.fandom.com/) sous licence CC BY-SA 3.0
 > (voir la page « Crédits & sources » du site).
@@ -130,4 +130,4 @@ Voir aussi [`PLAN.md`](PLAN.md) (architecture), [`DECISIONS.md`](DECISIONS.md) (
 
 ## Licence
 
-Code sous licence MIT. Données issues du wiki Fandom : CC BY-SA 3.0 (adaptations partagées sous la même licence).
+Créé par Willem Vanbaelinghem. Code sous licence MIT. Données issues du wiki Fandom : CC BY-SA 3.0 (adaptations partagées sous la même licence).

@@ -39,12 +39,13 @@ export default defineNuxtConfig({
       ],
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' },
+        { name: 'author', content: 'Willem Vanbaelinghem' },
         { name: 'theme-color', content: '#a8703c' },
         { name: 'color-scheme', content: 'light' },
         {
           name: 'description',
           content:
-            'Le carnet de ta ferme pour Harvest Moon DS : reprends ta partie là où tu l’avais laissée. Site de fan non officiel.',
+            'Le carnet de ta ferme pour Harvest Moon DS : reprends ta partie là où tu l’avais laissée. Site non officiel.',
         },
       ],
     },
