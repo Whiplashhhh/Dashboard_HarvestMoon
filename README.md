@@ -130,4 +130,4 @@ Voir aussi [`PLAN.md`](PLAN.md) (architecture), [`DECISIONS.md`](DECISIONS.md) (
 
 ## Licence
 
-Créé par Willem Vanbaelinghem. Code sous licence MIT. Données issues du wiki Fandom : CC BY-SA 3.0 (adaptations partagées sous la même licence).
+Créé par Willem Vanbaelinghem. Code sous licence MIT (voir [`LICENSE`](LICENSE)). Données issues du wiki Fandom : CC BY-SA 3.0 (adaptations partagées sous la même licence).
